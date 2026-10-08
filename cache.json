@@ -1,5 +1,5 @@
 {
-  "updated_at": "08.10.2026 20:16",
+  "updated_at": "08.10.2026 20:20",
   "source": "Dus.com",
   "flights": [
     {
@@ -69,23 +69,6 @@
       "status": "landed",
       "status_text": "gelandet",
       "delay": 17
-    },
-    {
-      "dt": 1791479400.0,
-      "time_scheduled": "19:10",
-      "time_estimated": "19:19",
-      "flight_no": "LX1026",
-      "airline": "Swiss",
-      "city": "Zürich",
-      "country": "Schweiz",
-      "type": "Linie",
-      "type_source": "Ausgang",
-      "terminal": "B",
-      "baggage": "2",
-      "gate": "Ausgang 1 (Linie)",
-      "status": "landed",
-      "status_text": "gelandet",
-      "delay": 9
     },
     {
       "dt": 1791479700.0,
@@ -175,23 +158,6 @@
     {
       "dt": 1791481200.0,
       "time_scheduled": "19:40",
-      "time_estimated": "19:40",
-      "flight_no": "LH2026",
-      "airline": "Lufthansa",
-      "city": "München",
-      "country": "Deutschland",
-      "type": "Linie",
-      "type_source": "Ausgang",
-      "terminal": "A",
-      "baggage": "1",
-      "gate": "Ausgang 1 (Linie)",
-      "status": "landed",
-      "status_text": "gelandet",
-      "delay": 0
-    },
-    {
-      "dt": 1791481200.0,
-      "time_scheduled": "19:40",
       "time_estimated": "20:13",
       "flight_no": "DE1613",
       "airline": "Condor",
@@ -205,6 +171,23 @@
       "status": "landed",
       "status_text": "gelandet",
       "delay": 33
+    },
+    {
+      "dt": 1791481200.0,
+      "time_scheduled": "19:40",
+      "time_estimated": "19:40",
+      "flight_no": "LH2026",
+      "airline": "Lufthansa",
+      "city": "München",
+      "country": "Deutschland",
+      "type": "Linie",
+      "type_source": "Ausgang",
+      "terminal": "A",
+      "baggage": "1",
+      "gate": "Ausgang 1 (Linie)",
+      "status": "landed",
+      "status_text": "gelandet",
+      "delay": 0
     },
     {
       "dt": 1791481500.0,
@@ -328,7 +311,7 @@
     {
       "dt": 1791483600.0,
       "time_scheduled": "20:20",
-      "time_estimated": "20:23",
+      "time_estimated": "20:17",
       "flight_no": "EW9717",
       "airline": "Eurowings",
       "city": "Salzburg",
@@ -338,9 +321,9 @@
       "terminal": "B",
       "baggage": "4",
       "gate": "Ausgang 1 (Linie)",
-      "status": "active",
-      "status_text": "im Anflug",
-      "delay": 3
+      "status": "landed",
+      "status_text": "gelandet",
+      "delay": 0
     },
     {
       "dt": 1791483900.0,
@@ -356,7 +339,7 @@
       "baggage": "10",
       "gate": "Ausgang 4 (Charter)",
       "status": "active",
-      "status_text": "Im Anflug",
+      "status_text": "im Anflug",
       "delay": 0
     },
     {
@@ -566,7 +549,7 @@
     {
       "dt": 1791486900.0,
       "time_scheduled": "21:15",
-      "time_estimated": "21:37",
+      "time_estimated": "21:31",
       "flight_no": "DE1779",
       "airline": "Condor",
       "city": "Palma de Mallorca",
@@ -578,7 +561,7 @@
       "gate": "Ausgang 4 (Charter)",
       "status": "scheduled",
       "status_text": "Vorhafen verlassen",
-      "delay": 22
+      "delay": 17
     },
     {
       "dt": 1791487800.0,
@@ -753,7 +736,7 @@
     {
       "dt": 1791489000.0,
       "time_scheduled": "21:50",
-      "time_estimated": "22:30",
+      "time_estimated": "22:29",
       "flight_no": "EW9593",
       "airline": "Eurowings",
       "city": "Palma de Mallorca",
@@ -764,8 +747,8 @@
       "baggage": "",
       "gate": "Ausgang 1 (Linie)",
       "status": "scheduled",
-      "status_text": "",
-      "delay": 40
+      "status_text": "Vorhafen verlassen",
+      "delay": 39
     },
     {
       "dt": 1791489300.0,
@@ -1076,7 +1059,7 @@
     {
       "dt": 1791491100.0,
       "time_scheduled": "22:25",
-      "time_estimated": "22:49",
+      "time_estimated": "22:54",
       "flight_no": "EW9641",
       "airline": "Eurowings",
       "city": "Porto",
@@ -1087,8 +1070,8 @@
       "baggage": "",
       "gate": "Ausgang 1 (Linie)",
       "status": "scheduled",
-      "status_text": "",
-      "delay": 24
+      "status_text": "Vorhafen verlassen",
+      "delay": 29
     },
     {
       "dt": 1791491100.0,
