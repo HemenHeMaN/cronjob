@@ -1,5 +1,5 @@
 {
-  "updated_at": "08.10.2026 20:05",
+  "updated_at": "08.10.2026 20:10",
   "source": "Dus.com",
   "flights": [
     {
@@ -71,23 +71,6 @@
       "delay": 35
     },
     {
-      "dt": 1791478500.0,
-      "time_scheduled": "18:55",
-      "time_estimated": "19:08",
-      "flight_no": "LO407",
-      "airline": "LOT Polish Airlines",
-      "city": "Warschau",
-      "country": "Polen",
-      "type": "Charter",
-      "type_source": "Ausgang",
-      "terminal": "A",
-      "baggage": "8",
-      "gate": "Ausgang 4 (Charter)",
-      "status": "landed",
-      "status_text": "gelandet",
-      "delay": 13
-    },
-    {
       "dt": 1791479400.0,
       "time_scheduled": "19:10",
       "time_estimated": "19:27",
@@ -137,40 +120,6 @@
       "status": "landed",
       "status_text": "gelandet",
       "delay": 17
-    },
-    {
-      "dt": 1791479700.0,
-      "time_scheduled": "19:15",
-      "time_estimated": "19:05",
-      "flight_no": "XQ1390",
-      "airline": "Sun Express",
-      "city": "Gaziantep",
-      "country": "Türkei",
-      "type": "Charter",
-      "type_source": "Ausgang",
-      "terminal": "C",
-      "baggage": "19",
-      "gate": "Ausgang 6 (Charter)",
-      "status": "landed",
-      "status_text": "gelandet",
-      "delay": 0
-    },
-    {
-      "dt": 1791479700.0,
-      "time_scheduled": "19:15",
-      "time_estimated": "19:09",
-      "flight_no": "EK057",
-      "airline": "Emirates",
-      "city": "Dubai",
-      "country": "VAE",
-      "type": "Charter",
-      "type_source": "Ausgang",
-      "terminal": "C",
-      "baggage": "13",
-      "gate": "Ausgang 5 (Charter)",
-      "status": "landed",
-      "status_text": "gelandet",
-      "delay": 0
     },
     {
       "dt": 1791480000.0,
@@ -406,8 +355,8 @@
       "terminal": "B",
       "baggage": "12",
       "gate": "Ausgang 4 (Charter)",
-      "status": "scheduled",
-      "status_text": "Vorhafen verlassen",
+      "status": "active",
+      "status_text": "Im Anflug",
       "delay": 20
     },
     {
@@ -457,8 +406,8 @@
       "terminal": "B",
       "baggage": "10",
       "gate": "Ausgang 4 (Charter)",
-      "status": "scheduled",
-      "status_text": "Vorhafen verlassen",
+      "status": "active",
+      "status_text": "Im Anflug",
       "delay": 10
     },
     {
@@ -940,7 +889,7 @@
     {
       "dt": 1791489600.0,
       "time_scheduled": "22:00",
-      "time_estimated": "22:04",
+      "time_estimated": "21:56",
       "flight_no": "EW9469",
       "airline": "Eurowings",
       "city": "London-Heathrow",
@@ -952,7 +901,7 @@
       "gate": "Ausgang 1 (Linie)",
       "status": "scheduled",
       "status_text": "",
-      "delay": 4
+      "delay": 0
     },
     {
       "dt": 1791489600.0,
@@ -1161,7 +1110,7 @@
     {
       "dt": 1791490800.0,
       "time_scheduled": "22:20",
-      "time_estimated": "22:39",
+      "time_estimated": "22:38",
       "flight_no": "IB1325",
       "airline": "Iberia",
       "city": "Madrid-Barajas",
@@ -1172,8 +1121,8 @@
       "baggage": "",
       "gate": "Ausgang 1 (Linie)",
       "status": "scheduled",
-      "status_text": "",
-      "delay": 20
+      "status_text": "Vorhafen verlassen",
+      "delay": 19
     },
     {
       "dt": 1791491100.0,
