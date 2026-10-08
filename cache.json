@@ -1,24 +1,7 @@
 {
-  "updated_at": "08.10.2026 23:05",
+  "updated_at": "08.10.2026 23:10",
   "source": "Dus.com",
   "flights": [
-    {
-      "dt": 1791486600.0,
-      "time_scheduled": "21:10",
-      "time_estimated": "22:05",
-      "flight_no": "EW9049",
-      "airline": "Eurowings",
-      "city": "Berlin-Brandenburg",
-      "country": "Deutschland",
-      "type": "Linie",
-      "type_source": "Ausgang",
-      "terminal": "B",
-      "baggage": "6",
-      "gate": "Ausgang 1 (Linie)",
-      "status": "landed",
-      "status_text": "gelandet",
-      "delay": 56
-    },
     {
       "dt": 1791487800.0,
       "time_scheduled": "21:30",
@@ -103,23 +86,6 @@
       "status": "landed",
       "status_text": "gelandet",
       "delay": 34
-    },
-    {
-      "dt": 1791489300.0,
-      "time_scheduled": "21:55",
-      "time_estimated": "22:09",
-      "flight_no": "EW9749",
-      "airline": "Eurowings",
-      "city": "Genf",
-      "country": "Schweiz",
-      "type": "Linie",
-      "type_source": "Ausgang",
-      "terminal": "B",
-      "baggage": "4",
-      "gate": "Ausgang 1 (Linie)",
-      "status": "landed",
-      "status_text": "gelandet",
-      "delay": 14
     },
     {
       "dt": 1791489300.0,
@@ -232,9 +198,9 @@
       "city": "Mailand-Linate",
       "country": "Italien",
       "type": "Linie",
-      "type_source": "Airline",
+      "type_source": "Ausgang",
       "terminal": "A",
-      "baggage": "",
+      "baggage": "1",
       "gate": "Ausgang 1 (Linie)",
       "status": "scheduled",
       "status_text": "Vorhafen verlassen",
@@ -474,8 +440,8 @@
       "terminal": "B",
       "baggage": "8",
       "gate": "Ausgang 4 (Charter)",
-      "status": "scheduled",
-      "status_text": "Vorhafen verlassen",
+      "status": "active",
+      "status_text": "Im Anflug",
       "delay": 55
     },
     {
@@ -515,7 +481,7 @@
     {
       "dt": 1791492300.0,
       "time_scheduled": "22:45",
-      "time_estimated": "23:15",
+      "time_estimated": "23:08",
       "flight_no": "DE1457",
       "airline": "Condor",
       "city": "Fuerteventura",
@@ -525,9 +491,9 @@
       "terminal": "B",
       "baggage": "13",
       "gate": "Ausgang 5 (Charter)",
-      "status": "active",
-      "status_text": "im Anflug",
-      "delay": 30
+      "status": "landed",
+      "status_text": "gelandet",
+      "delay": 23
     },
     {
       "dt": 1791492600.0,
