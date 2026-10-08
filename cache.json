@@ -1,5 +1,5 @@
 {
-  "updated_at": "08.10.2026 21:00",
+  "updated_at": "08.10.2026 21:05",
   "source": "Dus.com",
   "flights": [
     {
@@ -35,23 +35,6 @@
       "status": "scheduled",
       "status_text": "Vorhafen verlassen",
       "delay": 100
-    },
-    {
-      "dt": 1791482400.0,
-      "time_scheduled": "20:00",
-      "time_estimated": "20:01",
-      "flight_no": "EW9467",
-      "airline": "Eurowings",
-      "city": "London-Heathrow",
-      "country": "Großbritannien",
-      "type": "Linie",
-      "type_source": "Ausgang",
-      "terminal": "A",
-      "baggage": "5",
-      "gate": "Ausgang 1 (Linie)",
-      "status": "landed",
-      "status_text": "gelandet",
-      "delay": 1
     },
     {
       "dt": 1791483000.0,
@@ -260,7 +243,7 @@
     {
       "dt": 1791486000.0,
       "time_scheduled": "21:00",
-      "time_estimated": "21:20",
+      "time_estimated": "21:22",
       "flight_no": "EW9765",
       "airline": "Eurowings",
       "city": "Zürich",
@@ -272,7 +255,7 @@
       "gate": "Ausgang 1 (Linie)",
       "status": "active",
       "status_text": "im Anflug",
-      "delay": 21
+      "delay": 23
     },
     {
       "dt": 1791486000.0,
@@ -447,7 +430,7 @@
     {
       "dt": 1791488700.0,
       "time_scheduled": "21:45",
-      "time_estimated": "21:53",
+      "time_estimated": "21:51",
       "flight_no": "LH078",
       "airline": "Lufthansa",
       "city": "Frankfurt",
@@ -459,7 +442,7 @@
       "gate": "Ausgang 1 (Linie)",
       "status": "scheduled",
       "status_text": "",
-      "delay": 9
+      "delay": 7
     },
     {
       "dt": 1791488700.0,
@@ -736,7 +719,7 @@
     {
       "dt": 1791490200.0,
       "time_scheduled": "22:10",
-      "time_estimated": "22:00",
+      "time_estimated": "22:02",
       "flight_no": "SK629",
       "airline": "Scandinavian Airlines",
       "city": "Kopenhagen",
@@ -747,7 +730,7 @@
       "baggage": "9",
       "gate": "Ausgang 4 (Charter)",
       "status": "scheduled",
-      "status_text": "",
+      "status_text": "Vorhafen verlassen",
       "delay": 0
     },
     {
@@ -804,7 +787,7 @@
     {
       "dt": 1791490800.0,
       "time_scheduled": "22:20",
-      "time_estimated": "23:05",
+      "time_estimated": "23:20",
       "flight_no": "EW9345",
       "airline": "Eurowings",
       "city": "Manchester",
@@ -816,7 +799,7 @@
       "gate": "Ausgang 1 (Linie)",
       "status": "scheduled",
       "status_text": "",
-      "delay": 45
+      "delay": 60
     },
     {
       "dt": 1791490800.0,
