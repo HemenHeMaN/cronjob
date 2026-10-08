@@ -1,24 +1,7 @@
 {
-  "updated_at": "08.10.2026 16:10",
+  "updated_at": "08.10.2026 16:12",
   "source": "Dus.com",
   "flights": [
-    {
-      "dt": 1791461700.0,
-      "time_scheduled": "14:15",
-      "time_estimated": "15:11",
-      "flight_no": "MS733",
-      "airline": "Egypt Air",
-      "city": "Kairo",
-      "country": "Ägypten",
-      "type": "Charter",
-      "type_source": "Ausgang",
-      "terminal": "C",
-      "baggage": "14",
-      "gate": "Ausgang 5 (Charter)",
-      "status": "landed",
-      "status_text": "gelandet",
-      "delay": 57
-    },
     {
       "dt": 1791465300.0,
       "time_scheduled": "15:15",
@@ -254,7 +237,7 @@
       "baggage": "2",
       "gate": "Ausgang 1 (Linie)",
       "status": "active",
-      "status_text": "Im Anflug",
+      "status_text": "im Anflug",
       "delay": 7
     },
     {
@@ -294,7 +277,7 @@
     {
       "dt": 1791469800.0,
       "time_scheduled": "16:30",
-      "time_estimated": "17:14",
+      "time_estimated": "17:20",
       "flight_no": "LH2018",
       "airline": "Lufthansa",
       "city": "München",
@@ -306,7 +289,7 @@
       "gate": "Ausgang 1 (Linie)",
       "status": "scheduled",
       "status_text": "",
-      "delay": 45
+      "delay": 51
     },
     {
       "dt": 1791469800.0,
@@ -1127,7 +1110,7 @@
     {
       "dt": 1791480000.0,
       "time_scheduled": "19:20",
-      "time_estimated": "19:20",
+      "time_estimated": "19:29",
       "flight_no": "BT233",
       "airline": "Air Baltic",
       "city": "Riga",
@@ -1139,7 +1122,7 @@
       "gate": "Ausgang 1 (Linie)",
       "status": "scheduled",
       "status_text": "",
-      "delay": 0
+      "delay": 9
     },
     {
       "dt": 1791480300.0,
@@ -1344,6 +1327,23 @@
       "status": "scheduled",
       "status_text": "",
       "delay": 0
+    },
+    {
+      "dt": 1791483600.0,
+      "time_scheduled": "20:20",
+      "time_estimated": "21:11",
+      "flight_no": "EW9627",
+      "airline": "Eurowings",
+      "city": "Zakynthos",
+      "country": "Griechenland",
+      "type": "Linie",
+      "type_source": "Airline",
+      "terminal": "B",
+      "baggage": "",
+      "gate": "Ausgang 1 (Linie)",
+      "status": "scheduled",
+      "status_text": "",
+      "delay": 51
     },
     {
       "dt": 1791483600.0,
