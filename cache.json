@@ -1,5 +1,5 @@
 {
-  "updated_at": "08.10.2026 17:55",
+  "updated_at": "08.10.2026 18:00",
   "source": "Dus.com",
   "flights": [
     {
@@ -124,23 +124,6 @@
     {
       "dt": 1791472200.0,
       "time_scheduled": "17:10",
-      "time_estimated": "17:19",
-      "flight_no": "EW9461",
-      "airline": "Eurowings",
-      "city": "London-Heathrow",
-      "country": "Großbritannien",
-      "type": "Linie",
-      "type_source": "Ausgang",
-      "terminal": "A",
-      "baggage": "5",
-      "gate": "Ausgang 1 (Linie)",
-      "status": "landed",
-      "status_text": "gelandet",
-      "delay": 10
-    },
-    {
-      "dt": 1791472200.0,
-      "time_scheduled": "17:10",
       "time_estimated": "17:23",
       "flight_no": "EW9579",
       "airline": "Eurowings",
@@ -154,6 +137,23 @@
       "status": "landed",
       "status_text": "gelandet",
       "delay": 14
+    },
+    {
+      "dt": 1791472200.0,
+      "time_scheduled": "17:10",
+      "time_estimated": "17:19",
+      "flight_no": "EW9461",
+      "airline": "Eurowings",
+      "city": "London-Heathrow",
+      "country": "Großbritannien",
+      "type": "Linie",
+      "type_source": "Ausgang",
+      "terminal": "A",
+      "baggage": "5",
+      "gate": "Ausgang 1 (Linie)",
+      "status": "landed",
+      "status_text": "gelandet",
+      "delay": 10
     },
     {
       "dt": 1791472500.0,
@@ -204,23 +204,6 @@
       "gate": "Ausgang 1 (Linie)",
       "status": "cancelled",
       "status_text": "annulliert",
-      "delay": 0
-    },
-    {
-      "dt": 1791472800.0,
-      "time_scheduled": "17:20",
-      "time_estimated": "16:55",
-      "flight_no": "XQ3180",
-      "airline": "Sun Express",
-      "city": "Bodrum-Milas",
-      "country": "Türkei",
-      "type": "Charter",
-      "type_source": "Ausgang",
-      "terminal": "C",
-      "baggage": "18",
-      "gate": "Ausgang 6 (Charter)",
-      "status": "landed",
-      "status_text": "gelandet",
       "delay": 0
     },
     {
@@ -311,7 +294,7 @@
     {
       "dt": 1791474000.0,
       "time_scheduled": "17:40",
-      "time_estimated": "18:09",
+      "time_estimated": "17:59",
       "flight_no": "EW9581",
       "airline": "Eurowings",
       "city": "Palma de Mallorca",
@@ -321,9 +304,9 @@
       "terminal": "A",
       "baggage": "6",
       "gate": "Ausgang 1 (Linie)",
-      "status": "active",
-      "status_text": "im Anflug",
-      "delay": 29
+      "status": "landed",
+      "status_text": "gelandet",
+      "delay": 20
     },
     {
       "dt": 1791474000.0,
@@ -430,7 +413,7 @@
     {
       "dt": 1791475200.0,
       "time_scheduled": "18:00",
-      "time_estimated": "18:02",
+      "time_estimated": "17:57",
       "flight_no": "AY1395",
       "airline": "Finnair",
       "city": "Helsinki",
@@ -440,9 +423,9 @@
       "terminal": "B",
       "baggage": "10",
       "gate": "Ausgang 4 (Charter)",
-      "status": "active",
-      "status_text": "im Anflug",
-      "delay": 2
+      "status": "landed",
+      "status_text": "gelandet",
+      "delay": 0
     },
     {
       "dt": 1791475500.0,
@@ -532,7 +515,7 @@
     {
       "dt": 1791477300.0,
       "time_scheduled": "18:35",
-      "time_estimated": "18:43",
+      "time_estimated": "18:44",
       "flight_no": "EW9585",
       "airline": "Eurowings",
       "city": "Palma de Mallorca",
@@ -544,7 +527,7 @@
       "gate": "Ausgang 1 (Linie)",
       "status": "scheduled",
       "status_text": "Vorhafen verlassen",
-      "delay": 9
+      "delay": 10
     },
     {
       "dt": 1791477300.0,
@@ -566,7 +549,7 @@
     {
       "dt": 1791477600.0,
       "time_scheduled": "18:40",
-      "time_estimated": "18:38",
+      "time_estimated": "18:39",
       "flight_no": "LH2022",
       "airline": "Lufthansa",
       "city": "München",
