@@ -1,5 +1,5 @@
 {
-  "updated_at": "08.10.2026 22:15",
+  "updated_at": "08.10.2026 22:20",
   "source": "Dus.com",
   "flights": [
     {
@@ -124,7 +124,7 @@
     {
       "dt": 1791487800.0,
       "time_scheduled": "21:30",
-      "time_estimated": "22:18",
+      "time_estimated": "22:16",
       "flight_no": "EW9835",
       "airline": "Eurowings",
       "city": "Bologna",
@@ -134,9 +134,9 @@
       "terminal": "B",
       "baggage": "11",
       "gate": "Ausgang 4 (Charter)",
-      "status": "active",
-      "status_text": "im Anflug",
-      "delay": 49
+      "status": "landed",
+      "status_text": "gelandet",
+      "delay": 46
     },
     {
       "dt": 1791487800.0,
@@ -168,8 +168,8 @@
       "terminal": "B",
       "baggage": "",
       "gate": "Ausgang 1 (Linie)",
-      "status": "scheduled",
-      "status_text": "Vorhafen verlassen",
+      "status": "active",
+      "status_text": "Im Anflug",
       "delay": 67
     },
     {
@@ -277,7 +277,7 @@
     {
       "dt": 1791489000.0,
       "time_scheduled": "21:50",
-      "time_estimated": "22:18",
+      "time_estimated": "22:25",
       "flight_no": "EW9593",
       "airline": "Eurowings",
       "city": "Palma de Mallorca",
@@ -289,7 +289,7 @@
       "gate": "Ausgang 1 (Linie)",
       "status": "active",
       "status_text": "im Anflug",
-      "delay": 29
+      "delay": 36
     },
     {
       "dt": 1791489300.0,
@@ -396,7 +396,7 @@
     {
       "dt": 1791489900.0,
       "time_scheduled": "22:05",
-      "time_estimated": "23:06",
+      "time_estimated": "23:00",
       "flight_no": "DE1617",
       "airline": "Condor",
       "city": "Heraklion (Kreta)",
@@ -408,7 +408,7 @@
       "gate": "Ausgang 4 (Charter)",
       "status": "scheduled",
       "status_text": "Vorhafen verlassen",
-      "delay": 61
+      "delay": 55
     },
     {
       "dt": 1791489900.0,
@@ -447,7 +447,7 @@
     {
       "dt": 1791490200.0,
       "time_scheduled": "22:10",
-      "time_estimated": "23:32",
+      "time_estimated": "23:39",
       "flight_no": "EW9847",
       "airline": "Eurowings",
       "city": "Mailand-Linate",
@@ -459,12 +459,12 @@
       "gate": "Ausgang 1 (Linie)",
       "status": "scheduled",
       "status_text": "",
-      "delay": 83
+      "delay": 90
     },
     {
       "dt": 1791490200.0,
       "time_scheduled": "22:10",
-      "time_estimated": "22:22",
+      "time_estimated": "22:17",
       "flight_no": "X36243",
       "airline": "Tuifly",
       "city": "Agadir",
@@ -474,9 +474,9 @@
       "terminal": "C",
       "baggage": "17",
       "gate": "Ausgang 6 (Charter)",
-      "status": "active",
-      "status_text": "im Anflug",
-      "delay": 13
+      "status": "landed",
+      "status_text": "gelandet",
+      "delay": 8
     },
     {
       "dt": 1791490200.0,
@@ -532,19 +532,19 @@
     {
       "dt": 1791490500.0,
       "time_scheduled": "22:15",
-      "time_estimated": "22:28",
+      "time_estimated": "22:34",
       "flight_no": "EW9537",
       "airline": "Eurowings",
       "city": "Malaga",
       "country": "Spanien",
       "type": "Linie",
-      "type_source": "Airline",
+      "type_source": "Ausgang",
       "terminal": "A",
-      "baggage": "",
+      "baggage": "1",
       "gate": "Ausgang 1 (Linie)",
       "status": "active",
-      "status_text": "Im Anflug",
-      "delay": 14
+      "status_text": "im Anflug",
+      "delay": 20
     },
     {
       "dt": 1791490800.0,
@@ -593,8 +593,8 @@
       "terminal": "B",
       "baggage": "14",
       "gate": "Ausgang 5 (Charter)",
-      "status": "scheduled",
-      "status_text": "Vorhafen verlassen",
+      "status": "active",
+      "status_text": "im Anflug",
       "delay": 19
     },
     {
@@ -651,7 +651,7 @@
     {
       "dt": 1791491100.0,
       "time_scheduled": "22:25",
-      "time_estimated": "22:26",
+      "time_estimated": "22:19",
       "flight_no": "LH2034",
       "airline": "Lufthansa",
       "city": "München",
@@ -661,9 +661,9 @@
       "terminal": "B",
       "baggage": "2",
       "gate": "Ausgang 1 (Linie)",
-      "status": "active",
-      "status_text": "im Anflug",
-      "delay": 2
+      "status": "landed",
+      "status_text": "gelandet",
+      "delay": 0
     },
     {
       "dt": 1791491400.0,
@@ -691,9 +691,9 @@
       "city": "Teneriffa Süd",
       "country": "Spanien",
       "type": "Charter",
-      "type_source": "Airline",
+      "type_source": "Ausgang",
       "terminal": "B",
-      "baggage": "",
+      "baggage": "8",
       "gate": "Ausgang 4 (Charter)",
       "status": "scheduled",
       "status_text": "Vorhafen verlassen",
@@ -713,7 +713,7 @@
       "baggage": "",
       "gate": "Ausgang 1 (Linie)",
       "status": "active",
-      "status_text": "Im Anflug",
+      "status_text": "im Anflug",
       "delay": 0
     },
     {
