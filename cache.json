@@ -1,24 +1,7 @@
 {
-  "updated_at": "08.10.2026 20:20",
+  "updated_at": "08.10.2026 20:25",
   "source": "Dus.com",
   "flights": [
-    {
-      "dt": 1791474300.0,
-      "time_scheduled": "17:45",
-      "time_estimated": "19:24",
-      "flight_no": "EW9343",
-      "airline": "Eurowings",
-      "city": "Manchester",
-      "country": "Großbritannien",
-      "type": "Linie",
-      "type_source": "Ausgang",
-      "terminal": "A",
-      "baggage": "5",
-      "gate": "Ausgang 1 (Linie)",
-      "status": "landed",
-      "status_text": "gelandet",
-      "delay": 100
-    },
     {
       "dt": 1791477600.0,
       "time_scheduled": "18:40",
@@ -103,23 +86,6 @@
       "status": "landed",
       "status_text": "gelandet",
       "delay": 23
-    },
-    {
-      "dt": 1791480300.0,
-      "time_scheduled": "19:25",
-      "time_estimated": "19:21",
-      "flight_no": "XR404",
-      "airline": "Corendon Airlines Europe",
-      "city": "Heraklion (Kreta)",
-      "country": "Griechenland",
-      "type": "Charter",
-      "type_source": "Ausgang",
-      "terminal": "B",
-      "baggage": "10",
-      "gate": "Ausgang 4 (Charter)",
-      "status": "landed",
-      "status_text": "gelandet",
-      "delay": 0
     },
     {
       "dt": 1791480600.0,
@@ -260,7 +226,7 @@
     {
       "dt": 1791483000.0,
       "time_scheduled": "20:10",
-      "time_estimated": "20:51",
+      "time_estimated": "20:42",
       "flight_no": "EW9673",
       "airline": "Eurowings",
       "city": "Heraklion (Kreta)",
@@ -270,14 +236,14 @@
       "terminal": "B",
       "baggage": "3",
       "gate": "Ausgang 1 (Linie)",
-      "status": "scheduled",
-      "status_text": "Vorhafen verlassen",
-      "delay": 41
+      "status": "active",
+      "status_text": "Im Anflug",
+      "delay": 32
     },
     {
       "dt": 1791483000.0,
       "time_scheduled": "20:10",
-      "time_estimated": "20:30",
+      "time_estimated": "20:23",
       "flight_no": "VY1898",
       "airline": "Vueling",
       "city": "Barcelona",
@@ -287,9 +253,9 @@
       "terminal": "B",
       "baggage": "12",
       "gate": "Ausgang 4 (Charter)",
-      "status": "active",
-      "status_text": "im Anflug",
-      "delay": 20
+      "status": "landed",
+      "status_text": "gelandet",
+      "delay": 13
     },
     {
       "dt": 1791483600.0,
@@ -328,7 +294,7 @@
     {
       "dt": 1791483900.0,
       "time_scheduled": "20:25",
-      "time_estimated": "20:24",
+      "time_estimated": "20:29",
       "flight_no": "EJU3943",
       "airline": "Easy Jet Europe",
       "city": "Mailand-Malpensa",
@@ -340,7 +306,7 @@
       "gate": "Ausgang 4 (Charter)",
       "status": "active",
       "status_text": "im Anflug",
-      "delay": 0
+      "delay": 5
     },
     {
       "dt": 1791484200.0,
@@ -423,8 +389,8 @@
       "terminal": "B",
       "baggage": "1",
       "gate": "Ausgang 1 (Linie)",
-      "status": "scheduled",
-      "status_text": "Vorhafen verlassen",
+      "status": "active",
+      "status_text": "Im Anflug",
       "delay": 9
     },
     {
@@ -515,7 +481,7 @@
     {
       "dt": 1791486600.0,
       "time_scheduled": "21:10",
-      "time_estimated": "21:36",
+      "time_estimated": "22:06",
       "flight_no": "EW9049",
       "airline": "Eurowings",
       "city": "Berlin-Brandenburg",
@@ -527,12 +493,12 @@
       "gate": "Ausgang 1 (Linie)",
       "status": "scheduled",
       "status_text": "",
-      "delay": 26
+      "delay": 56
     },
     {
       "dt": 1791486900.0,
       "time_scheduled": "21:15",
-      "time_estimated": "21:55",
+      "time_estimated": "21:52",
       "flight_no": "EW9811",
       "airline": "Eurowings",
       "city": "Venedig-Tessera",
@@ -543,8 +509,8 @@
       "baggage": "",
       "gate": "Ausgang 1 (Linie)",
       "status": "scheduled",
-      "status_text": "",
-      "delay": 40
+      "status_text": "Vorhafen verlassen",
+      "delay": 37
     },
     {
       "dt": 1791486900.0,
@@ -821,7 +787,7 @@
     {
       "dt": 1791489600.0,
       "time_scheduled": "22:00",
-      "time_estimated": "21:56",
+      "time_estimated": "21:58",
       "flight_no": "EW9469",
       "airline": "Eurowings",
       "city": "London-Heathrow",
@@ -923,7 +889,7 @@
     {
       "dt": 1791490200.0,
       "time_scheduled": "22:10",
-      "time_estimated": "22:26",
+      "time_estimated": "22:21",
       "flight_no": "X36243",
       "airline": "Tuifly",
       "city": "Agadir",
@@ -935,7 +901,7 @@
       "gate": "Ausgang 4 (Charter)",
       "status": "scheduled",
       "status_text": "Vorhafen verlassen",
-      "delay": 17
+      "delay": 12
     },
     {
       "dt": 1791490200.0,
@@ -957,7 +923,7 @@
     {
       "dt": 1791490500.0,
       "time_scheduled": "22:15",
-      "time_estimated": "22:10",
+      "time_estimated": "22:40",
       "flight_no": "EW9335",
       "airline": "Eurowings",
       "city": "Birmingham",
@@ -969,12 +935,12 @@
       "gate": "Ausgang 1 (Linie)",
       "status": "scheduled",
       "status_text": "",
-      "delay": 0
+      "delay": 25
     },
     {
       "dt": 1791490500.0,
       "time_scheduled": "22:15",
-      "time_estimated": "22:08",
+      "time_estimated": "22:05",
       "flight_no": "EW9785",
       "airline": "Eurowings",
       "city": "Budapest",
