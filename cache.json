@@ -1025,7 +1025,7 @@
     {
       "dt": 1791480000.0,
       "time_scheduled": "19:20",
-      "time_estimated": "19:29",
+      "time_estimated": "19:21",
       "flight_no": "BT233",
       "airline": "Air Baltic",
       "city": "Riga",
@@ -1037,7 +1037,7 @@
       "gate": "Ausgang 1 (Linie)",
       "status": "scheduled",
       "status_text": "",
-      "delay": 9
+      "delay": 1
     },
     {
       "dt": 1791480300.0,
