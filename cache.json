@@ -1,5 +1,5 @@
 {
-  "updated_at": "08.10.2026 23:20",
+  "updated_at": "08.10.2026 23:25",
   "source": "Dus.com",
   "flights": [
     {
@@ -54,40 +54,6 @@
       "delay": 257
     },
     {
-      "dt": 1791489000.0,
-      "time_scheduled": "21:50",
-      "time_estimated": "22:23",
-      "flight_no": "EW9593",
-      "airline": "Eurowings",
-      "city": "Palma de Mallorca",
-      "country": "Spanien",
-      "type": "Linie",
-      "type_source": "Ausgang",
-      "terminal": "A",
-      "baggage": "3",
-      "gate": "Ausgang 1 (Linie)",
-      "status": "landed",
-      "status_text": "gelandet",
-      "delay": 34
-    },
-    {
-      "dt": 1791489300.0,
-      "time_scheduled": "21:55",
-      "time_estimated": "22:25",
-      "flight_no": "EW9511",
-      "airline": "Eurowings",
-      "city": "Madrid-Barajas",
-      "country": "Spanien",
-      "type": "Charter",
-      "type_source": "Ausgang",
-      "terminal": "B",
-      "baggage": "12",
-      "gate": "Ausgang 4 (Charter)",
-      "status": "landed",
-      "status_text": "gelandet",
-      "delay": 30
-    },
-    {
       "dt": 1791489300.0,
       "time_scheduled": "21:55",
       "time_estimated": "22:44",
@@ -103,23 +69,6 @@
       "status": "landed",
       "status_text": "gelandet",
       "delay": 50
-    },
-    {
-      "dt": 1791489600.0,
-      "time_scheduled": "22:00",
-      "time_estimated": "22:21",
-      "flight_no": "LO405",
-      "airline": "LOT Polish Airlines",
-      "city": "Warschau",
-      "country": "Polen",
-      "type": "Linie",
-      "type_source": "Ausgang",
-      "terminal": "B",
-      "baggage": "5",
-      "gate": "Ausgang 1 (Linie)",
-      "status": "landed",
-      "status_text": "gelandet",
-      "delay": 22
     },
     {
       "dt": 1791489900.0,
@@ -141,7 +90,7 @@
     {
       "dt": 1791489900.0,
       "time_scheduled": "22:05",
-      "time_estimated": "01:41",
+      "time_estimated": "01:53",
       "flight_no": "EW9887",
       "airline": "Eurowings",
       "city": "Rom-Fiumicino",
@@ -153,7 +102,7 @@
       "gate": "Ausgang 1 (Linie)",
       "status": "scheduled",
       "status_text": "",
-      "delay": 216
+      "delay": 228
     },
     {
       "dt": 1791490200.0,
@@ -168,8 +117,8 @@
       "terminal": "A",
       "baggage": "1",
       "gate": "Ausgang 1 (Linie)",
-      "status": "scheduled",
-      "status_text": "Vorhafen verlassen",
+      "status": "active",
+      "status_text": "Im Anflug",
       "delay": 90
     },
     {
@@ -345,7 +294,7 @@
     {
       "dt": 1791491700.0,
       "time_scheduled": "22:35",
-      "time_estimated": "23:30",
+      "time_estimated": "23:22",
       "flight_no": "X34105",
       "airline": "Tuifly",
       "city": "Heraklion (Kreta)",
@@ -355,9 +304,9 @@
       "terminal": "B",
       "baggage": "8",
       "gate": "Ausgang 4 (Charter)",
-      "status": "active",
-      "status_text": "im Anflug",
-      "delay": 55
+      "status": "landed",
+      "status_text": "gelandet",
+      "delay": 48
     },
     {
       "dt": 1791491700.0,
