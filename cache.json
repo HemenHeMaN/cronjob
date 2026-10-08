@@ -1,5 +1,5 @@
 {
-  "updated_at": "08.10.2026 17:20",
+  "updated_at": "08.10.2026 17:24",
   "source": "Dus.com",
   "flights": [
     {
@@ -18,23 +18,6 @@
       "status": "active",
       "status_text": "im Anflug",
       "delay": 80
-    },
-    {
-      "dt": 1791469200.0,
-      "time_scheduled": "16:20",
-      "time_estimated": "16:23",
-      "flight_no": "EW7066",
-      "airline": "Eurowings",
-      "city": "Hamburg",
-      "country": "Deutschland",
-      "type": "Linie",
-      "type_source": "Ausgang",
-      "terminal": "A",
-      "baggage": "2",
-      "gate": "Ausgang 1 (Linie)",
-      "status": "landed",
-      "status_text": "gelandet",
-      "delay": 3
     },
     {
       "dt": 1791469500.0,
@@ -73,7 +56,7 @@
     {
       "dt": 1791469800.0,
       "time_scheduled": "16:30",
-      "time_estimated": "17:30",
+      "time_estimated": "17:22",
       "flight_no": "LH2018",
       "airline": "Lufthansa",
       "city": "München",
@@ -83,9 +66,9 @@
       "terminal": "A",
       "baggage": "1",
       "gate": "Ausgang 1 (Linie)",
-      "status": "active",
-      "status_text": "im Anflug",
-      "delay": 61
+      "status": "landed",
+      "status_text": "gelandet",
+      "delay": 52
     },
     {
       "dt": 1791469800.0,
@@ -152,7 +135,7 @@
       "baggage": "4",
       "gate": "Ausgang 1 (Linie)",
       "status": "active",
-      "status_text": "Im Anflug",
+      "status_text": "im Anflug",
       "delay": 51
     },
     {
@@ -226,7 +209,7 @@
     {
       "dt": 1791472200.0,
       "time_scheduled": "17:10",
-      "time_estimated": "17:34",
+      "time_estimated": "17:23",
       "flight_no": "EW9579",
       "airline": "Eurowings",
       "city": "Palma de Mallorca",
@@ -236,9 +219,9 @@
       "terminal": "A",
       "baggage": "7",
       "gate": "Ausgang 4 (Charter)",
-      "status": "active",
-      "status_text": "im Anflug",
-      "delay": 24
+      "status": "landed",
+      "status_text": "gelandet",
+      "delay": 14
     },
     {
       "dt": 1791472500.0,
@@ -424,7 +407,7 @@
       "baggage": "2",
       "gate": "Ausgang 1 (Linie)",
       "status": "active",
-      "status_text": "Im Anflug",
+      "status_text": "im Anflug",
       "delay": 0
     },
     {
@@ -651,7 +634,7 @@
     {
       "dt": 1791477600.0,
       "time_scheduled": "18:40",
-      "time_estimated": "18:40",
+      "time_estimated": "18:37",
       "flight_no": "LH2022",
       "airline": "Lufthansa",
       "city": "München",
@@ -663,7 +646,7 @@
       "gate": "Ausgang 1 (Linie)",
       "status": "scheduled",
       "status_text": "",
-      "delay": 1
+      "delay": 0
     },
     {
       "dt": 1791477600.0,
@@ -1161,7 +1144,7 @@
     {
       "dt": 1791483900.0,
       "time_scheduled": "20:25",
-      "time_estimated": "20:25",
+      "time_estimated": "20:29",
       "flight_no": "EJU3943",
       "airline": "Easy Jet Europe",
       "city": "Mailand-Malpensa",
@@ -1173,7 +1156,7 @@
       "gate": "Ausgang 1 (Linie)",
       "status": "scheduled",
       "status_text": "",
-      "delay": 0
+      "delay": 5
     },
     {
       "dt": 1791484200.0,
