@@ -1,5 +1,5 @@
 {
-  "updated_at": "08.10.2026 22:45",
+  "updated_at": "08.10.2026 22:47",
   "source": "Dus.com",
   "flights": [
     {
@@ -90,7 +90,7 @@
     {
       "dt": 1791488700.0,
       "time_scheduled": "21:45",
-      "time_estimated": "22:54",
+      "time_estimated": "22:46",
       "flight_no": "EW9591",
       "airline": "Eurowings",
       "city": "Palma de Mallorca",
@@ -100,9 +100,9 @@
       "terminal": "B",
       "baggage": "2",
       "gate": "Ausgang 1 (Linie)",
-      "status": "active",
-      "status_text": "im Anflug",
-      "delay": 70
+      "status": "landed",
+      "status_text": "gelandet",
+      "delay": 61
     },
     {
       "dt": 1791489000.0,
@@ -232,12 +232,12 @@
       "city": "Heraklion (Kreta)",
       "country": "Griechenland",
       "type": "Charter",
-      "type_source": "Airline",
+      "type_source": "Ausgang",
       "terminal": "B",
-      "baggage": "",
+      "baggage": "10",
       "gate": "Ausgang 4 (Charter)",
-      "status": "scheduled",
-      "status_text": "Vorhafen verlassen",
+      "status": "active",
+      "status_text": "Im Anflug",
       "delay": 55
     },
     {
@@ -379,7 +379,7 @@
     {
       "dt": 1791490800.0,
       "time_scheduled": "22:20",
-      "time_estimated": "23:45",
+      "time_estimated": "00:10",
       "flight_no": "EW9345",
       "airline": "Eurowings",
       "city": "Manchester",
@@ -391,7 +391,7 @@
       "gate": "Ausgang 1 (Linie)",
       "status": "scheduled",
       "status_text": "",
-      "delay": 85
+      "delay": 110
     },
     {
       "dt": 1791490800.0,
@@ -623,9 +623,9 @@
       "city": "Kos",
       "country": "Griechenland",
       "type": "Charter",
-      "type_source": "Airline",
+      "type_source": "Ausgang",
       "terminal": "B",
-      "baggage": "",
+      "baggage": "11",
       "gate": "Ausgang 4 (Charter)",
       "status": "active",
       "status_text": "Im Anflug",
