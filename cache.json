@@ -1,5 +1,5 @@
 {
-  "updated_at": "08.10.2026 23:10",
+  "updated_at": "08.10.2026 23:15",
   "source": "Dus.com",
   "flights": [
     {
@@ -175,23 +175,6 @@
     {
       "dt": 1791490200.0,
       "time_scheduled": "22:10",
-      "time_estimated": "22:14",
-      "flight_no": "EW9445",
-      "airline": "Eurowings",
-      "city": "Barcelona",
-      "country": "Spanien",
-      "type": "Linie",
-      "type_source": "Ausgang",
-      "terminal": "B",
-      "baggage": "5",
-      "gate": "Ausgang 1 (Linie)",
-      "status": "landed",
-      "status_text": "gelandet",
-      "delay": 5
-    },
-    {
-      "dt": 1791490200.0,
-      "time_scheduled": "22:10",
       "time_estimated": "23:39",
       "flight_no": "EW9847",
       "airline": "Eurowings",
@@ -328,23 +311,6 @@
     {
       "dt": 1791491100.0,
       "time_scheduled": "22:25",
-      "time_estimated": "22:13",
-      "flight_no": "KL1805",
-      "airline": "KLM",
-      "city": "Amsterdam",
-      "country": "Niederlande",
-      "type": "Charter",
-      "type_source": "Ausgang",
-      "terminal": "B",
-      "baggage": "10",
-      "gate": "Ausgang 4 (Charter)",
-      "status": "landed",
-      "status_text": "gelandet",
-      "delay": 0
-    },
-    {
-      "dt": 1791491100.0,
-      "time_scheduled": "22:25",
       "time_estimated": "22:54",
       "flight_no": "EW9637",
       "airline": "Eurowings",
@@ -441,7 +407,7 @@
       "baggage": "8",
       "gate": "Ausgang 4 (Charter)",
       "status": "active",
-      "status_text": "Im Anflug",
+      "status_text": "im Anflug",
       "delay": 55
     },
     {
