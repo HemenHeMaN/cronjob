@@ -1,5 +1,5 @@
 {
-  "updated_at": "08.10.2026 22:05",
+  "updated_at": "08.10.2026 22:10",
   "source": "Dus.com",
   "flights": [
     {
@@ -18,23 +18,6 @@
       "status": "landed",
       "status_text": "gelandet",
       "delay": 95
-    },
-    {
-      "dt": 1791483600.0,
-      "time_scheduled": "20:20",
-      "time_estimated": "21:06",
-      "flight_no": "EW9627",
-      "airline": "Eurowings",
-      "city": "Zakynthos",
-      "country": "Griechenland",
-      "type": "Linie",
-      "type_source": "Ausgang",
-      "terminal": "A",
-      "baggage": "5",
-      "gate": "Ausgang 1 (Linie)",
-      "status": "landed",
-      "status_text": "gelandet",
-      "delay": 46
     },
     {
       "dt": 1791484800.0,
@@ -71,23 +54,6 @@
       "delay": 11
     },
     {
-      "dt": 1791486000.0,
-      "time_scheduled": "21:00",
-      "time_estimated": "21:08",
-      "flight_no": "BA924",
-      "airline": "British Airways",
-      "city": "London-Heathrow",
-      "country": "Großbritannien",
-      "type": "Charter",
-      "type_source": "Ausgang",
-      "terminal": "C",
-      "baggage": "18",
-      "gate": "Ausgang 6 (Charter)",
-      "status": "landed",
-      "status_text": "gelandet",
-      "delay": 9
-    },
-    {
       "dt": 1791486600.0,
       "time_scheduled": "21:10",
       "time_estimated": "21:56",
@@ -107,7 +73,7 @@
     {
       "dt": 1791486600.0,
       "time_scheduled": "21:10",
-      "time_estimated": "22:10",
+      "time_estimated": "22:05",
       "flight_no": "EW9049",
       "airline": "Eurowings",
       "city": "Berlin-Brandenburg",
@@ -115,11 +81,11 @@
       "type": "Linie",
       "type_source": "Ausgang",
       "terminal": "B",
-      "baggage": "5",
+      "baggage": "6",
       "gate": "Ausgang 1 (Linie)",
-      "status": "active",
-      "status_text": "im Anflug",
-      "delay": 60
+      "status": "landed",
+      "status_text": "gelandet",
+      "delay": 56
     },
     {
       "dt": 1791486900.0,
@@ -186,7 +152,7 @@
       "baggage": "11",
       "gate": "Ausgang 4 (Charter)",
       "status": "active",
-      "status_text": "Im Anflug",
+      "status_text": "im Anflug",
       "delay": 49
     },
     {
@@ -345,7 +311,7 @@
     {
       "dt": 1791489300.0,
       "time_scheduled": "21:55",
-      "time_estimated": "22:14",
+      "time_estimated": "22:09",
       "flight_no": "EW9749",
       "airline": "Eurowings",
       "city": "Genf",
@@ -353,11 +319,11 @@
       "type": "Linie",
       "type_source": "Ausgang",
       "terminal": "B",
-      "baggage": "6",
+      "baggage": "4",
       "gate": "Ausgang 1 (Linie)",
-      "status": "active",
-      "status_text": "im Anflug",
-      "delay": 19
+      "status": "landed",
+      "status_text": "gelandet",
+      "delay": 14
     },
     {
       "dt": 1791489300.0,
@@ -440,8 +406,8 @@
       "terminal": "B",
       "baggage": "",
       "gate": "Ausgang 1 (Linie)",
-      "status": "scheduled",
-      "status_text": "Vorhafen verlassen",
+      "status": "active",
+      "status_text": "Im Anflug",
       "delay": 24
     },
     {
@@ -464,7 +430,7 @@
     {
       "dt": 1791489900.0,
       "time_scheduled": "22:05",
-      "time_estimated": "00:58",
+      "time_estimated": "00:48",
       "flight_no": "EW9887",
       "airline": "Eurowings",
       "city": "Rom-Fiumicino",
@@ -476,7 +442,7 @@
       "gate": "Ausgang 1 (Linie)",
       "status": "scheduled",
       "status_text": "",
-      "delay": 173
+      "delay": 163
     },
     {
       "dt": 1791490200.0,
@@ -487,9 +453,9 @@
       "city": "Barcelona",
       "country": "Spanien",
       "type": "Linie",
-      "type_source": "Airline",
+      "type_source": "Ausgang",
       "terminal": "B",
-      "baggage": "",
+      "baggage": "5",
       "gate": "Ausgang 1 (Linie)",
       "status": "active",
       "status_text": "im Anflug",
@@ -526,7 +492,7 @@
       "baggage": "17",
       "gate": "Ausgang 6 (Charter)",
       "status": "active",
-      "status_text": "Im Anflug",
+      "status_text": "im Anflug",
       "delay": 7
     },
     {
@@ -593,8 +559,8 @@
       "terminal": "A",
       "baggage": "",
       "gate": "Ausgang 1 (Linie)",
-      "status": "scheduled",
-      "status_text": "Vorhafen verlassen",
+      "status": "active",
+      "status_text": "Im Anflug",
       "delay": 14
     },
     {
@@ -668,7 +634,7 @@
     {
       "dt": 1791491100.0,
       "time_scheduled": "22:25",
-      "time_estimated": "22:15",
+      "time_estimated": "22:36",
       "flight_no": "KL1805",
       "airline": "KLM",
       "city": "Amsterdam",
@@ -680,7 +646,7 @@
       "gate": "Ausgang 4 (Charter)",
       "status": "active",
       "status_text": "im Anflug",
-      "delay": 0
+      "delay": 11
     },
     {
       "dt": 1791491100.0,
@@ -713,7 +679,7 @@
       "baggage": "2",
       "gate": "Ausgang 1 (Linie)",
       "status": "active",
-      "status_text": "Im Anflug",
+      "status_text": "im Anflug",
       "delay": 2
     },
     {
