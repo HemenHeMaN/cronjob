@@ -1,24 +1,7 @@
 {
-  "updated_at": "08.10.2026 17:00",
+  "updated_at": "08.10.2026 17:05",
   "source": "Dus.com",
   "flights": [
-    {
-      "dt": 1791465600.0,
-      "time_scheduled": "15:20",
-      "time_estimated": "16:02",
-      "flight_no": "BT933",
-      "airline": "Air Baltic",
-      "city": "Vilnius",
-      "country": "Litauen",
-      "type": "Charter",
-      "type_source": "Ausgang",
-      "terminal": "B",
-      "baggage": "7",
-      "gate": "Ausgang 4 (Charter)",
-      "status": "landed",
-      "status_text": "gelandet",
-      "delay": 42
-    },
     {
       "dt": 1791466800.0,
       "time_scheduled": "15:40",
@@ -81,7 +64,7 @@
       "type": "Linie",
       "type_source": "Ausgang",
       "terminal": "A",
-      "baggage": "2",
+      "baggage": "3",
       "gate": "Ausgang 1 (Linie)",
       "status": "scheduled",
       "status_text": "Vorhafen verlassen",
@@ -134,14 +117,14 @@
       "terminal": "C",
       "baggage": "14",
       "gate": "Ausgang 5 (Charter)",
-      "status": "scheduled",
-      "status_text": "Vorhafen verlassen",
+      "status": "active",
+      "status_text": "Im Anflug",
       "delay": 54
     },
     {
       "dt": 1791469800.0,
       "time_scheduled": "16:30",
-      "time_estimated": "17:24",
+      "time_estimated": "17:17",
       "flight_no": "LH2018",
       "airline": "Lufthansa",
       "city": "München",
@@ -152,8 +135,8 @@
       "baggage": "1",
       "gate": "Ausgang 1 (Linie)",
       "status": "active",
-      "status_text": "Im Anflug",
-      "delay": 55
+      "status_text": "im Anflug",
+      "delay": 47
     },
     {
       "dt": 1791469800.0,
@@ -243,7 +226,7 @@
     {
       "dt": 1791471300.0,
       "time_scheduled": "16:55",
-      "time_estimated": "17:45",
+      "time_estimated": "17:46",
       "flight_no": "TP542",
       "airline": "TAP Portugal",
       "city": "Lissabon",
@@ -255,7 +238,7 @@
       "gate": "Ausgang 6 (Charter)",
       "status": "scheduled",
       "status_text": "Vorhafen verlassen",
-      "delay": 50
+      "delay": 51
     },
     {
       "dt": 1791471600.0,
@@ -271,7 +254,7 @@
       "baggage": "9",
       "gate": "Ausgang 4 (Charter)",
       "status": "active",
-      "status_text": "Im Anflug",
+      "status_text": "im Anflug",
       "delay": 19
     },
     {
@@ -287,8 +270,8 @@
       "terminal": "A",
       "baggage": "5",
       "gate": "Ausgang 1 (Linie)",
-      "status": "scheduled",
-      "status_text": "Vorhafen verlassen",
+      "status": "active",
+      "status_text": "Im Anflug",
       "delay": 19
     },
     {
@@ -396,7 +379,7 @@
     {
       "dt": 1791473400.0,
       "time_scheduled": "17:30",
-      "time_estimated": "17:36",
+      "time_estimated": "17:34",
       "flight_no": "KL1803",
       "airline": "KLM",
       "city": "Amsterdam",
@@ -407,8 +390,8 @@
       "baggage": "13",
       "gate": "Ausgang 5 (Charter)",
       "status": "scheduled",
-      "status_text": "",
-      "delay": 6
+      "status_text": "Vorhafen verlassen",
+      "delay": 5
     },
     {
       "dt": 1791473700.0,
@@ -453,12 +436,12 @@
       "city": "Dublin",
       "country": "Irland",
       "type": "Linie",
-      "type_source": "Airline",
+      "type_source": "Ausgang",
       "terminal": "A",
-      "baggage": "",
+      "baggage": "4",
       "gate": "Ausgang 1 (Linie)",
       "status": "scheduled",
-      "status_text": "",
+      "status_text": "Vorhafen verlassen",
       "delay": 42
     },
     {
@@ -489,7 +472,7 @@
       "type": "Linie",
       "type_source": "Ausgang",
       "terminal": "B",
-      "baggage": "3",
+      "baggage": "2",
       "gate": "Ausgang 1 (Linie)",
       "status": "scheduled",
       "status_text": "Vorhafen verlassen",
@@ -549,19 +532,19 @@
     {
       "dt": 1791474300.0,
       "time_scheduled": "17:45",
-      "time_estimated": "18:13",
+      "time_estimated": "18:09",
       "flight_no": "VL076",
       "airline": "Lufthansa City Airlines",
       "city": "Frankfurt",
       "country": "Deutschland",
       "type": "Linie",
-      "type_source": "Airline",
+      "type_source": "Ausgang",
       "terminal": "A",
-      "baggage": "",
+      "baggage": "2",
       "gate": "Ausgang 1 (Linie)",
       "status": "scheduled",
       "status_text": "",
-      "delay": 29
+      "delay": 25
     },
     {
       "dt": 1791475200.0,
@@ -605,11 +588,11 @@
       "airline": "Eurowings",
       "city": "Mailand-Malpensa",
       "country": "Italien",
-      "type": "Linie",
-      "type_source": "Airline",
+      "type": "Charter",
+      "type_source": "Ausgang",
       "terminal": "B",
-      "baggage": "",
-      "gate": "Ausgang 1 (Linie)",
+      "baggage": "9",
+      "gate": "Ausgang 4 (Charter)",
       "status": "scheduled",
       "status_text": "",
       "delay": 23
@@ -657,9 +640,9 @@
       "city": "Zürich",
       "country": "Schweiz",
       "type": "Linie",
-      "type_source": "Airline",
+      "type_source": "Ausgang",
       "terminal": "A",
-      "baggage": "",
+      "baggage": "3",
       "gate": "Ausgang 1 (Linie)",
       "status": "scheduled",
       "status_text": "",
@@ -787,7 +770,7 @@
     {
       "dt": 1791478500.0,
       "time_scheduled": "18:55",
-      "time_estimated": "18:51",
+      "time_estimated": "19:00",
       "flight_no": "LO407",
       "airline": "LOT Polish Airlines",
       "city": "Warschau",
@@ -799,7 +782,7 @@
       "gate": "Ausgang 1 (Linie)",
       "status": "scheduled",
       "status_text": "",
-      "delay": 0
+      "delay": 6
     },
     {
       "dt": 1791478500.0,
@@ -889,7 +872,7 @@
     {
       "dt": 1791479400.0,
       "time_scheduled": "19:10",
-      "time_estimated": "19:06",
+      "time_estimated": "19:04",
       "flight_no": "OS167",
       "airline": "Austrian Airlines",
       "city": "Wien",
@@ -974,7 +957,7 @@
     {
       "dt": 1791480000.0,
       "time_scheduled": "19:20",
-      "time_estimated": "19:21",
+      "time_estimated": "19:15",
       "flight_no": "BT233",
       "airline": "Air Baltic",
       "city": "Riga",
@@ -986,7 +969,7 @@
       "gate": "Ausgang 1 (Linie)",
       "status": "scheduled",
       "status_text": "",
-      "delay": 1
+      "delay": 0
     },
     {
       "dt": 1791480300.0,
@@ -1195,7 +1178,7 @@
     {
       "dt": 1791483600.0,
       "time_scheduled": "20:20",
-      "time_estimated": "21:10",
+      "time_estimated": "21:05",
       "flight_no": "EW9627",
       "airline": "Eurowings",
       "city": "Zakynthos",
@@ -1207,7 +1190,7 @@
       "gate": "Ausgang 1 (Linie)",
       "status": "scheduled",
       "status_text": "",
-      "delay": 50
+      "delay": 45
     },
     {
       "dt": 1791483600.0,
@@ -1730,6 +1713,40 @@
       "type": "Linie",
       "type_source": "Airline",
       "terminal": "B",
+      "baggage": "",
+      "gate": "Ausgang 1 (Linie)",
+      "status": "scheduled",
+      "status_text": "",
+      "delay": 0
+    },
+    {
+      "dt": 1791489900.0,
+      "time_scheduled": "22:05",
+      "time_estimated": "22:05",
+      "flight_no": "DE1617",
+      "airline": "Condor",
+      "city": "Heraklion (Kreta)",
+      "country": "Griechenland",
+      "type": "Charter",
+      "type_source": "Airline",
+      "terminal": "B",
+      "baggage": "",
+      "gate": "Ausgang 4 (Charter)",
+      "status": "scheduled",
+      "status_text": "",
+      "delay": 0
+    },
+    {
+      "dt": 1791489900.0,
+      "time_scheduled": "22:05",
+      "time_estimated": "22:05",
+      "flight_no": "EW9887",
+      "airline": "Eurowings",
+      "city": "Rom-Fiumicino",
+      "country": "Italien",
+      "type": "Linie",
+      "type_source": "Airline",
+      "terminal": "A",
       "baggage": "",
       "gate": "Ausgang 1 (Linie)",
       "status": "scheduled",
