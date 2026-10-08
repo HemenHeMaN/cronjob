@@ -1,5 +1,5 @@
 {
-  "updated_at": "08.10.2026 19:35",
+  "updated_at": "08.10.2026 19:40",
   "source": "Dus.com",
   "flights": [
     {
@@ -103,23 +103,6 @@
       "status": "landed",
       "status_text": "gelandet",
       "delay": 54
-    },
-    {
-      "dt": 1791477600.0,
-      "time_scheduled": "18:40",
-      "time_estimated": "18:38",
-      "flight_no": "AF1006",
-      "airline": "Air France",
-      "city": "Paris-Charles de Gaulle",
-      "country": "Frankreich",
-      "type": "Charter",
-      "type_source": "Ausgang",
-      "terminal": "B",
-      "baggage": "7",
-      "gate": "Ausgang 4 (Charter)",
-      "status": "landed",
-      "status_text": "gelandet",
-      "delay": 0
     },
     {
       "dt": 1791478500.0,
@@ -379,7 +362,7 @@
     {
       "dt": 1791480600.0,
       "time_scheduled": "19:30",
-      "time_estimated": "19:38",
+      "time_estimated": "19:35",
       "flight_no": "XQ180",
       "airline": "Sun Express",
       "city": "Antalya",
@@ -389,14 +372,14 @@
       "terminal": "C",
       "baggage": "17",
       "gate": "Ausgang 6 (Charter)",
-      "status": "active",
-      "status_text": "im Anflug",
-      "delay": 8
+      "status": "landed",
+      "status_text": "gelandet",
+      "delay": 5
     },
     {
       "dt": 1791481200.0,
       "time_scheduled": "19:40",
-      "time_estimated": "19:44",
+      "time_estimated": "19:37",
       "flight_no": "JU362",
       "airline": "Air Serbia",
       "city": "Belgrad",
@@ -406,9 +389,9 @@
       "terminal": "C",
       "baggage": "11",
       "gate": "Ausgang 4 (Charter)",
-      "status": "active",
-      "status_text": "im Anflug",
-      "delay": 4
+      "status": "landed",
+      "status_text": "gelandet",
+      "delay": 0
     },
     {
       "dt": 1791481200.0,
@@ -458,13 +441,13 @@
       "baggage": "3",
       "gate": "Ausgang 1 (Linie)",
       "status": "active",
-      "status_text": "Im Anflug",
+      "status_text": "im Anflug",
       "delay": 3
     },
     {
       "dt": 1791481800.0,
       "time_scheduled": "19:50",
-      "time_estimated": "21:21",
+      "time_estimated": "21:28",
       "flight_no": "X36123",
       "airline": "Tuifly",
       "city": "Hurghada",
@@ -476,7 +459,7 @@
       "gate": "Ausgang 4 (Charter)",
       "status": "scheduled",
       "status_text": "Vorhafen verlassen",
-      "delay": 92
+      "delay": 98
     },
     {
       "dt": 1791482400.0,
@@ -532,7 +515,7 @@
     {
       "dt": 1791483000.0,
       "time_scheduled": "20:10",
-      "time_estimated": "20:35",
+      "time_estimated": "20:30",
       "flight_no": "VY1898",
       "airline": "Vueling",
       "city": "Barcelona",
@@ -544,7 +527,7 @@
       "gate": "Ausgang 4 (Charter)",
       "status": "scheduled",
       "status_text": "Vorhafen verlassen",
-      "delay": 25
+      "delay": 20
     },
     {
       "dt": 1791483600.0,
@@ -634,7 +617,7 @@
     {
       "dt": 1791484500.0,
       "time_scheduled": "20:35",
-      "time_estimated": "20:41",
+      "time_estimated": "20:50",
       "flight_no": "EW9755",
       "airline": "Eurowings",
       "city": "Wien",
@@ -646,7 +629,7 @@
       "gate": "Ausgang 4 (Charter)",
       "status": "scheduled",
       "status_text": "Vorhafen verlassen",
-      "delay": 7
+      "delay": 16
     },
     {
       "dt": 1791484800.0,
@@ -668,7 +651,7 @@
     {
       "dt": 1791484800.0,
       "time_scheduled": "20:40",
-      "time_estimated": "20:44",
+      "time_estimated": "20:47",
       "flight_no": "LH2030",
       "airline": "Lufthansa",
       "city": "München",
@@ -680,7 +663,7 @@
       "gate": "Ausgang 1 (Linie)",
       "status": "scheduled",
       "status_text": "",
-      "delay": 5
+      "delay": 8
     },
     {
       "dt": 1791485700.0,
@@ -838,7 +821,7 @@
     {
       "dt": 1791487800.0,
       "time_scheduled": "21:30",
-      "time_estimated": "22:03",
+      "time_estimated": "22:13",
       "flight_no": "EW9835",
       "airline": "Eurowings",
       "city": "Bologna",
@@ -850,7 +833,7 @@
       "gate": "Ausgang 1 (Linie)",
       "status": "scheduled",
       "status_text": "",
-      "delay": 34
+      "delay": 44
     },
     {
       "dt": 1791487800.0,
@@ -1059,7 +1042,7 @@
     {
       "dt": 1791489300.0,
       "time_scheduled": "21:55",
-      "time_estimated": "21:52",
+      "time_estimated": "21:55",
       "flight_no": "EW9815",
       "airline": "Eurowings",
       "city": "Catania (Sizilien)",
@@ -1070,7 +1053,7 @@
       "baggage": "",
       "gate": "Ausgang 1 (Linie)",
       "status": "scheduled",
-      "status_text": "",
+      "status_text": "Vorhafen verlassen",
       "delay": 0
     },
     {
@@ -1195,7 +1178,7 @@
     {
       "dt": 1791490200.0,
       "time_scheduled": "22:10",
-      "time_estimated": "22:13",
+      "time_estimated": "22:03",
       "flight_no": "SK629",
       "airline": "Scandinavian Airlines",
       "city": "Kopenhagen",
@@ -1207,7 +1190,7 @@
       "gate": "Ausgang 1 (Linie)",
       "status": "scheduled",
       "status_text": "",
-      "delay": 4
+      "delay": 0
     },
     {
       "dt": 1791490500.0,
@@ -1314,7 +1297,7 @@
     {
       "dt": 1791491100.0,
       "time_scheduled": "22:25",
-      "time_estimated": "22:25",
+      "time_estimated": "22:41",
       "flight_no": "EW9641",
       "airline": "Eurowings",
       "city": "Porto",
@@ -1326,7 +1309,7 @@
       "gate": "Ausgang 1 (Linie)",
       "status": "scheduled",
       "status_text": "",
-      "delay": 0
+      "delay": 16
     },
     {
       "dt": 1791491100.0,
@@ -1399,7 +1382,7 @@
     {
       "dt": 1791491400.0,
       "time_scheduled": "22:30",
-      "time_estimated": "22:49",
+      "time_estimated": "22:50",
       "flight_no": "X32119",
       "airline": "Tuifly",
       "city": "Teneriffa Süd",
