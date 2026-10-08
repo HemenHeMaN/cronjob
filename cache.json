@@ -1,5 +1,5 @@
 {
-  "updated_at": "08.10.2026 20:15",
+  "updated_at": "08.10.2026 20:16",
   "source": "Dus.com",
   "flights": [
     {
@@ -120,23 +120,6 @@
       "status": "landed",
       "status_text": "gelandet",
       "delay": 23
-    },
-    {
-      "dt": 1791480300.0,
-      "time_scheduled": "19:25",
-      "time_estimated": "19:16",
-      "flight_no": "PC1005",
-      "airline": "Pegasus Airlines",
-      "city": "Istanbul-Sabiha Gökçen",
-      "country": "Türkei",
-      "type": "Charter",
-      "type_source": "Ausgang",
-      "terminal": "C",
-      "baggage": "20",
-      "gate": "Ausgang 6 (Charter)",
-      "status": "landed",
-      "status_text": "gelandet",
-      "delay": 0
     },
     {
       "dt": 1791480300.0,
@@ -940,7 +923,7 @@
     {
       "dt": 1791490200.0,
       "time_scheduled": "22:10",
-      "time_estimated": "22:15",
+      "time_estimated": "23:33",
       "flight_no": "EW9847",
       "airline": "Eurowings",
       "city": "Mailand-Linate",
@@ -952,7 +935,7 @@
       "gate": "Ausgang 1 (Linie)",
       "status": "scheduled",
       "status_text": "",
-      "delay": 6
+      "delay": 84
     },
     {
       "dt": 1791490200.0,
@@ -1195,7 +1178,7 @@
     {
       "dt": 1791491700.0,
       "time_scheduled": "22:35",
-      "time_estimated": "22:46",
+      "time_estimated": "22:39",
       "flight_no": "EW9023",
       "airline": "Eurowings",
       "city": "Dresden",
@@ -1207,7 +1190,7 @@
       "gate": "Ausgang 1 (Linie)",
       "status": "scheduled",
       "status_text": "",
-      "delay": 11
+      "delay": 4
     },
     {
       "dt": 1791491700.0,
