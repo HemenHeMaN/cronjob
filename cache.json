@@ -1,5 +1,5 @@
 {
-  "updated_at": "08.10.2026 22:50",
+  "updated_at": "08.10.2026 22:55",
   "source": "Dus.com",
   "flights": [
     {
@@ -231,19 +231,19 @@
       "airline": "Condor",
       "city": "Heraklion (Kreta)",
       "country": "Griechenland",
-      "type": "Charter",
+      "type": "Linie",
       "type_source": "Ausgang",
       "terminal": "B",
-      "baggage": "10",
-      "gate": "Ausgang 4 (Charter)",
+      "baggage": "4",
+      "gate": "Ausgang 1 (Linie)",
       "status": "active",
-      "status_text": "Im Anflug",
+      "status_text": "im Anflug",
       "delay": 58
     },
     {
       "dt": 1791489900.0,
       "time_scheduled": "22:05",
-      "time_estimated": "00:55",
+      "time_estimated": "00:53",
       "flight_no": "EW9887",
       "airline": "Eurowings",
       "city": "Rom-Fiumicino",
@@ -255,7 +255,7 @@
       "gate": "Ausgang 1 (Linie)",
       "status": "scheduled",
       "status_text": "",
-      "delay": 170
+      "delay": 168
     },
     {
       "dt": 1791490200.0,
@@ -430,7 +430,7 @@
     {
       "dt": 1791491100.0,
       "time_scheduled": "22:25",
-      "time_estimated": "22:59",
+      "time_estimated": "22:51",
       "flight_no": "EW9641",
       "airline": "Eurowings",
       "city": "Porto",
@@ -440,9 +440,9 @@
       "terminal": "A",
       "baggage": "3",
       "gate": "Ausgang 1 (Linie)",
-      "status": "active",
-      "status_text": "im Anflug",
-      "delay": 35
+      "status": "landed",
+      "status_text": "gelandet",
+      "delay": 27
     },
     {
       "dt": 1791491100.0,
@@ -474,8 +474,8 @@
       "terminal": "B",
       "baggage": "12",
       "gate": "Ausgang 4 (Charter)",
-      "status": "active",
-      "status_text": "im Anflug",
+      "status": "landed",
+      "status_text": "gelandet",
       "delay": 30
     },
     {
@@ -566,7 +566,7 @@
     {
       "dt": 1791491700.0,
       "time_scheduled": "22:35",
-      "time_estimated": "22:56",
+      "time_estimated": "22:53",
       "flight_no": "DE1415",
       "airline": "Condor",
       "city": "Funchal (Madeira)",
@@ -576,9 +576,9 @@
       "terminal": "B",
       "baggage": "9",
       "gate": "Ausgang 4 (Charter)",
-      "status": "active",
-      "status_text": "im Anflug",
-      "delay": 21
+      "status": "landed",
+      "status_text": "gelandet",
+      "delay": 18
     },
     {
       "dt": 1791491700.0,
