@@ -1,5 +1,5 @@
 {
-  "updated_at": "08.10.2026 21:05",
+  "updated_at": "08.10.2026 21:10",
   "source": "Dus.com",
   "flights": [
     {
@@ -73,7 +73,7 @@
     {
       "dt": 1791483600.0,
       "time_scheduled": "20:20",
-      "time_estimated": "21:09",
+      "time_estimated": "21:06",
       "flight_no": "EW9627",
       "airline": "Eurowings",
       "city": "Zakynthos",
@@ -83,9 +83,9 @@
       "terminal": "A",
       "baggage": "5",
       "gate": "Ausgang 1 (Linie)",
-      "status": "active",
-      "status_text": "im Anflug",
-      "delay": 50
+      "status": "landed",
+      "status_text": "gelandet",
+      "delay": 46
     },
     {
       "dt": 1791483600.0,
@@ -185,8 +185,8 @@
       "terminal": "A",
       "baggage": "4",
       "gate": "Ausgang 1 (Linie)",
-      "status": "scheduled",
-      "status_text": "Vorhafen verlassen",
+      "status": "active",
+      "status_text": "Im Anflug",
       "delay": 45
     },
     {
@@ -260,7 +260,7 @@
     {
       "dt": 1791486000.0,
       "time_scheduled": "21:00",
-      "time_estimated": "21:16",
+      "time_estimated": "21:08",
       "flight_no": "BA924",
       "airline": "British Airways",
       "city": "London-Heathrow",
@@ -270,9 +270,9 @@
       "terminal": "C",
       "baggage": "18",
       "gate": "Ausgang 6 (Charter)",
-      "status": "active",
-      "status_text": "im Anflug",
-      "delay": 16
+      "status": "landed",
+      "status_text": "gelandet",
+      "delay": 9
     },
     {
       "dt": 1791486600.0,
@@ -311,7 +311,7 @@
     {
       "dt": 1791486900.0,
       "time_scheduled": "21:15",
-      "time_estimated": "21:52",
+      "time_estimated": "21:53",
       "flight_no": "EW9811",
       "airline": "Eurowings",
       "city": "Venedig-Tessera",
@@ -323,7 +323,7 @@
       "gate": "Ausgang 4 (Charter)",
       "status": "scheduled",
       "status_text": "Vorhafen verlassen",
-      "delay": 37
+      "delay": 38
     },
     {
       "dt": 1791486900.0,
@@ -396,7 +396,7 @@
     {
       "dt": 1791488100.0,
       "time_scheduled": "21:35",
-      "time_estimated": "22:43",
+      "time_estimated": "22:42",
       "flight_no": "EW9423",
       "airline": "Eurowings",
       "city": "Nizza",
@@ -407,8 +407,8 @@
       "baggage": "",
       "gate": "Ausgang 1 (Linie)",
       "status": "scheduled",
-      "status_text": "",
-      "delay": 68
+      "status_text": "Vorhafen verlassen",
+      "delay": 67
     },
     {
       "dt": 1791488400.0,
@@ -423,8 +423,8 @@
       "terminal": "C",
       "baggage": "17",
       "gate": "Ausgang 6 (Charter)",
-      "status": "scheduled",
-      "status_text": "Vorhafen verlassen",
+      "status": "active",
+      "status_text": "im Anflug",
       "delay": 0
     },
     {
@@ -441,7 +441,7 @@
       "baggage": "2",
       "gate": "Ausgang 1 (Linie)",
       "status": "scheduled",
-      "status_text": "",
+      "status_text": "Vorhafen verlassen",
       "delay": 7
     },
     {
@@ -464,7 +464,7 @@
     {
       "dt": 1791488700.0,
       "time_scheduled": "21:45",
-      "time_estimated": "21:44",
+      "time_estimated": "21:46",
       "flight_no": "EW9089",
       "airline": "Eurowings",
       "city": "München",
@@ -476,7 +476,7 @@
       "gate": "Ausgang 1 (Linie)",
       "status": "scheduled",
       "status_text": "Vorhafen verlassen",
-      "delay": 0
+      "delay": 2
     },
     {
       "dt": 1791489000.0,
@@ -532,7 +532,7 @@
     {
       "dt": 1791489300.0,
       "time_scheduled": "21:55",
-      "time_estimated": "22:28",
+      "time_estimated": "22:23",
       "flight_no": "EW9749",
       "airline": "Eurowings",
       "city": "Genf",
@@ -543,8 +543,8 @@
       "baggage": "",
       "gate": "Ausgang 1 (Linie)",
       "status": "scheduled",
-      "status_text": "",
-      "delay": 33
+      "status_text": "Vorhafen verlassen",
+      "delay": 28
     },
     {
       "dt": 1791489300.0,
@@ -651,7 +651,7 @@
     {
       "dt": 1791489900.0,
       "time_scheduled": "22:05",
-      "time_estimated": "23:28",
+      "time_estimated": "00:58",
       "flight_no": "EW9887",
       "airline": "Eurowings",
       "city": "Rom-Fiumicino",
@@ -663,7 +663,7 @@
       "gate": "Ausgang 1 (Linie)",
       "status": "scheduled",
       "status_text": "",
-      "delay": 83
+      "delay": 173
     },
     {
       "dt": 1791490200.0,
@@ -685,7 +685,7 @@
     {
       "dt": 1791490200.0,
       "time_scheduled": "22:10",
-      "time_estimated": "23:17",
+      "time_estimated": "23:26",
       "flight_no": "EW9847",
       "airline": "Eurowings",
       "city": "Mailand-Linate",
@@ -697,7 +697,7 @@
       "gate": "Ausgang 1 (Linie)",
       "status": "scheduled",
       "status_text": "",
-      "delay": 68
+      "delay": 77
     },
     {
       "dt": 1791490200.0,
