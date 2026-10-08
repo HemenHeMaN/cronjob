@@ -702,7 +702,7 @@
     {
       "dt": 1791490200.0,
       "time_scheduled": "22:10",
-      "time_estimated": "23:26",
+      "time_estimated": "23:17",
       "flight_no": "EW9847",
       "airline": "Eurowings",
       "city": "Mailand-Linate",
@@ -714,7 +714,7 @@
       "gate": "Ausgang 1 (Linie)",
       "status": "scheduled",
       "status_text": "",
-      "delay": 77
+      "delay": 68
     },
     {
       "dt": 1791490200.0,
@@ -736,7 +736,7 @@
     {
       "dt": 1791490200.0,
       "time_scheduled": "22:10",
-      "time_estimated": "21:59",
+      "time_estimated": "22:00",
       "flight_no": "SK629",
       "airline": "Scandinavian Airlines",
       "city": "Kopenhagen",
