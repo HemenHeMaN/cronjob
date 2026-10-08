@@ -1,5 +1,5 @@
 {
-  "updated_at": "08.10.2026 22:35",
+  "updated_at": "08.10.2026 22:40",
   "source": "Dus.com",
   "flights": [
     {
@@ -35,23 +35,6 @@
       "status": "landed",
       "status_text": "gelandet",
       "delay": 56
-    },
-    {
-      "dt": 1791486900.0,
-      "time_scheduled": "21:15",
-      "time_estimated": "21:40",
-      "flight_no": "EW9811",
-      "airline": "Eurowings",
-      "city": "Venedig-Tessera",
-      "country": "Italien",
-      "type": "Charter",
-      "type_source": "Ausgang",
-      "terminal": "B",
-      "baggage": "11",
-      "gate": "Ausgang 4 (Charter)",
-      "status": "landed",
-      "status_text": "gelandet",
-      "delay": 25
     },
     {
       "dt": 1791487800.0,
@@ -90,7 +73,7 @@
     {
       "dt": 1791488100.0,
       "time_scheduled": "21:35",
-      "time_estimated": "22:42",
+      "time_estimated": "22:36",
       "flight_no": "EW9423",
       "airline": "Eurowings",
       "city": "Nizza",
@@ -100,26 +83,9 @@
       "terminal": "B",
       "baggage": "18",
       "gate": "Ausgang 6 (Charter)",
-      "status": "active",
-      "status_text": "im Anflug",
-      "delay": 67
-    },
-    {
-      "dt": 1791488700.0,
-      "time_scheduled": "21:45",
-      "time_estimated": "21:38",
-      "flight_no": "LH078",
-      "airline": "Lufthansa",
-      "city": "Frankfurt",
-      "country": "Deutschland",
-      "type": "Linie",
-      "type_source": "Ausgang",
-      "terminal": "B",
-      "baggage": "2",
-      "gate": "Ausgang 1 (Linie)",
       "status": "landed",
       "status_text": "gelandet",
-      "delay": 0
+      "delay": 61
     },
     {
       "dt": 1791488700.0,
@@ -130,9 +96,9 @@
       "city": "Palma de Mallorca",
       "country": "Spanien",
       "type": "Linie",
-      "type_source": "Airline",
+      "type_source": "Ausgang",
       "terminal": "B",
-      "baggage": "",
+      "baggage": "2",
       "gate": "Ausgang 1 (Linie)",
       "status": "active",
       "status_text": "im Anflug",
@@ -248,11 +214,11 @@
       "airline": "Eurowings",
       "city": "Göteborg-Landvetter",
       "country": "Schweden",
-      "type": "Linie",
-      "type_source": "Airline",
+      "type": "Charter",
+      "type_source": "Ausgang",
       "terminal": "B",
-      "baggage": "",
-      "gate": "Ausgang 1 (Linie)",
+      "baggage": "7",
+      "gate": "Ausgang 4 (Charter)",
       "status": "active",
       "status_text": "im Anflug",
       "delay": 58
@@ -421,7 +387,7 @@
       "type": "Linie",
       "type_source": "Ausgang",
       "terminal": "A",
-      "baggage": "4",
+      "baggage": "5",
       "gate": "Ausgang 1 (Linie)",
       "status": "active",
       "status_text": "im Anflug",
@@ -481,7 +447,7 @@
     {
       "dt": 1791490800.0,
       "time_scheduled": "22:20",
-      "time_estimated": "22:40",
+      "time_estimated": "22:38",
       "flight_no": "EW4204",
       "airline": "Eurowings",
       "city": "Prag",
@@ -491,9 +457,9 @@
       "terminal": "B",
       "baggage": "6",
       "gate": "Ausgang 1 (Linie)",
-      "status": "active",
-      "status_text": "im Anflug",
-      "delay": 21
+      "status": "landed",
+      "status_text": "gelandet",
+      "delay": 18
     },
     {
       "dt": 1791490800.0,
@@ -526,7 +492,7 @@
       "baggage": "",
       "gate": "Ausgang 1 (Linie)",
       "status": "active",
-      "status_text": "Im Anflug",
+      "status_text": "im Anflug",
       "delay": 29
     },
     {
@@ -559,8 +525,8 @@
       "terminal": "B",
       "baggage": "",
       "gate": "Ausgang 1 (Linie)",
-      "status": "scheduled",
-      "status_text": "Vorhafen verlassen",
+      "status": "active",
+      "status_text": "Im Anflug",
       "delay": 30
     },
     {
@@ -583,19 +549,19 @@
     {
       "dt": 1791491400.0,
       "time_scheduled": "22:30",
-      "time_estimated": "22:47",
+      "time_estimated": "22:56",
       "flight_no": "EW9417",
       "airline": "Eurowings",
       "city": "Lyon",
       "country": "Frankreich",
       "type": "Linie",
-      "type_source": "Airline",
+      "type_source": "Ausgang",
       "terminal": "B",
-      "baggage": "",
+      "baggage": "6",
       "gate": "Ausgang 1 (Linie)",
       "status": "active",
-      "status_text": "Im Anflug",
-      "delay": 18
+      "status_text": "im Anflug",
+      "delay": 27
     },
     {
       "dt": 1791491400.0,
@@ -611,7 +577,7 @@
       "baggage": "8",
       "gate": "Ausgang 4 (Charter)",
       "status": "active",
-      "status_text": "Im Anflug",
+      "status_text": "im Anflug",
       "delay": 20
     },
     {
