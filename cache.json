@@ -464,7 +464,7 @@
     {
       "dt": 1791490200.0,
       "time_scheduled": "22:10",
-      "time_estimated": "22:16",
+      "time_estimated": "22:22",
       "flight_no": "X36243",
       "airline": "Tuifly",
       "city": "Agadir",
@@ -476,7 +476,7 @@
       "gate": "Ausgang 6 (Charter)",
       "status": "active",
       "status_text": "im Anflug",
-      "delay": 7
+      "delay": 13
     },
     {
       "dt": 1791490200.0,
