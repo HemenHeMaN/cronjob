@@ -1,24 +1,7 @@
 {
-  "updated_at": "08.10.2026 19:15",
+  "updated_at": "08.10.2026 19:20",
   "source": "Dus.com",
   "flights": [
-    {
-      "dt": 1791474000.0,
-      "time_scheduled": "17:40",
-      "time_estimated": "18:19",
-      "flight_no": "EW9395",
-      "airline": "Eurowings",
-      "city": "Dublin",
-      "country": "Irland",
-      "type": "Linie",
-      "type_source": "Ausgang",
-      "terminal": "A",
-      "baggage": "3",
-      "gate": "Ausgang 1 (Linie)",
-      "status": "landed",
-      "status_text": "gelandet",
-      "delay": 39
-    },
     {
       "dt": 1791474300.0,
       "time_scheduled": "17:45",
@@ -39,23 +22,6 @@
     {
       "dt": 1791475500.0,
       "time_scheduled": "18:05",
-      "time_estimated": "18:51",
-      "flight_no": "EW9333",
-      "airline": "Eurowings",
-      "city": "Birmingham",
-      "country": "Großbritannien",
-      "type": "Linie",
-      "type_source": "Ausgang",
-      "terminal": "A",
-      "baggage": "4",
-      "gate": "Ausgang 1 (Linie)",
-      "status": "landed",
-      "status_text": "gelandet",
-      "delay": 46
-    },
-    {
-      "dt": 1791475500.0,
-      "time_scheduled": "18:05",
       "time_estimated": "18:21",
       "flight_no": "EW9823",
       "airline": "Eurowings",
@@ -69,6 +35,23 @@
       "status": "landed",
       "status_text": "gelandet",
       "delay": 16
+    },
+    {
+      "dt": 1791475500.0,
+      "time_scheduled": "18:05",
+      "time_estimated": "18:51",
+      "flight_no": "EW9333",
+      "airline": "Eurowings",
+      "city": "Birmingham",
+      "country": "Großbritannien",
+      "type": "Linie",
+      "type_source": "Ausgang",
+      "terminal": "A",
+      "baggage": "4",
+      "gate": "Ausgang 1 (Linie)",
+      "status": "landed",
+      "status_text": "gelandet",
+      "delay": 46
     },
     {
       "dt": 1791476400.0,
@@ -86,23 +69,6 @@
       "status": "landed",
       "status_text": "gelandet",
       "delay": 24
-    },
-    {
-      "dt": 1791476400.0,
-      "time_scheduled": "18:20",
-      "time_estimated": "18:18",
-      "flight_no": "LX1024",
-      "airline": "Swiss",
-      "city": "Zürich",
-      "country": "Schweiz",
-      "type": "Linie",
-      "type_source": "Ausgang",
-      "terminal": "A",
-      "baggage": "2",
-      "gate": "Ausgang 1 (Linie)",
-      "status": "landed",
-      "status_text": "gelandet",
-      "delay": 0
     },
     {
       "dt": 1791477000.0,
@@ -158,23 +124,6 @@
     {
       "dt": 1791477600.0,
       "time_scheduled": "18:40",
-      "time_estimated": "19:28",
-      "flight_no": "SK627",
-      "airline": "Scandinavian Airlines",
-      "city": "Kopenhagen",
-      "country": "Dänemark",
-      "type": "Linie",
-      "type_source": "Ausgang",
-      "terminal": "A",
-      "baggage": "6",
-      "gate": "Ausgang 1 (Linie)",
-      "status": "active",
-      "status_text": "Im Anflug",
-      "delay": 48
-    },
-    {
-      "dt": 1791477600.0,
-      "time_scheduled": "18:40",
       "time_estimated": "18:29",
       "flight_no": "LH2022",
       "airline": "Lufthansa",
@@ -188,6 +137,23 @@
       "status": "landed",
       "status_text": "gelandet",
       "delay": 0
+    },
+    {
+      "dt": 1791477600.0,
+      "time_scheduled": "18:40",
+      "time_estimated": "19:32",
+      "flight_no": "SK627",
+      "airline": "Scandinavian Airlines",
+      "city": "Kopenhagen",
+      "country": "Dänemark",
+      "type": "Linie",
+      "type_source": "Ausgang",
+      "terminal": "A",
+      "baggage": "6",
+      "gate": "Ausgang 1 (Linie)",
+      "status": "active",
+      "status_text": "Im Anflug",
+      "delay": 53
     },
     {
       "dt": 1791477600.0,
@@ -220,7 +186,7 @@
       "baggage": "4",
       "gate": "Ausgang 1 (Linie)",
       "status": "active",
-      "status_text": "Im Anflug",
+      "status_text": "im Anflug",
       "delay": 33
     },
     {
@@ -311,7 +277,7 @@
     {
       "dt": 1791479400.0,
       "time_scheduled": "19:10",
-      "time_estimated": "19:20",
+      "time_estimated": "19:19",
       "flight_no": "LX1026",
       "airline": "Swiss",
       "city": "Zürich",
@@ -321,9 +287,9 @@
       "terminal": "B",
       "baggage": "2",
       "gate": "Ausgang 1 (Linie)",
-      "status": "active",
-      "status_text": "im Anflug",
-      "delay": 10
+      "status": "landed",
+      "status_text": "gelandet",
+      "delay": 9
     },
     {
       "dt": 1791479400.0,
@@ -356,7 +322,7 @@
       "baggage": "18",
       "gate": "Ausgang 6 (Charter)",
       "status": "active",
-      "status_text": "Im Anflug",
+      "status_text": "im Anflug",
       "delay": 12
     },
     {
@@ -430,7 +396,7 @@
     {
       "dt": 1791480300.0,
       "time_scheduled": "19:25",
-      "time_estimated": "19:19",
+      "time_estimated": "19:16",
       "flight_no": "PC1005",
       "airline": "Pegasus Airlines",
       "city": "Istanbul-Sabiha Gökçen",
@@ -440,8 +406,8 @@
       "terminal": "C",
       "baggage": "20",
       "gate": "Ausgang 6 (Charter)",
-      "status": "active",
-      "status_text": "im Anflug",
+      "status": "landed",
+      "status_text": "gelandet",
       "delay": 0
     },
     {
@@ -491,8 +457,8 @@
       "terminal": "C",
       "baggage": "11",
       "gate": "Ausgang 4 (Charter)",
-      "status": "scheduled",
-      "status_text": "Vorhafen verlassen",
+      "status": "active",
+      "status_text": "Im Anflug",
       "delay": 4
     },
     {
@@ -508,8 +474,8 @@
       "terminal": "A",
       "baggage": "1",
       "gate": "Ausgang 1 (Linie)",
-      "status": "scheduled",
-      "status_text": "Vorhafen verlassen",
+      "status": "active",
+      "status_text": "Im Anflug",
       "delay": 1
     },
     {
@@ -662,7 +628,7 @@
       "baggage": "4",
       "gate": "Ausgang 1 (Linie)",
       "status": "scheduled",
-      "status_text": "",
+      "status_text": "Vorhafen verlassen",
       "delay": 3
     },
     {
@@ -719,7 +685,7 @@
     {
       "dt": 1791484500.0,
       "time_scheduled": "20:35",
-      "time_estimated": "20:48",
+      "time_estimated": "20:42",
       "flight_no": "EW9755",
       "airline": "Eurowings",
       "city": "Wien",
@@ -731,7 +697,7 @@
       "gate": "Ausgang 4 (Charter)",
       "status": "scheduled",
       "status_text": "",
-      "delay": 13
+      "delay": 7
     },
     {
       "dt": 1791484800.0,
@@ -770,7 +736,7 @@
     {
       "dt": 1791485700.0,
       "time_scheduled": "20:55",
-      "time_estimated": "21:00",
+      "time_estimated": "20:51",
       "flight_no": "EW9735",
       "airline": "Eurowings",
       "city": "Warschau",
@@ -781,8 +747,8 @@
       "baggage": "",
       "gate": "Ausgang 1 (Linie)",
       "status": "scheduled",
-      "status_text": "",
-      "delay": 5
+      "status_text": "Vorhafen verlassen",
+      "delay": 0
     },
     {
       "dt": 1791485700.0,
@@ -1127,7 +1093,7 @@
     {
       "dt": 1791489300.0,
       "time_scheduled": "21:55",
-      "time_estimated": "21:49",
+      "time_estimated": "21:59",
       "flight_no": "EW9223",
       "airline": "Eurowings",
       "city": "Göteborg-Landvetter",
@@ -1139,7 +1105,7 @@
       "gate": "Ausgang 1 (Linie)",
       "status": "scheduled",
       "status_text": "",
-      "delay": 0
+      "delay": 4
     },
     {
       "dt": 1791489300.0,
@@ -1195,7 +1161,7 @@
     {
       "dt": 1791489900.0,
       "time_scheduled": "22:05",
-      "time_estimated": "22:09",
+      "time_estimated": "22:47",
       "flight_no": "DE1617",
       "airline": "Condor",
       "city": "Heraklion (Kreta)",
@@ -1207,7 +1173,7 @@
       "gate": "Ausgang 4 (Charter)",
       "status": "scheduled",
       "status_text": "Vorhafen verlassen",
-      "delay": 5
+      "delay": 42
     },
     {
       "dt": 1791489900.0,
@@ -1297,7 +1263,7 @@
     {
       "dt": 1791490500.0,
       "time_scheduled": "22:15",
-      "time_estimated": "22:23",
+      "time_estimated": "22:10",
       "flight_no": "EW9335",
       "airline": "Eurowings",
       "city": "Birmingham",
@@ -1309,7 +1275,7 @@
       "gate": "Ausgang 1 (Linie)",
       "status": "scheduled",
       "status_text": "",
-      "delay": 9
+      "delay": 0
     },
     {
       "dt": 1791490500.0,
@@ -1416,7 +1382,7 @@
     {
       "dt": 1791491100.0,
       "time_scheduled": "22:25",
-      "time_estimated": "22:30",
+      "time_estimated": "22:21",
       "flight_no": "KL1805",
       "airline": "KLM",
       "city": "Amsterdam",
@@ -1428,7 +1394,7 @@
       "gate": "Ausgang 1 (Linie)",
       "status": "scheduled",
       "status_text": "",
-      "delay": 5
+      "delay": 0
     },
     {
       "dt": 1791491100.0,
