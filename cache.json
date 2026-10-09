@@ -1,5 +1,5 @@
 {
-  "updated_at": "09.10.2026 23:05",
+  "updated_at": "09.10.2026 23:10",
   "source": "Dus.com",
   "flights": [
     {
@@ -39,7 +39,7 @@
     {
       "dt": 1791575100.0,
       "time_scheduled": "21:45",
-      "time_estimated": "23:11",
+      "time_estimated": "23:09",
       "flight_no": "EW9089",
       "airline": "Eurowings",
       "city": "München",
@@ -49,9 +49,9 @@
       "terminal": "B",
       "baggage": "4",
       "gate": "Ausgang 1 (Linie)",
-      "status": "active",
-      "status_text": "im Anflug",
-      "delay": 87
+      "status": "landed",
+      "status_text": "gelandet",
+      "delay": 85
     },
     {
       "dt": 1791575400.0,
@@ -86,23 +86,6 @@
       "status": "landed",
       "status_text": "gelandet",
       "delay": 17
-    },
-    {
-      "dt": 1791576000.0,
-      "time_scheduled": "22:00",
-      "time_estimated": "22:08",
-      "flight_no": "EW9593",
-      "airline": "Eurowings",
-      "city": "Palma de Mallorca",
-      "country": "Spanien",
-      "type": "Linie",
-      "type_source": "Ausgang",
-      "terminal": "B",
-      "baggage": "6",
-      "gate": "Ausgang 1 (Linie)",
-      "status": "landed",
-      "status_text": "gelandet",
-      "delay": 8
     },
     {
       "dt": 1791576000.0,
@@ -260,7 +243,7 @@
     {
       "dt": 1791576900.0,
       "time_scheduled": "22:15",
-      "time_estimated": "23:10",
+      "time_estimated": "23:07",
       "flight_no": "EW9023",
       "airline": "Eurowings",
       "city": "Dresden",
@@ -270,9 +253,9 @@
       "terminal": "B",
       "baggage": "9",
       "gate": "Ausgang 4 (Charter)",
-      "status": "active",
-      "status_text": "im Anflug",
-      "delay": 55
+      "status": "landed",
+      "status_text": "gelandet",
+      "delay": 52
     },
     {
       "dt": 1791577200.0,
@@ -290,23 +273,6 @@
       "status": "landed",
       "status_text": "gelandet",
       "delay": 26
-    },
-    {
-      "dt": 1791577200.0,
-      "time_scheduled": "22:20",
-      "time_estimated": "22:06",
-      "flight_no": "IB1325",
-      "airline": "Iberia",
-      "city": "Madrid-Barajas",
-      "country": "Spanien",
-      "type": "Charter",
-      "type_source": "Ausgang",
-      "terminal": "B",
-      "baggage": "14",
-      "gate": "Ausgang 5 (Charter)",
-      "status": "landed",
-      "status_text": "gelandet",
-      "delay": 0
     },
     {
       "dt": 1791577500.0,
@@ -455,7 +421,7 @@
       "type": "Charter",
       "type_source": "Ausgang",
       "terminal": "B",
-      "baggage": "19",
+      "baggage": "18",
       "gate": "Ausgang 6 (Charter)",
       "status": "landed",
       "status_text": "gelandet",
