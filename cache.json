@@ -1,5 +1,5 @@
 {
-  "updated_at": "09.10.2026 12:25",
+  "updated_at": "09.10.2026 12:30",
   "source": "Dus.com",
   "flights": [
     {
@@ -48,23 +48,6 @@
       "type_source": "Ausgang",
       "terminal": "A",
       "baggage": "2",
-      "gate": "Ausgang 1 (Linie)",
-      "status": "landed",
-      "status_text": "gelandet",
-      "delay": 0
-    },
-    {
-      "dt": 1791538800.0,
-      "time_scheduled": "11:40",
-      "time_estimated": "11:29",
-      "flight_no": "EW9421",
-      "airline": "Eurowings",
-      "city": "Nizza",
-      "country": "Frankreich",
-      "type": "Linie",
-      "type_source": "Ausgang",
-      "terminal": "B",
-      "baggage": "3",
       "gate": "Ausgang 1 (Linie)",
       "status": "landed",
       "status_text": "gelandet",
@@ -311,7 +294,7 @@
     {
       "dt": 1791541800.0,
       "time_scheduled": "12:30",
-      "time_estimated": "12:48",
+      "time_estimated": "12:42",
       "flight_no": "EW9641",
       "airline": "Eurowings",
       "city": "Porto",
@@ -323,7 +306,7 @@
       "gate": "Ausgang 4 (Charter)",
       "status": "active",
       "status_text": "Im Anflug",
-      "delay": 18
+      "delay": 13
     },
     {
       "dt": 1791541800.0,
@@ -373,13 +356,13 @@
       "baggage": "4",
       "gate": "Ausgang 1 (Linie)",
       "status": "active",
-      "status_text": "Im Anflug",
+      "status_text": "im Anflug",
       "delay": 7
     },
     {
       "dt": 1791542100.0,
       "time_scheduled": "12:35",
-      "time_estimated": "12:31",
+      "time_estimated": "12:28",
       "flight_no": "PC1001",
       "airline": "Pegasus Airlines",
       "city": "Istanbul-Sabiha Gökçen",
@@ -389,14 +372,14 @@
       "terminal": "C",
       "baggage": "14",
       "gate": "Ausgang 5 (Charter)",
-      "status": "active",
-      "status_text": "im Anflug",
+      "status": "landed",
+      "status_text": "gelandet",
       "delay": 0
     },
     {
       "dt": 1791542100.0,
       "time_scheduled": "12:35",
-      "time_estimated": "12:39",
+      "time_estimated": "12:40",
       "flight_no": "EW9539",
       "airline": "Eurowings",
       "city": "Valencia",
@@ -413,7 +396,7 @@
     {
       "dt": 1791542400.0,
       "time_scheduled": "12:40",
-      "time_estimated": "12:50",
+      "time_estimated": "12:43",
       "flight_no": "LH2014",
       "airline": "Lufthansa",
       "city": "München",
@@ -424,13 +407,13 @@
       "baggage": "6",
       "gate": "Ausgang 1 (Linie)",
       "status": "active",
-      "status_text": "Im Anflug",
-      "delay": 11
+      "status_text": "im Anflug",
+      "delay": 4
     },
     {
       "dt": 1791542700.0,
       "time_scheduled": "12:45",
-      "time_estimated": "12:32",
+      "time_estimated": "12:29",
       "flight_no": "IV8220",
       "airline": "GP Aviation",
       "city": "Pristina",
@@ -440,8 +423,8 @@
       "terminal": "C",
       "baggage": "20",
       "gate": "Ausgang 6 (Charter)",
-      "status": "active",
-      "status_text": "im Anflug",
+      "status": "landed",
+      "status_text": "gelandet",
       "delay": 0
     },
     {
@@ -753,7 +736,7 @@
     {
       "dt": 1791546900.0,
       "time_scheduled": "13:55",
-      "time_estimated": "13:47",
+      "time_estimated": "14:37",
       "flight_no": "KL1801",
       "airline": "KLM",
       "city": "Amsterdam",
@@ -765,7 +748,7 @@
       "gate": "Ausgang 1 (Linie)",
       "status": "scheduled",
       "status_text": "",
-      "delay": 0
+      "delay": 43
     },
     {
       "dt": 1791546900.0,
@@ -1110,7 +1093,7 @@
     {
       "dt": 1791551700.0,
       "time_scheduled": "15:15",
-      "time_estimated": "15:18",
+      "time_estimated": "15:11",
       "flight_no": "EW9811",
       "airline": "Eurowings",
       "city": "Venedig-Tessera",
@@ -1122,7 +1105,7 @@
       "gate": "Ausgang 1 (Linie)",
       "status": "scheduled",
       "status_text": "",
-      "delay": 4
+      "delay": 0
     },
     {
       "dt": 1791552300.0,
@@ -1144,7 +1127,7 @@
     {
       "dt": 1791552600.0,
       "time_scheduled": "15:30",
-      "time_estimated": "15:30",
+      "time_estimated": "15:28",
       "flight_no": "EW9727",
       "airline": "Eurowings",
       "city": "Graz",
@@ -1212,7 +1195,7 @@
     {
       "dt": 1791553500.0,
       "time_scheduled": "15:45",
-      "time_estimated": "15:45",
+      "time_estimated": "15:31",
       "flight_no": "VF027",
       "airline": "A Jet",
       "city": "Istanbul-Sabiha Gökçen",
@@ -1246,7 +1229,7 @@
     {
       "dt": 1791553800.0,
       "time_scheduled": "15:50",
-      "time_estimated": "15:55",
+      "time_estimated": "15:54",
       "flight_no": "SM2980",
       "airline": "Air Cairo",
       "city": "Hurghada",
@@ -1258,7 +1241,7 @@
       "gate": "Ausgang 1 (Linie)",
       "status": "scheduled",
       "status_text": "Vorhafen verlassen",
-      "delay": 5
+      "delay": 4
     },
     {
       "dt": 1791553800.0,
@@ -1502,23 +1485,6 @@
       "dt": 1791557700.0,
       "time_scheduled": "16:55",
       "time_estimated": "16:55",
-      "flight_no": "EW9581",
-      "airline": "Eurowings",
-      "city": "Palma de Mallorca",
-      "country": "Spanien",
-      "type": "Linie",
-      "type_source": "Airline",
-      "terminal": "A",
-      "baggage": "",
-      "gate": "Ausgang 1 (Linie)",
-      "status": "scheduled",
-      "status_text": "",
-      "delay": 0
-    },
-    {
-      "dt": 1791557700.0,
-      "time_scheduled": "16:55",
-      "time_estimated": "16:55",
       "flight_no": "EW9763",
       "airline": "Eurowings",
       "city": "Zürich",
@@ -1679,6 +1645,23 @@
       "type": "Linie",
       "type_source": "Airline",
       "terminal": "C",
+      "baggage": "",
+      "gate": "Ausgang 1 (Linie)",
+      "status": "scheduled",
+      "status_text": "",
+      "delay": 0
+    },
+    {
+      "dt": 1791559800.0,
+      "time_scheduled": "17:30",
+      "time_estimated": "17:30",
+      "flight_no": "EW9395",
+      "airline": "Eurowings",
+      "city": "Dublin",
+      "country": "Irland",
+      "type": "Linie",
+      "type_source": "Airline",
+      "terminal": "A",
       "baggage": "",
       "gate": "Ausgang 1 (Linie)",
       "status": "scheduled",
