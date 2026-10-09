@@ -1,24 +1,7 @@
 {
-  "updated_at": "09.10.2026 12:45",
+  "updated_at": "09.10.2026 12:50",
   "source": "Dus.com",
   "flights": [
-    {
-      "dt": 1791538200.0,
-      "time_scheduled": "11:30",
-      "time_estimated": "11:47",
-      "flight_no": "DE1775",
-      "airline": "Condor",
-      "city": "Palma de Mallorca",
-      "country": "Spanien",
-      "type": "Linie",
-      "type_source": "Ausgang",
-      "terminal": "B",
-      "baggage": "5",
-      "gate": "Ausgang 1 (Linie)",
-      "status": "landed",
-      "status_text": "gelandet",
-      "delay": 18
-    },
     {
       "dt": 1791539100.0,
       "time_scheduled": "11:45",
@@ -56,23 +39,6 @@
     {
       "dt": 1791539400.0,
       "time_scheduled": "11:50",
-      "time_estimated": "11:59",
-      "flight_no": "KL1799",
-      "airline": "KLM",
-      "city": "Amsterdam",
-      "country": "Niederlande",
-      "type": "Charter",
-      "type_source": "Ausgang",
-      "terminal": "B",
-      "baggage": "7",
-      "gate": "Ausgang 4 (Charter)",
-      "status": "landed",
-      "status_text": "gelandet",
-      "delay": 10
-    },
-    {
-      "dt": 1791539400.0,
-      "time_scheduled": "11:50",
       "time_estimated": "12:03",
       "flight_no": "EW9441",
       "airline": "Eurowings",
@@ -90,36 +56,19 @@
     {
       "dt": 1791539400.0,
       "time_scheduled": "11:50",
-      "time_estimated": "11:50",
-      "flight_no": "VL2012",
-      "airline": "Lufthansa City Airlines",
-      "city": "München",
-      "country": "Deutschland",
-      "type": "Linie",
-      "type_source": "Ausgang",
-      "terminal": "A",
-      "baggage": "4",
-      "gate": "Ausgang 1 (Linie)",
-      "status": "landed",
-      "status_text": "gelandet",
-      "delay": 0
-    },
-    {
-      "dt": 1791539700.0,
-      "time_scheduled": "11:55",
-      "time_estimated": "11:45",
-      "flight_no": "VF025",
-      "airline": "A Jet",
-      "city": "Istanbul-Sabiha Gökçen",
-      "country": "Türkei",
+      "time_estimated": "11:59",
+      "flight_no": "KL1799",
+      "airline": "KLM",
+      "city": "Amsterdam",
+      "country": "Niederlande",
       "type": "Charter",
       "type_source": "Ausgang",
-      "terminal": "C",
-      "baggage": "17",
-      "gate": "Ausgang 6 (Charter)",
+      "terminal": "B",
+      "baggage": "7",
+      "gate": "Ausgang 4 (Charter)",
       "status": "landed",
       "status_text": "gelandet",
-      "delay": 0
+      "delay": 10
     },
     {
       "dt": 1791540600.0,
@@ -141,7 +90,7 @@
     {
       "dt": 1791540600.0,
       "time_scheduled": "12:10",
-      "time_estimated": "12:56",
+      "time_estimated": "12:47",
       "flight_no": "EW9531",
       "airline": "Eurowings",
       "city": "Alicante",
@@ -151,9 +100,9 @@
       "terminal": "B",
       "baggage": "2",
       "gate": "Ausgang 1 (Linie)",
-      "status": "active",
-      "status_text": "im Anflug",
-      "delay": 46
+      "status": "landed",
+      "status_text": "gelandet",
+      "delay": 38
     },
     {
       "dt": 1791540900.0,
@@ -384,11 +333,11 @@
       "airline": "Scandinavian Airlines",
       "city": "Oslo - Gardermoen",
       "country": "Norwegen",
-      "type": "Linie",
-      "type_source": "Airline",
+      "type": "Charter",
+      "type_source": "Ausgang",
       "terminal": "A",
-      "baggage": "",
-      "gate": "Ausgang 1 (Linie)",
+      "baggage": "7",
+      "gate": "Ausgang 4 (Charter)",
       "status": "active",
       "status_text": "im Anflug",
       "delay": 0
@@ -600,7 +549,7 @@
     {
       "dt": 1791546300.0,
       "time_scheduled": "13:45",
-      "time_estimated": "14:35",
+      "time_estimated": "14:28",
       "flight_no": "DE1849",
       "airline": "Condor",
       "city": "Palma de Mallorca",
@@ -612,7 +561,7 @@
       "gate": "Ausgang 4 (Charter)",
       "status": "scheduled",
       "status_text": "Vorhafen verlassen",
-      "delay": 51
+      "delay": 44
     },
     {
       "dt": 1791546600.0,
@@ -634,7 +583,7 @@
     {
       "dt": 1791546600.0,
       "time_scheduled": "13:50",
-      "time_estimated": "13:46",
+      "time_estimated": "13:40",
       "flight_no": "AF1506",
       "airline": "Air France",
       "city": "Paris-Charles de Gaulle",
@@ -645,7 +594,7 @@
       "baggage": "",
       "gate": "Ausgang 1 (Linie)",
       "status": "scheduled",
-      "status_text": "",
+      "status_text": "Vorhafen verlassen",
       "delay": 0
     },
     {
@@ -719,7 +668,7 @@
     {
       "dt": 1791547500.0,
       "time_scheduled": "14:05",
-      "time_estimated": "14:11",
+      "time_estimated": "14:01",
       "flight_no": "LX1018",
       "airline": "Swiss",
       "city": "Zürich",
@@ -731,7 +680,7 @@
       "gate": "Ausgang 1 (Linie)",
       "status": "scheduled",
       "status_text": "",
-      "delay": 7
+      "delay": 0
     },
     {
       "dt": 1791547500.0,
@@ -821,7 +770,7 @@
     {
       "dt": 1791548400.0,
       "time_scheduled": "14:20",
-      "time_estimated": "14:37",
+      "time_estimated": "14:43",
       "flight_no": "EW9829",
       "airline": "Eurowings",
       "city": "Mailand-Malpensa",
@@ -833,7 +782,7 @@
       "gate": "Ausgang 1 (Linie)",
       "status": "scheduled",
       "status_text": "",
-      "delay": 18
+      "delay": 24
     },
     {
       "dt": 1791548700.0,
@@ -889,7 +838,7 @@
     {
       "dt": 1791549600.0,
       "time_scheduled": "14:40",
-      "time_estimated": "14:22",
+      "time_estimated": "14:20",
       "flight_no": "SM2984",
       "airline": "Air Cairo",
       "city": "Hurghada",
@@ -923,7 +872,7 @@
     {
       "dt": 1791549600.0,
       "time_scheduled": "14:40",
-      "time_estimated": "14:34",
+      "time_estimated": "14:43",
       "flight_no": "SK1621",
       "airline": "Scandinavian Airlines",
       "city": "Kopenhagen",
@@ -935,12 +884,12 @@
       "gate": "Ausgang 1 (Linie)",
       "status": "scheduled",
       "status_text": "",
-      "delay": 0
+      "delay": 3
     },
     {
       "dt": 1791549900.0,
       "time_scheduled": "14:45",
-      "time_estimated": "14:33",
+      "time_estimated": "14:32",
       "flight_no": "XC102",
       "airline": "Corendon Airlines",
       "city": "Antalya",
@@ -1093,7 +1042,7 @@
     {
       "dt": 1791553200.0,
       "time_scheduled": "15:40",
-      "time_estimated": "15:40",
+      "time_estimated": "15:59",
       "flight_no": "EW9527",
       "airline": "Eurowings",
       "city": "Malaga",
@@ -1105,7 +1054,7 @@
       "gate": "Ausgang 1 (Linie)",
       "status": "scheduled",
       "status_text": "",
-      "delay": 0
+      "delay": 20
     },
     {
       "dt": 1791553500.0,
@@ -1713,6 +1662,23 @@
       "type": "Linie",
       "type_source": "Airline",
       "terminal": "B",
+      "baggage": "",
+      "gate": "Ausgang 1 (Linie)",
+      "status": "scheduled",
+      "status_text": "",
+      "delay": 0
+    },
+    {
+      "dt": 1791561000.0,
+      "time_scheduled": "17:50",
+      "time_estimated": "17:50",
+      "flight_no": "VL076",
+      "airline": "Lufthansa City Airlines",
+      "city": "Frankfurt",
+      "country": "Deutschland",
+      "type": "Linie",
+      "type_source": "Airline",
+      "terminal": "A",
       "baggage": "",
       "gate": "Ausgang 1 (Linie)",
       "status": "scheduled",
