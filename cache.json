@@ -1,5 +1,5 @@
 {
-  "updated_at": "09.10.2026 08:30",
+  "updated_at": "09.10.2026 08:35",
   "source": "Dus.com",
   "flights": [
     {
@@ -83,8 +83,8 @@
       "terminal": "C",
       "baggage": "17",
       "gate": "Ausgang 6 (Charter)",
-      "status": "active",
-      "status_text": "im Anflug",
+      "status": "landed",
+      "status_text": "gelandet",
       "delay": 7
     },
     {
@@ -124,7 +124,7 @@
     {
       "dt": 1791528000.0,
       "time_scheduled": "08:40",
-      "time_estimated": "08:40",
+      "time_estimated": "08:39",
       "flight_no": "EY133",
       "airline": "Etihad Airways",
       "city": "Abu Dhabi",
@@ -141,7 +141,7 @@
     {
       "dt": 1791528000.0,
       "time_scheduled": "08:40",
-      "time_estimated": "08:45",
+      "time_estimated": "08:40",
       "flight_no": "LH2004",
       "airline": "Lufthansa",
       "city": "München",
@@ -153,7 +153,7 @@
       "gate": "Ausgang 1 (Linie)",
       "status": "active",
       "status_text": "im Anflug",
-      "delay": 5
+      "delay": 0
     },
     {
       "dt": 1791528000.0,
@@ -186,7 +186,7 @@
       "baggage": "9",
       "gate": "Ausgang 4 (Charter)",
       "status": "active",
-      "status_text": "Im Anflug",
+      "status_text": "im Anflug",
       "delay": 0
     },
     {
@@ -220,7 +220,7 @@
       "baggage": "6",
       "gate": "Ausgang 1 (Linie)",
       "status": "active",
-      "status_text": "Im Anflug",
+      "status_text": "im Anflug",
       "delay": 0
     },
     {
@@ -237,7 +237,7 @@
       "baggage": "12",
       "gate": "Ausgang 4 (Charter)",
       "status": "active",
-      "status_text": "Im Anflug",
+      "status_text": "im Anflug",
       "delay": 0
     },
     {
@@ -270,8 +270,8 @@
       "terminal": "C",
       "baggage": "11",
       "gate": "Ausgang 4 (Charter)",
-      "status": "active",
-      "status_text": "im Anflug",
+      "status": "landed",
+      "status_text": "gelandet",
       "delay": 0
     },
     {
@@ -333,11 +333,11 @@
       "airline": "Vueling",
       "city": "Barcelona",
       "country": "Spanien",
-      "type": "Linie",
-      "type_source": "Airline",
+      "type": "Charter",
+      "type_source": "Ausgang",
       "terminal": "B",
-      "baggage": "",
-      "gate": "Ausgang 1 (Linie)",
+      "baggage": "12",
+      "gate": "Ausgang 4 (Charter)",
       "status": "scheduled",
       "status_text": "Vorhafen verlassen",
       "delay": 0
@@ -430,7 +430,7 @@
     {
       "dt": 1791531300.0,
       "time_scheduled": "09:35",
-      "time_estimated": "09:33",
+      "time_estimated": "09:34",
       "flight_no": "LO403",
       "airline": "LOT Polish Airlines",
       "city": "Warschau",
@@ -1093,7 +1093,7 @@
     {
       "dt": 1791539700.0,
       "time_scheduled": "11:55",
-      "time_estimated": "11:55",
+      "time_estimated": "11:38",
       "flight_no": "VF025",
       "airline": "A Jet",
       "city": "Istanbul-Sabiha Gökçen",
@@ -1229,7 +1229,7 @@
     {
       "dt": 1791541800.0,
       "time_scheduled": "12:30",
-      "time_estimated": "12:30",
+      "time_estimated": "12:11",
       "flight_no": "XC104",
       "airline": "Corendon Airlines",
       "city": "Antalya",
@@ -1240,7 +1240,7 @@
       "baggage": "",
       "gate": "Ausgang 4 (Charter)",
       "status": "scheduled",
-      "status_text": "",
+      "status_text": "Vorhafen verlassen",
       "delay": 0
     },
     {
@@ -1460,6 +1460,23 @@
       "terminal": "C",
       "baggage": "",
       "gate": "Ausgang 1 (Linie)",
+      "status": "scheduled",
+      "status_text": "",
+      "delay": 0
+    },
+    {
+      "dt": 1791545700.0,
+      "time_scheduled": "13:35",
+      "time_estimated": "13:35",
+      "flight_no": "DE1615",
+      "airline": "Condor",
+      "city": "Chania (Kreta)",
+      "country": "Griechenland",
+      "type": "Charter",
+      "type_source": "Airline",
+      "terminal": "B",
+      "baggage": "",
+      "gate": "Ausgang 4 (Charter)",
       "status": "scheduled",
       "status_text": "",
       "delay": 0
