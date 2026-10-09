@@ -1,5 +1,5 @@
 {
-  "updated_at": "09.10.2026 22:45",
+  "updated_at": "09.10.2026 22:50",
   "source": "Dus.com",
   "flights": [
     {
@@ -39,19 +39,19 @@
     {
       "dt": 1791575100.0,
       "time_scheduled": "21:45",
-      "time_estimated": "23:08",
+      "time_estimated": "23:03",
       "flight_no": "EW9089",
       "airline": "Eurowings",
       "city": "München",
       "country": "Deutschland",
       "type": "Linie",
-      "type_source": "Airline",
+      "type_source": "Ausgang",
       "terminal": "B",
-      "baggage": "",
+      "baggage": "4",
       "gate": "Ausgang 1 (Linie)",
       "status": "active",
       "status_text": "Im Anflug",
-      "delay": 84
+      "delay": 78
     },
     {
       "dt": 1791575400.0,
@@ -156,23 +156,6 @@
       "delay": 0
     },
     {
-      "dt": 1791575700.0,
-      "time_scheduled": "21:55",
-      "time_estimated": "21:45",
-      "flight_no": "EW9423",
-      "airline": "Eurowings",
-      "city": "Nizza",
-      "country": "Frankreich",
-      "type": "Linie",
-      "type_source": "Ausgang",
-      "terminal": "B",
-      "baggage": "5",
-      "gate": "Ausgang 1 (Linie)",
-      "status": "landed",
-      "status_text": "gelandet",
-      "delay": 0
-    },
-    {
       "dt": 1791576000.0,
       "time_scheduled": "22:00",
       "time_estimated": "22:08",
@@ -209,7 +192,7 @@
     {
       "dt": 1791576000.0,
       "time_scheduled": "22:00",
-      "time_estimated": "23:12",
+      "time_estimated": "22:48",
       "flight_no": "EW9469",
       "airline": "Eurowings",
       "city": "London-Heathrow",
@@ -219,9 +202,9 @@
       "terminal": "A",
       "baggage": "5",
       "gate": "Ausgang 1 (Linie)",
-      "status": "active",
-      "status_text": "im Anflug",
-      "delay": 72
+      "status": "landed",
+      "status_text": "gelandet",
+      "delay": 48
     },
     {
       "dt": 1791576000.0,
@@ -241,23 +224,6 @@
       "delay": 0
     },
     {
-      "dt": 1791576000.0,
-      "time_scheduled": "22:00",
-      "time_estimated": "21:48",
-      "flight_no": "EW9519",
-      "airline": "Eurowings",
-      "city": "Bilbao",
-      "country": "Spanien",
-      "type": "Linie",
-      "type_source": "Ausgang",
-      "terminal": "B",
-      "baggage": "4",
-      "gate": "Ausgang 1 (Linie)",
-      "status": "landed",
-      "status_text": "gelandet",
-      "delay": 0
-    },
-    {
       "dt": 1791576300.0,
       "time_scheduled": "22:05",
       "time_estimated": "23:53",
@@ -266,9 +232,9 @@
       "city": "Chania (Kreta)",
       "country": "Griechenland",
       "type": "Linie",
-      "type_source": "Airline",
+      "type_source": "Ausgang",
       "terminal": "A",
-      "baggage": "",
+      "baggage": "1",
       "gate": "Ausgang 1 (Linie)",
       "status": "scheduled",
       "status_text": "Vorhafen verlassen",
@@ -299,11 +265,11 @@
       "airline": "Eurowings",
       "city": "Mailand-Linate",
       "country": "Italien",
-      "type": "Linie",
-      "type_source": "Airline",
+      "type": "Charter",
+      "type_source": "Ausgang",
       "terminal": "B",
-      "baggage": "",
-      "gate": "Ausgang 1 (Linie)",
+      "baggage": "11",
+      "gate": "Ausgang 4 (Charter)",
       "status": "scheduled",
       "status_text": "Vorhafen verlassen",
       "delay": 88
@@ -401,11 +367,11 @@
       "airline": "Eurowings",
       "city": "Dresden",
       "country": "Deutschland",
-      "type": "Linie",
-      "type_source": "Airline",
+      "type": "Charter",
+      "type_source": "Ausgang",
       "terminal": "B",
-      "baggage": "",
-      "gate": "Ausgang 1 (Linie)",
+      "baggage": "9",
+      "gate": "Ausgang 4 (Charter)",
       "status": "active",
       "status_text": "Im Anflug",
       "delay": 42
@@ -447,7 +413,7 @@
     {
       "dt": 1791577200.0,
       "time_scheduled": "22:20",
-      "time_estimated": "22:49",
+      "time_estimated": "22:46",
       "flight_no": "EW9887",
       "airline": "Eurowings",
       "city": "Rom-Fiumicino",
@@ -457,9 +423,9 @@
       "terminal": "A",
       "baggage": "6",
       "gate": "Ausgang 1 (Linie)",
-      "status": "active",
-      "status_text": "im Anflug",
-      "delay": 29
+      "status": "landed",
+      "status_text": "gelandet",
+      "delay": 26
     },
     {
       "dt": 1791577500.0,
@@ -566,36 +532,36 @@
     {
       "dt": 1791578100.0,
       "time_scheduled": "22:35",
-      "time_estimated": "22:58",
+      "time_estimated": "23:05",
       "flight_no": "DE1457",
       "airline": "Condor",
       "city": "Fuerteventura",
       "country": "Spanien",
       "type": "Charter",
-      "type_source": "Airline",
+      "type_source": "Ausgang",
       "terminal": "B",
-      "baggage": "",
+      "baggage": "12",
       "gate": "Ausgang 4 (Charter)",
       "status": "active",
       "status_text": "Im Anflug",
-      "delay": 23
+      "delay": 31
     },
     {
       "dt": 1791578100.0,
       "time_scheduled": "22:35",
-      "time_estimated": "22:50",
+      "time_estimated": "22:58",
       "flight_no": "DE069",
       "airline": "Condor",
       "city": "Hurghada",
       "country": "Ägypten",
       "type": "Charter",
-      "type_source": "Airline",
+      "type_source": "Ausgang",
       "terminal": "C",
-      "baggage": "",
-      "gate": "Ausgang 4 (Charter)",
+      "baggage": "14",
+      "gate": "Ausgang 5 (Charter)",
       "status": "active",
       "status_text": "im Anflug",
-      "delay": 16
+      "delay": 24
     },
     {
       "dt": 1791578400.0,
@@ -634,19 +600,19 @@
     {
       "dt": 1791578700.0,
       "time_scheduled": "22:45",
-      "time_estimated": "22:56",
+      "time_estimated": "23:02",
       "flight_no": "DE1517",
       "airline": "Condor",
       "city": "Palma de Mallorca",
       "country": "Spanien",
       "type": "Charter",
-      "type_source": "Airline",
+      "type_source": "Ausgang",
       "terminal": "B",
-      "baggage": "",
+      "baggage": "10",
       "gate": "Ausgang 4 (Charter)",
       "status": "active",
-      "status_text": "Im Anflug",
-      "delay": 11
+      "status_text": "im Anflug",
+      "delay": 18
     },
     {
       "dt": 1791578700.0,
@@ -674,10 +640,10 @@
       "city": "Gran Canaria",
       "country": "Spanien",
       "type": "Charter",
-      "type_source": "Airline",
+      "type_source": "Ausgang",
       "terminal": "B",
-      "baggage": "",
-      "gate": "Ausgang 4 (Charter)",
+      "baggage": "13",
+      "gate": "Ausgang 5 (Charter)",
       "status": "active",
       "status_text": "Im Anflug",
       "delay": 19
