@@ -1,24 +1,7 @@
 {
-  "updated_at": "09.10.2026 19:35",
+  "updated_at": "09.10.2026 19:40",
   "source": "Dus.com",
   "flights": [
-    {
-      "dt": 1791558900.0,
-      "time_scheduled": "17:15",
-      "time_estimated": "18:38",
-      "flight_no": "KK491",
-      "airline": "LEAV Aviation",
-      "city": "Damaskus",
-      "country": "Syrien",
-      "type": "Charter",
-      "type_source": "Ausgang",
-      "terminal": "C",
-      "baggage": "12",
-      "gate": "Ausgang 4 (Charter)",
-      "status": "landed",
-      "status_text": "gelandet",
-      "delay": 84
-    },
     {
       "dt": 1791560400.0,
       "time_scheduled": "17:40",
@@ -39,7 +22,7 @@
     {
       "dt": 1791561000.0,
       "time_scheduled": "17:50",
-      "time_estimated": "20:00",
+      "time_estimated": "19:51",
       "flight_no": "VL076",
       "airline": "Lufthansa City Airlines",
       "city": "Frankfurt",
@@ -50,8 +33,8 @@
       "baggage": "4",
       "gate": "Ausgang 1 (Linie)",
       "status": "active",
-      "status_text": "Im Anflug",
-      "delay": 130
+      "status_text": "im Anflug",
+      "delay": 121
     },
     {
       "dt": 1791561900.0,
@@ -86,23 +69,6 @@
       "status": "landed",
       "status_text": "gelandet",
       "delay": 32
-    },
-    {
-      "dt": 1791563100.0,
-      "time_scheduled": "18:25",
-      "time_estimated": "18:37",
-      "flight_no": "PC5305",
-      "airline": "Pegasus Airlines",
-      "city": "Izmir",
-      "country": "Türkei",
-      "type": "Charter",
-      "type_source": "Ausgang",
-      "terminal": "C",
-      "baggage": "19",
-      "gate": "Ausgang 6 (Charter)",
-      "status": "landed",
-      "status_text": "gelandet",
-      "delay": 12
     },
     {
       "dt": 1791564000.0,
@@ -362,7 +328,7 @@
     {
       "dt": 1791566100.0,
       "time_scheduled": "19:15",
-      "time_estimated": "19:52",
+      "time_estimated": "19:51",
       "flight_no": "BM560",
       "airline": "Medsky Airways",
       "city": "Tripolis-Mitiga",
@@ -374,7 +340,7 @@
       "gate": "Ausgang 6 (Charter)",
       "status": "active",
       "status_text": "im Anflug",
-      "delay": 38
+      "delay": 37
     },
     {
       "dt": 1791566400.0,
@@ -389,9 +355,9 @@
       "terminal": "B",
       "baggage": "6",
       "gate": "Ausgang 1 (Linie)",
-      "status": "active",
-      "status_text": "im Anflug",
-      "delay": 17
+      "status": "landed",
+      "status_text": "gelandet",
+      "delay": 18
     },
     {
       "dt": 1791566700.0,
@@ -430,7 +396,7 @@
     {
       "dt": 1791567000.0,
       "time_scheduled": "19:30",
-      "time_estimated": "19:53",
+      "time_estimated": "19:40",
       "flight_no": "XQ180",
       "airline": "Sun Express",
       "city": "Antalya",
@@ -440,9 +406,9 @@
       "terminal": "C",
       "baggage": "17",
       "gate": "Ausgang 6 (Charter)",
-      "status": "active",
-      "status_text": "im Anflug",
-      "delay": 23
+      "status": "landed",
+      "status_text": "gelandet",
+      "delay": 10
     },
     {
       "dt": 1791567600.0,
@@ -464,7 +430,7 @@
     {
       "dt": 1791567600.0,
       "time_scheduled": "19:40",
-      "time_estimated": "19:32",
+      "time_estimated": "19:45",
       "flight_no": "XQ3580",
       "airline": "Sun Express",
       "city": "Dalaman",
@@ -476,12 +442,12 @@
       "gate": "Ausgang 6 (Charter)",
       "status": "active",
       "status_text": "im Anflug",
-      "delay": 0
+      "delay": 6
     },
     {
       "dt": 1791567900.0,
       "time_scheduled": "19:45",
-      "time_estimated": "19:42",
+      "time_estimated": "19:53",
       "flight_no": "EW4676",
       "airline": "Eurowings",
       "city": "Stockholm-Arlanda",
@@ -493,7 +459,7 @@
       "gate": "Ausgang 1 (Linie)",
       "status": "active",
       "status_text": "im Anflug",
-      "delay": 0
+      "delay": 9
     },
     {
       "dt": 1791568200.0,
@@ -593,8 +559,8 @@
       "terminal": "B",
       "baggage": "7",
       "gate": "Ausgang 4 (Charter)",
-      "status": "scheduled",
-      "status_text": "Vorhafen verlassen",
+      "status": "active",
+      "status_text": "Im Anflug",
       "delay": 0
     },
     {
@@ -702,7 +668,7 @@
     {
       "dt": 1791572400.0,
       "time_scheduled": "21:00",
-      "time_estimated": "21:47",
+      "time_estimated": "21:41",
       "flight_no": "EW9765",
       "airline": "Eurowings",
       "city": "Zürich",
@@ -714,7 +680,7 @@
       "gate": "Ausgang 1 (Linie)",
       "status": "scheduled",
       "status_text": "",
-      "delay": 48
+      "delay": 42
     },
     {
       "dt": 1791572400.0,
@@ -1178,7 +1144,7 @@
     {
       "dt": 1791576300.0,
       "time_scheduled": "22:05",
-      "time_estimated": "22:14",
+      "time_estimated": "22:50",
       "flight_no": "EW9537",
       "airline": "Eurowings",
       "city": "Malaga",
@@ -1190,7 +1156,7 @@
       "gate": "Ausgang 1 (Linie)",
       "status": "scheduled",
       "status_text": "",
-      "delay": 10
+      "delay": 45
     },
     {
       "dt": 1791576600.0,
@@ -1450,7 +1416,7 @@
     {
       "dt": 1791578100.0,
       "time_scheduled": "22:35",
-      "time_estimated": "22:45",
+      "time_estimated": "22:41",
       "flight_no": "DE1429",
       "airline": "Condor",
       "city": "Teneriffa Süd",
@@ -1462,7 +1428,7 @@
       "gate": "Ausgang 4 (Charter)",
       "status": "scheduled",
       "status_text": "Vorhafen verlassen",
-      "delay": 10
+      "delay": 7
     },
     {
       "dt": 1791578100.0,
@@ -1518,7 +1484,7 @@
     {
       "dt": 1791578400.0,
       "time_scheduled": "22:40",
-      "time_estimated": "22:40",
+      "time_estimated": "22:51",
       "flight_no": "DE1617",
       "airline": "Condor",
       "city": "Heraklion (Kreta)",
@@ -1530,7 +1496,7 @@
       "gate": "Ausgang 4 (Charter)",
       "status": "scheduled",
       "status_text": "",
-      "delay": 0
+      "delay": 12
     },
     {
       "dt": 1791578700.0,
