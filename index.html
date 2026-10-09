@@ -826,8 +826,11 @@ function liveStatus(f) {
     if (s === 'landed') return 'landed';
     if (s === 'active' || s === 'en-route') return 'approach';
     if (s === 'cancelled' || s === 'diverted' || s === 'incident') return s;
-    const t = flightTiming(f);
-    return berlinMin() >= t.startMin ? 'airborne' : 'scheduled';
+    // Kein Raten mehr: "In der Luft" nur, wenn der Scraper eine echte Abflugzeit liefert
+    // (Feld departure_actual bzw. time_departed, Format "HH:MM"). Sonst bleibt der Flug "Geplant".
+    const dep = f.departure_actual || f.time_departed;
+    if (dep && berlinMin() >= timeToMinutes(dep)) return 'airborne';
+    return 'scheduled';
 }
 
 /* ---------- Rendering Ansicht 3 (Flughafentafel) ---------- */
