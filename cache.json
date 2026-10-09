@@ -1,5 +1,5 @@
 {
-  "updated_at": "09.10.2026 22:35",
+  "updated_at": "09.10.2026 22:40",
   "source": "Dus.com",
   "flights": [
     {
@@ -18,40 +18,6 @@
       "status": "landed",
       "status_text": "gelandet",
       "delay": 28
-    },
-    {
-      "dt": 1791573600.0,
-      "time_scheduled": "21:20",
-      "time_estimated": "21:39",
-      "flight_no": "EW9673",
-      "airline": "Eurowings",
-      "city": "Heraklion (Kreta)",
-      "country": "Griechenland",
-      "type": "Linie",
-      "type_source": "Ausgang",
-      "terminal": "B",
-      "baggage": "3",
-      "gate": "Ausgang 1 (Linie)",
-      "status": "landed",
-      "status_text": "gelandet",
-      "delay": 19
-    },
-    {
-      "dt": 1791574500.0,
-      "time_scheduled": "21:35",
-      "time_estimated": "21:36",
-      "flight_no": "EW9223",
-      "airline": "Eurowings",
-      "city": "Göteborg-Landvetter",
-      "country": "Schweden",
-      "type": "Linie",
-      "type_source": "Ausgang",
-      "terminal": "A",
-      "baggage": "1",
-      "gate": "Ausgang 1 (Linie)",
-      "status": "landed",
-      "status_text": "gelandet",
-      "delay": 1
     },
     {
       "dt": 1791574800.0,
@@ -192,23 +158,6 @@
     {
       "dt": 1791575700.0,
       "time_scheduled": "21:55",
-      "time_estimated": "21:53",
-      "flight_no": "EW9749",
-      "airline": "Eurowings",
-      "city": "Genf",
-      "country": "Schweiz",
-      "type": "Linie",
-      "type_source": "Ausgang",
-      "terminal": "B",
-      "baggage": "3",
-      "gate": "Ausgang 1 (Linie)",
-      "status": "landed",
-      "status_text": "gelandet",
-      "delay": 0
-    },
-    {
-      "dt": 1791575700.0,
-      "time_scheduled": "21:55",
       "time_estimated": "22:12",
       "flight_no": "LH078",
       "airline": "Lufthansa",
@@ -222,6 +171,23 @@
       "status": "landed",
       "status_text": "gelandet",
       "delay": 17
+    },
+    {
+      "dt": 1791575700.0,
+      "time_scheduled": "21:55",
+      "time_estimated": "21:53",
+      "flight_no": "EW9749",
+      "airline": "Eurowings",
+      "city": "Genf",
+      "country": "Schweiz",
+      "type": "Linie",
+      "type_source": "Ausgang",
+      "terminal": "B",
+      "baggage": "3",
+      "gate": "Ausgang 1 (Linie)",
+      "status": "landed",
+      "status_text": "gelandet",
+      "delay": 0
     },
     {
       "dt": 1791575700.0,
@@ -260,23 +226,6 @@
     {
       "dt": 1791576000.0,
       "time_scheduled": "22:00",
-      "time_estimated": "21:48",
-      "flight_no": "EW9519",
-      "airline": "Eurowings",
-      "city": "Bilbao",
-      "country": "Spanien",
-      "type": "Linie",
-      "type_source": "Ausgang",
-      "terminal": "B",
-      "baggage": "4",
-      "gate": "Ausgang 1 (Linie)",
-      "status": "landed",
-      "status_text": "gelandet",
-      "delay": 0
-    },
-    {
-      "dt": 1791576000.0,
-      "time_scheduled": "22:00",
       "time_estimated": "21:58",
       "flight_no": "EW9785",
       "airline": "Eurowings",
@@ -294,7 +243,7 @@
     {
       "dt": 1791576000.0,
       "time_scheduled": "22:00",
-      "time_estimated": "22:45",
+      "time_estimated": "23:05",
       "flight_no": "EW9469",
       "airline": "Eurowings",
       "city": "London-Heathrow",
@@ -306,7 +255,7 @@
       "gate": "Ausgang 1 (Linie)",
       "status": "active",
       "status_text": "im Anflug",
-      "delay": 45
+      "delay": 66
     },
     {
       "dt": 1791576000.0,
@@ -321,6 +270,23 @@
       "terminal": "B",
       "baggage": "7",
       "gate": "Ausgang 4 (Charter)",
+      "status": "landed",
+      "status_text": "gelandet",
+      "delay": 0
+    },
+    {
+      "dt": 1791576000.0,
+      "time_scheduled": "22:00",
+      "time_estimated": "21:48",
+      "flight_no": "EW9519",
+      "airline": "Eurowings",
+      "city": "Bilbao",
+      "country": "Spanien",
+      "type": "Linie",
+      "type_source": "Ausgang",
+      "terminal": "B",
+      "baggage": "4",
+      "gate": "Ausgang 1 (Linie)",
       "status": "landed",
       "status_text": "gelandet",
       "delay": 0
@@ -356,7 +322,7 @@
       "baggage": "",
       "gate": "Ausgang 1 (Linie)",
       "status": "active",
-      "status_text": "Im Anflug",
+      "status_text": "im Anflug",
       "delay": 48
     },
     {
@@ -379,7 +345,7 @@
     {
       "dt": 1791576600.0,
       "time_scheduled": "22:10",
-      "time_estimated": "22:45",
+      "time_estimated": "22:40",
       "flight_no": "EW9445",
       "airline": "Eurowings",
       "city": "Barcelona",
@@ -389,9 +355,9 @@
       "terminal": "B",
       "baggage": "2",
       "gate": "Ausgang 1 (Linie)",
-      "status": "active",
-      "status_text": "im Anflug",
-      "delay": 36
+      "status": "landed",
+      "status_text": "gelandet",
+      "delay": 30
     },
     {
       "dt": 1791576600.0,
@@ -430,7 +396,7 @@
     {
       "dt": 1791576900.0,
       "time_scheduled": "22:15",
-      "time_estimated": "22:40",
+      "time_estimated": "22:35",
       "flight_no": "EW4204",
       "airline": "Eurowings",
       "city": "Prag",
@@ -440,9 +406,9 @@
       "terminal": "B",
       "baggage": "3",
       "gate": "Ausgang 1 (Linie)",
-      "status": "active",
-      "status_text": "im Anflug",
-      "delay": 26
+      "status": "landed",
+      "status_text": "gelandet",
+      "delay": 21
     },
     {
       "dt": 1791576900.0,
@@ -474,8 +440,8 @@
       "terminal": "B",
       "baggage": "",
       "gate": "Ausgang 1 (Linie)",
-      "status": "scheduled",
-      "status_text": "Vorhafen verlassen",
+      "status": "active",
+      "status_text": "Im Anflug",
       "delay": 42
     },
     {
@@ -521,9 +487,9 @@
       "city": "Rom-Fiumicino",
       "country": "Italien",
       "type": "Linie",
-      "type_source": "Airline",
+      "type_source": "Ausgang",
       "terminal": "A",
-      "baggage": "",
+      "baggage": "6",
       "gate": "Ausgang 1 (Linie)",
       "status": "active",
       "status_text": "im Anflug",
@@ -537,11 +503,11 @@
       "airline": "Eurowings",
       "city": "Bologna",
       "country": "Italien",
-      "type": "Linie",
-      "type_source": "Airline",
+      "type": "Charter",
+      "type_source": "Ausgang",
       "terminal": "B",
-      "baggage": "",
-      "gate": "Ausgang 1 (Linie)",
+      "baggage": "18",
+      "gate": "Ausgang 6 (Charter)",
       "status": "active",
       "status_text": "im Anflug",
       "delay": 21
@@ -589,9 +555,9 @@
       "city": "Edinburgh",
       "country": "Großbritannien",
       "type": "Linie",
-      "type_source": "Airline",
+      "type_source": "Ausgang",
       "terminal": "A",
-      "baggage": "",
+      "baggage": "1",
       "gate": "Ausgang 1 (Linie)",
       "status": "active",
       "status_text": "im Anflug",
@@ -617,7 +583,7 @@
     {
       "dt": 1791578100.0,
       "time_scheduled": "22:35",
-      "time_estimated": "22:36",
+      "time_estimated": "22:38",
       "flight_no": "DE1429",
       "airline": "Condor",
       "city": "Teneriffa Süd",
@@ -627,9 +593,9 @@
       "terminal": "B",
       "baggage": "11",
       "gate": "Ausgang 4 (Charter)",
-      "status": "active",
-      "status_text": "im Anflug",
-      "delay": 1
+      "status": "landed",
+      "status_text": "gelandet",
+      "delay": 3
     },
     {
       "dt": 1791578100.0,
@@ -685,7 +651,7 @@
     {
       "dt": 1791578400.0,
       "time_scheduled": "22:40",
-      "time_estimated": "22:46",
+      "time_estimated": "22:52",
       "flight_no": "DE1617",
       "airline": "Condor",
       "city": "Heraklion (Kreta)",
@@ -696,8 +662,8 @@
       "baggage": "",
       "gate": "Ausgang 4 (Charter)",
       "status": "active",
-      "status_text": "Im Anflug",
-      "delay": 7
+      "status_text": "im Anflug",
+      "delay": 13
     },
     {
       "dt": 1791578700.0,
