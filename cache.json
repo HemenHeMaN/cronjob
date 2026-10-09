@@ -1,5 +1,5 @@
 {
-  "updated_at": "09.10.2026 11:15",
+  "updated_at": "09.10.2026 11:16",
   "source": "Dus.com",
   "flights": [
     {
@@ -56,40 +56,6 @@
     {
       "dt": 1791534600.0,
       "time_scheduled": "10:30",
-      "time_estimated": "10:24",
-      "flight_no": "EW9463",
-      "airline": "Eurowings",
-      "city": "London-Heathrow",
-      "country": "Großbritannien",
-      "type": "Linie",
-      "type_source": "Ausgang",
-      "terminal": "A",
-      "baggage": "3",
-      "gate": "Ausgang 1 (Linie)",
-      "status": "landed",
-      "status_text": "gelandet",
-      "delay": 0
-    },
-    {
-      "dt": 1791534600.0,
-      "time_scheduled": "10:30",
-      "time_estimated": "10:16",
-      "flight_no": "EW9243",
-      "airline": "Eurowings",
-      "city": "Kopenhagen",
-      "country": "Dänemark",
-      "type": "Linie",
-      "type_source": "Ausgang",
-      "terminal": "A",
-      "baggage": "5",
-      "gate": "Ausgang 1 (Linie)",
-      "status": "landed",
-      "status_text": "gelandet",
-      "delay": 0
-    },
-    {
-      "dt": 1791534600.0,
-      "time_scheduled": "10:30",
       "time_estimated": "10:35",
       "flight_no": "4M511",
       "airline": "Mavi Gök Aviation",
@@ -103,6 +69,23 @@
       "status": "landed",
       "status_text": "gelandet",
       "delay": 5
+    },
+    {
+      "dt": 1791534600.0,
+      "time_scheduled": "10:30",
+      "time_estimated": "10:24",
+      "flight_no": "EW9463",
+      "airline": "Eurowings",
+      "city": "London-Heathrow",
+      "country": "Großbritannien",
+      "type": "Linie",
+      "type_source": "Ausgang",
+      "terminal": "A",
+      "baggage": "3",
+      "gate": "Ausgang 1 (Linie)",
+      "status": "landed",
+      "status_text": "gelandet",
+      "delay": 0
     },
     {
       "dt": 1791535200.0,
@@ -321,8 +304,8 @@
       "terminal": "A",
       "baggage": "2",
       "gate": "Ausgang 1 (Linie)",
-      "status": "scheduled",
-      "status_text": "Vorhafen verlassen",
+      "status": "active",
+      "status_text": "Im Anflug",
       "delay": 11
     },
     {
@@ -906,7 +889,7 @@
     {
       "dt": 1791546000.0,
       "time_scheduled": "13:40",
-      "time_estimated": "13:42",
+      "time_estimated": "13:52",
       "flight_no": "EW9815",
       "airline": "Eurowings",
       "city": "Catania (Sizilien)",
@@ -918,7 +901,7 @@
       "gate": "Ausgang 1 (Linie)",
       "status": "scheduled",
       "status_text": "",
-      "delay": 2
+      "delay": 12
     },
     {
       "dt": 1791546300.0,
