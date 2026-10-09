@@ -1,5 +1,5 @@
 {
-  "updated_at": "09.10.2026 09:45",
+  "updated_at": "09.10.2026 09:47",
   "source": "Dus.com",
   "flights": [
     {
@@ -52,23 +52,6 @@
       "status": "landed",
       "status_text": "gelandet",
       "delay": 64
-    },
-    {
-      "dt": 1791528300.0,
-      "time_scheduled": "08:45",
-      "time_estimated": "08:46",
-      "flight_no": "JU360",
-      "airline": "Air Serbia",
-      "city": "Belgrad",
-      "country": "Serbien",
-      "type": "Charter",
-      "type_source": "Ausgang",
-      "terminal": "C",
-      "baggage": "9",
-      "gate": "Ausgang 4 (Charter)",
-      "status": "landed",
-      "status_text": "gelandet",
-      "delay": 2
     },
     {
       "dt": 1791528600.0,
@@ -379,7 +362,7 @@
     {
       "dt": 1791533100.0,
       "time_scheduled": "10:05",
-      "time_estimated": "10:09",
+      "time_estimated": "10:16",
       "flight_no": "EW9331",
       "airline": "Eurowings",
       "city": "Birmingham",
@@ -391,7 +374,7 @@
       "gate": "Ausgang 1 (Linie)",
       "status": "active",
       "status_text": "im Anflug",
-      "delay": 4
+      "delay": 11
     },
     {
       "dt": 1791533100.0,
@@ -481,7 +464,7 @@
     {
       "dt": 1791534600.0,
       "time_scheduled": "10:30",
-      "time_estimated": "10:29",
+      "time_estimated": "10:30",
       "flight_no": "EW9463",
       "airline": "Eurowings",
       "city": "London-Heathrow",
@@ -889,7 +872,7 @@
     {
       "dt": 1791539400.0,
       "time_scheduled": "11:50",
-      "time_estimated": "11:59",
+      "time_estimated": "11:51",
       "flight_no": "X32313",
       "airline": "Tuifly",
       "city": "Palma de Mallorca",
@@ -901,7 +884,7 @@
       "gate": "Ausgang 4 (Charter)",
       "status": "scheduled",
       "status_text": "Vorhafen verlassen",
-      "delay": 10
+      "delay": 2
     },
     {
       "dt": 1791539400.0,
@@ -1093,7 +1076,7 @@
     {
       "dt": 1791542100.0,
       "time_scheduled": "12:35",
-      "time_estimated": "12:33",
+      "time_estimated": "12:43",
       "flight_no": "PC1001",
       "airline": "Pegasus Airlines",
       "city": "Istanbul-Sabiha Gökçen",
@@ -1105,7 +1088,7 @@
       "gate": "Ausgang 1 (Linie)",
       "status": "scheduled",
       "status_text": "Vorhafen verlassen",
-      "delay": 0
+      "delay": 8
     },
     {
       "dt": 1791542100.0,
