@@ -1,5 +1,5 @@
 {
-  "updated_at": "09.10.2026 21:05",
+  "updated_at": "09.10.2026 21:10",
   "source": "Dus.com",
   "flights": [
     {
@@ -39,23 +39,6 @@
     {
       "dt": 1791568500.0,
       "time_scheduled": "19:55",
-      "time_estimated": "20:07",
-      "flight_no": "EW9591",
-      "airline": "Eurowings",
-      "city": "Palma de Mallorca",
-      "country": "Spanien",
-      "type": "Linie",
-      "type_source": "Ausgang",
-      "terminal": "B",
-      "baggage": "6",
-      "gate": "Ausgang 1 (Linie)",
-      "status": "landed",
-      "status_text": "gelandet",
-      "delay": 13
-    },
-    {
-      "dt": 1791568500.0,
-      "time_scheduled": "19:55",
       "time_estimated": "20:14",
       "flight_no": "BQ1952",
       "airline": "Sky Alps",
@@ -86,23 +69,6 @@
       "status": "landed",
       "status_text": "gelandet",
       "delay": 14
-    },
-    {
-      "dt": 1791570300.0,
-      "time_scheduled": "20:25",
-      "time_estimated": "20:05",
-      "flight_no": "EI698",
-      "airline": "Aer Lingus",
-      "city": "Dublin",
-      "country": "Irland",
-      "type": "Charter",
-      "type_source": "Ausgang",
-      "terminal": "C",
-      "baggage": "14",
-      "gate": "Ausgang 5 (Charter)",
-      "status": "landed",
-      "status_text": "gelandet",
-      "delay": 0
     },
     {
       "dt": 1791570600.0,
@@ -169,13 +135,13 @@
       "baggage": "9",
       "gate": "Ausgang 4 (Charter)",
       "status": "active",
-      "status_text": "Im Anflug",
+      "status_text": "im Anflug",
       "delay": 32
     },
     {
       "dt": 1791572400.0,
       "time_scheduled": "21:00",
-      "time_estimated": "21:12",
+      "time_estimated": "21:07",
       "flight_no": "EW9049",
       "airline": "Eurowings",
       "city": "Berlin-Brandenburg",
@@ -185,9 +151,9 @@
       "terminal": "B",
       "baggage": "7",
       "gate": "Ausgang 4 (Charter)",
-      "status": "active",
-      "status_text": "im Anflug",
-      "delay": 13
+      "status": "landed",
+      "status_text": "gelandet",
+      "delay": 7
     },
     {
       "dt": 1791572400.0,
@@ -583,7 +549,7 @@
     {
       "dt": 1791576000.0,
       "time_scheduled": "22:00",
-      "time_estimated": "22:35",
+      "time_estimated": "22:43",
       "flight_no": "EW9469",
       "airline": "Eurowings",
       "city": "London-Heathrow",
@@ -595,7 +561,7 @@
       "gate": "Ausgang 1 (Linie)",
       "status": "scheduled",
       "status_text": "",
-      "delay": 36
+      "delay": 44
     },
     {
       "dt": 1791576000.0,
@@ -651,7 +617,7 @@
     {
       "dt": 1791576600.0,
       "time_scheduled": "22:10",
-      "time_estimated": "23:42",
+      "time_estimated": "23:33",
       "flight_no": "EW9847",
       "airline": "Eurowings",
       "city": "Mailand-Linate",
@@ -663,7 +629,7 @@
       "gate": "Ausgang 1 (Linie)",
       "status": "scheduled",
       "status_text": "",
-      "delay": 92
+      "delay": 83
     },
     {
       "dt": 1791576600.0,
@@ -685,7 +651,7 @@
     {
       "dt": 1791576600.0,
       "time_scheduled": "22:10",
-      "time_estimated": "22:27",
+      "time_estimated": "22:24",
       "flight_no": "SK629",
       "airline": "Scandinavian Airlines",
       "city": "Kopenhagen",
@@ -697,7 +663,7 @@
       "gate": "Ausgang 1 (Linie)",
       "status": "scheduled",
       "status_text": "",
-      "delay": 18
+      "delay": 14
     },
     {
       "dt": 1791576600.0,
@@ -838,7 +804,7 @@
     {
       "dt": 1791577500.0,
       "time_scheduled": "22:25",
-      "time_estimated": "22:32",
+      "time_estimated": "22:27",
       "flight_no": "KL1805",
       "airline": "KLM",
       "city": "Amsterdam",
@@ -850,7 +816,7 @@
       "gate": "Ausgang 1 (Linie)",
       "status": "scheduled",
       "status_text": "",
-      "delay": 8
+      "delay": 2
     },
     {
       "dt": 1791577500.0,
