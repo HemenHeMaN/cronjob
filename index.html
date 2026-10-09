@@ -34,6 +34,10 @@
     --badge-charter-color: #8a3000;
     --progress-charter: #e65100;
 
+    /* Annulliert-Farben (Hellmodus) */
+    --card-cancelled-bg: #fde8e8;
+    --card-cancelled-border: #b3261e;
+
     --filter-bg: #dcdce8;
     --filter-active-all: #003366;
     --filter-active-linie: #0d47a1;
@@ -87,6 +91,10 @@
     --badge-charter-bg: #5c2d0c;
     --badge-charter-color: #ffe0b2;
     --progress-charter: #ffb74d;
+
+    /* Annulliert-Farben (Dunkelmodus) */
+    --card-cancelled-bg: #3c1a1a;
+    --card-cancelled-border: #ff5252;
 
     --filter-bg: #2a2a2a;
     --filter-active-all: #1565c0;
@@ -200,7 +208,7 @@ h1 { color: var(--heading-color); font-size: 1.4rem; margin: 0; }
 }
 .search-input {
     width: 100%;
-    padding: 10px 38px 10px 14px; /* Rechts Platz für den Clear-Button */
+    padding: 10px 38px 10px 14px;
     font-size: 1rem;
     font-family: var(--font);
     background: var(--card-bg);
@@ -222,7 +230,7 @@ h1 { color: var(--heading-color); font-size: 1.4rem; margin: 0; }
     font-weight: bold;
     cursor: pointer;
     padding: 4px 8px;
-    display: none; /* Standardmäßig ausgeblendet */
+    display: none;
     align-items: center;
     justify-content: center;
     border-radius: 4px;
@@ -256,6 +264,7 @@ h1 { color: var(--heading-color); font-size: 1.4rem; margin: 0; }
 }
 .flight-card.card-linie { background: var(--card-linie-bg); border-left-color: var(--card-linie-border); }
 .flight-card.card-charter { background: var(--card-charter-bg); border-left-color: var(--card-charter-border); }
+.flight-card.card-cancelled { background: var(--card-cancelled-bg); border-left-color: var(--card-cancelled-border); }
 
 .card-header { display: flex; align-items: center; justify-content: space-between; }
 .time-col { font-size: 1.35rem; font-weight: bold; color: var(--heading-color); min-width: 4.2em; }
@@ -291,7 +300,7 @@ h1 { color: var(--heading-color); font-size: 1.4rem; margin: 0; }
 .detail-grid > div { overflow-wrap: anywhere; }
 .no-flights { text-align: center; padding: 20px; color: var(--text-color); background: var(--card-bg); border-radius: 8px; }
 
-/* --- Ansicht 3: Flughafentafel (alle Klassen mit tf- Präfix) --- */
+/* --- Ansicht 3: Flughafentafel --- */
 .tf-board {
     background: linear-gradient(to bottom, var(--tf-top), var(--tf-bottom));
     border: 1px solid var(--tf-line);
@@ -308,10 +317,6 @@ h1 { color: var(--heading-color); font-size: 1.4rem; margin: 0; }
 .tf-title {
     margin: 0; font-family: var(--tf-display); font-weight: 700; color: var(--tf-text);
     font-size: clamp(1.9rem, 6vw, 3rem); letter-spacing: .06em; text-transform: uppercase; line-height: 1;
-}
-.tf-title small {
-    display: block; font-size: .42em; font-weight: 500; color: var(--tf-amber);
-    letter-spacing: .18em; margin-bottom: 6px;
 }
 .tf-row {
     display: grid; align-items: center; column-gap: 12px;
@@ -371,7 +376,6 @@ h1 { color: var(--heading-color); font-size: 1.4rem; margin: 0; }
 .s-luft .tf-status { color: var(--tf-warn); }
 .s-gelandet .tf-status { color: var(--tf-dim); }
 @keyframes tf-pulse { 50% { opacity: .2; } }
-@media (prefers-reduced-motion: reduce) { .s-anflug .tf-dot { animation: none; } }
 
 .tf-empty { padding: 24px 14px; color: var(--tf-dim); background: var(--tf-row); text-align: center; }
 .tf-footer { margin-top: 12px; color: var(--tf-dim); font-size: .62rem; line-height: 1.6; max-width: 62ch; }
@@ -506,7 +510,7 @@ h1 { color: var(--heading-color); font-size: 1.4rem; margin: 0; }
     <button class="reset-btn" id="sizeReset" type="button">Reset</button>
 </div>
 
-<!-- GEMEINSAME STEUERELEMENTE (Suchfeld + Filter gelten für alle Ansichten) -->
+<!-- GEMEINSAME STEUERELEMENTE -->
 <div class="update-info" id="updateInfo">Lade Daten...</div>
 <div class="search-container" id="searchContainer">
     <input type="text" id="searchInput" class="search-input" placeholder="Nach Flug, Stadt, Land oder Airline suchen..." aria-label="Flüge durchsuchen">
@@ -535,7 +539,7 @@ h1 { color: var(--heading-color); font-size: 1.4rem; margin: 0; }
         <div class="tf-body" id="tfBody">
             <div class="tf-empty">Flüge werden geladen...</div>
         </div>
-        <div class="tf-footer">Der Balken füllt sich, je näher die Landung rückt: blau für Linie, orange für Charter.</div>
+        <div class="tf-footer">Der Balken füllt sich, je näher die Landung rückt: blau für Linie, orange für Charter. Annullierte Flüge rot.</div>
     </div>
 </div>
 
@@ -545,7 +549,7 @@ const DEFAULT_SIZE = 18;
 const STORAGE_KEY = 'dus_font_size';
 const THEME_KEY = 'dus_theme';
 const VIEW_KEY = 'dus_active_view';
-const TF_FENSTER = 90; // Minuten vor der Landung, ab denen sich der Tafel-Balken füllt
+const TF_FENSTER = 90;
 
 let allFlights = [];
 let currentFilter = 'all';
@@ -574,7 +578,7 @@ function loadSavedView() {
     } catch (e) {}
 }
 
-/* ---------- Theme (Tag/Nacht) ---------- */
+/* ---------- Theme ---------- */
 const root = document.documentElement;
 const themeCb = document.getElementById('themeSwitch');
 
@@ -729,7 +733,6 @@ function getFilteredList() {
     return [...list].sort((a, b) => {
         const ra = statusRank(a), rb = statusRank(b);
         if (ra !== rb) return ra - rb;
-        // Im Anflug: nach erwarteter Landezeit sortieren
         if (ra === 1) return (expected(a) - expected(b)) || (a.dt - b.dt);
         return a.dt - b.dt;
     });
@@ -764,8 +767,15 @@ function renderFlights(flights) {
     };
 
     flights.forEach(f => {
+        const st = String(f.status).toLowerCase();
+        const isCancelled = st === 'cancelled' || st === 'diverted' || st === 'incident';
         const isCharter = f.type === "Charter";
-        const cardClass = isCharter ? "flight-card card-charter" : "flight-card card-linie";
+        
+        let cardClass = isCharter ? "flight-card card-charter" : "flight-card card-linie";
+        if (isCancelled) {
+            cardClass = "flight-card card-cancelled";
+        }
+        
         const badgeClass = isCharter ? "badge-charter" : "badge-linie";
 
         const isGuess = f.type_source === 'Airline' || f.type_source === 'Flugtyp';
@@ -783,7 +793,6 @@ function renderFlights(flights) {
             ? `<span class="delay-badge${diff <= 0 ? ' early-badge' : ''}">${est} Uhr${diff > 0 ? ' (+' + diff + ')' : ''}</span>`
             : '';
 
-        const st = String(f.status).toLowerCase();
         let statusText;
         if (st === 'landed') {
             statusText = 'Gelandet' + (hasEst ? ` ${est} Uhr${diffTxt}` : '');
@@ -855,15 +864,6 @@ function timeToMinutes(timeStr) {
     return (hours || 0) * 60 + (minutes || 0);
 }
 
-function flightTiming(f) {
-    const arrivalMin = timeToMinutes(f.time_estimated || f.time_scheduled);
-    let startMin = timeToMinutes(f.time_scheduled) - 120;
-    if (!startMin || startMin >= arrivalMin || (arrivalMin - startMin) > 360) {
-        startMin = arrivalMin - 120;
-    }
-    return { startMin, arrivalMin };
-}
-
 function liveStatus(f) {
     const s = String(f.status).toLowerCase();
     if (s === 'landed') return 'landed';
@@ -922,13 +922,16 @@ function renderBoard(flights) {
 
     flights.forEach(f => {
         const st = tfStatus(f);
-        const art = f.type === 'Charter' ? 'charter' : 'linie';
+        const s = String(f.status).toLowerCase();
+        const isCancelled = s === 'cancelled' || s === 'diverted' || s === 'incident';
+        
+        // Annullierte Flüge erhalten keine Linien-/Charter-Farbe für den Balken
+        const art = isCancelled ? '' : (f.type === 'Charter' ? 'charter' : 'linie');
         const zeit = f.time_estimated || f.time_scheduled || '';
         const isGuess = f.type_source === 'Airline' || f.type_source === 'Flugtyp';
-        const cancelled = String(f.status).toLowerCase() === 'cancelled';
 
         const row = document.createElement('div');
-        row.className = 'tf-row ' + st.cls + (cancelled ? ' cancelled' : '');
+        row.className = 'tf-row ' + st.cls + (isCancelled ? ' cancelled' : '');
         row.innerHTML = `
             <div class="tf-bar ${art}" data-zeit="${esc(zeit)}" data-status="${esc(f.status)}"></div>
             <div class="tf-flight">${esc(f.flight_no)}<small>${esc(f.airline)}</small></div>
