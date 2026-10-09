@@ -7,7 +7,7 @@
 
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Barlow:wght@500;600;700;800&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Barlow:wght@500;600;700;800&family=Barlow+Condensed:wght@500;700&family=B612+Mono:wght@400;700&display=swap" rel="stylesheet">
 
 <style>
 :root { 
@@ -46,6 +46,26 @@
     --reset-btn-bg: #e4e4ed;
 
     --success-green: #22c55e;
+
+    /* Flugtafel (Hellmodus: helle Tafel) */
+    --tf-top: #e3ecfb;
+    --tf-bottom: #cfdcf5;
+    --tf-row: rgba(255, 255, 255, .75);
+    --tf-flap: #17409f;
+    --tf-line: #8fa8dc;
+    --tf-amber: #b36b00;
+    --tf-flap-text: #ffc43a;
+    --tf-text: #0b1b4d;
+    --tf-dim: #4f6191;
+    --tf-ok: #137a3a;
+    --tf-warn: #9a6a00;
+    --tf-bad: #b3261e;
+    --tf-bar-linie: rgba(13, 110, 200, .28);
+    --tf-bar-linie-edge: #1976d2;
+    --tf-bar-charter: rgba(230, 110, 0, .30);
+    --tf-bar-charter-edge: #e65100;
+    --tf-display: "Barlow Condensed", "Arial Narrow", sans-serif;
+    --tf-data: "B612 Mono", ui-monospace, "Courier New", monospace;
 }
 
 [data-theme="dark"] {
@@ -78,6 +98,24 @@
     --size-btn-bg: #1565c0;
     --size-btn-hover: #0d47a1;
     --reset-btn-bg: #333;
+
+    /* Flugtafel (Dunkelmodus: blaue Tafel) */
+    --tf-top: #17409f;
+    --tf-bottom: #0b2373;
+    --tf-row: rgba(6, 20, 78, .62);
+    --tf-flap: #0a1c63;
+    --tf-line: #2f56b8;
+    --tf-amber: #ffc43a;
+    --tf-flap-text: #ffc43a;
+    --tf-text: #eef2fb;
+    --tf-dim: #9fb4e6;
+    --tf-ok: #86ffae;
+    --tf-warn: #ffd24d;
+    --tf-bad: #ff9082;
+    --tf-bar-linie: rgba(96, 190, 255, .46);
+    --tf-bar-linie-edge: #8fd3ff;
+    --tf-bar-charter: rgba(255, 138, 28, .52);
+    --tf-bar-charter-edge: #ffa24d;
 }
 
 html { font-size: var(--base-font-size); }
@@ -135,7 +173,7 @@ h1 { color: var(--heading-color); font-size: 1.4rem; margin: 0; }
     flex: 1;
     background: transparent;
     border: none;
-    padding: 8px 12px;
+    padding: 8px 6px;
     font-family: var(--font);
     font-weight: 700;
     font-size: 0.9rem;
@@ -222,42 +260,105 @@ h1 { color: var(--heading-color); font-size: 1.4rem; margin: 0; }
 .detail-grid > div { overflow-wrap: anywhere; }
 .no-flights { text-align: center; padding: 20px; color: var(--text-color); background: var(--card-bg); border-radius: 8px; }
 
-/* Progress-Bar Design */
-.d2-flight-card {
-    position: relative; background-color: var(--card-bg); border: 1px solid var(--border-color);
-    border-radius: 8px; padding: 14px 18px 18px 18px; margin-bottom: 10px;
-    box-shadow: 0 1px 3px rgba(0,0,0,0.15); overflow: hidden;
-    border-left: 6px solid #ccc;
+/* --- Ansicht 3: Flughafentafel (alle Klassen mit tf- Präfix) --- */
+.tf-board {
+    background: linear-gradient(to bottom, var(--tf-top), var(--tf-bottom));
+    border: 1px solid var(--tf-line);
+    border-radius: 6px;
+    padding: 14px 12px 12px;
+    color: var(--tf-text);
+    font-family: var(--tf-data);
+    transition: background .6s ease, color .3s ease;
 }
-.d2-flight-card.card-linie { background-color: var(--card-linie-bg); border-left-color: var(--card-linie-border); }
-.d2-flight-card.card-charter { background-color: var(--card-charter-bg); border-left-color: var(--card-charter-border); }
+.tf-header {
+    display: flex; align-items: flex-end; justify-content: space-between;
+    padding-bottom: 12px; border-bottom: 2px solid var(--tf-amber);
+}
+.tf-title {
+    margin: 0; font-family: var(--tf-display); font-weight: 700; color: var(--tf-text);
+    font-size: clamp(1.9rem, 6vw, 3rem); letter-spacing: .06em; text-transform: uppercase; line-height: 1;
+}
+.tf-title small {
+    display: block; font-size: .42em; font-weight: 500; color: var(--tf-amber);
+    letter-spacing: .18em; margin-bottom: 6px;
+}
+.tf-row {
+    display: grid; align-items: center; column-gap: 12px;
+    grid-template-columns: 6.5rem minmax(0, 1fr) 5rem 5.5rem 5.5rem 8.5rem;
+    padding: 10px 12px;
+}
+.tf-head {
+    color: var(--tf-dim); font-size: .62rem; letter-spacing: .14em; text-transform: uppercase;
+    padding-block: 8px 6px;
+}
+.tf-body { display: flex; flex-direction: column; gap: 4px; }
+.tf-body .tf-row {
+    position: relative; overflow: hidden; background: var(--tf-row);
+    border-left: 4px solid var(--tf-line);
+}
+.tf-body .tf-row > :not(.tf-bar) { position: relative; z-index: 1; }
+.tf-body .tf-row.s-anflug { border-left-color: var(--tf-ok); }
+.tf-body .tf-row.s-luft { border-left-color: var(--tf-warn); }
+.tf-body .tf-row.s-annulliert { border-left-color: var(--tf-bad); }
+.tf-body .tf-row.s-gelandet { border-left-color: var(--tf-dim); }
 
-.d2-card-content { display: flex; justify-content: space-between; align-items: center; margin-bottom: 10px; }
-.d2-flight-info h3 { margin: 0 0 2px 0; font-size: 1.15rem; font-weight: 700; color: var(--text-color); }
-.d2-flight-info p { margin: 0; color: var(--update-color); font-size: 0.9rem; }
-.d2-flight-right { text-align: right; }
-.d2-status-text { font-size: 0.95rem; font-weight: 600; color: var(--text-color); margin-bottom: 2px; }
-.d2-time-label { font-size: 1.15rem; font-weight: bold; font-variant-numeric: tabular-nums; }
-.d2-flight-card.landed .d2-status-text {
-    color: var(--success-green); text-transform: uppercase; font-size: 0.85rem; letter-spacing: 0.05em;
+.tf-bar {
+    position: absolute; z-index: 0; left: 0; top: 0; bottom: 0; width: 0; pointer-events: none;
+    transition: width 1.4s cubic-bezier(.2, .7, .2, 1);
 }
-.d2-card-footer-bar { display: flex; flex-direction: column; gap: 6px; }
-.d2-bar-info-row {
-    display: flex; justify-content: space-between; font-size: 0.75rem; font-weight: 600;
-    color: var(--update-color); text-transform: uppercase; letter-spacing: 0.05em;
+.tf-bar.linie { background: var(--tf-bar-linie); box-shadow: inset -3px 0 0 var(--tf-bar-linie-edge); }
+.tf-bar.charter { background: var(--tf-bar-charter); box-shadow: inset -3px 0 0 var(--tf-bar-charter-edge); }
+@media (prefers-reduced-motion: reduce) { .tf-bar { transition: none; } }
+
+.tf-flight { font-weight: 700; font-size: .8rem; letter-spacing: .04em; overflow-wrap: anywhere; }
+.tf-flight small { display: block; font-weight: 400; font-size: .62rem; color: var(--tf-dim); letter-spacing: .02em; }
+.tf-city {
+    font-family: var(--tf-display); font-size: 1.45rem; font-weight: 500; letter-spacing: .04em;
+    text-transform: uppercase; min-width: 0; overflow-wrap: anywhere; line-height: 1.1;
 }
-.d2-progress-container {
-    position: relative; width: 100%; height: 6px;
-    background-color: rgba(0, 0, 0, 0.08); border-radius: 3px; overflow: hidden;
+.tf-city small { font-family: var(--tf-data); font-size: .62rem; color: var(--tf-dim); letter-spacing: .08em; margin-left: 6px; }
+.tf-time {
+    justify-self: start; background: var(--tf-flap); color: var(--tf-flap-text); font-weight: 700; font-size: 1rem;
+    padding: 4px 8px; border-radius: 2px; font-variant-numeric: tabular-nums; letter-spacing: .06em;
+    background-image: linear-gradient(to bottom, transparent calc(50% - 1px), rgba(0,0,0,.6) calc(50% - 1px), rgba(0,0,0,.6) calc(50% + 1px), transparent calc(50% + 1px));
 }
-[data-theme="dark"] .d2-progress-container { background-color: rgba(255, 255, 255, 0.08); }
-.d2-progress-bar {
-    position: absolute; top: 0; left: 0; bottom: 0; width: 0%;
-    border-radius: 3px; transition: width 0.5s linear;
+.tf-row.cancelled .tf-time { opacity: .6; text-decoration: line-through; }
+.tf-exit { font-weight: 700; font-size: .85rem; overflow-wrap: anywhere; }
+.tf-kind { font-size: .68rem; font-weight: 700; letter-spacing: .1em; text-transform: uppercase; }
+.tf-status {
+    display: flex; align-items: center; gap: 8px; font-size: .68rem; font-weight: 700;
+    letter-spacing: .06em; text-transform: uppercase;
 }
-.d2-flight-card.card-linie .d2-progress-bar { background-color: var(--progress-linie); }
-.d2-flight-card.card-charter .d2-progress-bar { background-color: var(--progress-charter); }
-.d2-flight-card.landed .d2-progress-bar { background-color: var(--success-green); }
+.tf-delay { display: block; font-weight: 400; font-size: .62rem; letter-spacing: .04em; color: var(--tf-bad); }
+.tf-dot { width: 10px; height: 10px; border-radius: 50%; background: var(--tf-dim); flex: none; }
+.s-anflug .tf-dot { background: var(--tf-ok); animation: tf-pulse 1.2s steps(2, jump-none) infinite; }
+.s-luft .tf-dot { background: var(--tf-warn); }
+.s-annulliert .tf-dot { background: var(--tf-bad); }
+.s-gelandet .tf-dot { background: var(--tf-dim); }
+.s-annulliert .tf-status { color: var(--tf-bad); }
+.s-anflug .tf-status { color: var(--tf-ok); }
+.s-luft .tf-status { color: var(--tf-warn); }
+.s-gelandet .tf-status { color: var(--tf-dim); }
+@keyframes tf-pulse { 50% { opacity: .2; } }
+@media (prefers-reduced-motion: reduce) { .s-anflug .tf-dot { animation: none; } }
+
+.tf-empty { padding: 24px 14px; color: var(--tf-dim); background: var(--tf-row); text-align: center; }
+.tf-footer { margin-top: 12px; color: var(--tf-dim); font-size: .62rem; line-height: 1.6; max-width: 62ch; }
+
+@media (max-width: 720px) {
+    .tf-head { display: none; }
+    .tf-row {
+        grid-template-columns: 1fr auto auto;
+        grid-template-areas: "flight flight time" "city city city" "exit kind status";
+        row-gap: 8px;
+    }
+    .tf-flight { grid-area: flight; }
+    .tf-time { grid-area: time; justify-self: end; }
+    .tf-city { grid-area: city; font-size: 1.6rem; }
+    .tf-exit { grid-area: exit; font-size: .75rem; }
+    .tf-kind { grid-area: kind; justify-self: start; }
+    .tf-status { grid-area: status; justify-self: end; }
+}
 
 /* --- Taxi Dachzeichen Switch CSS --- */
 .tx-input { display: none; }
@@ -359,10 +460,10 @@ h1 { color: var(--heading-color); font-size: 1.4rem; margin: 0; }
     </div>
 </div>
 
-<!-- Design-Umschalter Reiter -->
+<!-- Reiter -->
 <div class="view-switcher">
-    <button class="view-btn active" id="btnView1" onclick="switchView('view1')">Detail-Ansicht</button>
-    <button class="view-btn" id="btnView2" onclick="switchView('view2')">Progress-Ansicht</button>
+    <button class="view-btn active" id="btnView1" onclick="switchView('view1')">Detail</button>
+    <button class="view-btn" id="btnView3" onclick="switchView('view3')">Tafel</button>
 </div>
 
 <!-- Schriftgrößen-Slider -->
@@ -374,7 +475,7 @@ h1 { color: var(--heading-color); font-size: 1.4rem; margin: 0; }
     <button class="reset-btn" id="sizeReset" type="button">Reset</button>
 </div>
 
-<!-- GEMEINSAME STEUERELEMENTE (Suchfeld + Filter auf beiden Seiten aktiv) -->
+<!-- GEMEINSAME STEUERELEMENTE (Suchfeld + Filter gelten für alle Ansichten) -->
 <div class="update-info" id="updateInfo">Lade Daten...</div>
 <div class="search-container">
     <input type="text" id="searchInput" class="search-input" placeholder="Nach Flug, Stadt, Land oder Airline suchen..." aria-label="Flüge durchsuchen">
@@ -393,10 +494,16 @@ h1 { color: var(--heading-color); font-size: 1.4rem; margin: 0; }
     </div>
 </div>
 
-<!-- ANSICHT 2: Progress-Bar Karten mit Filter-Unterstützung -->
-<div id="view2" class="view-section">
-    <div id="d2CardsContainer">
-        <div class="no-flights">Flüge werden geladen...</div>
+<!-- ANSICHT 3: Flughafentafel -->
+<div id="view3" class="view-section">
+    <div class="tf-board">
+        <div class="tf-head tf-row" aria-hidden="true">
+            <div>Flug</div><div>Von</div><div>Erwartet</div><div>Ausgang</div><div>Art</div><div>Status</div>
+        </div>
+        <div class="tf-body" id="tfBody">
+            <div class="tf-empty">Flüge werden geladen...</div>
+        </div>
+        <div class="tf-footer">Der Balken füllt sich, je näher die Landung rückt: blau für Linie, orange für Charter.</div>
     </div>
 </div>
 
@@ -406,6 +513,7 @@ const DEFAULT_SIZE = 18;
 const STORAGE_KEY = 'dus_font_size';
 const THEME_KEY = 'dus_theme';
 const VIEW_KEY = 'dus_active_view';
+const TF_FENSTER = 90; // Minuten vor der Landung, ab denen sich der Tafel-Balken füllt
 
 let allFlights = [];
 let currentFilter = 'all';
@@ -416,21 +524,19 @@ function switchView(viewId) {
     document.querySelectorAll('.view-section').forEach(el => el.classList.remove('active-view'));
     document.querySelectorAll('.view-btn').forEach(btn => btn.classList.remove('active'));
 
-    if (viewId === 'view1') {
-        document.getElementById('view1').classList.add('active-view');
-        document.getElementById('btnView1').classList.add('active');
-    } else {
-        document.getElementById('view2').classList.add('active-view');
-        document.getElementById('btnView2').classList.add('active');
-        updateProgress();
-    }
-    try { localStorage.setItem(VIEW_KEY, viewId); } catch (e) {}
+    const target = document.getElementById(viewId) || document.getElementById('view1');
+    target.classList.add('active-view');
+    const btn = document.getElementById('btn' + target.id.charAt(0).toUpperCase() + target.id.slice(1));
+    if (btn) btn.classList.add('active');
+
+    if (target.id === 'view3') updateBoardBars();
+    try { localStorage.setItem(VIEW_KEY, target.id); } catch (e) {}
 }
 
 function loadSavedView() {
     try {
         const saved = localStorage.getItem(VIEW_KEY);
-        if (saved === 'view2' || saved === 'view1') {
+        if (saved === 'view1' || saved === 'view3') {
             switchView(saved);
         }
     } catch (e) {}
@@ -531,7 +637,7 @@ function loadData() {
         .catch(() => {
             if (allFlights.length === 0) {
                 document.getElementById('flightList').innerHTML = '<div class="no-flights">Fehler beim Laden der cache.json</div>';
-                document.getElementById('d2CardsContainer').innerHTML = '<div class="no-flights">Fehler beim Laden der cache.json</div>';
+                document.getElementById('tfBody').innerHTML = '<div class="tf-empty">Fehler beim Laden der cache.json</div>';
             }
         });
 }
@@ -576,7 +682,7 @@ function getFilteredList() {
 function applyFilter() {
     const filtered = getFilteredList();
     renderFlights(filtered);
-    renderDesign2Cards(filtered);
+    renderBoard(filtered);
 }
 
 /* ---------- Rendering Ansicht 1 (Detail-Karten) ---------- */
@@ -619,6 +725,8 @@ function renderFlights(flights) {
                 + (f.delay > 0 ? ` (+${f.delay} Min.)` : '');
         } else if ((st === 'active' || st === 'en-route') && f.delay > 0) {
             statusText = `Im Anflug, erwartet ${f.time_estimated} Uhr (+${f.delay} Min.)`;
+        } else if (liveStatus(f) === 'airborne') {
+            statusText = 'In der Luft' + (f.delay > 0 ? `, erwartet ${f.time_estimated} Uhr (+${f.delay} Min.)` : '');
         } else if (f.delay > 0) {
             statusText = `Erwartet: ${f.time_estimated} Uhr (+${f.delay} Min.)`;
         } else {
@@ -676,128 +784,109 @@ function filterFlights(category, event) {
     applyFilter();
 }
 
-/* ---------- Rendering Ansicht 2 (Progress Bars) ---------- */
+/* ---------- Zeit-Hilfsfunktionen ---------- */
 function timeToMinutes(timeStr) {
     if (!timeStr) return 0;
     const [hours, minutes] = timeStr.split(':').map(Number);
     return (hours || 0) * 60 + (minutes || 0);
 }
 
-function renderDesign2Cards(flights) {
-    const container = document.getElementById('d2CardsContainer');
-    if (!container) return;
-    container.innerHTML = '';
+// Start- und Ankunftszeit in Minuten (Flugdauer wird mit 2 Stunden angenommen)
+function flightTiming(f) {
+    const arrivalMin = timeToMinutes(f.time_estimated || f.time_scheduled);
+    let startMin = timeToMinutes(f.time_scheduled) - 120;
+    if (!startMin || startMin >= arrivalMin || (arrivalMin - startMin) > 360) {
+        startMin = arrivalMin - 120;
+    }
+    return { startMin, arrivalMin };
+}
+
+// Gemeinsamer Live-Status für alle Ansichten:
+// landed / approach (laut Scraper im Anflug) / airborne (gestartet) / scheduled / cancelled ...
+function liveStatus(f) {
+    const s = String(f.status).toLowerCase();
+    if (s === 'landed') return 'landed';
+    if (s === 'active' || s === 'en-route') return 'approach';
+    if (s === 'cancelled' || s === 'diverted' || s === 'incident') return s;
+    const t = flightTiming(f);
+    return berlinMin() >= t.startMin ? 'airborne' : 'scheduled';
+}
+
+/* ---------- Rendering Ansicht 3 (Flughafentafel) ---------- */
+function esc(s) {
+    return String(s == null ? '' : s).replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+}
+
+function berlinMin() {
+    const p = new Date().toLocaleTimeString('de-DE', { hour: '2-digit', minute: '2-digit', timeZone: 'Europe/Berlin' }).split(':');
+    return parseInt(p[0], 10) * 60 + parseInt(p[1], 10);
+}
+
+function tfStatus(f) {
+    const s = String(f.status).toLowerCase();
+    if (s === 'landed') return { cls: 's-gelandet', label: 'Gelandet' };
+    if (s === 'active' || s === 'en-route') return { cls: 's-anflug', label: 'Im Anflug' };
+    if (s === 'cancelled') return { cls: 's-annulliert', label: 'Annulliert' };
+    if (s === 'diverted') return { cls: 's-annulliert', label: 'Umgeleitet' };
+    if (s === 'incident') return { cls: 's-annulliert', label: 'Störung' };
+    if (liveStatus(f) === 'airborne') return { cls: 's-luft', label: 'In der Luft' };
+    return { cls: 's-luft', label: 'Geplant' };
+}
+
+// Anteil 0..1, wie weit der Flug auf die Landung zugeflogen ist
+function tfFortschritt(zeit, status) {
+    const s = String(status).toLowerCase();
+    if (s === 'landed') return 1;
+    if (s === 'cancelled' || s === 'diverted' || s === 'incident') return 0;
+    let diff = timeToMinutes(zeit) - berlinMin();
+    if (diff < -720) diff += 1440;
+    if (diff > 720) diff -= 1440;
+    if (diff <= 0) return 1;
+    return Math.max(0, Math.min(1, 1 - diff / TF_FENSTER));
+}
+
+function renderBoard(flights) {
+    const body = document.getElementById('tfBody');
+    if (!body) return;
+    body.innerHTML = '';
 
     if (!flights || flights.length === 0) {
-        container.innerHTML = currentFilter === 'landing'
-            ? '<div class="no-flights">Gerade keine Flüge im Anflug.</div>'
-            : '<div class="no-flights">Keine Flüge gefunden.</div>';
+        body.innerHTML = '<div class="tf-empty">' + (currentFilter === 'landing'
+            ? 'Gerade keine Flüge im Anflug.' : 'Keine Flüge gefunden.') + '</div>';
         return;
     }
 
-    flights.forEach((flight, index) => {
-        const isCharter = flight.type === "Charter";
-        const cardClass = isCharter ? "d2-flight-card card-charter" : "d2-flight-card card-linie";
+    // Tafel: alle Flüge nach erwarteter Zeit sortieren
+    flights = [...flights].sort((a, b) =>
+        timeToMinutes(a.time_estimated || a.time_scheduled) - timeToMinutes(b.time_estimated || b.time_scheduled));
 
-        const card = document.createElement('div');
-        card.className = cardClass;
-        card.id = `d2-flight-${index}`;
+    flights.forEach(f => {
+        const st = tfStatus(f);
+        const art = f.type === 'Charter' ? 'charter' : 'linie';
+        const zeit = f.time_estimated || f.time_scheduled || '';
+        const isGuess = f.type_source === 'Airline' || f.type_source === 'Flugtyp';
+        const cancelled = String(f.status).toLowerCase() === 'cancelled';
 
-        // Ziel-Ankunftszeit: Verspätete geschätzte Zeit hat Priorität, sonst planmäßig
-        const arrivalTimeStr = flight.time_estimated || flight.time_scheduled;
-        const arrivalMin = timeToMinutes(arrivalTimeStr);
-        
-        // Startzeit: Wenn im JSON vorhanden, nutzen wir sie. Wenn nicht (oder ungültig), 
-        // rechnen wir standardmäßig eine realistische Flugdauer von 2 Stunden (120 Min) vor Ankunft zurück,
-        // oder fallen auf 30 Min zurück, falls der Flug sehr nah ist.
-        let startMin = timeToMinutes(flight.time_scheduled) - 120; // Beispiel: 2h Standard-Flugzeit abziehen für den Start
-        
-        // Falls in den Rohdaten eine explizite Start-/Abflugzeit stünde, ließe sich diese hier einbinden.
-        // Da die API meist nur die Ankunft liefert, sichern wir ab, dass startMin plausibel vor arrivalMin liegt:
-        if (!startMin || startMin >= arrivalMin || (arrivalMin - startMin) > 360) {
-            startMin = arrivalMin - 120; // Nimmt 2 Stunden Flugdauer an, damit der Balken bei langen Flügen reibungslos läuft
-        }
-
-        card.dataset.startMin = startMin;
-        card.dataset.arrivalMin = arrivalMin;
-        card.dataset.status = flight.status || '';
-
-        const routeText = flight.country ? `${flight.city} (${flight.country})` : flight.city;
-
-        card.innerHTML = `
-            <div class="d2-card-content">
-                <div class="d2-flight-info">
-                    <h3>${flight.flight_no} (${flight.airline})</h3>
-                    <p>Von: ${routeText} — Gate: ${flight.gate}</p>
-                </div>
-                <div class="d2-flight-right">
-                    <div class="d2-status-text" id="d2-status-${index}">Im Anflug</div>
-                    <div class="d2-time-label">${arrivalTimeStr}</div>
-                </div>
-            </div>
-            <div class="d2-card-footer-bar">
-                <div class="d2-bar-info-row">
-                    <span>${flight.type}</span>
-                    <span id="d2-percent-${index}">0%</span>
-                </div>
-                <div class="d2-progress-container">
-                    <div class="d2-progress-bar" id="d2-progress-${index}"></div>
-                </div>
-            </div>
+        const row = document.createElement('div');
+        row.className = 'tf-row ' + st.cls + (cancelled ? ' cancelled' : '');
+        row.innerHTML = `
+            <div class="tf-bar ${art}" data-zeit="${esc(zeit)}" data-status="${esc(f.status)}"></div>
+            <div class="tf-flight">${esc(f.flight_no)}<small>${esc(f.airline)}</small></div>
+            <div class="tf-city">${esc(f.city)}${f.country ? '<small>' + esc(f.country) + '</small>' : ''}</div>
+            <div class="tf-time">${esc(zeit)}</div>
+            <div class="tf-exit">${esc(f.gate)}${isGuess ? ' ?' : ''}</div>
+            <div class="tf-kind">${esc(f.type)}</div>
+            <div class="tf-status"><span class="tf-dot"></span><span>${st.label}${f.delay > 0 ? '<span class="tf-delay">+' + esc(f.delay) + ' Min.</span>' : ''}</span></div>
         `;
-        container.appendChild(card);
+        body.appendChild(row);
     });
-    updateProgress();
+    requestAnimationFrame(() => requestAnimationFrame(updateBoardBars));
 }
 
-function updateProgress() {
-    const now = new Date();
-    const currentTotalMinutesDecimal = now.getHours() * 60 + now.getMinutes() + now.getSeconds() / 60;
-
-    const container = document.getElementById('d2CardsContainer');
-    if (!container) return;
-    const cards = container.querySelectorAll('.d2-flight-card');
-
-    cards.forEach((cardEl, index) => {
-        const barEl = document.getElementById(`d2-progress-${index}`);
-        const statusEl = document.getElementById(`d2-status-${index}`);
-        const percentEl = document.getElementById(`d2-percent-${index}`);
-
-        if (!cardEl || !barEl || !statusEl) return;
-
-        const startMin = parseFloat(cardEl.dataset.startMin);
-        const arrivalMin = parseFloat(cardEl.dataset.arrivalMin);
-        const flightStatus = String(cardEl.dataset.status).toLowerCase();
-        
-        const totalDuration = arrivalMin - startMin;
-        
-        let percentage = 0;
-        if (totalDuration > 0) {
-            const elapsed = currentTotalMinutesDecimal - startMin;
-            percentage = (elapsed / totalDuration) * 100;
-        }
-
-        if (flightStatus === 'landed') {
-            percentage = 100;
-            statusEl.textContent = "GELANDET";
-            cardEl.classList.add('landed');
-        } else if (percentage < 0) {
-            percentage = 0;
-            statusEl.textContent = "Geplant";
-            cardEl.classList.remove('landed');
-        } else if (percentage >= 100) {
-            percentage = 100;
-            statusEl.textContent = "GELANDET";
-            cardEl.classList.add('landed');
-        } else {
-            statusEl.textContent = "Im Anflug";
-            cardEl.classList.remove('landed');
-        }
-
-        barEl.style.width = Math.min(Math.max(percentage, 0), 100) + '%';
-        if (percentEl) {
-            percentEl.textContent = Math.round(percentage) + '%';
-        }
+function updateBoardBars() {
+    document.querySelectorAll('#tfBody .tf-bar').forEach(bar => {
+        const p = tfFortschritt(bar.dataset.zeit, bar.dataset.status);
+        bar.style.width = (p * 100).toFixed(1) + '%';
     });
 }
 
@@ -805,7 +894,7 @@ function updateProgress() {
 loadSavedView();
 loadData();
 setInterval(loadData, REFRESH_MINUTES * 60 * 1000);
-setInterval(updateProgress, 1000);
+setInterval(updateBoardBars, 20000);
 
 requestAnimationFrame(function () {
     requestAnimationFrame(function () { document.body.classList.remove('no-anim'); });
