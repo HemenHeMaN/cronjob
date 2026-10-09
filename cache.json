@@ -1,11 +1,11 @@
 {
-  "updated_at": "09.10.2026 09:25",
+  "updated_at": "09.10.2026 09:30",
   "source": "Dus.com",
   "flights": [
     {
       "dt": 1791526200.0,
       "time_scheduled": "08:10",
-      "time_estimated": "09:29",
+      "time_estimated": "09:25",
       "flight_no": "EW4334",
       "airline": "Eurowings",
       "city": "Salzburg",
@@ -15,9 +15,9 @@
       "terminal": "A",
       "baggage": "1",
       "gate": "Ausgang 1 (Linie)",
-      "status": "active",
-      "status_text": "im Anflug",
-      "delay": 79
+      "status": "landed",
+      "status_text": "gelandet",
+      "delay": 75
     },
     {
       "dt": 1791526500.0,
@@ -52,40 +52,6 @@
       "status": "landed",
       "status_text": "gelandet",
       "delay": 7
-    },
-    {
-      "dt": 1791527400.0,
-      "time_scheduled": "08:30",
-      "time_estimated": "08:26",
-      "flight_no": "XQ282",
-      "airline": "Sun Express",
-      "city": "Antalya",
-      "country": "Türkei",
-      "type": "Charter",
-      "type_source": "Ausgang",
-      "terminal": "C",
-      "baggage": "19",
-      "gate": "Ausgang 6 (Charter)",
-      "status": "landed",
-      "status_text": "gelandet",
-      "delay": 0
-    },
-    {
-      "dt": 1791527700.0,
-      "time_scheduled": "08:35",
-      "time_estimated": "08:28",
-      "flight_no": "XQ288",
-      "airline": "Sun Express",
-      "city": "Antalya",
-      "country": "Türkei",
-      "type": "Charter",
-      "type_source": "Ausgang",
-      "terminal": "C",
-      "baggage": "20",
-      "gate": "Ausgang 6 (Charter)",
-      "status": "landed",
-      "status_text": "gelandet",
-      "delay": 0
     },
     {
       "dt": 1791528000.0,
@@ -134,8 +100,8 @@
       "terminal": "B",
       "baggage": "7",
       "gate": "Ausgang 4 (Charter)",
-      "status": "scheduled",
-      "status_text": "Vorhafen verlassen",
+      "status": "active",
+      "status_text": "Im Anflug",
       "delay": 70
     },
     {
@@ -396,7 +362,7 @@
     {
       "dt": 1791531300.0,
       "time_scheduled": "09:35",
-      "time_estimated": "09:38",
+      "time_estimated": "09:39",
       "flight_no": "LO403",
       "airline": "LOT Polish Airlines",
       "city": "Warschau",
@@ -408,7 +374,7 @@
       "gate": "Ausgang 1 (Linie)",
       "status": "active",
       "status_text": "im Anflug",
-      "delay": 3
+      "delay": 4
     },
     {
       "dt": 1791531600.0,
@@ -430,7 +396,7 @@
     {
       "dt": 1791531900.0,
       "time_scheduled": "09:45",
-      "time_estimated": "09:36",
+      "time_estimated": "09:27",
       "flight_no": "EI692",
       "airline": "Aer Lingus",
       "city": "Dublin",
@@ -440,8 +406,8 @@
       "terminal": "C",
       "baggage": "13",
       "gate": "Ausgang 5 (Charter)",
-      "status": "active",
-      "status_text": "im Anflug",
+      "status": "landed",
+      "status_text": "gelandet",
       "delay": 0
     },
     {
@@ -457,8 +423,8 @@
       "terminal": "A",
       "baggage": "",
       "gate": "Ausgang 1 (Linie)",
-      "status": "scheduled",
-      "status_text": "Vorhafen verlassen",
+      "status": "active",
+      "status_text": "Im Anflug",
       "delay": 7
     },
     {
@@ -543,7 +509,7 @@
       "baggage": "14",
       "gate": "Ausgang 5 (Charter)",
       "status": "active",
-      "status_text": "Im Anflug",
+      "status_text": "im Anflug",
       "delay": 0
     },
     {
@@ -617,7 +583,7 @@
     {
       "dt": 1791534600.0,
       "time_scheduled": "10:30",
-      "time_estimated": "10:24",
+      "time_estimated": "10:29",
       "flight_no": "EW9463",
       "airline": "Eurowings",
       "city": "London-Heathrow",
@@ -628,7 +594,7 @@
       "baggage": "",
       "gate": "Ausgang 1 (Linie)",
       "status": "scheduled",
-      "status_text": "",
+      "status_text": "Vorhafen verlassen",
       "delay": 0
     },
     {
@@ -685,7 +651,7 @@
     {
       "dt": 1791535200.0,
       "time_scheduled": "10:40",
-      "time_estimated": "11:08",
+      "time_estimated": "11:06",
       "flight_no": "EW9425",
       "airline": "Eurowings",
       "city": "Marseille",
@@ -696,13 +662,13 @@
       "baggage": "",
       "gate": "Ausgang 1 (Linie)",
       "status": "scheduled",
-      "status_text": "",
-      "delay": 28
+      "status_text": "Vorhafen verlassen",
+      "delay": 26
     },
     {
       "dt": 1791535500.0,
       "time_scheduled": "10:45",
-      "time_estimated": "10:58",
+      "time_estimated": "11:01",
       "flight_no": "EW9751",
       "airline": "Eurowings",
       "city": "Wien",
@@ -714,12 +680,12 @@
       "gate": "Ausgang 1 (Linie)",
       "status": "scheduled",
       "status_text": "",
-      "delay": 14
+      "delay": 17
     },
     {
       "dt": 1791535800.0,
       "time_scheduled": "10:50",
-      "time_estimated": "10:43",
+      "time_estimated": "10:53",
       "flight_no": "AF1606",
       "airline": "Air France",
       "city": "Paris-Charles de Gaulle",
@@ -731,7 +697,7 @@
       "gate": "Ausgang 1 (Linie)",
       "status": "scheduled",
       "status_text": "",
-      "delay": 0
+      "delay": 4
     },
     {
       "dt": 1791536100.0,
@@ -1127,7 +1093,7 @@
     {
       "dt": 1791541500.0,
       "time_scheduled": "12:25",
-      "time_estimated": "12:25",
+      "time_estimated": "12:40",
       "flight_no": "TP540",
       "airline": "TAP Portugal",
       "city": "Lissabon",
@@ -1139,7 +1105,7 @@
       "gate": "Ausgang 1 (Linie)",
       "status": "scheduled",
       "status_text": "",
-      "delay": 0
+      "delay": 15
     },
     {
       "dt": 1791541500.0,
@@ -1161,7 +1127,7 @@
     {
       "dt": 1791541800.0,
       "time_scheduled": "12:30",
-      "time_estimated": "12:29",
+      "time_estimated": "12:33",
       "flight_no": "EW9641",
       "airline": "Eurowings",
       "city": "Porto",
@@ -1173,7 +1139,7 @@
       "gate": "Ausgang 1 (Linie)",
       "status": "scheduled",
       "status_text": "",
-      "delay": 0
+      "delay": 3
     },
     {
       "dt": 1791541800.0,
@@ -1229,7 +1195,7 @@
     {
       "dt": 1791542100.0,
       "time_scheduled": "12:35",
-      "time_estimated": "12:35",
+      "time_estimated": "12:40",
       "flight_no": "PC1001",
       "airline": "Pegasus Airlines",
       "city": "Istanbul-Sabiha Gökçen",
@@ -1240,8 +1206,8 @@
       "baggage": "",
       "gate": "Ausgang 1 (Linie)",
       "status": "scheduled",
-      "status_text": "",
-      "delay": 0
+      "status_text": "Vorhafen verlassen",
+      "delay": 6
     },
     {
       "dt": 1791542100.0,
@@ -1450,7 +1416,7 @@
     {
       "dt": 1791545400.0,
       "time_scheduled": "13:30",
-      "time_estimated": "13:30",
+      "time_estimated": "14:12",
       "flight_no": "NE720",
       "airline": "Nesma Airlines",
       "city": "Hurghada",
@@ -1461,8 +1427,8 @@
       "baggage": "",
       "gate": "Ausgang 1 (Linie)",
       "status": "scheduled",
-      "status_text": "",
-      "delay": 0
+      "status_text": "Vorhafen verlassen",
+      "delay": 43
     },
     {
       "dt": 1791545700.0,
