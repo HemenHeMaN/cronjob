@@ -676,7 +676,15 @@ function getFilteredList() {
         if (s === 'active' || s === 'en-route') return 1;
         return 2;
     };
-    return [...list].sort((a, b) => (statusRank(a) - statusRank(b)) || (a.dt - b.dt));
+    const expected = f => timeToMinutes(f.time_estimated || f.time_scheduled);
+
+    return [...list].sort((a, b) => {
+        const ra = statusRank(a), rb = statusRank(b);
+        if (ra !== rb) return ra - rb;
+        // Im Anflug: nach erwarteter Landezeit sortieren
+        if (ra === 1) return (expected(a) - expected(b)) || (a.dt - b.dt);
+        return a.dt - b.dt;
+    });
 }
 
 function applyFilter() {
