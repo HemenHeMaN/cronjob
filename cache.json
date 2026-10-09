@@ -1,5 +1,5 @@
 {
-  "updated_at": "09.10.2026 18:00",
+  "updated_at": "09.10.2026 18:05",
   "source": "Dus.com",
   "flights": [
     {
@@ -124,24 +124,7 @@
     {
       "dt": 1791558900.0,
       "time_scheduled": "17:15",
-      "time_estimated": "17:17",
-      "flight_no": "EW9339",
-      "airline": "Eurowings",
-      "city": "Newcastle",
-      "country": "Großbritannien",
-      "type": "Linie",
-      "type_source": "Ausgang",
-      "terminal": "A",
-      "baggage": "2",
-      "gate": "Ausgang 1 (Linie)",
-      "status": "landed",
-      "status_text": "gelandet",
-      "delay": 3
-    },
-    {
-      "dt": 1791558900.0,
-      "time_scheduled": "17:15",
-      "time_estimated": "18:37",
+      "time_estimated": "18:38",
       "flight_no": "KK491",
       "airline": "LEAV Aviation",
       "city": "Damaskus",
@@ -153,7 +136,7 @@
       "gate": "Ausgang 4 (Charter)",
       "status": "scheduled",
       "status_text": "Vorhafen verlassen",
-      "delay": 82
+      "delay": 83
     },
     {
       "dt": 1791558900.0,
@@ -171,6 +154,23 @@
       "status": "landed",
       "status_text": "gelandet",
       "delay": 0
+    },
+    {
+      "dt": 1791558900.0,
+      "time_scheduled": "17:15",
+      "time_estimated": "17:17",
+      "flight_no": "EW9339",
+      "airline": "Eurowings",
+      "city": "Newcastle",
+      "country": "Großbritannien",
+      "type": "Linie",
+      "type_source": "Ausgang",
+      "terminal": "A",
+      "baggage": "2",
+      "gate": "Ausgang 1 (Linie)",
+      "status": "landed",
+      "status_text": "gelandet",
+      "delay": 3
     },
     {
       "dt": 1791559500.0,
@@ -294,7 +294,7 @@
     {
       "dt": 1791560700.0,
       "time_scheduled": "17:45",
-      "time_estimated": "18:17",
+      "time_estimated": "18:04",
       "flight_no": "EW9343",
       "airline": "Eurowings",
       "city": "Manchester",
@@ -304,9 +304,9 @@
       "terminal": "A",
       "baggage": "3",
       "gate": "Ausgang 1 (Linie)",
-      "status": "active",
-      "status_text": "im Anflug",
-      "delay": 33
+      "status": "landed",
+      "status_text": "gelandet",
+      "delay": 20
     },
     {
       "dt": 1791560700.0,
@@ -355,8 +355,8 @@
       "terminal": "C",
       "baggage": "17",
       "gate": "Ausgang 6 (Charter)",
-      "status": "scheduled",
-      "status_text": "Vorhafen verlassen",
+      "status": "active",
+      "status_text": "im Anflug",
       "delay": 19
     },
     {
@@ -379,7 +379,7 @@
     {
       "dt": 1791561900.0,
       "time_scheduled": "18:05",
-      "time_estimated": "18:11",
+      "time_estimated": "18:02",
       "flight_no": "EW9417",
       "airline": "Eurowings",
       "city": "Lyon",
@@ -389,9 +389,9 @@
       "terminal": "A",
       "baggage": "4",
       "gate": "Ausgang 1 (Linie)",
-      "status": "active",
-      "status_text": "im Anflug",
-      "delay": 7
+      "status": "landed",
+      "status_text": "gelandet",
+      "delay": 0
     },
     {
       "dt": 1791561900.0,
@@ -447,7 +447,7 @@
     {
       "dt": 1791562800.0,
       "time_scheduled": "18:20",
-      "time_estimated": "19:07",
+      "time_estimated": "19:05",
       "flight_no": "LX1024",
       "airline": "Swiss",
       "city": "Zürich",
@@ -458,8 +458,8 @@
       "baggage": "",
       "gate": "Ausgang 1 (Linie)",
       "status": "scheduled",
-      "status_text": "",
-      "delay": 48
+      "status_text": "Vorhafen verlassen",
+      "delay": 46
     },
     {
       "dt": 1791563100.0,
@@ -481,7 +481,7 @@
     {
       "dt": 1791563100.0,
       "time_scheduled": "18:25",
-      "time_estimated": "18:46",
+      "time_estimated": "18:47",
       "flight_no": "PC5305",
       "airline": "Pegasus Airlines",
       "city": "Izmir",
@@ -493,7 +493,7 @@
       "gate": "Ausgang 6 (Charter)",
       "status": "scheduled",
       "status_text": "Vorhafen verlassen",
-      "delay": 22
+      "delay": 23
     },
     {
       "dt": 1791563400.0,
@@ -515,7 +515,7 @@
     {
       "dt": 1791564000.0,
       "time_scheduled": "18:40",
-      "time_estimated": "19:18",
+      "time_estimated": "19:12",
       "flight_no": "EW9589",
       "airline": "Eurowings",
       "city": "Palma de Mallorca",
@@ -527,7 +527,7 @@
       "gate": "Ausgang 1 (Linie)",
       "status": "scheduled",
       "status_text": "Vorhafen verlassen",
-      "delay": 38
+      "delay": 33
     },
     {
       "dt": 1791564000.0,
@@ -974,7 +974,7 @@
     {
       "dt": 1791568500.0,
       "time_scheduled": "19:55",
-      "time_estimated": "20:23",
+      "time_estimated": "20:14",
       "flight_no": "BQ1952",
       "airline": "Sky Alps",
       "city": "Bozen",
@@ -986,7 +986,7 @@
       "gate": "Ausgang 1 (Linie)",
       "status": "scheduled",
       "status_text": "",
-      "delay": 28
+      "delay": 20
     },
     {
       "dt": 1791568800.0,
@@ -1019,7 +1019,7 @@
       "baggage": "",
       "gate": "Ausgang 1 (Linie)",
       "status": "scheduled",
-      "status_text": "",
+      "status_text": "Vorhafen verlassen",
       "delay": 0
     },
     {
@@ -1701,6 +1701,23 @@
       "status": "scheduled",
       "status_text": "",
       "delay": 0
+    },
+    {
+      "dt": 1791576900.0,
+      "time_scheduled": "22:15",
+      "time_estimated": "23:03",
+      "flight_no": "EW9023",
+      "airline": "Eurowings",
+      "city": "Dresden",
+      "country": "Deutschland",
+      "type": "Linie",
+      "type_source": "Airline",
+      "terminal": "B",
+      "baggage": "",
+      "gate": "Ausgang 1 (Linie)",
+      "status": "scheduled",
+      "status_text": "",
+      "delay": 48
     },
     {
       "dt": 1791577200.0,
