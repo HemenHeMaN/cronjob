@@ -1,24 +1,7 @@
 {
-  "updated_at": "09.10.2026 18:15",
+  "updated_at": "09.10.2026 18:20",
   "source": "Dus.com",
   "flights": [
-    {
-      "dt": 1791554700.0,
-      "time_scheduled": "16:05",
-      "time_estimated": "17:20",
-      "flight_no": "EW9845",
-      "airline": "Eurowings",
-      "city": "Olbia (Sardinien)",
-      "country": "Italien",
-      "type": "Linie",
-      "type_source": "Airline",
-      "terminal": "B",
-      "baggage": "",
-      "gate": "Ausgang 1 (Linie)",
-      "status": "cancelled",
-      "status_text": "annulliert",
-      "delay": 75
-    },
     {
       "dt": 1791557400.0,
       "time_scheduled": "16:50",
@@ -122,23 +105,6 @@
       "delay": 83
     },
     {
-      "dt": 1791558900.0,
-      "time_scheduled": "17:15",
-      "time_estimated": "17:17",
-      "flight_no": "EW9339",
-      "airline": "Eurowings",
-      "city": "Newcastle",
-      "country": "Großbritannien",
-      "type": "Linie",
-      "type_source": "Ausgang",
-      "terminal": "A",
-      "baggage": "2",
-      "gate": "Ausgang 1 (Linie)",
-      "status": "landed",
-      "status_text": "gelandet",
-      "delay": 3
-    },
-    {
       "dt": 1791559500.0,
       "time_scheduled": "17:25",
       "time_estimated": "17:27",
@@ -186,8 +152,8 @@
       "baggage": "20",
       "gate": "Ausgang 6 (Charter)",
       "status": "scheduled",
-      "status_text": "",
-      "delay": 69
+      "status_text": "Vorhafen verlassen",
+      "delay": 68
     },
     {
       "dt": 1791560400.0,
@@ -311,7 +277,7 @@
     {
       "dt": 1791561600.0,
       "time_scheduled": "18:00",
-      "time_estimated": "18:19",
+      "time_estimated": "18:16",
       "flight_no": "XQ182",
       "airline": "Sun Express",
       "city": "Antalya",
@@ -321,9 +287,9 @@
       "terminal": "C",
       "baggage": "17",
       "gate": "Ausgang 6 (Charter)",
-      "status": "active",
-      "status_text": "im Anflug",
-      "delay": 19
+      "status": "landed",
+      "status_text": "gelandet",
+      "delay": 16
     },
     {
       "dt": 1791561600.0,
@@ -362,7 +328,7 @@
     {
       "dt": 1791561900.0,
       "time_scheduled": "18:05",
-      "time_estimated": "19:14",
+      "time_estimated": "19:09",
       "flight_no": "EW9823",
       "airline": "Eurowings",
       "city": "Mailand-Malpensa",
@@ -374,7 +340,7 @@
       "gate": "Ausgang 1 (Linie)",
       "status": "scheduled",
       "status_text": "Vorhafen verlassen",
-      "delay": 69
+      "delay": 64
     },
     {
       "dt": 1791561900.0,
@@ -441,7 +407,7 @@
       "baggage": "6",
       "gate": "Ausgang 1 (Linie)",
       "status": "active",
-      "status_text": "Im Anflug",
+      "status_text": "im Anflug",
       "delay": 17
     },
     {
@@ -475,7 +441,7 @@
       "baggage": "18",
       "gate": "Ausgang 6 (Charter)",
       "status": "active",
-      "status_text": "Im Anflug",
+      "status_text": "im Anflug",
       "delay": 2
     },
     {
@@ -515,7 +481,7 @@
     {
       "dt": 1791564000.0,
       "time_scheduled": "18:40",
-      "time_estimated": "18:46",
+      "time_estimated": "18:51",
       "flight_no": "SK627",
       "airline": "Scandinavian Airlines",
       "city": "Kopenhagen",
@@ -527,7 +493,7 @@
       "gate": "Ausgang 1 (Linie)",
       "status": "scheduled",
       "status_text": "Vorhafen verlassen",
-      "delay": 7
+      "delay": 12
     },
     {
       "dt": 1791564000.0,
@@ -1042,7 +1008,7 @@
     {
       "dt": 1791570600.0,
       "time_scheduled": "20:30",
-      "time_estimated": "20:30",
+      "time_estimated": "21:24",
       "flight_no": "DE1779",
       "airline": "Condor",
       "city": "Palma de Mallorca",
@@ -1054,7 +1020,7 @@
       "gate": "Ausgang 4 (Charter)",
       "status": "scheduled",
       "status_text": "",
-      "delay": 0
+      "delay": 54
     },
     {
       "dt": 1791570900.0,
@@ -1178,7 +1144,7 @@
     {
       "dt": 1791573600.0,
       "time_scheduled": "21:20",
-      "time_estimated": "21:35",
+      "time_estimated": "21:36",
       "flight_no": "EW9673",
       "airline": "Eurowings",
       "city": "Heraklion (Kreta)",
@@ -1190,7 +1156,7 @@
       "gate": "Ausgang 1 (Linie)",
       "status": "scheduled",
       "status_text": "",
-      "delay": 15
+      "delay": 16
     },
     {
       "dt": 1791573600.0,
