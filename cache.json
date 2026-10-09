@@ -1,5 +1,5 @@
 {
-  "updated_at": "09.10.2026 16:40",
+  "updated_at": "09.10.2026 16:45",
   "source": "Dus.com",
   "flights": [
     {
@@ -52,23 +52,6 @@
       "status": "landed",
       "status_text": "gelandet",
       "delay": 10
-    },
-    {
-      "dt": 1791553800.0,
-      "time_scheduled": "15:50",
-      "time_estimated": "15:42",
-      "flight_no": "X32117",
-      "airline": "Tuifly",
-      "city": "Fuerteventura",
-      "country": "Spanien",
-      "type": "Charter",
-      "type_source": "Ausgang",
-      "terminal": "B",
-      "baggage": "8",
-      "gate": "Ausgang 4 (Charter)",
-      "status": "landed",
-      "status_text": "gelandet",
-      "delay": 0
     },
     {
       "dt": 1791553800.0,
@@ -209,7 +192,7 @@
     {
       "dt": 1791555300.0,
       "time_scheduled": "16:15",
-      "time_estimated": "16:51",
+      "time_estimated": "16:42",
       "flight_no": "EW9885",
       "airline": "Eurowings",
       "city": "Rom-Fiumicino",
@@ -219,9 +202,9 @@
       "terminal": "A",
       "baggage": "6",
       "gate": "Ausgang 1 (Linie)",
-      "status": "active",
-      "status_text": "im Anflug",
-      "delay": 36
+      "status": "landed",
+      "status_text": "gelandet",
+      "delay": 28
     },
     {
       "dt": 1791555900.0,
@@ -345,7 +328,7 @@
     {
       "dt": 1791557700.0,
       "time_scheduled": "16:55",
-      "time_estimated": "16:46",
+      "time_estimated": "16:44",
       "flight_no": "EW9763",
       "airline": "Eurowings",
       "city": "Zürich",
@@ -355,8 +338,8 @@
       "terminal": "A",
       "baggage": "3",
       "gate": "Ausgang 1 (Linie)",
-      "status": "active",
-      "status_text": "im Anflug",
+      "status": "landed",
+      "status_text": "gelandet",
       "delay": 0
     },
     {
@@ -406,8 +389,8 @@
       "terminal": "C",
       "baggage": "20",
       "gate": "Ausgang 6 (Charter)",
-      "status": "scheduled",
-      "status_text": "Vorhafen verlassen",
+      "status": "active",
+      "status_text": "im Anflug",
       "delay": 3
     },
     {
@@ -957,7 +940,7 @@
     {
       "dt": 1791564900.0,
       "time_scheduled": "18:55",
-      "time_estimated": "19:47",
+      "time_estimated": "19:46",
       "flight_no": "XQ280",
       "airline": "Sun Express",
       "city": "Antalya",
@@ -969,7 +952,7 @@
       "gate": "Ausgang 4 (Charter)",
       "status": "scheduled",
       "status_text": "Vorhafen verlassen",
-      "delay": 53
+      "delay": 51
     },
     {
       "dt": 1791565200.0,
@@ -1229,7 +1212,7 @@
     {
       "dt": 1791567900.0,
       "time_scheduled": "19:45",
-      "time_estimated": "19:45",
+      "time_estimated": "19:44",
       "flight_no": "EW4676",
       "airline": "Eurowings",
       "city": "Stockholm-Arlanda",
@@ -1642,6 +1625,57 @@
       "airline": "Eurowings",
       "city": "Madrid-Barajas",
       "country": "Spanien",
+      "type": "Linie",
+      "type_source": "Airline",
+      "terminal": "B",
+      "baggage": "",
+      "gate": "Ausgang 1 (Linie)",
+      "status": "scheduled",
+      "status_text": "",
+      "delay": 0
+    },
+    {
+      "dt": 1791575100.0,
+      "time_scheduled": "21:45",
+      "time_estimated": "21:45",
+      "flight_no": "EW9735",
+      "airline": "Eurowings",
+      "city": "Warschau",
+      "country": "Polen",
+      "type": "Linie",
+      "type_source": "Airline",
+      "terminal": "B",
+      "baggage": "",
+      "gate": "Ausgang 1 (Linie)",
+      "status": "scheduled",
+      "status_text": "",
+      "delay": 0
+    },
+    {
+      "dt": 1791575100.0,
+      "time_scheduled": "21:45",
+      "time_estimated": "21:45",
+      "flight_no": "EW9335",
+      "airline": "Eurowings",
+      "city": "Birmingham",
+      "country": "Großbritannien",
+      "type": "Linie",
+      "type_source": "Airline",
+      "terminal": "A",
+      "baggage": "",
+      "gate": "Ausgang 1 (Linie)",
+      "status": "scheduled",
+      "status_text": "",
+      "delay": 0
+    },
+    {
+      "dt": 1791575100.0,
+      "time_scheduled": "21:45",
+      "time_estimated": "21:45",
+      "flight_no": "EW9089",
+      "airline": "Eurowings",
+      "city": "München",
+      "country": "Deutschland",
       "type": "Linie",
       "type_source": "Airline",
       "terminal": "B",
