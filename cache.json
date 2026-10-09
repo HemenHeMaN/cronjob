@@ -1,5 +1,5 @@
 {
-  "updated_at": "09.10.2026 20:35",
+  "updated_at": "09.10.2026 20:40",
   "source": "Dus.com",
   "flights": [
     {
@@ -54,23 +54,6 @@
       "delay": 31
     },
     {
-      "dt": 1791566400.0,
-      "time_scheduled": "19:20",
-      "time_estimated": "19:37",
-      "flight_no": "BT233",
-      "airline": "Air Baltic",
-      "city": "Riga",
-      "country": "Lettland",
-      "type": "Linie",
-      "type_source": "Ausgang",
-      "terminal": "B",
-      "baggage": "6",
-      "gate": "Ausgang 1 (Linie)",
-      "status": "landed",
-      "status_text": "gelandet",
-      "delay": 18
-    },
-    {
       "dt": 1791566700.0,
       "time_scheduled": "19:25",
       "time_estimated": "20:11",
@@ -86,23 +69,6 @@
       "status": "landed",
       "status_text": "gelandet",
       "delay": 46
-    },
-    {
-      "dt": 1791567000.0,
-      "time_scheduled": "19:30",
-      "time_estimated": "19:40",
-      "flight_no": "XQ180",
-      "airline": "Sun Express",
-      "city": "Antalya",
-      "country": "Türkei",
-      "type": "Charter",
-      "type_source": "Ausgang",
-      "terminal": "C",
-      "baggage": "17",
-      "gate": "Ausgang 6 (Charter)",
-      "status": "landed",
-      "status_text": "gelandet",
-      "delay": 10
     },
     {
       "dt": 1791567600.0,
@@ -243,7 +209,7 @@
     {
       "dt": 1791570300.0,
       "time_scheduled": "20:25",
-      "time_estimated": "20:41",
+      "time_estimated": "20:38",
       "flight_no": "EW5073",
       "airline": "Eurowings",
       "city": "Heraklion (Kreta)",
@@ -253,9 +219,9 @@
       "terminal": "B",
       "baggage": "3",
       "gate": "Ausgang 1 (Linie)",
-      "status": "active",
-      "status_text": "im Anflug",
-      "delay": 17
+      "status": "landed",
+      "status_text": "gelandet",
+      "delay": 14
     },
     {
       "dt": 1791570300.0,
@@ -328,7 +294,7 @@
     {
       "dt": 1791571200.0,
       "time_scheduled": "20:40",
-      "time_estimated": "20:44",
+      "time_estimated": "20:36",
       "flight_no": "LH2030",
       "airline": "Lufthansa",
       "city": "München",
@@ -338,9 +304,9 @@
       "terminal": "B",
       "baggage": "4",
       "gate": "Ausgang 1 (Linie)",
-      "status": "active",
-      "status_text": "im Anflug",
-      "delay": 4
+      "status": "landed",
+      "status_text": "gelandet",
+      "delay": 0
     },
     {
       "dt": 1791572400.0,
@@ -379,7 +345,7 @@
     {
       "dt": 1791572400.0,
       "time_scheduled": "21:00",
-      "time_estimated": "20:39",
+      "time_estimated": "20:44",
       "flight_no": "BA924",
       "airline": "British Airways",
       "city": "London-Heathrow",
@@ -406,8 +372,8 @@
       "terminal": "A",
       "baggage": "5",
       "gate": "Ausgang 1 (Linie)",
-      "status": "scheduled",
-      "status_text": "Vorhafen verlassen",
+      "status": "active",
+      "status_text": "Im Anflug",
       "delay": 7
     },
     {
@@ -566,7 +532,7 @@
     {
       "dt": 1791575100.0,
       "time_scheduled": "21:45",
-      "time_estimated": "21:48",
+      "time_estimated": "22:24",
       "flight_no": "EW9335",
       "airline": "Eurowings",
       "city": "Birmingham",
@@ -578,7 +544,7 @@
       "gate": "Ausgang 4 (Charter)",
       "status": "scheduled",
       "status_text": "",
-      "delay": 3
+      "delay": 39
     },
     {
       "dt": 1791575100.0,
@@ -770,7 +736,7 @@
     {
       "dt": 1791576000.0,
       "time_scheduled": "22:00",
-      "time_estimated": "22:20",
+      "time_estimated": "23:09",
       "flight_no": "EW9469",
       "airline": "Eurowings",
       "city": "London-Heathrow",
@@ -782,7 +748,7 @@
       "gate": "Ausgang 1 (Linie)",
       "status": "scheduled",
       "status_text": "",
-      "delay": 21
+      "delay": 70
     },
     {
       "dt": 1791576000.0,
@@ -838,7 +804,7 @@
     {
       "dt": 1791576600.0,
       "time_scheduled": "22:10",
-      "time_estimated": "23:34",
+      "time_estimated": "23:42",
       "flight_no": "EW9847",
       "airline": "Eurowings",
       "city": "Mailand-Linate",
@@ -850,7 +816,7 @@
       "gate": "Ausgang 1 (Linie)",
       "status": "scheduled",
       "status_text": "",
-      "delay": 84
+      "delay": 92
     },
     {
       "dt": 1791576600.0,
@@ -974,7 +940,7 @@
     {
       "dt": 1791577200.0,
       "time_scheduled": "22:20",
-      "time_estimated": "22:13",
+      "time_estimated": "22:00",
       "flight_no": "X34763",
       "airline": "Tuifly",
       "city": "Patras / Araxos",
@@ -991,7 +957,7 @@
     {
       "dt": 1791577200.0,
       "time_scheduled": "22:20",
-      "time_estimated": "23:00",
+      "time_estimated": "22:55",
       "flight_no": "EW9887",
       "airline": "Eurowings",
       "city": "Rom-Fiumicino",
@@ -1003,7 +969,7 @@
       "gate": "Ausgang 1 (Linie)",
       "status": "scheduled",
       "status_text": "",
-      "delay": 40
+      "delay": 36
     },
     {
       "dt": 1791577500.0,
@@ -1059,7 +1025,7 @@
     {
       "dt": 1791577800.0,
       "time_scheduled": "22:30",
-      "time_estimated": "23:01",
+      "time_estimated": "22:44",
       "flight_no": "EW9365",
       "airline": "Eurowings",
       "city": "Edinburgh",
@@ -1071,7 +1037,7 @@
       "gate": "Ausgang 1 (Linie)",
       "status": "scheduled",
       "status_text": "",
-      "delay": 31
+      "delay": 14
     },
     {
       "dt": 1791577800.0,
