@@ -1,5 +1,5 @@
 {
-  "updated_at": "09.10.2026 23:00",
+  "updated_at": "09.10.2026 23:05",
   "source": "Dus.com",
   "flights": [
     {
@@ -69,23 +69,6 @@
       "status": "landed",
       "status_text": "gelandet",
       "delay": 66
-    },
-    {
-      "dt": 1791575400.0,
-      "time_scheduled": "21:50",
-      "time_estimated": "22:04",
-      "flight_no": "AF1106",
-      "airline": "Air France",
-      "city": "Paris-Charles de Gaulle",
-      "country": "Frankreich",
-      "type": "Charter",
-      "type_source": "Ausgang",
-      "terminal": "B",
-      "baggage": "10",
-      "gate": "Ausgang 4 (Charter)",
-      "status": "landed",
-      "status_text": "gelandet",
-      "delay": 15
     },
     {
       "dt": 1791575700.0,
@@ -277,7 +260,7 @@
     {
       "dt": 1791576900.0,
       "time_scheduled": "22:15",
-      "time_estimated": "23:15",
+      "time_estimated": "23:10",
       "flight_no": "EW9023",
       "airline": "Eurowings",
       "city": "Dresden",
@@ -289,7 +272,7 @@
       "gate": "Ausgang 4 (Charter)",
       "status": "active",
       "status_text": "im Anflug",
-      "delay": 61
+      "delay": 55
     },
     {
       "dt": 1791577200.0,
@@ -394,23 +377,6 @@
       "delay": 22
     },
     {
-      "dt": 1791577800.0,
-      "time_scheduled": "22:30",
-      "time_estimated": "22:02",
-      "flight_no": "X34969",
-      "airline": "Tuifly",
-      "city": "Heraklion (Kreta)",
-      "country": "Griechenland",
-      "type": "Charter",
-      "type_source": "Ausgang",
-      "terminal": "B",
-      "baggage": "18",
-      "gate": "Ausgang 6 (Charter)",
-      "status": "landed",
-      "status_text": "gelandet",
-      "delay": 0
-    },
-    {
       "dt": 1791578100.0,
       "time_scheduled": "22:35",
       "time_estimated": "22:38",
@@ -430,7 +396,7 @@
     {
       "dt": 1791578100.0,
       "time_scheduled": "22:35",
-      "time_estimated": "23:05",
+      "time_estimated": "23:02",
       "flight_no": "DE1457",
       "airline": "Condor",
       "city": "Fuerteventura",
@@ -440,9 +406,9 @@
       "terminal": "B",
       "baggage": "12",
       "gate": "Ausgang 4 (Charter)",
-      "status": "active",
-      "status_text": "im Anflug",
-      "delay": 31
+      "status": "landed",
+      "status_text": "gelandet",
+      "delay": 28
     },
     {
       "dt": 1791578100.0,
@@ -498,7 +464,7 @@
     {
       "dt": 1791578700.0,
       "time_scheduled": "22:45",
-      "time_estimated": "23:02",
+      "time_estimated": "23:00",
       "flight_no": "DE1517",
       "airline": "Condor",
       "city": "Palma de Mallorca",
@@ -508,9 +474,9 @@
       "terminal": "B",
       "baggage": "10",
       "gate": "Ausgang 4 (Charter)",
-      "status": "active",
-      "status_text": "im Anflug",
-      "delay": 18
+      "status": "landed",
+      "status_text": "gelandet",
+      "delay": 15
     },
     {
       "dt": 1791578700.0,
@@ -532,7 +498,7 @@
     {
       "dt": 1791579000.0,
       "time_scheduled": "22:50",
-      "time_estimated": "23:15",
+      "time_estimated": "23:31",
       "flight_no": "X32115",
       "airline": "Tuifly",
       "city": "Gran Canaria",
@@ -544,7 +510,7 @@
       "gate": "Ausgang 5 (Charter)",
       "status": "active",
       "status_text": "im Anflug",
-      "delay": 25
+      "delay": 41
     }
   ]
 }
