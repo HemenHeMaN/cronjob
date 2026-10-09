@@ -1,5 +1,5 @@
 {
-  "updated_at": "09.10.2026 07:55",
+  "updated_at": "09.10.2026 08:00",
   "source": "Dus.com",
   "flights": [
     {
@@ -73,7 +73,7 @@
     {
       "dt": 1791526500.0,
       "time_scheduled": "08:15",
-      "time_estimated": "09:01",
+      "time_estimated": "09:09",
       "flight_no": "EJU3941",
       "airline": "Easy Jet Europe",
       "city": "Mailand-Malpensa",
@@ -85,12 +85,12 @@
       "gate": "Ausgang 1 (Linie)",
       "status": "scheduled",
       "status_text": "Vorhafen verlassen",
-      "delay": 46
+      "delay": 54
     },
     {
       "dt": 1791527100.0,
       "time_scheduled": "08:25",
-      "time_estimated": "08:32",
+      "time_estimated": "08:33",
       "flight_no": "H7403",
       "airline": "Hi Sky",
       "city": "Chisinau",
@@ -102,7 +102,7 @@
       "gate": "Ausgang 6 (Charter)",
       "status": "scheduled",
       "status_text": "Vorhafen verlassen",
-      "delay": 7
+      "delay": 8
     },
     {
       "dt": 1791527400.0,
@@ -141,7 +141,7 @@
     {
       "dt": 1791528000.0,
       "time_scheduled": "08:40",
-      "time_estimated": "08:40",
+      "time_estimated": "08:41",
       "flight_no": "EY133",
       "airline": "Etihad Airways",
       "city": "Abu Dhabi",
@@ -153,7 +153,7 @@
       "gate": "Ausgang 5 (Charter)",
       "status": "scheduled",
       "status_text": "Vorhafen verlassen",
-      "delay": 0
+      "delay": 1
     },
     {
       "dt": 1791528000.0,
@@ -447,7 +447,7 @@
     {
       "dt": 1791531300.0,
       "time_scheduled": "09:35",
-      "time_estimated": "09:36",
+      "time_estimated": "09:38",
       "flight_no": "LO403",
       "airline": "LOT Polish Airlines",
       "city": "Warschau",
@@ -458,8 +458,8 @@
       "baggage": "",
       "gate": "Ausgang 1 (Linie)",
       "status": "scheduled",
-      "status_text": "",
-      "delay": 1
+      "status_text": "Vorhafen verlassen",
+      "delay": 3
     },
     {
       "dt": 1791531600.0,
@@ -651,7 +651,7 @@
     {
       "dt": 1791534300.0,
       "time_scheduled": "10:25",
-      "time_estimated": "10:36",
+      "time_estimated": "10:25",
       "flight_no": "DE1011",
       "airline": "Condor",
       "city": "Palma de Mallorca",
@@ -663,7 +663,7 @@
       "gate": "Ausgang 4 (Charter)",
       "status": "scheduled",
       "status_text": "",
-      "delay": 12
+      "delay": 1
     },
     {
       "dt": 1791534600.0,
@@ -838,7 +838,7 @@
     {
       "dt": 1791536700.0,
       "time_scheduled": "11:05",
-      "time_estimated": "11:05",
+      "time_estimated": "11:01",
       "flight_no": "EW4200",
       "airline": "Eurowings",
       "city": "Prag",
