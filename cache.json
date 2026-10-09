@@ -1,24 +1,7 @@
 {
-  "updated_at": "09.10.2026 10:55",
+  "updated_at": "09.10.2026 11:00",
   "source": "Dus.com",
   "flights": [
-    {
-      "dt": 1791532800.0,
-      "time_scheduled": "10:00",
-      "time_estimated": "09:58",
-      "flight_no": "EW9083",
-      "airline": "Eurowings",
-      "city": "München",
-      "country": "Deutschland",
-      "type": "Charter",
-      "type_source": "Ausgang",
-      "terminal": "B",
-      "baggage": "8",
-      "gate": "Ausgang 4 (Charter)",
-      "status": "landed",
-      "status_text": "gelandet",
-      "delay": 0
-    },
     {
       "dt": 1791533700.0,
       "time_scheduled": "10:15",
@@ -175,7 +158,7 @@
     {
       "dt": 1791535500.0,
       "time_scheduled": "10:45",
-      "time_estimated": "10:58",
+      "time_estimated": "10:57",
       "flight_no": "EW9751",
       "airline": "Eurowings",
       "city": "Wien",
@@ -185,9 +168,9 @@
       "terminal": "A",
       "baggage": "6",
       "gate": "Ausgang 1 (Linie)",
-      "status": "active",
-      "status_text": "im Anflug",
-      "delay": 14
+      "status": "landed",
+      "status_text": "gelandet",
+      "delay": 12
     },
     {
       "dt": 1791535800.0,
@@ -209,7 +192,7 @@
     {
       "dt": 1791536100.0,
       "time_scheduled": "10:55",
-      "time_estimated": "11:08",
+      "time_estimated": "11:07",
       "flight_no": "FH1193",
       "airline": "Freebird Airlines",
       "city": "Antalya",
@@ -221,12 +204,12 @@
       "gate": "Ausgang 6 (Charter)",
       "status": "active",
       "status_text": "im Anflug",
-      "delay": 13
+      "delay": 12
     },
     {
       "dt": 1791536100.0,
       "time_scheduled": "10:55",
-      "time_estimated": "10:59",
+      "time_estimated": "10:55",
       "flight_no": "PC5677",
       "airline": "Pegasus Airlines",
       "city": "Antalya",
@@ -236,9 +219,9 @@
       "terminal": "C",
       "baggage": "20",
       "gate": "Ausgang 6 (Charter)",
-      "status": "active",
-      "status_text": "im Anflug",
-      "delay": 4
+      "status": "landed",
+      "status_text": "gelandet",
+      "delay": 1
     },
     {
       "dt": 1791536400.0,
@@ -277,7 +260,7 @@
     {
       "dt": 1791536700.0,
       "time_scheduled": "11:05",
-      "time_estimated": "10:59",
+      "time_estimated": "11:04",
       "flight_no": "AT696",
       "airline": "Royal Air Maroc",
       "city": "Nador",
@@ -305,13 +288,13 @@
       "baggage": "11",
       "gate": "Ausgang 4 (Charter)",
       "status": "active",
-      "status_text": "Im Anflug",
+      "status_text": "im Anflug",
       "delay": 9
     },
     {
       "dt": 1791537300.0,
       "time_scheduled": "11:15",
-      "time_estimated": "11:09",
+      "time_estimated": "11:08",
       "flight_no": "EW9783",
       "airline": "Eurowings",
       "city": "Budapest",
@@ -322,7 +305,7 @@
       "baggage": "4",
       "gate": "Ausgang 1 (Linie)",
       "status": "active",
-      "status_text": "Im Anflug",
+      "status_text": "im Anflug",
       "delay": 0
     },
     {
@@ -481,7 +464,7 @@
     {
       "dt": 1791539400.0,
       "time_scheduled": "11:50",
-      "time_estimated": "11:57",
+      "time_estimated": "11:55",
       "flight_no": "VL2012",
       "airline": "Lufthansa City Airlines",
       "city": "München",
@@ -492,8 +475,8 @@
       "baggage": "",
       "gate": "Ausgang 1 (Linie)",
       "status": "scheduled",
-      "status_text": "",
-      "delay": 7
+      "status_text": "Vorhafen verlassen",
+      "delay": 5
     },
     {
       "dt": 1791539400.0,
@@ -781,7 +764,7 @@
       "baggage": "",
       "gate": "Ausgang 1 (Linie)",
       "status": "scheduled",
-      "status_text": "",
+      "status_text": "Vorhafen verlassen",
       "delay": 30
     },
     {
@@ -821,7 +804,7 @@
     {
       "dt": 1791544200.0,
       "time_scheduled": "13:10",
-      "time_estimated": "13:26",
+      "time_estimated": "13:21",
       "flight_no": "EW9793",
       "airline": "Eurowings",
       "city": "Bukarest-Otopeni",
@@ -832,8 +815,8 @@
       "baggage": "",
       "gate": "Ausgang 1 (Linie)",
       "status": "scheduled",
-      "status_text": "",
-      "delay": 17
+      "status_text": "Vorhafen verlassen",
+      "delay": 12
     },
     {
       "dt": 1791544500.0,
@@ -906,7 +889,7 @@
     {
       "dt": 1791545400.0,
       "time_scheduled": "13:30",
-      "time_estimated": "14:12",
+      "time_estimated": "14:06",
       "flight_no": "EW9681",
       "airline": "Eurowings",
       "city": "Athen",
@@ -918,7 +901,7 @@
       "gate": "Ausgang 1 (Linie)",
       "status": "scheduled",
       "status_text": "",
-      "delay": 42
+      "delay": 37
     },
     {
       "dt": 1791545400.0,
@@ -1105,12 +1088,12 @@
       "gate": "Ausgang 4 (Charter)",
       "status": "scheduled",
       "status_text": "Vorhafen verlassen",
-      "delay": 12
+      "delay": 11
     },
     {
       "dt": 1791546900.0,
       "time_scheduled": "13:55",
-      "time_estimated": "13:55",
+      "time_estimated": "14:02",
       "flight_no": "LH074",
       "airline": "Lufthansa",
       "city": "Frankfurt",
@@ -1122,12 +1105,12 @@
       "gate": "Ausgang 1 (Linie)",
       "status": "scheduled",
       "status_text": "",
-      "delay": 0
+      "delay": 7
     },
     {
       "dt": 1791546900.0,
       "time_scheduled": "13:55",
-      "time_estimated": "13:55",
+      "time_estimated": "14:03",
       "flight_no": "EW9643",
       "airline": "Eurowings",
       "city": "Faro",
@@ -1139,12 +1122,12 @@
       "gate": "Ausgang 1 (Linie)",
       "status": "scheduled",
       "status_text": "",
-      "delay": 0
+      "delay": 8
     },
     {
       "dt": 1791547500.0,
       "time_scheduled": "14:05",
-      "time_estimated": "14:05",
+      "time_estimated": "14:00",
       "flight_no": "LX1018",
       "airline": "Swiss",
       "city": "Zürich",
@@ -1178,7 +1161,7 @@
     {
       "dt": 1791547500.0,
       "time_scheduled": "14:05",
-      "time_estimated": "14:05",
+      "time_estimated": "14:17",
       "flight_no": "XQ958",
       "airline": "Sun Express",
       "city": "Izmir",
@@ -1189,13 +1172,13 @@
       "baggage": "",
       "gate": "Ausgang 4 (Charter)",
       "status": "scheduled",
-      "status_text": "",
-      "delay": 0
+      "status_text": "Vorhafen verlassen",
+      "delay": 12
     },
     {
       "dt": 1791547800.0,
       "time_scheduled": "14:10",
-      "time_estimated": "14:03",
+      "time_estimated": "14:01",
       "flight_no": "XQ186",
       "airline": "Sun Express",
       "city": "Antalya",
@@ -1365,7 +1348,7 @@
     {
       "dt": 1791549900.0,
       "time_scheduled": "14:45",
-      "time_estimated": "14:45",
+      "time_estimated": "14:34",
       "flight_no": "XC102",
       "airline": "Corendon Airlines",
       "city": "Antalya",
@@ -1376,7 +1359,7 @@
       "baggage": "",
       "gate": "Ausgang 4 (Charter)",
       "status": "scheduled",
-      "status_text": "",
+      "status_text": "Vorhafen verlassen",
       "delay": 0
     },
     {
@@ -1591,6 +1574,40 @@
       "airline": "Condor",
       "city": "Lanzarote-Arrecife",
       "country": "Spanien",
+      "type": "Charter",
+      "type_source": "Airline",
+      "terminal": "B",
+      "baggage": "",
+      "gate": "Ausgang 4 (Charter)",
+      "status": "scheduled",
+      "status_text": "",
+      "delay": 0
+    },
+    {
+      "dt": 1791554400.0,
+      "time_scheduled": "16:00",
+      "time_estimated": "16:00",
+      "flight_no": "PC1003",
+      "airline": "Pegasus Airlines",
+      "city": "Istanbul-Sabiha Gökçen",
+      "country": "Türkei",
+      "type": "Linie",
+      "type_source": "Airline",
+      "terminal": "C",
+      "baggage": "",
+      "gate": "Ausgang 1 (Linie)",
+      "status": "scheduled",
+      "status_text": "",
+      "delay": 0
+    },
+    {
+      "dt": 1791554400.0,
+      "time_scheduled": "16:00",
+      "time_estimated": "16:00",
+      "flight_no": "DE1827",
+      "airline": "Condor",
+      "city": "Olbia (Sardinien)",
+      "country": "Italien",
       "type": "Charter",
       "type_source": "Airline",
       "terminal": "B",
