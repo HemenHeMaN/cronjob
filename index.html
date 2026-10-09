@@ -761,7 +761,7 @@ function renderFlights(flights) {
         "en-route": "Im Anflug",
         "active": "Im Anflug",
         "landed": "Gelandet",
-        "cancelled": "Storniert",
+        "cancelled": "Annulliert",
         "incident": "Störung",
         "diverted": "Umgeleitet"
     };
@@ -789,12 +789,15 @@ function renderFlights(flights) {
         if (diff > 720) diff -= 1440;
         const diffTxt = hasEst ? ` (${diff > 0 ? '+' : ''}${diff} Min.)` : '';
 
-        const delayHtml = hasEst
+        // Annullierte Flüge sollen keine Verspätungs-/Erwartet-Badges oder -Zeiten anzeigen
+        const delayHtml = (!isCancelled && hasEst)
             ? `<span class="delay-badge${diff <= 0 ? ' early-badge' : ''}">${est} Uhr${diff > 0 ? ' (+' + diff + ')' : ''}</span>`
             : '';
 
         let statusText;
-        if (st === 'landed') {
+        if (isCancelled) {
+            statusText = statusMap[st] || "Annulliert";
+        } else if (st === 'landed') {
             statusText = 'Gelandet' + (hasEst ? ` ${est} Uhr${diffTxt}` : '');
         } else if (st === 'active' || st === 'en-route') {
             statusText = 'Im Anflug' + (hasEst ? `, erwartet ${est} Uhr${diffTxt}` : '');
@@ -925,7 +928,6 @@ function renderBoard(flights) {
         const s = String(f.status).toLowerCase();
         const isCancelled = s === 'cancelled' || s === 'diverted' || s === 'incident';
         
-        // Annullierte Flüge erhalten keine Linien-/Charter-Farbe für den Balken
         const art = isCancelled ? '' : (f.type === 'Charter' ? 'charter' : 'linie');
         const zeit = f.time_estimated || f.time_scheduled || '';
         const isGuess = f.type_source === 'Airline' || f.type_source === 'Flugtyp';
@@ -939,7 +941,7 @@ function renderBoard(flights) {
             <div class="tf-time">${esc(zeit)}</div>
             <div class="tf-exit">${esc(f.gate)}${isGuess ? ' ?' : ''}</div>
             <div class="tf-kind">${esc(f.type)}</div>
-            <div class="tf-status"><span class="tf-dot"></span><span>${st.label}${f.delay > 0 ? '<span class="tf-delay">+' + esc(f.delay) + ' Min.</span>' : ''}</span></div>
+            <div class="tf-status"><span class="tf-dot"></span><span>${st.label}${!isCancelled && f.delay > 0 ? '<span class="tf-delay">+' + esc(f.delay) + ' Min.</span>' : ''}</span></div>
         `;
         body.appendChild(row);
     });
