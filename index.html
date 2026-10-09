@@ -500,6 +500,12 @@ h1 { color: var(--heading-color); font-size: 1.4rem; margin: 0; }
             <button type="button" class="seg-btn" id="segName">Name</button>
         </div>
     </div>
+    <div>
+        <span class="menu-label">Gelandet-Filter: Anzahl</span>
+        <div class="seg">
+            <button type="button" class="seg-btn active" id="landedBtn">Letzte 15 Flüge</button>
+        </div>
+    </div>
 </div>
 
 <!-- Reiter -->
@@ -555,7 +561,9 @@ const THEME_KEY = 'dus_theme';
 const VIEW_KEY = 'dus_active_view';
 const FLAG_KEY = 'dus_flag_mode';
 const TF_FENSTER = 90;
-const LANDED_COUNT = 15;
+const LANDED_STEPS = [5, 10, 15];   // Reihenfolge beim Tippen im Menü
+const LANDED_KEY = 'dus_landed_count';
+let landedCount = 15;               // Anzahl der Flüge im Filter "Gelandet"
 
 let allFlights = [];
 let currentFilter = 'all';
@@ -732,6 +740,29 @@ function setFlagMode(flag, save) {
 segFlag.addEventListener('click', () => { setFlagMode(true, true); applyFilter(); });
 segName.addEventListener('click', () => { setFlagMode(false, true); applyFilter(); });
 
+/* ---------- Menü: Anzahl im Filter "Gelandet" (5 → 10 → 15 → 5 ...) ---------- */
+const landedBtn = document.getElementById('landedBtn');
+
+function updateLandedBtn() {
+    landedBtn.textContent = 'Letzte ' + landedCount + ' Flüge';
+    const filterBtn = document.querySelector('.btn-landed');
+    if (filterBtn) filterBtn.title = 'Die letzten ' + landedCount + ' gelandeten Flüge';
+}
+
+landedBtn.addEventListener('click', () => {
+    const i = LANDED_STEPS.indexOf(landedCount);
+    landedCount = LANDED_STEPS[(i + 1) % LANDED_STEPS.length];
+    try { localStorage.setItem(LANDED_KEY, landedCount); } catch (e) {}
+    updateLandedBtn();
+    applyFilter();
+});
+
+try {
+    const v = parseInt(localStorage.getItem(LANDED_KEY), 10);
+    if (LANDED_STEPS.includes(v)) landedCount = v;
+} catch (e) {}
+updateLandedBtn();
+
 try { setFlagMode(localStorage.getItem(FLAG_KEY) !== 'name', false); } catch (e) { setFlagMode(true, false); }
 
 /* ---------- Such-Event-Listener & Clear Button ---------- */
@@ -835,7 +866,7 @@ function getFilteredList() {
             if (d < 0) d += 1440;
             return d;
         };
-        return [...list].sort((a, b) => ago(a) - ago(b)).slice(0, LANDED_COUNT);
+        return [...list].sort((a, b) => ago(a) - ago(b)).slice(0, landedCount);
     }
 
     const statusRank = f => {
