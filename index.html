@@ -68,6 +68,8 @@
     --tf-bar-linie-edge: #1976d2;
     --tf-bar-charter: rgba(230, 110, 0, .30);
     --tf-bar-charter-edge: #e65100;
+    --tf-bar-cancelled: rgba(179, 38, 30, .32);
+    --tf-bar-cancelled-edge: #b3261e;
     --tf-display: "Barlow Condensed", "Arial Narrow", sans-serif;
     --tf-data: "B612 Mono", ui-monospace, "Courier New", monospace;
 }
@@ -124,6 +126,8 @@
     --tf-bar-linie-edge: #8fd3ff;
     --tf-bar-charter: rgba(255, 138, 28, .52);
     --tf-bar-charter-edge: #ffa24d;
+    --tf-bar-cancelled: rgba(255, 144, 130, .44);
+    --tf-bar-cancelled-edge: #ff5252;
 }
 
 html { font-size: var(--base-font-size); }
@@ -344,6 +348,7 @@ h1 { color: var(--heading-color); font-size: 1.4rem; margin: 0; }
 }
 .tf-bar.linie { background: var(--tf-bar-linie); box-shadow: inset -3px 0 0 var(--tf-bar-linie-edge); }
 .tf-bar.charter { background: var(--tf-bar-charter); box-shadow: inset -3px 0 0 var(--tf-bar-charter-edge); }
+.tf-bar.cancelled { background: var(--tf-bar-cancelled); box-shadow: inset -3px 0 0 var(--tf-bar-cancelled-edge); }
 @media (prefers-reduced-motion: reduce) { .tf-bar { transition: none; } }
 
 .tf-flight { font-weight: 700; font-size: .8rem; letter-spacing: .04em; overflow-wrap: anywhere; }
@@ -539,7 +544,7 @@ h1 { color: var(--heading-color); font-size: 1.4rem; margin: 0; }
         <div class="tf-body" id="tfBody">
             <div class="tf-empty">Flüge werden geladen...</div>
         </div>
-        <div class="tf-footer">Der Balken füllt sich, je näher die Landung rückt: blau für Linie, orange für Charter. Annullierte Flüge rot.</div>
+        <div class="tf-footer">Der Balken füllt sich, je näher die Landung rückt: blau für Linie, orange für Charter, rot für annullierte Flüge.</div>
     </div>
 </div>
 
@@ -789,7 +794,6 @@ function renderFlights(flights) {
         if (diff > 720) diff -= 1440;
         const diffTxt = hasEst ? ` (${diff > 0 ? '+' : ''}${diff} Min.)` : '';
 
-        // Annullierte Flüge sollen keine Verspätungs-/Erwartet-Badges oder -Zeiten anzeigen
         const delayHtml = (!isCancelled && hasEst)
             ? `<span class="delay-badge${diff <= 0 ? ' early-badge' : ''}">${est} Uhr${diff > 0 ? ' (+' + diff + ')' : ''}</span>`
             : '';
@@ -900,8 +904,7 @@ function tfStatus(f) {
 
 function tfFortschritt(zeit, status) {
     const s = String(status).toLowerCase();
-    if (s === 'landed') return 1;
-    if (s === 'cancelled' || s === 'diverted' || s === 'incident') return 0;
+    if (s === 'landed' || s === 'cancelled' || s === 'diverted' || s === 'incident') return 1;
     let diff = timeToMinutes(zeit) - berlinMin();
     if (diff < -720) diff += 1440;
     if (diff > 720) diff -= 1440;
@@ -928,7 +931,7 @@ function renderBoard(flights) {
         const s = String(f.status).toLowerCase();
         const isCancelled = s === 'cancelled' || s === 'diverted' || s === 'incident';
         
-        const art = isCancelled ? '' : (f.type === 'Charter' ? 'charter' : 'linie');
+        const art = isCancelled ? 'cancelled' : (f.type === 'Charter' ? 'charter' : 'linie');
         const zeit = f.time_estimated || f.time_scheduled || '';
         const isGuess = f.type_source === 'Airline' || f.type_source === 'Flugtyp';
 
