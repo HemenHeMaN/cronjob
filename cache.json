@@ -1,5 +1,5 @@
 {
-  "updated_at": "09.10.2026 22:25",
+  "updated_at": "09.10.2026 22:30",
   "source": "Dus.com",
   "flights": [
     {
@@ -69,23 +69,6 @@
       "status": "landed",
       "status_text": "gelandet",
       "delay": 4
-    },
-    {
-      "dt": 1791574200.0,
-      "time_scheduled": "21:30",
-      "time_estimated": "21:30",
-      "flight_no": "XQ759",
-      "airline": "Sun Express",
-      "city": "Antalya",
-      "country": "Türkei",
-      "type": "Charter",
-      "type_source": "Airline",
-      "terminal": "C",
-      "baggage": "",
-      "gate": "Ausgang 4 (Charter)",
-      "status": "cancelled",
-      "status_text": "annulliert",
-      "delay": 0
     },
     {
       "dt": 1791574500.0,
@@ -173,23 +156,6 @@
       "delay": 77
     },
     {
-      "dt": 1791575100.0,
-      "time_scheduled": "21:45",
-      "time_estimated": "21:28",
-      "flight_no": "EW9735",
-      "airline": "Eurowings",
-      "city": "Warschau",
-      "country": "Polen",
-      "type": "Linie",
-      "type_source": "Ausgang",
-      "terminal": "B",
-      "baggage": "2",
-      "gate": "Ausgang 1 (Linie)",
-      "status": "landed",
-      "status_text": "gelandet",
-      "delay": 0
-    },
-    {
       "dt": 1791575400.0,
       "time_scheduled": "21:50",
       "time_estimated": "22:53",
@@ -202,8 +168,8 @@
       "terminal": "B",
       "baggage": "",
       "gate": "Ausgang 1 (Linie)",
-      "status": "scheduled",
-      "status_text": "Vorhafen verlassen",
+      "status": "active",
+      "status_text": "Im Anflug",
       "delay": 63
     },
     {
@@ -372,8 +338,8 @@
       "terminal": "A",
       "baggage": "",
       "gate": "Ausgang 1 (Linie)",
-      "status": "scheduled",
-      "status_text": "Vorhafen verlassen",
+      "status": "active",
+      "status_text": "Im Anflug",
       "delay": 52
     },
     {
@@ -423,8 +389,8 @@
       "terminal": "A",
       "baggage": "",
       "gate": "Ausgang 1 (Linie)",
-      "status": "scheduled",
-      "status_text": "Vorhafen verlassen",
+      "status": "active",
+      "status_text": "Im Anflug",
       "delay": 48
     },
     {
@@ -583,7 +549,7 @@
     {
       "dt": 1791577200.0,
       "time_scheduled": "22:20",
-      "time_estimated": "22:49",
+      "time_estimated": "22:55",
       "flight_no": "EW9887",
       "airline": "Eurowings",
       "city": "Rom-Fiumicino",
@@ -595,7 +561,7 @@
       "gate": "Ausgang 1 (Linie)",
       "status": "active",
       "status_text": "Im Anflug",
-      "delay": 30
+      "delay": 35
     },
     {
       "dt": 1791577500.0,
@@ -611,7 +577,7 @@
       "baggage": "",
       "gate": "Ausgang 1 (Linie)",
       "status": "active",
-      "status_text": "Im Anflug",
+      "status_text": "im Anflug",
       "delay": 14
     },
     {
@@ -634,7 +600,7 @@
     {
       "dt": 1791577500.0,
       "time_scheduled": "22:25",
-      "time_estimated": "22:31",
+      "time_estimated": "22:29",
       "flight_no": "LH2034",
       "airline": "Lufthansa",
       "city": "München",
@@ -644,9 +610,9 @@
       "terminal": "B",
       "baggage": "4",
       "gate": "Ausgang 1 (Linie)",
-      "status": "active",
-      "status_text": "im Anflug",
-      "delay": 6
+      "status": "landed",
+      "status_text": "gelandet",
+      "delay": 4
     },
     {
       "dt": 1791577800.0,
@@ -662,7 +628,7 @@
       "baggage": "",
       "gate": "Ausgang 1 (Linie)",
       "status": "active",
-      "status_text": "Im Anflug",
+      "status_text": "im Anflug",
       "delay": 10
     },
     {
