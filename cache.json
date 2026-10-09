@@ -1,24 +1,7 @@
 {
-  "updated_at": "09.10.2026 17:25",
+  "updated_at": "09.10.2026 17:30",
   "source": "Dus.com",
   "flights": [
-    {
-      "dt": 1791553800.0,
-      "time_scheduled": "15:50",
-      "time_estimated": "16:29",
-      "flight_no": "DE1421",
-      "airline": "Condor",
-      "city": "Lanzarote-Arrecife",
-      "country": "Spanien",
-      "type": "Charter",
-      "type_source": "Ausgang",
-      "terminal": "B",
-      "baggage": "11",
-      "gate": "Ausgang 4 (Charter)",
-      "status": "landed",
-      "status_text": "gelandet",
-      "delay": 40
-    },
     {
       "dt": 1791554700.0,
       "time_scheduled": "16:05",
@@ -88,23 +71,6 @@
       "delay": 7
     },
     {
-      "dt": 1791556200.0,
-      "time_scheduled": "16:30",
-      "time_estimated": "16:26",
-      "flight_no": "VL2018",
-      "airline": "Lufthansa City Airlines",
-      "city": "München",
-      "country": "Deutschland",
-      "type": "Linie",
-      "type_source": "Ausgang",
-      "terminal": "A",
-      "baggage": "2",
-      "gate": "Ausgang 1 (Linie)",
-      "status": "landed",
-      "status_text": "gelandet",
-      "delay": 0
-    },
-    {
       "dt": 1791556800.0,
       "time_scheduled": "16:40",
       "time_estimated": "16:36",
@@ -168,8 +134,8 @@
       "terminal": "B",
       "baggage": "",
       "gate": "Ausgang 1 (Linie)",
-      "status": "scheduled",
-      "status_text": "Vorhafen verlassen",
+      "status": "active",
+      "status_text": "Im Anflug",
       "delay": 61
     },
     {
@@ -328,7 +294,7 @@
     {
       "dt": 1791559500.0,
       "time_scheduled": "17:25",
-      "time_estimated": "17:31",
+      "time_estimated": "17:27",
       "flight_no": "TK1527",
       "airline": "Turkish Airlines",
       "city": "Istanbul",
@@ -338,9 +304,9 @@
       "terminal": "C",
       "baggage": "13",
       "gate": "Ausgang 5 (Charter)",
-      "status": "active",
-      "status_text": "im Anflug",
-      "delay": 6
+      "status": "landed",
+      "status_text": "gelandet",
+      "delay": 3
     },
     {
       "dt": 1791559800.0,
@@ -379,7 +345,7 @@
     {
       "dt": 1791560400.0,
       "time_scheduled": "17:40",
-      "time_estimated": "18:01",
+      "time_estimated": "18:07",
       "flight_no": "GQ890",
       "airline": "Sky Express",
       "city": "Athen",
@@ -391,7 +357,7 @@
       "gate": "Ausgang 5 (Charter)",
       "status": "scheduled",
       "status_text": "Vorhafen verlassen",
-      "delay": 21
+      "delay": 28
     },
     {
       "dt": 1791560400.0,
@@ -413,7 +379,7 @@
     {
       "dt": 1791560400.0,
       "time_scheduled": "17:40",
-      "time_estimated": "17:58",
+      "time_estimated": "17:47",
       "flight_no": "PC5011",
       "airline": "Pegasus Airlines",
       "city": "Antalya",
@@ -423,9 +389,9 @@
       "terminal": "C",
       "baggage": "",
       "gate": "Ausgang 1 (Linie)",
-      "status": "scheduled",
-      "status_text": "Vorhafen verlassen",
-      "delay": 19
+      "status": "active",
+      "status_text": "im Anflug",
+      "delay": 8
     },
     {
       "dt": 1791560700.0,
@@ -481,7 +447,7 @@
     {
       "dt": 1791561000.0,
       "time_scheduled": "17:50",
-      "time_estimated": "20:10",
+      "time_estimated": "19:58",
       "flight_no": "VL076",
       "airline": "Lufthansa City Airlines",
       "city": "Frankfurt",
@@ -493,7 +459,7 @@
       "gate": "Ausgang 1 (Linie)",
       "status": "scheduled",
       "status_text": "",
-      "delay": 140
+      "delay": 129
     },
     {
       "dt": 1791561600.0,
@@ -515,7 +481,7 @@
     {
       "dt": 1791561600.0,
       "time_scheduled": "18:00",
-      "time_estimated": "18:03",
+      "time_estimated": "18:04",
       "flight_no": "AY1395",
       "airline": "Finnair",
       "city": "Helsinki",
@@ -527,12 +493,12 @@
       "gate": "Ausgang 1 (Linie)",
       "status": "scheduled",
       "status_text": "Vorhafen verlassen",
-      "delay": 3
+      "delay": 4
     },
     {
       "dt": 1791561900.0,
       "time_scheduled": "18:05",
-      "time_estimated": "18:15",
+      "time_estimated": "18:16",
       "flight_no": "EW9417",
       "airline": "Eurowings",
       "city": "Lyon",
@@ -544,12 +510,12 @@
       "gate": "Ausgang 1 (Linie)",
       "status": "scheduled",
       "status_text": "Vorhafen verlassen",
-      "delay": 11
+      "delay": 12
     },
     {
       "dt": 1791561900.0,
       "time_scheduled": "18:05",
-      "time_estimated": "19:16",
+      "time_estimated": "19:19",
       "flight_no": "EW9823",
       "airline": "Eurowings",
       "city": "Mailand-Malpensa",
@@ -561,7 +527,7 @@
       "gate": "Ausgang 1 (Linie)",
       "status": "scheduled",
       "status_text": "",
-      "delay": 71
+      "delay": 74
     },
     {
       "dt": 1791561900.0,
@@ -583,7 +549,7 @@
     {
       "dt": 1791562200.0,
       "time_scheduled": "18:10",
-      "time_estimated": "17:56",
+      "time_estimated": "17:57",
       "flight_no": "XQ3180",
       "airline": "Sun Express",
       "city": "Bodrum-Milas",
@@ -702,7 +668,7 @@
     {
       "dt": 1791564000.0,
       "time_scheduled": "18:40",
-      "time_estimated": "18:31",
+      "time_estimated": "18:40",
       "flight_no": "SK627",
       "airline": "Scandinavian Airlines",
       "city": "Kopenhagen",
@@ -714,12 +680,12 @@
       "gate": "Ausgang 1 (Linie)",
       "status": "scheduled",
       "status_text": "",
-      "delay": 0
+      "delay": 1
     },
     {
       "dt": 1791564000.0,
       "time_scheduled": "18:40",
-      "time_estimated": "18:33",
+      "time_estimated": "18:28",
       "flight_no": "AF1006",
       "airline": "Air France",
       "city": "Paris-Charles de Gaulle",
@@ -1970,6 +1936,40 @@
       "terminal": "B",
       "baggage": "",
       "gate": "Ausgang 1 (Linie)",
+      "status": "scheduled",
+      "status_text": "",
+      "delay": 0
+    },
+    {
+      "dt": 1791577800.0,
+      "time_scheduled": "22:30",
+      "time_estimated": "22:30",
+      "flight_no": "EW9365",
+      "airline": "Eurowings",
+      "city": "Edinburgh",
+      "country": "Großbritannien",
+      "type": "Linie",
+      "type_source": "Airline",
+      "terminal": "A",
+      "baggage": "",
+      "gate": "Ausgang 1 (Linie)",
+      "status": "scheduled",
+      "status_text": "",
+      "delay": 0
+    },
+    {
+      "dt": 1791577800.0,
+      "time_scheduled": "22:30",
+      "time_estimated": "22:30",
+      "flight_no": "X34969",
+      "airline": "Tuifly",
+      "city": "Heraklion (Kreta)",
+      "country": "Griechenland",
+      "type": "Charter",
+      "type_source": "Airline",
+      "terminal": "B",
+      "baggage": "",
+      "gate": "Ausgang 4 (Charter)",
       "status": "scheduled",
       "status_text": "",
       "delay": 0
