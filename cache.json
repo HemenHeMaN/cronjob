@@ -1,24 +1,7 @@
 {
-  "updated_at": "09.10.2026 20:50",
+  "updated_at": "09.10.2026 20:55",
   "source": "Dus.com",
   "flights": [
-    {
-      "dt": 1791561000.0,
-      "time_scheduled": "17:50",
-      "time_estimated": "19:53",
-      "flight_no": "VL076",
-      "airline": "Lufthansa City Airlines",
-      "city": "Frankfurt",
-      "country": "Deutschland",
-      "type": "Linie",
-      "type_source": "Ausgang",
-      "terminal": "B",
-      "baggage": "4",
-      "gate": "Ausgang 1 (Linie)",
-      "status": "landed",
-      "status_text": "gelandet",
-      "delay": 123
-    },
     {
       "dt": 1791564900.0,
       "time_scheduled": "18:55",
@@ -103,23 +86,6 @@
       "status": "landed",
       "status_text": "gelandet",
       "delay": 19
-    },
-    {
-      "dt": 1791568800.0,
-      "time_scheduled": "20:00",
-      "time_estimated": "19:55",
-      "flight_no": "EW9467",
-      "airline": "Eurowings",
-      "city": "London-Heathrow",
-      "country": "Großbritannien",
-      "type": "Charter",
-      "type_source": "Ausgang",
-      "terminal": "A",
-      "baggage": "9",
-      "gate": "Ausgang 4 (Charter)",
-      "status": "landed",
-      "status_text": "gelandet",
-      "delay": 0
     },
     {
       "dt": 1791569400.0,
@@ -270,8 +236,8 @@
       "terminal": "B",
       "baggage": "6",
       "gate": "Ausgang 1 (Linie)",
-      "status": "scheduled",
-      "status_text": "Vorhafen verlassen",
+      "status": "active",
+      "status_text": "Im Anflug",
       "delay": 13
     },
     {
@@ -294,7 +260,7 @@
     {
       "dt": 1791572700.0,
       "time_scheduled": "21:05",
-      "time_estimated": "21:11",
+      "time_estimated": "20:59",
       "flight_no": "EW9961",
       "airline": "Eurowings",
       "city": "Split",
@@ -306,7 +272,7 @@
       "gate": "Ausgang 1 (Linie)",
       "status": "active",
       "status_text": "im Anflug",
-      "delay": 7
+      "delay": 0
     },
     {
       "dt": 1791573300.0,
@@ -515,7 +481,7 @@
     {
       "dt": 1791575400.0,
       "time_scheduled": "21:50",
-      "time_estimated": "22:02",
+      "time_estimated": "22:07",
       "flight_no": "EW9345",
       "airline": "Eurowings",
       "city": "Manchester",
@@ -527,7 +493,7 @@
       "gate": "Ausgang 1 (Linie)",
       "status": "scheduled",
       "status_text": "",
-      "delay": 13
+      "delay": 18
     },
     {
       "dt": 1791575400.0,
@@ -549,7 +515,7 @@
     {
       "dt": 1791575400.0,
       "time_scheduled": "21:50",
-      "time_estimated": "22:00",
+      "time_estimated": "22:03",
       "flight_no": "AF1106",
       "airline": "Air France",
       "city": "Paris-Charles de Gaulle",
@@ -561,7 +527,7 @@
       "gate": "Ausgang 1 (Linie)",
       "status": "scheduled",
       "status_text": "",
-      "delay": 10
+      "delay": 13
     },
     {
       "dt": 1791575700.0,
