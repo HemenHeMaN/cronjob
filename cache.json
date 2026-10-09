@@ -1,5 +1,5 @@
 {
-  "updated_at": "09.10.2026 06:50",
+  "updated_at": "09.10.2026 06:55",
   "source": "Dus.com",
   "flights": [
     {
@@ -73,7 +73,7 @@
     {
       "dt": 1791524400.0,
       "time_scheduled": "07:40",
-      "time_estimated": "07:39",
+      "time_estimated": "07:49",
       "flight_no": "KL1797",
       "airline": "KLM",
       "city": "Amsterdam",
@@ -85,7 +85,7 @@
       "gate": "Ausgang 1 (Linie)",
       "status": "scheduled",
       "status_text": "",
-      "delay": 0
+      "delay": 10
     },
     {
       "dt": 1791526200.0,
@@ -209,7 +209,7 @@
     {
       "dt": 1791528000.0,
       "time_scheduled": "08:40",
-      "time_estimated": "08:43",
+      "time_estimated": "08:39",
       "flight_no": "LH2004",
       "airline": "Lufthansa",
       "city": "München",
@@ -221,7 +221,7 @@
       "gate": "Ausgang 1 (Linie)",
       "status": "scheduled",
       "status_text": "",
-      "delay": 3
+      "delay": 0
     },
     {
       "dt": 1791528000.0,
@@ -1152,6 +1152,23 @@
       "type": "Linie",
       "type_source": "Airline",
       "terminal": "B",
+      "baggage": "",
+      "gate": "Ausgang 1 (Linie)",
+      "status": "scheduled",
+      "status_text": "",
+      "delay": 0
+    },
+    {
+      "dt": 1791539700.0,
+      "time_scheduled": "11:55",
+      "time_estimated": "11:55",
+      "flight_no": "VF025",
+      "airline": "A Jet",
+      "city": "Istanbul-Sabiha Gökçen",
+      "country": "Türkei",
+      "type": "Linie",
+      "type_source": "Airline",
+      "terminal": "C",
       "baggage": "",
       "gate": "Ausgang 1 (Linie)",
       "status": "scheduled",
