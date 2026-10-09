@@ -1,41 +1,7 @@
 {
-  "updated_at": "09.10.2026 15:30",
+  "updated_at": "09.10.2026 15:35",
   "source": "Dus.com",
   "flights": [
-    {
-      "dt": 1791545400.0,
-      "time_scheduled": "13:30",
-      "time_estimated": "14:31",
-      "flight_no": "NE720",
-      "airline": "Nesma Airlines",
-      "city": "Hurghada",
-      "country": "Ägypten",
-      "type": "Charter",
-      "type_source": "Ausgang",
-      "terminal": "C",
-      "baggage": "19",
-      "gate": "Ausgang 6 (Charter)",
-      "status": "landed",
-      "status_text": "gelandet",
-      "delay": 62
-    },
-    {
-      "dt": 1791546900.0,
-      "time_scheduled": "13:55",
-      "time_estimated": "14:34",
-      "flight_no": "KL1801",
-      "airline": "KLM",
-      "city": "Amsterdam",
-      "country": "Niederlande",
-      "type": "Charter",
-      "type_source": "Ausgang",
-      "terminal": "B",
-      "baggage": "10",
-      "gate": "Ausgang 4 (Charter)",
-      "status": "landed",
-      "status_text": "gelandet",
-      "delay": 39
-    },
     {
       "dt": 1791548100.0,
       "time_scheduled": "14:15",
@@ -287,8 +253,8 @@
       "terminal": "A",
       "baggage": "",
       "gate": "Ausgang 1 (Linie)",
-      "status": "scheduled",
-      "status_text": "Vorhafen verlassen",
+      "status": "active",
+      "status_text": "Im Anflug",
       "delay": 20
     },
     {
@@ -304,8 +270,8 @@
       "terminal": "C",
       "baggage": "14",
       "gate": "Ausgang 5 (Charter)",
-      "status": "active",
-      "status_text": "im Anflug",
+      "status": "landed",
+      "status_text": "gelandet",
       "delay": 0
     },
     {
@@ -362,7 +328,7 @@
     {
       "dt": 1791554400.0,
       "time_scheduled": "16:00",
-      "time_estimated": "16:17",
+      "time_estimated": "16:19",
       "flight_no": "PC1003",
       "airline": "Pegasus Airlines",
       "city": "Istanbul-Sabiha Gökçen",
@@ -374,7 +340,7 @@
       "gate": "Ausgang 1 (Linie)",
       "status": "scheduled",
       "status_text": "Vorhafen verlassen",
-      "delay": 17
+      "delay": 19
     },
     {
       "dt": 1791554400.0,
@@ -447,7 +413,7 @@
     {
       "dt": 1791555000.0,
       "time_scheduled": "16:10",
-      "time_estimated": "16:34",
+      "time_estimated": "16:29",
       "flight_no": "EW9037",
       "airline": "Eurowings",
       "city": "Hamburg",
@@ -459,7 +425,7 @@
       "gate": "Ausgang 1 (Linie)",
       "status": "scheduled",
       "status_text": "",
-      "delay": 24
+      "delay": 19
     },
     {
       "dt": 1791555300.0,
@@ -668,7 +634,7 @@
     {
       "dt": 1791558600.0,
       "time_scheduled": "17:10",
-      "time_estimated": "17:23",
+      "time_estimated": "17:29",
       "flight_no": "EW9461",
       "airline": "Eurowings",
       "city": "London-Heathrow",
@@ -680,7 +646,7 @@
       "gate": "Ausgang 1 (Linie)",
       "status": "scheduled",
       "status_text": "",
-      "delay": 14
+      "delay": 20
     },
     {
       "dt": 1791558900.0,
@@ -736,7 +702,7 @@
     {
       "dt": 1791558900.0,
       "time_scheduled": "17:15",
-      "time_estimated": "18:44",
+      "time_estimated": "18:42",
       "flight_no": "KK491",
       "airline": "LEAV Aviation",
       "city": "Damaskus",
@@ -748,7 +714,7 @@
       "gate": "Ausgang 1 (Linie)",
       "status": "scheduled",
       "status_text": "Vorhafen verlassen",
-      "delay": 89
+      "delay": 88
     },
     {
       "dt": 1791559500.0,
@@ -1195,7 +1161,7 @@
     {
       "dt": 1791564900.0,
       "time_scheduled": "18:55",
-      "time_estimated": "18:55",
+      "time_estimated": "18:50",
       "flight_no": "XQ794",
       "airline": "Sun Express",
       "city": "Ankara-Esenboğa",
@@ -1206,7 +1172,7 @@
       "baggage": "",
       "gate": "Ausgang 4 (Charter)",
       "status": "scheduled",
-      "status_text": "",
+      "status_text": "Vorhafen verlassen",
       "delay": 0
     },
     {
@@ -1664,6 +1630,23 @@
       "terminal": "B",
       "baggage": "",
       "gate": "Ausgang 4 (Charter)",
+      "status": "scheduled",
+      "status_text": "",
+      "delay": 0
+    },
+    {
+      "dt": 1791570900.0,
+      "time_scheduled": "20:35",
+      "time_estimated": "20:35",
+      "flight_no": "EW9755",
+      "airline": "Eurowings",
+      "city": "Wien",
+      "country": "Österreich",
+      "type": "Linie",
+      "type_source": "Airline",
+      "terminal": "B",
+      "baggage": "",
+      "gate": "Ausgang 1 (Linie)",
       "status": "scheduled",
       "status_text": "",
       "delay": 0
