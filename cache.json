@@ -1,5 +1,5 @@
 {
-  "updated_at": "09.10.2026 08:00",
+  "updated_at": "09.10.2026 08:05",
   "source": "Dus.com",
   "flights": [
     {
@@ -158,7 +158,7 @@
     {
       "dt": 1791528000.0,
       "time_scheduled": "08:40",
-      "time_estimated": "08:39",
+      "time_estimated": "08:40",
       "flight_no": "LH2004",
       "airline": "Lufthansa",
       "city": "München",
@@ -243,7 +243,7 @@
     {
       "dt": 1791528900.0,
       "time_scheduled": "08:55",
-      "time_estimated": "08:38",
+      "time_estimated": "08:39",
       "flight_no": "XQ968",
       "airline": "Sun Express",
       "city": "Izmir",
@@ -260,7 +260,7 @@
     {
       "dt": 1791528900.0,
       "time_scheduled": "08:55",
-      "time_estimated": "08:45",
+      "time_estimated": "08:46",
       "flight_no": "DY1150",
       "airline": "Norwegian",
       "city": "Oslo - Gardermoen",
@@ -277,7 +277,7 @@
     {
       "dt": 1791528900.0,
       "time_scheduled": "08:55",
-      "time_estimated": "08:34",
+      "time_estimated": "08:35",
       "flight_no": "BJ214",
       "airline": "Nouvelair",
       "city": "Monastir",
@@ -498,7 +498,7 @@
     {
       "dt": 1791532500.0,
       "time_scheduled": "09:55",
-      "time_estimated": "10:07",
+      "time_estimated": "10:04",
       "flight_no": "EW9761",
       "airline": "Eurowings",
       "city": "Zürich",
@@ -510,7 +510,7 @@
       "gate": "Ausgang 1 (Linie)",
       "status": "scheduled",
       "status_text": "",
-      "delay": 13
+      "delay": 10
     },
     {
       "dt": 1791532800.0,
@@ -583,7 +583,7 @@
     {
       "dt": 1791533100.0,
       "time_scheduled": "10:05",
-      "time_estimated": "10:05",
+      "time_estimated": "09:58",
       "flight_no": "BA918",
       "airline": "British Airways",
       "city": "London-Heathrow",
@@ -595,7 +595,7 @@
       "gate": "Ausgang 1 (Linie)",
       "status": "scheduled",
       "status_text": "",
-      "delay": 1
+      "delay": 0
     },
     {
       "dt": 1791533700.0,
@@ -617,7 +617,7 @@
     {
       "dt": 1791534300.0,
       "time_scheduled": "10:25",
-      "time_estimated": "10:34",
+      "time_estimated": "10:18",
       "flight_no": "EW9841",
       "airline": "Eurowings",
       "city": "Mailand-Linate",
@@ -629,7 +629,7 @@
       "gate": "Ausgang 1 (Linie)",
       "status": "scheduled",
       "status_text": "",
-      "delay": 10
+      "delay": 0
     },
     {
       "dt": 1791534300.0,
@@ -719,7 +719,7 @@
     {
       "dt": 1791534600.0,
       "time_scheduled": "10:30",
-      "time_estimated": "10:06",
+      "time_estimated": "10:05",
       "flight_no": "AY1393",
       "airline": "Finnair",
       "city": "Helsinki",
@@ -730,7 +730,7 @@
       "baggage": "",
       "gate": "Ausgang 1 (Linie)",
       "status": "scheduled",
-      "status_text": "",
+      "status_text": "Vorhafen verlassen",
       "delay": 0
     },
     {
@@ -804,7 +804,7 @@
     {
       "dt": 1791536100.0,
       "time_scheduled": "10:55",
-      "time_estimated": "11:08",
+      "time_estimated": "11:06",
       "flight_no": "PC5677",
       "airline": "Pegasus Airlines",
       "city": "Antalya",
@@ -816,7 +816,7 @@
       "gate": "Ausgang 6 (Charter)",
       "status": "scheduled",
       "status_text": "Vorhafen verlassen",
-      "delay": 13
+      "delay": 11
     },
     {
       "dt": 1791536400.0,
@@ -855,7 +855,7 @@
     {
       "dt": 1791536700.0,
       "time_scheduled": "11:05",
-      "time_estimated": "11:05",
+      "time_estimated": "11:08",
       "flight_no": "AT696",
       "airline": "Royal Air Maroc",
       "city": "Nador",
@@ -867,7 +867,7 @@
       "gate": "Ausgang 1 (Linie)",
       "status": "scheduled",
       "status_text": "",
-      "delay": 0
+      "delay": 4
     },
     {
       "dt": 1791537000.0,
@@ -1373,6 +1373,23 @@
       "type": "Linie",
       "type_source": "Airline",
       "terminal": "B",
+      "baggage": "",
+      "gate": "Ausgang 1 (Linie)",
+      "status": "scheduled",
+      "status_text": "",
+      "delay": 0
+    },
+    {
+      "dt": 1791543900.0,
+      "time_scheduled": "13:05",
+      "time_estimated": "13:05",
+      "flight_no": "SK816",
+      "airline": "Scandinavian Airlines",
+      "city": "Oslo - Gardermoen",
+      "country": "Norwegen",
+      "type": "Linie",
+      "type_source": "Airline",
+      "terminal": "A",
       "baggage": "",
       "gate": "Ausgang 1 (Linie)",
       "status": "scheduled",
