@@ -1,24 +1,7 @@
 {
-  "updated_at": "09.10.2026 16:20",
+  "updated_at": "09.10.2026 16:25",
   "source": "Dus.com",
   "flights": [
-    {
-      "dt": 1791552300.0,
-      "time_scheduled": "15:25",
-      "time_estimated": "15:23",
-      "flight_no": "EW8044",
-      "airline": "Eurowings",
-      "city": "Berlin-Brandenburg",
-      "country": "Deutschland",
-      "type": "Charter",
-      "type_source": "Ausgang",
-      "terminal": "B",
-      "baggage": "11",
-      "gate": "Ausgang 4 (Charter)",
-      "status": "landed",
-      "status_text": "gelandet",
-      "delay": 0
-    },
     {
       "dt": 1791552900.0,
       "time_scheduled": "15:35",
@@ -321,8 +304,8 @@
       "terminal": "B",
       "baggage": "",
       "gate": "Ausgang 4 (Charter)",
-      "status": "scheduled",
-      "status_text": "Vorhafen verlassen",
+      "status": "active",
+      "status_text": "Im Anflug",
       "delay": 0
     },
     {
@@ -339,7 +322,7 @@
       "baggage": "4",
       "gate": "Ausgang 1 (Linie)",
       "status": "active",
-      "status_text": "Im Anflug",
+      "status_text": "im Anflug",
       "delay": 0
     },
     {
@@ -821,7 +804,7 @@
     {
       "dt": 1791563100.0,
       "time_scheduled": "18:25",
-      "time_estimated": "18:52",
+      "time_estimated": "18:46",
       "flight_no": "EW9587",
       "airline": "Eurowings",
       "city": "Palma de Mallorca",
@@ -832,8 +815,8 @@
       "baggage": "",
       "gate": "Ausgang 1 (Linie)",
       "status": "scheduled",
-      "status_text": "",
-      "delay": 28
+      "status_text": "Vorhafen verlassen",
+      "delay": 22
     },
     {
       "dt": 1791563100.0,
@@ -1042,7 +1025,7 @@
     {
       "dt": 1791565500.0,
       "time_scheduled": "19:05",
-      "time_estimated": "19:05",
+      "time_estimated": "19:28",
       "flight_no": "IV8222",
       "airline": "GP Aviation",
       "city": "Pristina",
@@ -1054,7 +1037,7 @@
       "gate": "Ausgang 5 (Charter)",
       "status": "scheduled",
       "status_text": "",
-      "delay": 0
+      "delay": 24
     },
     {
       "dt": 1791565800.0,
@@ -1212,7 +1195,7 @@
     {
       "dt": 1791567000.0,
       "time_scheduled": "19:30",
-      "time_estimated": "19:32",
+      "time_estimated": "19:33",
       "flight_no": "XQ180",
       "airline": "Sun Express",
       "city": "Antalya",
@@ -1297,7 +1280,7 @@
     {
       "dt": 1791568200.0,
       "time_scheduled": "19:50",
-      "time_estimated": "19:50",
+      "time_estimated": "19:36",
       "flight_no": "EW9637",
       "airline": "Eurowings",
       "city": "Kos",
@@ -1581,6 +1564,23 @@
       "gate": "Ausgang 4 (Charter)",
       "status": "scheduled",
       "status_text": "",
+      "delay": 0
+    },
+    {
+      "dt": 1791574200.0,
+      "time_scheduled": "21:30",
+      "time_estimated": "21:23",
+      "flight_no": "X36643",
+      "airline": "Tuifly",
+      "city": "Marsa Alam",
+      "country": "Ägypten",
+      "type": "Charter",
+      "type_source": "Airline",
+      "terminal": "C",
+      "baggage": "",
+      "gate": "Ausgang 4 (Charter)",
+      "status": "scheduled",
+      "status_text": "Vorhafen verlassen",
       "delay": 0
     }
   ]
