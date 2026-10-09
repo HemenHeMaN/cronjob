@@ -1,5 +1,5 @@
 {
-  "updated_at": "09.10.2026 22:30",
+  "updated_at": "09.10.2026 22:35",
   "source": "Dus.com",
   "flights": [
     {
@@ -35,40 +35,6 @@
       "status": "landed",
       "status_text": "gelandet",
       "delay": 19
-    },
-    {
-      "dt": 1791573600.0,
-      "time_scheduled": "21:20",
-      "time_estimated": "21:31",
-      "flight_no": "ENT6063",
-      "airline": "Enter Air",
-      "city": "Pristina",
-      "country": "Kosovo",
-      "type": "Charter",
-      "type_source": "Ausgang",
-      "terminal": "C",
-      "baggage": "17",
-      "gate": "Ausgang 6 (Charter)",
-      "status": "landed",
-      "status_text": "gelandet",
-      "delay": 11
-    },
-    {
-      "dt": 1791574200.0,
-      "time_scheduled": "21:30",
-      "time_estimated": "21:34",
-      "flight_no": "EW9757",
-      "airline": "Eurowings",
-      "city": "Wien",
-      "country": "Österreich",
-      "type": "Linie",
-      "type_source": "Ausgang",
-      "terminal": "B",
-      "baggage": "6",
-      "gate": "Ausgang 1 (Linie)",
-      "status": "landed",
-      "status_text": "gelandet",
-      "delay": 4
     },
     {
       "dt": 1791574500.0,
@@ -328,7 +294,7 @@
     {
       "dt": 1791576000.0,
       "time_scheduled": "22:00",
-      "time_estimated": "22:52",
+      "time_estimated": "22:45",
       "flight_no": "EW9469",
       "airline": "Eurowings",
       "city": "London-Heathrow",
@@ -339,8 +305,8 @@
       "baggage": "",
       "gate": "Ausgang 1 (Linie)",
       "status": "active",
-      "status_text": "Im Anflug",
-      "delay": 52
+      "status_text": "im Anflug",
+      "delay": 45
     },
     {
       "dt": 1791576000.0,
@@ -464,7 +430,7 @@
     {
       "dt": 1791576900.0,
       "time_scheduled": "22:15",
-      "time_estimated": "22:35",
+      "time_estimated": "22:40",
       "flight_no": "EW4204",
       "airline": "Eurowings",
       "city": "Prag",
@@ -476,12 +442,12 @@
       "gate": "Ausgang 1 (Linie)",
       "status": "active",
       "status_text": "im Anflug",
-      "delay": 20
+      "delay": 26
     },
     {
       "dt": 1791576900.0,
       "time_scheduled": "22:15",
-      "time_estimated": "22:34",
+      "time_estimated": "22:31",
       "flight_no": "EW9245",
       "airline": "Eurowings",
       "city": "Kopenhagen",
@@ -491,9 +457,9 @@
       "terminal": "A",
       "baggage": "5",
       "gate": "Ausgang 1 (Linie)",
-      "status": "active",
-      "status_text": "im Anflug",
-      "delay": 20
+      "status": "landed",
+      "status_text": "gelandet",
+      "delay": 17
     },
     {
       "dt": 1791576900.0,
@@ -549,7 +515,7 @@
     {
       "dt": 1791577200.0,
       "time_scheduled": "22:20",
-      "time_estimated": "22:55",
+      "time_estimated": "22:49",
       "flight_no": "EW9887",
       "airline": "Eurowings",
       "city": "Rom-Fiumicino",
@@ -560,13 +526,13 @@
       "baggage": "",
       "gate": "Ausgang 1 (Linie)",
       "status": "active",
-      "status_text": "Im Anflug",
-      "delay": 35
+      "status_text": "im Anflug",
+      "delay": 29
     },
     {
       "dt": 1791577500.0,
       "time_scheduled": "22:25",
-      "time_estimated": "22:38",
+      "time_estimated": "22:45",
       "flight_no": "EW9835",
       "airline": "Eurowings",
       "city": "Bologna",
@@ -578,7 +544,7 @@
       "gate": "Ausgang 1 (Linie)",
       "status": "active",
       "status_text": "im Anflug",
-      "delay": 14
+      "delay": 21
     },
     {
       "dt": 1791577500.0,
@@ -617,7 +583,7 @@
     {
       "dt": 1791577800.0,
       "time_scheduled": "22:30",
-      "time_estimated": "22:39",
+      "time_estimated": "22:45",
       "flight_no": "EW9365",
       "airline": "Eurowings",
       "city": "Edinburgh",
@@ -629,7 +595,7 @@
       "gate": "Ausgang 1 (Linie)",
       "status": "active",
       "status_text": "im Anflug",
-      "delay": 10
+      "delay": 15
     },
     {
       "dt": 1791577800.0,
@@ -678,8 +644,8 @@
       "terminal": "B",
       "baggage": "",
       "gate": "Ausgang 4 (Charter)",
-      "status": "scheduled",
-      "status_text": "Vorhafen verlassen",
+      "status": "active",
+      "status_text": "Im Anflug",
       "delay": 23
     },
     {
@@ -695,8 +661,8 @@
       "terminal": "C",
       "baggage": "",
       "gate": "Ausgang 4 (Charter)",
-      "status": "scheduled",
-      "status_text": "Vorhafen verlassen",
+      "status": "active",
+      "status_text": "Im Anflug",
       "delay": 16
     },
     {
@@ -719,7 +685,7 @@
     {
       "dt": 1791578400.0,
       "time_scheduled": "22:40",
-      "time_estimated": "22:52",
+      "time_estimated": "22:46",
       "flight_no": "DE1617",
       "airline": "Condor",
       "city": "Heraklion (Kreta)",
@@ -729,9 +695,9 @@
       "terminal": "B",
       "baggage": "",
       "gate": "Ausgang 4 (Charter)",
-      "status": "scheduled",
-      "status_text": "Vorhafen verlassen",
-      "delay": 12
+      "status": "active",
+      "status_text": "Im Anflug",
+      "delay": 7
     },
     {
       "dt": 1791578700.0,
@@ -746,14 +712,14 @@
       "terminal": "B",
       "baggage": "",
       "gate": "Ausgang 4 (Charter)",
-      "status": "scheduled",
-      "status_text": "Vorhafen verlassen",
+      "status": "active",
+      "status_text": "Im Anflug",
       "delay": 11
     },
     {
       "dt": 1791578700.0,
       "time_scheduled": "22:45",
-      "time_estimated": "22:32",
+      "time_estimated": "22:33",
       "flight_no": "DE1623",
       "airline": "Condor",
       "city": "Rhodos",
@@ -763,8 +729,8 @@
       "terminal": "B",
       "baggage": "19",
       "gate": "Ausgang 6 (Charter)",
-      "status": "active",
-      "status_text": "im Anflug",
+      "status": "landed",
+      "status_text": "gelandet",
       "delay": 0
     },
     {
