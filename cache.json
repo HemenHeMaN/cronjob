@@ -1,24 +1,7 @@
 {
-  "updated_at": "09.10.2026 11:16",
+  "updated_at": "09.10.2026 11:20",
   "source": "Dus.com",
   "flights": [
-    {
-      "dt": 1791533700.0,
-      "time_scheduled": "10:15",
-      "time_estimated": "10:19",
-      "flight_no": "ME247",
-      "airline": "Middle East Airlines",
-      "city": "Beirut",
-      "country": "Libanon",
-      "type": "Charter",
-      "type_source": "Ausgang",
-      "terminal": "C",
-      "baggage": "17",
-      "gate": "Ausgang 6 (Charter)",
-      "status": "landed",
-      "status_text": "gelandet",
-      "delay": 5
-    },
     {
       "dt": 1791534300.0,
       "time_scheduled": "10:25",
@@ -56,23 +39,6 @@
     {
       "dt": 1791534600.0,
       "time_scheduled": "10:30",
-      "time_estimated": "10:35",
-      "flight_no": "4M511",
-      "airline": "Mavi Gök Aviation",
-      "city": "Antalya",
-      "country": "Türkei",
-      "type": "Linie",
-      "type_source": "Ausgang",
-      "terminal": "A",
-      "baggage": "1/-/2",
-      "gate": "Ausgang 1 (Linie)",
-      "status": "landed",
-      "status_text": "gelandet",
-      "delay": 5
-    },
-    {
-      "dt": 1791534600.0,
-      "time_scheduled": "10:30",
       "time_estimated": "10:24",
       "flight_no": "EW9463",
       "airline": "Eurowings",
@@ -86,6 +52,23 @@
       "status": "landed",
       "status_text": "gelandet",
       "delay": 0
+    },
+    {
+      "dt": 1791534600.0,
+      "time_scheduled": "10:30",
+      "time_estimated": "10:35",
+      "flight_no": "4M511",
+      "airline": "Mavi Gök Aviation",
+      "city": "Antalya",
+      "country": "Türkei",
+      "type": "Linie",
+      "type_source": "Ausgang",
+      "terminal": "A",
+      "baggage": "1/-/2",
+      "gate": "Ausgang 1 (Linie)",
+      "status": "landed",
+      "status_text": "gelandet",
+      "delay": 5
     },
     {
       "dt": 1791535200.0,
@@ -175,7 +158,7 @@
     {
       "dt": 1791536400.0,
       "time_scheduled": "11:00",
-      "time_estimated": "11:21",
+      "time_estimated": "11:26",
       "flight_no": "4M597",
       "airline": "Mavi Gök Aviation",
       "city": "Antalya",
@@ -187,7 +170,7 @@
       "gate": "Ausgang 1 (Linie)",
       "status": "active",
       "status_text": "im Anflug",
-      "delay": 21
+      "delay": 27
     },
     {
       "dt": 1791536700.0,
@@ -271,7 +254,7 @@
       "baggage": "12",
       "gate": "Ausgang 4 (Charter)",
       "status": "active",
-      "status_text": "Im Anflug",
+      "status_text": "im Anflug",
       "delay": 14
     },
     {
@@ -294,7 +277,7 @@
     {
       "dt": 1791538500.0,
       "time_scheduled": "11:35",
-      "time_estimated": "11:46",
+      "time_estimated": "11:40",
       "flight_no": "EW9505",
       "airline": "Eurowings",
       "city": "Menorca",
@@ -306,7 +289,7 @@
       "gate": "Ausgang 1 (Linie)",
       "status": "active",
       "status_text": "Im Anflug",
-      "delay": 11
+      "delay": 5
     },
     {
       "dt": 1791538800.0,
@@ -322,7 +305,7 @@
       "baggage": "3",
       "gate": "Ausgang 1 (Linie)",
       "status": "active",
-      "status_text": "Im Anflug",
+      "status_text": "im Anflug",
       "delay": 0
     },
     {
@@ -379,7 +362,7 @@
     {
       "dt": 1791539400.0,
       "time_scheduled": "11:50",
-      "time_estimated": "12:02",
+      "time_estimated": "12:08",
       "flight_no": "KL1799",
       "airline": "KLM",
       "city": "Amsterdam",
@@ -391,7 +374,7 @@
       "gate": "Ausgang 1 (Linie)",
       "status": "scheduled",
       "status_text": "",
-      "delay": 12
+      "delay": 18
     },
     {
       "dt": 1791539400.0,
@@ -1151,7 +1134,7 @@
       "country": "Ägypten",
       "type": "Linie",
       "type_source": "Airline",
-      "terminal": "C",
+      "terminal": "A",
       "baggage": "",
       "gate": "Ausgang 1 (Linie)",
       "status": "scheduled",
@@ -1195,7 +1178,7 @@
     {
       "dt": 1791548700.0,
       "time_scheduled": "14:25",
-      "time_estimated": "14:25",
+      "time_estimated": "14:22",
       "flight_no": "EW4674",
       "airline": "Eurowings",
       "city": "Stockholm-Arlanda",
@@ -1246,7 +1229,7 @@
     {
       "dt": 1791549600.0,
       "time_scheduled": "14:40",
-      "time_estimated": "14:25",
+      "time_estimated": "14:22",
       "flight_no": "SM2984",
       "airline": "Air Cairo",
       "city": "Hurghada",
