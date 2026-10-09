@@ -1,5 +1,5 @@
 {
-  "updated_at": "09.10.2026 10:15",
+  "updated_at": "09.10.2026 10:16",
   "source": "Dus.com",
   "flights": [
     {
@@ -39,23 +39,6 @@
     {
       "dt": 1791530700.0,
       "time_scheduled": "09:25",
-      "time_estimated": "09:18",
-      "flight_no": "EW9041",
-      "airline": "Eurowings",
-      "city": "Berlin-Brandenburg",
-      "country": "Deutschland",
-      "type": "Charter",
-      "type_source": "Ausgang",
-      "terminal": "B",
-      "baggage": "8",
-      "gate": "Ausgang 4 (Charter)",
-      "status": "landed",
-      "status_text": "gelandet",
-      "delay": 0
-    },
-    {
-      "dt": 1791530700.0,
-      "time_scheduled": "09:25",
       "time_estimated": "09:21",
       "flight_no": "XR418",
       "airline": "Corendon Airlines Europe",
@@ -65,6 +48,23 @@
       "type_source": "Ausgang",
       "terminal": "B",
       "baggage": "11",
+      "gate": "Ausgang 4 (Charter)",
+      "status": "landed",
+      "status_text": "gelandet",
+      "delay": 0
+    },
+    {
+      "dt": 1791530700.0,
+      "time_scheduled": "09:25",
+      "time_estimated": "09:18",
+      "flight_no": "EW9041",
+      "airline": "Eurowings",
+      "city": "Berlin-Brandenburg",
+      "country": "Deutschland",
+      "type": "Charter",
+      "type_source": "Ausgang",
+      "terminal": "B",
+      "baggage": "8",
       "gate": "Ausgang 4 (Charter)",
       "status": "landed",
       "status_text": "gelandet",
@@ -226,7 +226,7 @@
     {
       "dt": 1791533700.0,
       "time_scheduled": "10:15",
-      "time_estimated": "10:19",
+      "time_estimated": "10:20",
       "flight_no": "ME247",
       "airline": "Middle East Airlines",
       "city": "Beirut",
@@ -238,7 +238,7 @@
       "gate": "Ausgang 6 (Charter)",
       "status": "active",
       "status_text": "im Anflug",
-      "delay": 5
+      "delay": 6
     },
     {
       "dt": 1791534300.0,
