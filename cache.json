@@ -1,5 +1,5 @@
 {
-  "updated_at": "09.10.2026 07:30",
+  "updated_at": "09.10.2026 07:35",
   "source": "Dus.com",
   "flights": [
     {
@@ -22,7 +22,7 @@
     {
       "dt": 1791523200.0,
       "time_scheduled": "07:20",
-      "time_estimated": "07:39",
+      "time_estimated": "07:30",
       "flight_no": "PC1665",
       "airline": "Pegasus Airlines",
       "city": "Gaziantep",
@@ -32,9 +32,9 @@
       "terminal": "C",
       "baggage": "14",
       "gate": "Ausgang 5 (Charter)",
-      "status": "active",
-      "status_text": "im Anflug",
-      "delay": 19
+      "status": "landed",
+      "status_text": "gelandet",
+      "delay": 10
     },
     {
       "dt": 1791524400.0,
@@ -175,7 +175,7 @@
     {
       "dt": 1791528000.0,
       "time_scheduled": "08:40",
-      "time_estimated": "08:39",
+      "time_estimated": "08:41",
       "flight_no": "LH2004",
       "airline": "Lufthansa",
       "city": "München",
@@ -187,7 +187,7 @@
       "gate": "Ausgang 1 (Linie)",
       "status": "scheduled",
       "status_text": "",
-      "delay": 0
+      "delay": 1
     },
     {
       "dt": 1791528000.0,
@@ -481,7 +481,7 @@
     {
       "dt": 1791531600.0,
       "time_scheduled": "09:40",
-      "time_estimated": "09:57",
+      "time_estimated": "09:47",
       "flight_no": "LH2006",
       "airline": "Lufthansa",
       "city": "München",
@@ -493,7 +493,7 @@
       "gate": "Ausgang 1 (Linie)",
       "status": "scheduled",
       "status_text": "",
-      "delay": 17
+      "delay": 7
     },
     {
       "dt": 1791531900.0,
@@ -634,7 +634,7 @@
     {
       "dt": 1791534300.0,
       "time_scheduled": "10:25",
-      "time_estimated": "10:25",
+      "time_estimated": "10:34",
       "flight_no": "EW9841",
       "airline": "Eurowings",
       "city": "Mailand-Linate",
@@ -646,7 +646,7 @@
       "gate": "Ausgang 1 (Linie)",
       "status": "scheduled",
       "status_text": "",
-      "delay": 0
+      "delay": 10
     },
     {
       "dt": 1791534300.0,
@@ -668,7 +668,7 @@
     {
       "dt": 1791534300.0,
       "time_scheduled": "10:25",
-      "time_estimated": "10:25",
+      "time_estimated": "10:36",
       "flight_no": "DE1011",
       "airline": "Condor",
       "city": "Palma de Mallorca",
@@ -680,7 +680,7 @@
       "gate": "Ausgang 4 (Charter)",
       "status": "scheduled",
       "status_text": "",
-      "delay": 0
+      "delay": 12
     },
     {
       "dt": 1791534600.0,
@@ -702,7 +702,7 @@
     {
       "dt": 1791534600.0,
       "time_scheduled": "10:30",
-      "time_estimated": "10:30",
+      "time_estimated": "10:33",
       "flight_no": "EW9243",
       "airline": "Eurowings",
       "city": "Kopenhagen",
@@ -714,7 +714,7 @@
       "gate": "Ausgang 1 (Linie)",
       "status": "scheduled",
       "status_text": "",
-      "delay": 0
+      "delay": 3
     },
     {
       "dt": 1791534600.0,
@@ -804,7 +804,7 @@
     {
       "dt": 1791536100.0,
       "time_scheduled": "10:55",
-      "time_estimated": "10:55",
+      "time_estimated": "11:03",
       "flight_no": "FH1193",
       "airline": "Freebird Airlines",
       "city": "Antalya",
@@ -815,8 +815,8 @@
       "baggage": "",
       "gate": "Ausgang 4 (Charter)",
       "status": "scheduled",
-      "status_text": "",
-      "delay": 0
+      "status_text": "Vorhafen verlassen",
+      "delay": 9
     },
     {
       "dt": 1791536100.0,
@@ -1159,6 +1159,23 @@
       "delay": 0
     },
     {
+      "dt": 1791540600.0,
+      "time_scheduled": "12:10",
+      "time_estimated": "12:34",
+      "flight_no": "EW9531",
+      "airline": "Eurowings",
+      "city": "Alicante",
+      "country": "Spanien",
+      "type": "Linie",
+      "type_source": "Airline",
+      "terminal": "B",
+      "baggage": "",
+      "gate": "Ausgang 1 (Linie)",
+      "status": "scheduled",
+      "status_text": "",
+      "delay": 24
+    },
+    {
       "dt": 1791540900.0,
       "time_scheduled": "12:15",
       "time_estimated": "12:15",
@@ -1239,6 +1256,57 @@
       "terminal": "C",
       "baggage": "",
       "gate": "Ausgang 4 (Charter)",
+      "status": "scheduled",
+      "status_text": "",
+      "delay": 0
+    },
+    {
+      "dt": 1791542100.0,
+      "time_scheduled": "12:35",
+      "time_estimated": "12:35",
+      "flight_no": "EW9861",
+      "airline": "Eurowings",
+      "city": "Neapel",
+      "country": "Italien",
+      "type": "Linie",
+      "type_source": "Airline",
+      "terminal": "B",
+      "baggage": "",
+      "gate": "Ausgang 1 (Linie)",
+      "status": "scheduled",
+      "status_text": "",
+      "delay": 0
+    },
+    {
+      "dt": 1791542100.0,
+      "time_scheduled": "12:35",
+      "time_estimated": "12:35",
+      "flight_no": "PC1001",
+      "airline": "Pegasus Airlines",
+      "city": "Istanbul-Sabiha Gökçen",
+      "country": "Türkei",
+      "type": "Linie",
+      "type_source": "Airline",
+      "terminal": "C",
+      "baggage": "",
+      "gate": "Ausgang 1 (Linie)",
+      "status": "scheduled",
+      "status_text": "",
+      "delay": 0
+    },
+    {
+      "dt": 1791542100.0,
+      "time_scheduled": "12:35",
+      "time_estimated": "12:35",
+      "flight_no": "EW9539",
+      "airline": "Eurowings",
+      "city": "Valencia",
+      "country": "Spanien",
+      "type": "Linie",
+      "type_source": "Airline",
+      "terminal": "A",
+      "baggage": "",
+      "gate": "Ausgang 1 (Linie)",
       "status": "scheduled",
       "status_text": "",
       "delay": 0
