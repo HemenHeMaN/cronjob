@@ -191,11 +191,16 @@ h1 { color: var(--heading-color); font-size: 1.4rem; margin: 0; }
 .view-section { display: none; }
 .view-section.active-view { display: block; }
 
-/* Suchfeld */
-.search-container { margin-bottom: 12px; }
+/* Suchfeld mit Clear-Button */
+.search-container { 
+    margin-bottom: 12px; 
+    position: relative;
+    display: flex;
+    align-items: center;
+}
 .search-input {
     width: 100%;
-    padding: 10px 14px;
+    padding: 10px 38px 10px 14px; /* Rechts Platz für den Clear-Button */
     font-size: 1rem;
     font-family: var(--font);
     background: var(--card-bg);
@@ -206,6 +211,30 @@ h1 { color: var(--heading-color); font-size: 1.4rem; margin: 0; }
     transition: border-color 0.3s ease;
 }
 .search-input:focus { border-color: var(--size-btn-bg); }
+
+.clear-search-btn {
+    position: absolute;
+    right: 10px;
+    background: transparent;
+    border: none;
+    color: var(--update-color);
+    font-size: 1.2rem;
+    font-weight: bold;
+    cursor: pointer;
+    padding: 4px 8px;
+    display: none; /* Standardmäßig ausgeblendet */
+    align-items: center;
+    justify-content: center;
+    border-radius: 4px;
+    transition: color 0.2s ease, background 0.2s ease;
+}
+.clear-search-btn:hover {
+    color: var(--text-color);
+    background: var(--border-color);
+}
+.search-container.has-text .clear-search-btn {
+    display: flex;
+}
 
 /* Filter */
 .filter-container { margin-bottom: 15px; display: flex; gap: 6px; }
@@ -479,8 +508,9 @@ h1 { color: var(--heading-color); font-size: 1.4rem; margin: 0; }
 
 <!-- GEMEINSAME STEUERELEMENTE (Suchfeld + Filter gelten für alle Ansichten) -->
 <div class="update-info" id="updateInfo">Lade Daten...</div>
-<div class="search-container">
+<div class="search-container" id="searchContainer">
     <input type="text" id="searchInput" class="search-input" placeholder="Nach Flug, Stadt, Land oder Airline suchen..." aria-label="Flüge durchsuchen">
+    <button type="button" id="clearSearchBtn" class="clear-search-btn" title="Suche zurücksetzen" aria-label="Suche zurücksetzen">&times;</button>
 </div>
 <div class="filter-container">
     <button class="filter-btn btn-all active" onclick="filterFlights('all', event)">Alle</button>
@@ -616,11 +646,27 @@ sizeReset.addEventListener('click', () => {
 
 loadFontSize();
 
-/* ---------- Such-Event-Listener ---------- */
+/* ---------- Such-Event-Listener & Clear Button ---------- */
 const searchInput = document.getElementById('searchInput');
-searchInput.addEventListener('input', e => {
-    currentSearch = e.target.value.toLowerCase().trim();
+const searchContainer = document.getElementById('searchContainer');
+const clearSearchBtn = document.getElementById('clearSearchBtn');
+
+function updateSearchState() {
+    currentSearch = searchInput.value.toLowerCase().trim();
+    if (searchInput.value.length > 0) {
+        searchContainer.classList.add('has-text');
+    } else {
+        searchContainer.classList.remove('has-text');
+    }
     applyFilter();
+}
+
+searchInput.addEventListener('input', updateSearchState);
+
+clearSearchBtn.addEventListener('click', () => {
+    searchInput.value = '';
+    updateSearchState();
+    searchInput.focus();
 });
 
 /* ---------- Flugdaten Laden & Filtern ---------- */
@@ -809,7 +855,6 @@ function timeToMinutes(timeStr) {
     return (hours || 0) * 60 + (minutes || 0);
 }
 
-// Start- und Ankunftszeit in Minuten (Flugdauer wird mit 2 Stunden angenommen)
 function flightTiming(f) {
     const arrivalMin = timeToMinutes(f.time_estimated || f.time_scheduled);
     let startMin = timeToMinutes(f.time_scheduled) - 120;
@@ -819,15 +864,11 @@ function flightTiming(f) {
     return { startMin, arrivalMin };
 }
 
-// Gemeinsamer Live-Status für alle Ansichten:
-// landed / approach (laut Scraper im Anflug) / airborne (gestartet) / scheduled / cancelled ...
 function liveStatus(f) {
     const s = String(f.status).toLowerCase();
     if (s === 'landed') return 'landed';
     if (s === 'active' || s === 'en-route') return 'approach';
     if (s === 'cancelled' || s === 'diverted' || s === 'incident') return s;
-    // Kein Raten mehr: "In der Luft" nur, wenn der Scraper eine echte Abflugzeit liefert
-    // (Feld departure_actual bzw. time_departed, Format "HH:MM"). Sonst bleibt der Flug "Geplant".
     const dep = f.departure_actual || f.time_departed;
     if (dep && berlinMin() >= timeToMinutes(dep)) return 'airborne';
     return 'scheduled';
@@ -854,7 +895,6 @@ function tfStatus(f) {
     return { cls: 's-luft', label: 'Geplant' };
 }
 
-// Anteil 0..1, wie weit der Flug auf die Landung zugeflogen ist
 function tfFortschritt(zeit, status) {
     const s = String(status).toLowerCase();
     if (s === 'landed') return 1;
@@ -877,7 +917,6 @@ function renderBoard(flights) {
         return;
     }
 
-    // Tafel: alle Flüge nach erwarteter Zeit sortieren
     flights = [...flights].sort((a, b) =>
         timeToMinutes(a.time_estimated || a.time_scheduled) - timeToMinutes(b.time_estimated || b.time_scheduled));
 
