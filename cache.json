@@ -1,24 +1,7 @@
 {
-  "updated_at": "09.10.2026 10:25",
+  "updated_at": "09.10.2026 10:30",
   "source": "Dus.com",
   "flights": [
-    {
-      "dt": 1791526200.0,
-      "time_scheduled": "08:10",
-      "time_estimated": "09:25",
-      "flight_no": "EW4334",
-      "airline": "Eurowings",
-      "city": "Salzburg",
-      "country": "Österreich",
-      "type": "Linie",
-      "type_source": "Ausgang",
-      "terminal": "A",
-      "baggage": "1",
-      "gate": "Ausgang 1 (Linie)",
-      "status": "landed",
-      "status_text": "gelandet",
-      "delay": 75
-    },
     {
       "dt": 1791528000.0,
       "time_scheduled": "08:40",
@@ -66,23 +49,6 @@
       "terminal": "A",
       "baggage": "2",
       "gate": "Ausgang 1 (Linie)",
-      "status": "landed",
-      "status_text": "gelandet",
-      "delay": 0
-    },
-    {
-      "dt": 1791531900.0,
-      "time_scheduled": "09:45",
-      "time_estimated": "09:27",
-      "flight_no": "EI692",
-      "airline": "Aer Lingus",
-      "city": "Dublin",
-      "country": "Irland",
-      "type": "Charter",
-      "type_source": "Ausgang",
-      "terminal": "C",
-      "baggage": "13",
-      "gate": "Ausgang 5 (Charter)",
       "status": "landed",
       "status_text": "gelandet",
       "delay": 0
@@ -226,7 +192,7 @@
     {
       "dt": 1791534300.0,
       "time_scheduled": "10:25",
-      "time_estimated": "10:32",
+      "time_estimated": "10:25",
       "flight_no": "EW9341",
       "airline": "Eurowings",
       "city": "Manchester",
@@ -236,9 +202,9 @@
       "terminal": "A",
       "baggage": "6",
       "gate": "Ausgang 1 (Linie)",
-      "status": "active",
-      "status_text": "im Anflug",
-      "delay": 7
+      "status": "landed",
+      "status_text": "gelandet",
+      "delay": 1
     },
     {
       "dt": 1791534300.0,
@@ -617,7 +583,7 @@
     {
       "dt": 1791539400.0,
       "time_scheduled": "11:50",
-      "time_estimated": "11:55",
+      "time_estimated": "12:09",
       "flight_no": "KL1799",
       "airline": "KLM",
       "city": "Amsterdam",
@@ -629,7 +595,7 @@
       "gate": "Ausgang 1 (Linie)",
       "status": "scheduled",
       "status_text": "",
-      "delay": 5
+      "delay": 19
     },
     {
       "dt": 1791539400.0,
@@ -804,7 +770,7 @@
     {
       "dt": 1791541800.0,
       "time_scheduled": "12:30",
-      "time_estimated": "12:53",
+      "time_estimated": "12:48",
       "flight_no": "EW9641",
       "airline": "Eurowings",
       "city": "Porto",
@@ -815,8 +781,8 @@
       "baggage": "",
       "gate": "Ausgang 1 (Linie)",
       "status": "scheduled",
-      "status_text": "",
-      "delay": 23
+      "status_text": "Vorhafen verlassen",
+      "delay": 18
     },
     {
       "dt": 1791541800.0,
@@ -855,7 +821,7 @@
     {
       "dt": 1791542100.0,
       "time_scheduled": "12:35",
-      "time_estimated": "12:37",
+      "time_estimated": "12:42",
       "flight_no": "EW9861",
       "airline": "Eurowings",
       "city": "Neapel",
@@ -867,7 +833,7 @@
       "gate": "Ausgang 1 (Linie)",
       "status": "scheduled",
       "status_text": "",
-      "delay": 3
+      "delay": 8
     },
     {
       "dt": 1791542100.0,
@@ -1025,7 +991,7 @@
     {
       "dt": 1791544800.0,
       "time_scheduled": "13:20",
-      "time_estimated": "13:20",
+      "time_estimated": "13:31",
       "flight_no": "EW9571",
       "airline": "Eurowings",
       "city": "Jerez de la Frontera",
@@ -1037,7 +1003,7 @@
       "gate": "Ausgang 1 (Linie)",
       "status": "scheduled",
       "status_text": "",
-      "delay": 0
+      "delay": 12
     },
     {
       "dt": 1791544800.0,
@@ -1110,7 +1076,7 @@
     {
       "dt": 1791545700.0,
       "time_scheduled": "13:35",
-      "time_estimated": "13:35",
+      "time_estimated": "13:34",
       "flight_no": "DE1615",
       "airline": "Condor",
       "city": "Chania (Kreta)",
@@ -1127,7 +1093,7 @@
     {
       "dt": 1791546000.0,
       "time_scheduled": "13:40",
-      "time_estimated": "13:40",
+      "time_estimated": "13:43",
       "flight_no": "EW9815",
       "airline": "Eurowings",
       "city": "Catania (Sizilien)",
@@ -1139,7 +1105,7 @@
       "gate": "Ausgang 1 (Linie)",
       "status": "scheduled",
       "status_text": "",
-      "delay": 0
+      "delay": 3
     },
     {
       "dt": 1791546300.0,
@@ -1365,7 +1331,7 @@
     {
       "dt": 1791547800.0,
       "time_scheduled": "14:10",
-      "time_estimated": "14:10",
+      "time_estimated": "14:03",
       "flight_no": "XQ186",
       "airline": "Sun Express",
       "city": "Antalya",
@@ -1376,7 +1342,7 @@
       "baggage": "",
       "gate": "Ausgang 4 (Charter)",
       "status": "scheduled",
-      "status_text": "",
+      "status_text": "Vorhafen verlassen",
       "delay": 0
     },
     {
@@ -1628,6 +1594,23 @@
       "type": "Linie",
       "type_source": "Airline",
       "terminal": "B",
+      "baggage": "",
+      "gate": "Ausgang 1 (Linie)",
+      "status": "scheduled",
+      "status_text": "",
+      "delay": 0
+    },
+    {
+      "dt": 1791552600.0,
+      "time_scheduled": "15:30",
+      "time_estimated": "15:30",
+      "flight_no": "EW9727",
+      "airline": "Eurowings",
+      "city": "Graz",
+      "country": "Österreich",
+      "type": "Linie",
+      "type_source": "Airline",
+      "terminal": "A",
       "baggage": "",
       "gate": "Ausgang 1 (Linie)",
       "status": "scheduled",
