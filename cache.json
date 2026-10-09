@@ -1,5 +1,5 @@
 {
-  "updated_at": "09.10.2026 14:50",
+  "updated_at": "09.10.2026 14:55",
   "source": "Dus.com",
   "flights": [
     {
@@ -124,23 +124,6 @@
     {
       "dt": 1791546900.0,
       "time_scheduled": "13:55",
-      "time_estimated": "13:52",
-      "flight_no": "X3117",
-      "airline": "Tuifly",
-      "city": "Dalaman",
-      "country": "Türkei",
-      "type": "Charter",
-      "type_source": "Ausgang",
-      "terminal": "C",
-      "baggage": "19",
-      "gate": "Ausgang 6 (Charter)",
-      "status": "landed",
-      "status_text": "gelandet",
-      "delay": 0
-    },
-    {
-      "dt": 1791546900.0,
-      "time_scheduled": "13:55",
       "time_estimated": "14:06",
       "flight_no": "LH074",
       "airline": "Lufthansa",
@@ -243,19 +226,19 @@
     {
       "dt": 1791548100.0,
       "time_scheduled": "14:15",
-      "time_estimated": "14:55",
+      "time_estimated": "14:52",
       "flight_no": "MS733",
       "airline": "Egypt Air",
       "city": "Kairo",
       "country": "Ägypten",
-      "type": "Linie",
-      "type_source": "Airline",
+      "type": "Charter",
+      "type_source": "Ausgang",
       "terminal": "A",
-      "baggage": "",
-      "gate": "Ausgang 1 (Linie)",
-      "status": "active",
-      "status_text": "im Anflug",
-      "delay": 41
+      "baggage": "7",
+      "gate": "Ausgang 4 (Charter)",
+      "status": "landed",
+      "status_text": "gelandet",
+      "delay": 37
     },
     {
       "dt": 1791548100.0,
@@ -362,7 +345,7 @@
     {
       "dt": 1791549600.0,
       "time_scheduled": "14:40",
-      "time_estimated": "14:55",
+      "time_estimated": "14:54",
       "flight_no": "LH2016",
       "airline": "Lufthansa",
       "city": "München",
@@ -372,9 +355,9 @@
       "terminal": "A",
       "baggage": "1",
       "gate": "Ausgang 1 (Linie)",
-      "status": "active",
-      "status_text": "im Anflug",
-      "delay": 16
+      "status": "landed",
+      "status_text": "gelandet",
+      "delay": 14
     },
     {
       "dt": 1791549600.0,
@@ -453,10 +436,10 @@
       "city": "Zonguldak",
       "country": "Türkei",
       "type": "Charter",
-      "type_source": "Airline",
+      "type_source": "Ausgang",
       "terminal": "C",
-      "baggage": "",
-      "gate": "Ausgang 4 (Charter)",
+      "baggage": "18",
+      "gate": "Ausgang 6 (Charter)",
       "status": "scheduled",
       "status_text": "Vorhafen verlassen",
       "delay": 5
@@ -522,7 +505,7 @@
       "country": "Spanien",
       "type": "Linie",
       "type_source": "Airline",
-      "terminal": "B",
+      "terminal": "A",
       "baggage": "",
       "gate": "Ausgang 1 (Linie)",
       "status": "scheduled",
@@ -532,7 +515,7 @@
     {
       "dt": 1791552900.0,
       "time_scheduled": "15:35",
-      "time_estimated": "15:52",
+      "time_estimated": "15:53",
       "flight_no": "EZY8649",
       "airline": "Easy Jet",
       "city": "London-Gatwick",
@@ -543,8 +526,8 @@
       "baggage": "",
       "gate": "Ausgang 1 (Linie)",
       "status": "scheduled",
-      "status_text": "",
-      "delay": 17
+      "status_text": "Vorhafen verlassen",
+      "delay": 18
     },
     {
       "dt": 1791553200.0,
@@ -583,7 +566,7 @@
     {
       "dt": 1791553800.0,
       "time_scheduled": "15:50",
-      "time_estimated": "15:54",
+      "time_estimated": "15:49",
       "flight_no": "X32117",
       "airline": "Tuifly",
       "city": "Fuerteventura",
@@ -595,7 +578,7 @@
       "gate": "Ausgang 4 (Charter)",
       "status": "scheduled",
       "status_text": "Vorhafen verlassen",
-      "delay": 5
+      "delay": 0
     },
     {
       "dt": 1791553800.0,
@@ -702,7 +685,7 @@
     {
       "dt": 1791555000.0,
       "time_scheduled": "16:10",
-      "time_estimated": "16:46",
+      "time_estimated": "16:48",
       "flight_no": "EW9443",
       "airline": "Eurowings",
       "city": "Barcelona",
@@ -710,11 +693,11 @@
       "type": "Charter",
       "type_source": "Ausgang",
       "terminal": "A",
-      "baggage": "8",
-      "gate": "Ausgang 4 (Charter)",
+      "baggage": "14",
+      "gate": "Ausgang 5 (Charter)",
       "status": "scheduled",
       "status_text": "Vorhafen verlassen",
-      "delay": 36
+      "delay": 38
     },
     {
       "dt": 1791555000.0,
@@ -1076,7 +1059,7 @@
     {
       "dt": 1791560400.0,
       "time_scheduled": "17:40",
-      "time_estimated": "17:40",
+      "time_estimated": "18:11",
       "flight_no": "GQ890",
       "airline": "Sky Express",
       "city": "Athen",
@@ -1088,7 +1071,7 @@
       "gate": "Ausgang 5 (Charter)",
       "status": "scheduled",
       "status_text": "",
-      "delay": 0
+      "delay": 32
     },
     {
       "dt": 1791560400.0,
@@ -1144,7 +1127,7 @@
     {
       "dt": 1791560700.0,
       "time_scheduled": "17:45",
-      "time_estimated": "17:45",
+      "time_estimated": "17:58",
       "flight_no": "EW9343",
       "airline": "Eurowings",
       "city": "Manchester",
@@ -1156,12 +1139,12 @@
       "gate": "Ausgang 1 (Linie)",
       "status": "scheduled",
       "status_text": "",
-      "delay": 0
+      "delay": 14
     },
     {
       "dt": 1791560700.0,
       "time_scheduled": "17:45",
-      "time_estimated": "17:45",
+      "time_estimated": "17:58",
       "flight_no": "EW9533",
       "airline": "Eurowings",
       "city": "Alicante",
@@ -1173,7 +1156,7 @@
       "gate": "Ausgang 1 (Linie)",
       "status": "scheduled",
       "status_text": "",
-      "delay": 0
+      "delay": 14
     },
     {
       "dt": 1791561000.0,
@@ -1280,7 +1263,7 @@
     {
       "dt": 1791562200.0,
       "time_scheduled": "18:10",
-      "time_estimated": "17:52",
+      "time_estimated": "17:56",
       "flight_no": "XQ3180",
       "airline": "Sun Express",
       "city": "Bodrum-Milas",
@@ -1291,7 +1274,7 @@
       "baggage": "",
       "gate": "Ausgang 4 (Charter)",
       "status": "scheduled",
-      "status_text": "",
+      "status_text": "Vorhafen verlassen",
       "delay": 0
     },
     {
@@ -1348,7 +1331,7 @@
     {
       "dt": 1791563400.0,
       "time_scheduled": "18:30",
-      "time_estimated": "18:30",
+      "time_estimated": "18:29",
       "flight_no": "XC106",
       "airline": "Corendon Airlines",
       "city": "Antalya",
@@ -1359,7 +1342,7 @@
       "baggage": "",
       "gate": "Ausgang 4 (Charter)",
       "status": "scheduled",
-      "status_text": "",
+      "status_text": "Vorhafen verlassen",
       "delay": 0
     },
     {
@@ -1778,6 +1761,40 @@
       "airline": "Eurowings",
       "city": "Kos",
       "country": "Griechenland",
+      "type": "Linie",
+      "type_source": "Airline",
+      "terminal": "B",
+      "baggage": "",
+      "gate": "Ausgang 1 (Linie)",
+      "status": "scheduled",
+      "status_text": "",
+      "delay": 0
+    },
+    {
+      "dt": 1791568500.0,
+      "time_scheduled": "19:55",
+      "time_estimated": "19:55",
+      "flight_no": "EW9591",
+      "airline": "Eurowings",
+      "city": "Palma de Mallorca",
+      "country": "Spanien",
+      "type": "Linie",
+      "type_source": "Airline",
+      "terminal": "B",
+      "baggage": "",
+      "gate": "Ausgang 1 (Linie)",
+      "status": "scheduled",
+      "status_text": "",
+      "delay": 0
+    },
+    {
+      "dt": 1791568500.0,
+      "time_scheduled": "19:55",
+      "time_estimated": "19:55",
+      "flight_no": "BQ1952",
+      "airline": "Sky Alps",
+      "city": "Bozen",
+      "country": "Italien",
       "type": "Linie",
       "type_source": "Airline",
       "terminal": "B",
