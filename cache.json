@@ -1,5 +1,5 @@
 {
-  "updated_at": "09.10.2026 07:45",
+  "updated_at": "09.10.2026 07:46",
   "source": "Dus.com",
   "flights": [
     {
@@ -413,7 +413,7 @@
     {
       "dt": 1791530700.0,
       "time_scheduled": "09:25",
-      "time_estimated": "09:20",
+      "time_estimated": "09:25",
       "flight_no": "EW9041",
       "airline": "Eurowings",
       "city": "Berlin-Brandenburg",
