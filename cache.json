@@ -1,11 +1,11 @@
 {
-  "updated_at": "09.10.2026 06:10",
+  "updated_at": "09.10.2026 06:15",
   "source": "Dus.com",
   "flights": [
     {
       "dt": 1791518700.0,
       "time_scheduled": "06:05",
-      "time_estimated": "06:21",
+      "time_estimated": "06:23",
       "flight_no": "XC266",
       "airline": "Corendon Airlines",
       "city": "Kayseri",
@@ -17,7 +17,7 @@
       "gate": "Ausgang 5 (Charter)",
       "status": "active",
       "status_text": "im Anflug",
-      "delay": 17
+      "delay": 19
     },
     {
       "dt": 1791519300.0,
@@ -90,7 +90,7 @@
     {
       "dt": 1791526200.0,
       "time_scheduled": "08:10",
-      "time_estimated": "09:18",
+      "time_estimated": "09:13",
       "flight_no": "EW4334",
       "airline": "Eurowings",
       "city": "Salzburg",
@@ -102,7 +102,7 @@
       "gate": "Ausgang 1 (Linie)",
       "status": "scheduled",
       "status_text": "",
-      "delay": 68
+      "delay": 63
     },
     {
       "dt": 1791526200.0,
@@ -464,7 +464,7 @@
     {
       "dt": 1791530700.0,
       "time_scheduled": "09:25",
-      "time_estimated": "09:17",
+      "time_estimated": "09:16",
       "flight_no": "XR418",
       "airline": "Corendon Airlines Europe",
       "city": "Heraklion (Kreta)",
@@ -651,7 +651,7 @@
     {
       "dt": 1791533700.0,
       "time_scheduled": "10:15",
-      "time_estimated": "10:15",
+      "time_estimated": "10:19",
       "flight_no": "ME247",
       "airline": "Middle East Airlines",
       "city": "Beirut",
@@ -662,8 +662,8 @@
       "baggage": "",
       "gate": "Ausgang 1 (Linie)",
       "status": "scheduled",
-      "status_text": "",
-      "delay": 0
+      "status_text": "Vorhafen verlassen",
+      "delay": 4
     },
     {
       "dt": 1791534300.0,
@@ -931,6 +931,23 @@
       "type": "Linie",
       "type_source": "Airline",
       "terminal": "B",
+      "baggage": "",
+      "gate": "Ausgang 1 (Linie)",
+      "status": "scheduled",
+      "status_text": "",
+      "delay": 0
+    },
+    {
+      "dt": 1791537300.0,
+      "time_scheduled": "11:15",
+      "time_estimated": "11:15",
+      "flight_no": "EW9783",
+      "airline": "Eurowings",
+      "city": "Budapest",
+      "country": "Ungarn",
+      "type": "Linie",
+      "type_source": "Airline",
+      "terminal": "A",
       "baggage": "",
       "gate": "Ausgang 1 (Linie)",
       "status": "scheduled",
