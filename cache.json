@@ -1,5 +1,5 @@
 {
-  "updated_at": "09.10.2026 16:55",
+  "updated_at": "09.10.2026 17:00",
   "source": "Dus.com",
   "flights": [
     {
@@ -35,23 +35,6 @@
       "status": "landed",
       "status_text": "gelandet",
       "delay": 7
-    },
-    {
-      "dt": 1791554400.0,
-      "time_scheduled": "16:00",
-      "time_estimated": "15:57",
-      "flight_no": "DE1827",
-      "airline": "Condor",
-      "city": "Olbia (Sardinien)",
-      "country": "Italien",
-      "type": "Charter",
-      "type_source": "Ausgang",
-      "terminal": "B",
-      "baggage": "12",
-      "gate": "Ausgang 4 (Charter)",
-      "status": "landed",
-      "status_text": "gelandet",
-      "delay": 0
     },
     {
       "dt": 1791554700.0,
@@ -226,7 +209,7 @@
     {
       "dt": 1791557400.0,
       "time_scheduled": "16:50",
-      "time_estimated": "17:29",
+      "time_estimated": "17:30",
       "flight_no": "BA922",
       "airline": "British Airways",
       "city": "London-Heathrow",
@@ -238,7 +221,7 @@
       "gate": "Ausgang 6 (Charter)",
       "status": "scheduled",
       "status_text": "Vorhafen verlassen",
-      "delay": 40
+      "delay": 41
     },
     {
       "dt": 1791557700.0,
@@ -287,8 +270,8 @@
       "terminal": "C",
       "baggage": "19",
       "gate": "Ausgang 6 (Charter)",
-      "status": "scheduled",
-      "status_text": "Vorhafen verlassen",
+      "status": "active",
+      "status_text": "im Anflug",
       "delay": 22
     },
     {
@@ -311,7 +294,7 @@
     {
       "dt": 1791558000.0,
       "time_scheduled": "17:00",
-      "time_estimated": "17:02",
+      "time_estimated": "16:57",
       "flight_no": "TU526",
       "airline": "Tunisair",
       "city": "Tunis",
@@ -321,9 +304,9 @@
       "terminal": "C",
       "baggage": "20",
       "gate": "Ausgang 6 (Charter)",
-      "status": "active",
-      "status_text": "im Anflug",
-      "delay": 3
+      "status": "landed",
+      "status_text": "gelandet",
+      "delay": 0
     },
     {
       "dt": 1791558600.0,
@@ -345,7 +328,7 @@
     {
       "dt": 1791558900.0,
       "time_scheduled": "17:15",
-      "time_estimated": "17:42",
+      "time_estimated": "17:38",
       "flight_no": "EW9503",
       "airline": "Eurowings",
       "city": "Ibiza",
@@ -357,7 +340,7 @@
       "gate": "Ausgang 1 (Linie)",
       "status": "scheduled",
       "status_text": "Vorhafen verlassen",
-      "delay": 27
+      "delay": 23
     },
     {
       "dt": 1791558900.0,
@@ -373,7 +356,7 @@
       "baggage": "1",
       "gate": "Ausgang 1 (Linie)",
       "status": "active",
-      "status_text": "Im Anflug",
+      "status_text": "im Anflug",
       "delay": 0
     },
     {
@@ -464,7 +447,7 @@
     {
       "dt": 1791560400.0,
       "time_scheduled": "17:40",
-      "time_estimated": "18:05",
+      "time_estimated": "18:00",
       "flight_no": "GQ890",
       "airline": "Sky Express",
       "city": "Athen",
@@ -476,12 +459,12 @@
       "gate": "Ausgang 5 (Charter)",
       "status": "scheduled",
       "status_text": "Vorhafen verlassen",
-      "delay": 25
+      "delay": 20
     },
     {
       "dt": 1791560400.0,
       "time_scheduled": "17:40",
-      "time_estimated": "17:37",
+      "time_estimated": "17:38",
       "flight_no": "OS165",
       "airline": "Austrian Airlines",
       "city": "Wien",
@@ -634,7 +617,7 @@
     {
       "dt": 1791561900.0,
       "time_scheduled": "18:05",
-      "time_estimated": "18:19",
+      "time_estimated": "18:55",
       "flight_no": "EW9823",
       "airline": "Eurowings",
       "city": "Mailand-Malpensa",
@@ -646,7 +629,7 @@
       "gate": "Ausgang 1 (Linie)",
       "status": "scheduled",
       "status_text": "",
-      "delay": 14
+      "delay": 50
     },
     {
       "dt": 1791561900.0,
@@ -770,7 +753,7 @@
     {
       "dt": 1791564000.0,
       "time_scheduled": "18:40",
-      "time_estimated": "18:54",
+      "time_estimated": "18:50",
       "flight_no": "LH2022",
       "airline": "Lufthansa",
       "city": "München",
@@ -782,7 +765,7 @@
       "gate": "Ausgang 1 (Linie)",
       "status": "scheduled",
       "status_text": "",
-      "delay": 15
+      "delay": 10
     },
     {
       "dt": 1791564000.0,
@@ -1727,6 +1710,91 @@
       "airline": "Eurowings",
       "city": "Nizza",
       "country": "Frankreich",
+      "type": "Linie",
+      "type_source": "Airline",
+      "terminal": "B",
+      "baggage": "",
+      "gate": "Ausgang 1 (Linie)",
+      "status": "scheduled",
+      "status_text": "",
+      "delay": 0
+    },
+    {
+      "dt": 1791576000.0,
+      "time_scheduled": "22:00",
+      "time_estimated": "22:00",
+      "flight_no": "EW9593",
+      "airline": "Eurowings",
+      "city": "Palma de Mallorca",
+      "country": "Spanien",
+      "type": "Linie",
+      "type_source": "Airline",
+      "terminal": "B",
+      "baggage": "",
+      "gate": "Ausgang 1 (Linie)",
+      "status": "scheduled",
+      "status_text": "",
+      "delay": 0
+    },
+    {
+      "dt": 1791576000.0,
+      "time_scheduled": "22:00",
+      "time_estimated": "22:00",
+      "flight_no": "EW9519",
+      "airline": "Eurowings",
+      "city": "Bilbao",
+      "country": "Spanien",
+      "type": "Linie",
+      "type_source": "Airline",
+      "terminal": "B",
+      "baggage": "",
+      "gate": "Ausgang 1 (Linie)",
+      "status": "scheduled",
+      "status_text": "",
+      "delay": 0
+    },
+    {
+      "dt": 1791576000.0,
+      "time_scheduled": "22:00",
+      "time_estimated": "22:00",
+      "flight_no": "EW9785",
+      "airline": "Eurowings",
+      "city": "Budapest",
+      "country": "Ungarn",
+      "type": "Linie",
+      "type_source": "Airline",
+      "terminal": "B",
+      "baggage": "",
+      "gate": "Ausgang 1 (Linie)",
+      "status": "scheduled",
+      "status_text": "",
+      "delay": 0
+    },
+    {
+      "dt": 1791576000.0,
+      "time_scheduled": "22:00",
+      "time_estimated": "22:00",
+      "flight_no": "EW9469",
+      "airline": "Eurowings",
+      "city": "London-Heathrow",
+      "country": "Großbritannien",
+      "type": "Linie",
+      "type_source": "Airline",
+      "terminal": "A",
+      "baggage": "",
+      "gate": "Ausgang 1 (Linie)",
+      "status": "scheduled",
+      "status_text": "",
+      "delay": 0
+    },
+    {
+      "dt": 1791576000.0,
+      "time_scheduled": "22:00",
+      "time_estimated": "22:00",
+      "flight_no": "LO405",
+      "airline": "LOT Polish Airlines",
+      "city": "Warschau",
+      "country": "Polen",
       "type": "Linie",
       "type_source": "Airline",
       "terminal": "B",
