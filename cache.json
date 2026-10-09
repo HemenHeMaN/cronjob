@@ -1,5 +1,5 @@
 {
-  "updated_at": "09.10.2026 12:00",
+  "updated_at": "09.10.2026 12:05",
   "source": "Dus.com",
   "flights": [
     {
@@ -20,23 +20,6 @@
       "delay": 23
     },
     {
-      "dt": 1791536100.0,
-      "time_scheduled": "10:55",
-      "time_estimated": "11:05",
-      "flight_no": "FH1193",
-      "airline": "Freebird Airlines",
-      "city": "Antalya",
-      "country": "Türkei",
-      "type": "Charter",
-      "type_source": "Ausgang",
-      "terminal": "C",
-      "baggage": "19",
-      "gate": "Ausgang 6 (Charter)",
-      "status": "landed",
-      "status_text": "gelandet",
-      "delay": 10
-    },
-    {
       "dt": 1791536400.0,
       "time_scheduled": "11:00",
       "time_estimated": "11:24",
@@ -52,23 +35,6 @@
       "status": "landed",
       "status_text": "gelandet",
       "delay": 25
-    },
-    {
-      "dt": 1791536700.0,
-      "time_scheduled": "11:05",
-      "time_estimated": "11:02",
-      "flight_no": "AT696",
-      "airline": "Royal Air Maroc",
-      "city": "Nador",
-      "country": "Marokko",
-      "type": "Charter",
-      "type_source": "Ausgang",
-      "terminal": "C",
-      "baggage": "14",
-      "gate": "Ausgang 5 (Charter)",
-      "status": "landed",
-      "status_text": "gelandet",
-      "delay": 0
     },
     {
       "dt": 1791537000.0,
@@ -243,7 +209,7 @@
     {
       "dt": 1791539400.0,
       "time_scheduled": "11:50",
-      "time_estimated": "12:06",
+      "time_estimated": "12:03",
       "flight_no": "EW9441",
       "airline": "Eurowings",
       "city": "Barcelona",
@@ -253,9 +219,9 @@
       "terminal": "A",
       "baggage": "4",
       "gate": "Ausgang 1 (Linie)",
-      "status": "active",
-      "status_text": "im Anflug",
-      "delay": 17
+      "status": "landed",
+      "status_text": "gelandet",
+      "delay": 13
     },
     {
       "dt": 1791539400.0,
@@ -345,7 +311,7 @@
     {
       "dt": 1791540600.0,
       "time_scheduled": "12:10",
-      "time_estimated": "12:46",
+      "time_estimated": "12:38",
       "flight_no": "EW9531",
       "airline": "Eurowings",
       "city": "Alicante",
@@ -357,7 +323,7 @@
       "gate": "Ausgang 1 (Linie)",
       "status": "scheduled",
       "status_text": "Vorhafen verlassen",
-      "delay": 36
+      "delay": 28
     },
     {
       "dt": 1791540900.0,
@@ -372,8 +338,8 @@
       "terminal": "A",
       "baggage": "",
       "gate": "Ausgang 1 (Linie)",
-      "status": "scheduled",
-      "status_text": "Vorhafen verlassen",
+      "status": "active",
+      "status_text": "Im Anflug",
       "delay": 4
     },
     {
@@ -396,7 +362,7 @@
     {
       "dt": 1791541500.0,
       "time_scheduled": "12:25",
-      "time_estimated": "12:32",
+      "time_estimated": "12:24",
       "flight_no": "PC1687",
       "airline": "Pegasus Airlines",
       "city": "Ankara-Esenboğa",
@@ -406,9 +372,9 @@
       "terminal": "C",
       "baggage": "19",
       "gate": "Ausgang 6 (Charter)",
-      "status": "scheduled",
-      "status_text": "Vorhafen verlassen",
-      "delay": 8
+      "status": "active",
+      "status_text": "im Anflug",
+      "delay": 0
     },
     {
       "dt": 1791541800.0,
@@ -532,7 +498,7 @@
     {
       "dt": 1791542700.0,
       "time_scheduled": "12:45",
-      "time_estimated": "12:39",
+      "time_estimated": "12:44",
       "flight_no": "IV8220",
       "airline": "GP Aviation",
       "city": "Pristina",
@@ -685,7 +651,7 @@
     {
       "dt": 1791545400.0,
       "time_scheduled": "13:30",
-      "time_estimated": "14:18",
+      "time_estimated": "14:12",
       "flight_no": "EW9681",
       "airline": "Eurowings",
       "city": "Athen",
@@ -697,12 +663,12 @@
       "gate": "Ausgang 1 (Linie)",
       "status": "scheduled",
       "status_text": "Vorhafen verlassen",
-      "delay": 49
+      "delay": 42
     },
     {
       "dt": 1791545400.0,
       "time_scheduled": "13:30",
-      "time_estimated": "14:12",
+      "time_estimated": "14:23",
       "flight_no": "NE720",
       "airline": "Nesma Airlines",
       "city": "Hurghada",
@@ -714,7 +680,7 @@
       "gate": "Ausgang 1 (Linie)",
       "status": "scheduled",
       "status_text": "Vorhafen verlassen",
-      "delay": 43
+      "delay": 54
     },
     {
       "dt": 1791545700.0,
@@ -1195,7 +1161,7 @@
     {
       "dt": 1791551400.0,
       "time_scheduled": "15:10",
-      "time_estimated": "14:58",
+      "time_estimated": "15:08",
       "flight_no": "XQ1328",
       "airline": "Sun Express",
       "city": "Zonguldak",
@@ -1206,7 +1172,7 @@
       "baggage": "",
       "gate": "Ausgang 4 (Charter)",
       "status": "scheduled",
-      "status_text": "",
+      "status_text": "Vorhafen verlassen",
       "delay": 0
     },
     {
