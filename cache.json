@@ -1,5 +1,5 @@
 {
-  "updated_at": "09.10.2026 12:15",
+  "updated_at": "09.10.2026 12:16",
   "source": "Dus.com",
   "flights": [
     {
@@ -73,23 +73,6 @@
     {
       "dt": 1791538800.0,
       "time_scheduled": "11:40",
-      "time_estimated": "11:29",
-      "flight_no": "EW9421",
-      "airline": "Eurowings",
-      "city": "Nizza",
-      "country": "Frankreich",
-      "type": "Linie",
-      "type_source": "Ausgang",
-      "terminal": "B",
-      "baggage": "3",
-      "gate": "Ausgang 1 (Linie)",
-      "status": "landed",
-      "status_text": "gelandet",
-      "delay": 0
-    },
-    {
-      "dt": 1791538800.0,
-      "time_scheduled": "11:40",
       "time_estimated": "11:36",
       "flight_no": "A3540",
       "airline": "Aegean Airlines",
@@ -100,6 +83,23 @@
       "terminal": "B",
       "baggage": "8",
       "gate": "Ausgang 4 (Charter)",
+      "status": "landed",
+      "status_text": "gelandet",
+      "delay": 0
+    },
+    {
+      "dt": 1791538800.0,
+      "time_scheduled": "11:40",
+      "time_estimated": "11:29",
+      "flight_no": "EW9421",
+      "airline": "Eurowings",
+      "city": "Nizza",
+      "country": "Frankreich",
+      "type": "Linie",
+      "type_source": "Ausgang",
+      "terminal": "B",
+      "baggage": "3",
+      "gate": "Ausgang 1 (Linie)",
       "status": "landed",
       "status_text": "gelandet",
       "delay": 0
@@ -401,11 +401,11 @@
       "airline": "Pegasus Airlines",
       "city": "Istanbul-Sabiha Gökçen",
       "country": "Türkei",
-      "type": "Linie",
-      "type_source": "Airline",
+      "type": "Charter",
+      "type_source": "Ausgang",
       "terminal": "C",
-      "baggage": "",
-      "gate": "Ausgang 1 (Linie)",
+      "baggage": "14",
+      "gate": "Ausgang 5 (Charter)",
       "status": "active",
       "status_text": "im Anflug",
       "delay": 0
@@ -423,8 +423,8 @@
       "terminal": "A",
       "baggage": "",
       "gate": "Ausgang 1 (Linie)",
-      "status": "scheduled",
-      "status_text": "Vorhafen verlassen",
+      "status": "active",
+      "status_text": "Im Anflug",
       "delay": 5
     },
     {
@@ -804,7 +804,7 @@
     {
       "dt": 1791546900.0,
       "time_scheduled": "13:55",
-      "time_estimated": "14:02",
+      "time_estimated": "14:18",
       "flight_no": "LH074",
       "airline": "Lufthansa",
       "city": "Frankfurt",
@@ -816,7 +816,7 @@
       "gate": "Ausgang 1 (Linie)",
       "status": "scheduled",
       "status_text": "",
-      "delay": 7
+      "delay": 24
     },
     {
       "dt": 1791546900.0,
@@ -838,7 +838,7 @@
     {
       "dt": 1791547500.0,
       "time_scheduled": "14:05",
-      "time_estimated": "14:00",
+      "time_estimated": "14:17",
       "flight_no": "LX1018",
       "airline": "Swiss",
       "city": "Zürich",
@@ -850,7 +850,7 @@
       "gate": "Ausgang 1 (Linie)",
       "status": "scheduled",
       "status_text": "",
-      "delay": 0
+      "delay": 13
     },
     {
       "dt": 1791547500.0,
@@ -1127,7 +1127,7 @@
     {
       "dt": 1791551700.0,
       "time_scheduled": "15:15",
-      "time_estimated": "15:15",
+      "time_estimated": "15:18",
       "flight_no": "EW9811",
       "airline": "Eurowings",
       "city": "Venedig-Tessera",
@@ -1139,12 +1139,12 @@
       "gate": "Ausgang 1 (Linie)",
       "status": "scheduled",
       "status_text": "",
-      "delay": 0
+      "delay": 4
     },
     {
       "dt": 1791552300.0,
       "time_scheduled": "15:25",
-      "time_estimated": "15:25",
+      "time_estimated": "15:18",
       "flight_no": "EW8044",
       "airline": "Eurowings",
       "city": "Berlin-Brandenburg",
