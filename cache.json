@@ -1,5 +1,5 @@
 {
-  "updated_at": "09.10.2026 18:10",
+  "updated_at": "09.10.2026 18:15",
   "source": "Dus.com",
   "flights": [
     {
@@ -52,23 +52,6 @@
       "status": "landed",
       "status_text": "gelandet",
       "delay": 50
-    },
-    {
-      "dt": 1791557700.0,
-      "time_scheduled": "16:55",
-      "time_estimated": "17:13",
-      "flight_no": "VF005",
-      "airline": "A Jet",
-      "city": "Ankara-Esenboğa",
-      "country": "Türkei",
-      "type": "Charter",
-      "type_source": "Ausgang",
-      "terminal": "C",
-      "baggage": "19",
-      "gate": "Ausgang 6 (Charter)",
-      "status": "landed",
-      "status_text": "gelandet",
-      "delay": 18
     },
     {
       "dt": 1791557700.0,
@@ -137,23 +120,6 @@
       "status": "scheduled",
       "status_text": "Vorhafen verlassen",
       "delay": 83
-    },
-    {
-      "dt": 1791558900.0,
-      "time_scheduled": "17:15",
-      "time_estimated": "17:10",
-      "flight_no": "EW9087",
-      "airline": "Eurowings",
-      "city": "München",
-      "country": "Deutschland",
-      "type": "Linie",
-      "type_source": "Ausgang",
-      "terminal": "A",
-      "baggage": "1",
-      "gate": "Ausgang 1 (Linie)",
-      "status": "landed",
-      "status_text": "gelandet",
-      "delay": 0
     },
     {
       "dt": 1791558900.0,
@@ -474,8 +440,8 @@
       "terminal": "A",
       "baggage": "6",
       "gate": "Ausgang 1 (Linie)",
-      "status": "scheduled",
-      "status_text": "Vorhafen verlassen",
+      "status": "active",
+      "status_text": "Im Anflug",
       "delay": 17
     },
     {
@@ -508,8 +474,8 @@
       "terminal": "C",
       "baggage": "18",
       "gate": "Ausgang 6 (Charter)",
-      "status": "scheduled",
-      "status_text": "Vorhafen verlassen",
+      "status": "active",
+      "status_text": "Im Anflug",
       "delay": 2
     },
     {
@@ -532,7 +498,7 @@
     {
       "dt": 1791564000.0,
       "time_scheduled": "18:40",
-      "time_estimated": "19:09",
+      "time_estimated": "19:13",
       "flight_no": "LH2022",
       "airline": "Lufthansa",
       "city": "München",
@@ -543,13 +509,13 @@
       "baggage": "2",
       "gate": "Ausgang 1 (Linie)",
       "status": "scheduled",
-      "status_text": "",
-      "delay": 29
+      "status_text": "Vorhafen verlassen",
+      "delay": 33
     },
     {
       "dt": 1791564000.0,
       "time_scheduled": "18:40",
-      "time_estimated": "18:45",
+      "time_estimated": "18:46",
       "flight_no": "SK627",
       "airline": "Scandinavian Airlines",
       "city": "Kopenhagen",
@@ -561,7 +527,7 @@
       "gate": "Ausgang 1 (Linie)",
       "status": "scheduled",
       "status_text": "Vorhafen verlassen",
-      "delay": 6
+      "delay": 7
     },
     {
       "dt": 1791564000.0,
@@ -577,7 +543,7 @@
       "baggage": "7",
       "gate": "Ausgang 4 (Charter)",
       "status": "active",
-      "status_text": "Im Anflug",
+      "status_text": "im Anflug",
       "delay": 0
     },
     {
@@ -991,7 +957,7 @@
     {
       "dt": 1791568800.0,
       "time_scheduled": "20:00",
-      "time_estimated": "20:07",
+      "time_estimated": "20:12",
       "flight_no": "EW9467",
       "airline": "Eurowings",
       "city": "London-Heathrow",
@@ -1003,7 +969,7 @@
       "gate": "Ausgang 1 (Linie)",
       "status": "scheduled",
       "status_text": "",
-      "delay": 8
+      "delay": 13
     },
     {
       "dt": 1791569400.0,
@@ -1042,7 +1008,7 @@
     {
       "dt": 1791570300.0,
       "time_scheduled": "20:25",
-      "time_estimated": "20:21",
+      "time_estimated": "20:27",
       "flight_no": "EJU3943",
       "airline": "Easy Jet Europe",
       "city": "Mailand-Malpensa",
@@ -1054,7 +1020,7 @@
       "gate": "Ausgang 1 (Linie)",
       "status": "scheduled",
       "status_text": "",
-      "delay": 0
+      "delay": 3
     },
     {
       "dt": 1791570300.0,
@@ -1093,7 +1059,7 @@
     {
       "dt": 1791570900.0,
       "time_scheduled": "20:35",
-      "time_estimated": "20:53",
+      "time_estimated": "20:41",
       "flight_no": "EW9755",
       "airline": "Eurowings",
       "city": "Wien",
@@ -1105,7 +1071,7 @@
       "gate": "Ausgang 1 (Linie)",
       "status": "scheduled",
       "status_text": "",
-      "delay": 19
+      "delay": 7
     },
     {
       "dt": 1791571200.0,
@@ -1178,7 +1144,7 @@
     {
       "dt": 1791572700.0,
       "time_scheduled": "21:05",
-      "time_estimated": "21:05",
+      "time_estimated": "21:15",
       "flight_no": "EW9961",
       "airline": "Eurowings",
       "city": "Split",
@@ -1190,7 +1156,7 @@
       "gate": "Ausgang 1 (Linie)",
       "status": "scheduled",
       "status_text": "",
-      "delay": 0
+      "delay": 11
     },
     {
       "dt": 1791573300.0,
@@ -1263,7 +1229,7 @@
     {
       "dt": 1791574200.0,
       "time_scheduled": "21:30",
-      "time_estimated": "21:23",
+      "time_estimated": "21:19",
       "flight_no": "X36643",
       "airline": "Tuifly",
       "city": "Marsa Alam",
@@ -1705,7 +1671,7 @@
     {
       "dt": 1791576900.0,
       "time_scheduled": "22:15",
-      "time_estimated": "23:03",
+      "time_estimated": "23:02",
       "flight_no": "EW9023",
       "airline": "Eurowings",
       "city": "Dresden",
@@ -1717,7 +1683,7 @@
       "gate": "Ausgang 1 (Linie)",
       "status": "scheduled",
       "status_text": "",
-      "delay": 48
+      "delay": 47
     },
     {
       "dt": 1791577200.0,
