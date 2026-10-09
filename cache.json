@@ -1,5 +1,5 @@
 {
-  "updated_at": "09.10.2026 09:15",
+  "updated_at": "09.10.2026 09:17",
   "source": "Dus.com",
   "flights": [
     {
@@ -441,7 +441,7 @@
       "baggage": "13",
       "gate": "Ausgang 5 (Charter)",
       "status": "active",
-      "status_text": "Im Anflug",
+      "status_text": "im Anflug",
       "delay": 0
     },
     {
@@ -906,7 +906,7 @@
     {
       "dt": 1791538800.0,
       "time_scheduled": "11:40",
-      "time_estimated": "11:44",
+      "time_estimated": "11:51",
       "flight_no": "EW9421",
       "airline": "Eurowings",
       "city": "Nizza",
@@ -918,7 +918,7 @@
       "gate": "Ausgang 1 (Linie)",
       "status": "scheduled",
       "status_text": "",
-      "delay": 5
+      "delay": 12
     },
     {
       "dt": 1791538800.0,
