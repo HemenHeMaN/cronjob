@@ -1,5 +1,5 @@
 {
-  "updated_at": "09.10.2026 15:35",
+  "updated_at": "09.10.2026 15:40",
   "source": "Dus.com",
   "flights": [
     {
@@ -18,23 +18,6 @@
       "status": "landed",
       "status_text": "gelandet",
       "delay": 37
-    },
-    {
-      "dt": 1791548400.0,
-      "time_scheduled": "14:20",
-      "time_estimated": "14:38",
-      "flight_no": "EW9829",
-      "airline": "Eurowings",
-      "city": "Mailand-Malpensa",
-      "country": "Italien",
-      "type": "Linie",
-      "type_source": "Ausgang",
-      "terminal": "B",
-      "baggage": "3",
-      "gate": "Ausgang 1 (Linie)",
-      "status": "landed",
-      "status_text": "gelandet",
-      "delay": 19
     },
     {
       "dt": 1791549300.0,
@@ -56,23 +39,6 @@
     {
       "dt": 1791549600.0,
       "time_scheduled": "14:40",
-      "time_estimated": "14:54",
-      "flight_no": "LH2016",
-      "airline": "Lufthansa",
-      "city": "München",
-      "country": "Deutschland",
-      "type": "Linie",
-      "type_source": "Ausgang",
-      "terminal": "A",
-      "baggage": "1",
-      "gate": "Ausgang 1 (Linie)",
-      "status": "landed",
-      "status_text": "gelandet",
-      "delay": 14
-    },
-    {
-      "dt": 1791549600.0,
-      "time_scheduled": "14:40",
       "time_estimated": "14:45",
       "flight_no": "SK1621",
       "airline": "Scandinavian Airlines",
@@ -88,21 +54,21 @@
       "delay": 6
     },
     {
-      "dt": 1791549900.0,
-      "time_scheduled": "14:45",
-      "time_estimated": "14:36",
-      "flight_no": "XC102",
-      "airline": "Corendon Airlines",
-      "city": "Antalya",
-      "country": "Türkei",
-      "type": "Charter",
+      "dt": 1791549600.0,
+      "time_scheduled": "14:40",
+      "time_estimated": "14:54",
+      "flight_no": "LH2016",
+      "airline": "Lufthansa",
+      "city": "München",
+      "country": "Deutschland",
+      "type": "Linie",
       "type_source": "Ausgang",
-      "terminal": "C",
-      "baggage": "17",
-      "gate": "Ausgang 6 (Charter)",
+      "terminal": "A",
+      "baggage": "1",
+      "gate": "Ausgang 1 (Linie)",
       "status": "landed",
       "status_text": "gelandet",
-      "delay": 0
+      "delay": 14
     },
     {
       "dt": 1791550500.0,
@@ -226,7 +192,7 @@
     {
       "dt": 1791552900.0,
       "time_scheduled": "15:35",
-      "time_estimated": "15:39",
+      "time_estimated": "15:44",
       "flight_no": "EZY8649",
       "airline": "Easy Jet",
       "city": "London-Gatwick",
@@ -238,7 +204,7 @@
       "gate": "Ausgang 1 (Linie)",
       "status": "active",
       "status_text": "im Anflug",
-      "delay": 4
+      "delay": 10
     },
     {
       "dt": 1791553200.0,
@@ -254,7 +220,7 @@
       "baggage": "",
       "gate": "Ausgang 1 (Linie)",
       "status": "active",
-      "status_text": "Im Anflug",
+      "status_text": "im Anflug",
       "delay": 20
     },
     {
@@ -304,8 +270,8 @@
       "terminal": "C",
       "baggage": "17",
       "gate": "Ausgang 6 (Charter)",
-      "status": "scheduled",
-      "status_text": "Vorhafen verlassen",
+      "status": "active",
+      "status_text": "Im Anflug",
       "delay": 5
     },
     {
@@ -355,8 +321,8 @@
       "terminal": "B",
       "baggage": "",
       "gate": "Ausgang 4 (Charter)",
-      "status": "scheduled",
-      "status_text": "Vorhafen verlassen",
+      "status": "active",
+      "status_text": "Im Anflug",
       "delay": 6
     },
     {
@@ -413,7 +379,7 @@
     {
       "dt": 1791555000.0,
       "time_scheduled": "16:10",
-      "time_estimated": "16:29",
+      "time_estimated": "16:23",
       "flight_no": "EW9037",
       "airline": "Eurowings",
       "city": "Hamburg",
@@ -424,25 +390,25 @@
       "baggage": "",
       "gate": "Ausgang 1 (Linie)",
       "status": "scheduled",
-      "status_text": "",
-      "delay": 19
+      "status_text": "Vorhafen verlassen",
+      "delay": 13
     },
     {
       "dt": 1791555300.0,
       "time_scheduled": "16:15",
-      "time_estimated": "16:59",
+      "time_estimated": "16:57",
       "flight_no": "EW9885",
       "airline": "Eurowings",
       "city": "Rom-Fiumicino",
       "country": "Italien",
       "type": "Linie",
       "type_source": "Airline",
-      "terminal": "B",
+      "terminal": "A",
       "baggage": "",
       "gate": "Ausgang 1 (Linie)",
       "status": "scheduled",
       "status_text": "Vorhafen verlassen",
-      "delay": 45
+      "delay": 43
     },
     {
       "dt": 1791555900.0,
@@ -481,7 +447,7 @@
     {
       "dt": 1791556200.0,
       "time_scheduled": "16:30",
-      "time_estimated": "16:37",
+      "time_estimated": "16:36",
       "flight_no": "VL2018",
       "airline": "Lufthansa City Airlines",
       "city": "München",
@@ -492,8 +458,8 @@
       "baggage": "",
       "gate": "Ausgang 1 (Linie)",
       "status": "scheduled",
-      "status_text": "",
-      "delay": 8
+      "status_text": "Vorhafen verlassen",
+      "delay": 7
     },
     {
       "dt": 1791556800.0,
@@ -532,7 +498,7 @@
     {
       "dt": 1791557400.0,
       "time_scheduled": "16:50",
-      "time_estimated": "17:07",
+      "time_estimated": "17:26",
       "flight_no": "BA922",
       "airline": "British Airways",
       "city": "London-Heathrow",
@@ -544,12 +510,12 @@
       "gate": "Ausgang 1 (Linie)",
       "status": "scheduled",
       "status_text": "",
-      "delay": 18
+      "delay": 37
     },
     {
       "dt": 1791557700.0,
       "time_scheduled": "16:55",
-      "time_estimated": "18:04",
+      "time_estimated": "18:01",
       "flight_no": "EW9581",
       "airline": "Eurowings",
       "city": "Palma de Mallorca",
@@ -560,8 +526,8 @@
       "baggage": "",
       "gate": "Ausgang 1 (Linie)",
       "status": "scheduled",
-      "status_text": "",
-      "delay": 69
+      "status_text": "Vorhafen verlassen",
+      "delay": 66
     },
     {
       "dt": 1791557700.0,
@@ -634,7 +600,7 @@
     {
       "dt": 1791558600.0,
       "time_scheduled": "17:10",
-      "time_estimated": "17:29",
+      "time_estimated": "17:32",
       "flight_no": "EW9461",
       "airline": "Eurowings",
       "city": "London-Heathrow",
@@ -646,7 +612,7 @@
       "gate": "Ausgang 1 (Linie)",
       "status": "scheduled",
       "status_text": "",
-      "delay": 20
+      "delay": 23
     },
     {
       "dt": 1791558900.0,
@@ -787,7 +753,7 @@
     {
       "dt": 1791560400.0,
       "time_scheduled": "17:40",
-      "time_estimated": "17:42",
+      "time_estimated": "17:41",
       "flight_no": "OS165",
       "airline": "Austrian Airlines",
       "city": "Wien",
@@ -799,7 +765,7 @@
       "gate": "Ausgang 1 (Linie)",
       "status": "scheduled",
       "status_text": "",
-      "delay": 2
+      "delay": 1
     },
     {
       "dt": 1791560400.0,
@@ -838,7 +804,7 @@
     {
       "dt": 1791560700.0,
       "time_scheduled": "17:45",
-      "time_estimated": "18:19",
+      "time_estimated": "18:10",
       "flight_no": "EW9343",
       "airline": "Eurowings",
       "city": "Manchester",
@@ -850,7 +816,7 @@
       "gate": "Ausgang 1 (Linie)",
       "status": "scheduled",
       "status_text": "",
-      "delay": 34
+      "delay": 25
     },
     {
       "dt": 1791560700.0,
@@ -1036,8 +1002,8 @@
       "baggage": "",
       "gate": "Ausgang 1 (Linie)",
       "status": "scheduled",
-      "status_text": "",
-      "delay": 21
+      "status_text": "Vorhafen verlassen",
+      "delay": 22
     },
     {
       "dt": 1791563400.0,
@@ -1110,7 +1076,7 @@
     {
       "dt": 1791564000.0,
       "time_scheduled": "18:40",
-      "time_estimated": "18:40",
+      "time_estimated": "18:39",
       "flight_no": "AF1006",
       "airline": "Air France",
       "city": "Paris-Charles de Gaulle",
@@ -1642,6 +1608,23 @@
       "airline": "Eurowings",
       "city": "Wien",
       "country": "Österreich",
+      "type": "Linie",
+      "type_source": "Airline",
+      "terminal": "B",
+      "baggage": "",
+      "gate": "Ausgang 1 (Linie)",
+      "status": "scheduled",
+      "status_text": "",
+      "delay": 0
+    },
+    {
+      "dt": 1791571200.0,
+      "time_scheduled": "20:40",
+      "time_estimated": "20:40",
+      "flight_no": "LH2030",
+      "airline": "Lufthansa",
+      "city": "München",
+      "country": "Deutschland",
       "type": "Linie",
       "type_source": "Airline",
       "terminal": "B",
