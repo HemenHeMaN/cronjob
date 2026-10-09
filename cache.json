@@ -1,5 +1,5 @@
 {
-  "updated_at": "09.10.2026 05:50",
+  "updated_at": "09.10.2026 05:55",
   "source": "Dus.com",
   "flights": [
     {
@@ -107,7 +107,7 @@
     {
       "dt": 1791526200.0,
       "time_scheduled": "08:10",
-      "time_estimated": "07:54",
+      "time_estimated": "07:55",
       "flight_no": "AY1391",
       "airline": "Finnair",
       "city": "Helsinki",
@@ -118,7 +118,7 @@
       "baggage": "",
       "gate": "Ausgang 1 (Linie)",
       "status": "scheduled",
-      "status_text": "",
+      "status_text": "Vorhafen verlassen",
       "delay": 0
     },
     {
@@ -829,6 +829,40 @@
       "type": "Linie",
       "type_source": "Airline",
       "terminal": "B",
+      "baggage": "",
+      "gate": "Ausgang 1 (Linie)",
+      "status": "scheduled",
+      "status_text": "",
+      "delay": 0
+    },
+    {
+      "dt": 1791536100.0,
+      "time_scheduled": "10:55",
+      "time_estimated": "10:55",
+      "flight_no": "FH1193",
+      "airline": "Freebird Airlines",
+      "city": "Antalya",
+      "country": "Türkei",
+      "type": "Charter",
+      "type_source": "Airline",
+      "terminal": "C",
+      "baggage": "",
+      "gate": "Ausgang 4 (Charter)",
+      "status": "scheduled",
+      "status_text": "",
+      "delay": 0
+    },
+    {
+      "dt": 1791536100.0,
+      "time_scheduled": "10:55",
+      "time_estimated": "10:55",
+      "flight_no": "PC5677",
+      "airline": "Pegasus Airlines",
+      "city": "Antalya",
+      "country": "Türkei",
+      "type": "Linie",
+      "type_source": "Airline",
+      "terminal": "C",
       "baggage": "",
       "gate": "Ausgang 1 (Linie)",
       "status": "scheduled",
