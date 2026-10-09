@@ -1,5 +1,5 @@
 {
-  "updated_at": "09.10.2026 10:16",
+  "updated_at": "09.10.2026 10:20",
   "source": "Dus.com",
   "flights": [
     {
@@ -48,23 +48,6 @@
       "type_source": "Ausgang",
       "terminal": "B",
       "baggage": "11",
-      "gate": "Ausgang 4 (Charter)",
-      "status": "landed",
-      "status_text": "gelandet",
-      "delay": 0
-    },
-    {
-      "dt": 1791530700.0,
-      "time_scheduled": "09:25",
-      "time_estimated": "09:18",
-      "flight_no": "EW9041",
-      "airline": "Eurowings",
-      "city": "Berlin-Brandenburg",
-      "country": "Deutschland",
-      "type": "Charter",
-      "type_source": "Ausgang",
-      "terminal": "B",
-      "baggage": "8",
       "gate": "Ausgang 4 (Charter)",
       "status": "landed",
       "status_text": "gelandet",
@@ -226,7 +209,7 @@
     {
       "dt": 1791533700.0,
       "time_scheduled": "10:15",
-      "time_estimated": "10:20",
+      "time_estimated": "10:19",
       "flight_no": "ME247",
       "airline": "Middle East Airlines",
       "city": "Beirut",
@@ -236,9 +219,9 @@
       "terminal": "C",
       "baggage": "17",
       "gate": "Ausgang 6 (Charter)",
-      "status": "active",
-      "status_text": "im Anflug",
-      "delay": 6
+      "status": "landed",
+      "status_text": "gelandet",
+      "delay": 5
     },
     {
       "dt": 1791534300.0,
@@ -277,7 +260,7 @@
     {
       "dt": 1791534300.0,
       "time_scheduled": "10:25",
-      "time_estimated": "10:26",
+      "time_estimated": "10:27",
       "flight_no": "DE1011",
       "airline": "Condor",
       "city": "Palma de Mallorca",
@@ -289,12 +272,12 @@
       "gate": "Ausgang 1 (Linie)",
       "status": "active",
       "status_text": "im Anflug",
-      "delay": 2
+      "delay": 3
     },
     {
       "dt": 1791534600.0,
       "time_scheduled": "10:30",
-      "time_estimated": "10:30",
+      "time_estimated": "10:31",
       "flight_no": "EW9463",
       "airline": "Eurowings",
       "city": "London-Heathrow",
@@ -306,12 +289,12 @@
       "gate": "Ausgang 1 (Linie)",
       "status": "active",
       "status_text": "im Anflug",
-      "delay": 0
+      "delay": 1
     },
     {
       "dt": 1791534600.0,
       "time_scheduled": "10:30",
-      "time_estimated": "10:20",
+      "time_estimated": "10:16",
       "flight_no": "EW9243",
       "airline": "Eurowings",
       "city": "Kopenhagen",
@@ -321,8 +304,8 @@
       "terminal": "A",
       "baggage": "5",
       "gate": "Ausgang 1 (Linie)",
-      "status": "active",
-      "status_text": "im Anflug",
+      "status": "landed",
+      "status_text": "gelandet",
       "delay": 0
     },
     {
@@ -338,8 +321,8 @@
       "terminal": "A",
       "baggage": "1/-/2",
       "gate": "Ausgang 1 (Linie)",
-      "status": "scheduled",
-      "status_text": "Vorhafen verlassen",
+      "status": "active",
+      "status_text": "Im Anflug",
       "delay": 16
     },
     {
@@ -753,7 +736,7 @@
     {
       "dt": 1791540600.0,
       "time_scheduled": "12:10",
-      "time_estimated": "12:43",
+      "time_estimated": "12:40",
       "flight_no": "EW9573",
       "airline": "Eurowings",
       "city": "Palma de Mallorca",
@@ -764,8 +747,8 @@
       "baggage": "",
       "gate": "Ausgang 1 (Linie)",
       "status": "scheduled",
-      "status_text": "",
-      "delay": 33
+      "status_text": "Vorhafen verlassen",
+      "delay": 30
     },
     {
       "dt": 1791540600.0,
@@ -923,7 +906,7 @@
     {
       "dt": 1791542100.0,
       "time_scheduled": "12:35",
-      "time_estimated": "12:44",
+      "time_estimated": "12:39",
       "flight_no": "EW9539",
       "airline": "Eurowings",
       "city": "Valencia",
@@ -934,8 +917,8 @@
       "baggage": "",
       "gate": "Ausgang 1 (Linie)",
       "status": "scheduled",
-      "status_text": "",
-      "delay": 10
+      "status_text": "Vorhafen verlassen",
+      "delay": 5
     },
     {
       "dt": 1791542400.0,
@@ -1042,7 +1025,7 @@
     {
       "dt": 1791544500.0,
       "time_scheduled": "13:15",
-      "time_estimated": "13:15",
+      "time_estimated": "13:21",
       "flight_no": "EW9333",
       "airline": "Eurowings",
       "city": "Birmingham",
@@ -1054,7 +1037,7 @@
       "gate": "Ausgang 1 (Linie)",
       "status": "scheduled",
       "status_text": "",
-      "delay": 0
+      "delay": 7
     },
     {
       "dt": 1791544800.0,
