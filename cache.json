@@ -1,11 +1,11 @@
 {
-  "updated_at": "09.10.2026 19:50",
+  "updated_at": "09.10.2026 19:55",
   "source": "Dus.com",
   "flights": [
     {
       "dt": 1791561000.0,
       "time_scheduled": "17:50",
-      "time_estimated": "19:56",
+      "time_estimated": "19:53",
       "flight_no": "VL076",
       "airline": "Lufthansa City Airlines",
       "city": "Frankfurt",
@@ -15,9 +15,9 @@
       "terminal": "B",
       "baggage": "4",
       "gate": "Ausgang 1 (Linie)",
-      "status": "active",
-      "status_text": "im Anflug",
-      "delay": 126
+      "status": "landed",
+      "status_text": "gelandet",
+      "delay": 123
     },
     {
       "dt": 1791561900.0,
@@ -35,23 +35,6 @@
       "status": "landed",
       "status_text": "gelandet",
       "delay": 54
-    },
-    {
-      "dt": 1791562800.0,
-      "time_scheduled": "18:20",
-      "time_estimated": "18:52",
-      "flight_no": "LX1024",
-      "airline": "Swiss",
-      "city": "Zürich",
-      "country": "Schweiz",
-      "type": "Linie",
-      "type_source": "Ausgang",
-      "terminal": "A",
-      "baggage": "3",
-      "gate": "Ausgang 1 (Linie)",
-      "status": "landed",
-      "status_text": "gelandet",
-      "delay": 32
     },
     {
       "dt": 1791564000.0,
@@ -321,8 +304,8 @@
       "terminal": "C",
       "baggage": "18",
       "gate": "Ausgang 6 (Charter)",
-      "status": "scheduled",
-      "status_text": "Vorhafen verlassen",
+      "status": "active",
+      "status_text": "Im Anflug",
       "delay": 58
     },
     {
@@ -457,8 +440,8 @@
       "terminal": "B",
       "baggage": "6",
       "gate": "Ausgang 1 (Linie)",
-      "status": "scheduled",
-      "status_text": "Vorhafen verlassen",
+      "status": "active",
+      "status_text": "Im Anflug",
       "delay": 18
     },
     {
@@ -498,7 +481,7 @@
     {
       "dt": 1791569400.0,
       "time_scheduled": "20:10",
-      "time_estimated": "20:04",
+      "time_estimated": "20:03",
       "flight_no": "VY1898",
       "airline": "Vueling",
       "city": "Barcelona",
@@ -532,7 +515,7 @@
     {
       "dt": 1791570300.0,
       "time_scheduled": "20:25",
-      "time_estimated": "20:08",
+      "time_estimated": "20:01",
       "flight_no": "EJU3943",
       "airline": "Easy Jet Europe",
       "city": "Mailand-Malpensa",
@@ -543,7 +526,7 @@
       "baggage": "8",
       "gate": "Ausgang 4 (Charter)",
       "status": "active",
-      "status_text": "Im Anflug",
+      "status_text": "im Anflug",
       "delay": 0
     },
     {
@@ -560,7 +543,7 @@
       "baggage": "14",
       "gate": "Ausgang 5 (Charter)",
       "status": "active",
-      "status_text": "Im Anflug",
+      "status_text": "im Anflug",
       "delay": 0
     },
     {
@@ -662,7 +645,7 @@
       "baggage": "13",
       "gate": "Ausgang 5 (Charter)",
       "status": "scheduled",
-      "status_text": "",
+      "status_text": "Vorhafen verlassen",
       "delay": 0
     },
     {
@@ -691,9 +674,9 @@
       "city": "Palma de Mallorca",
       "country": "Spanien",
       "type": "Charter",
-      "type_source": "Airline",
+      "type_source": "Ausgang",
       "terminal": "B",
-      "baggage": "",
+      "baggage": "12",
       "gate": "Ausgang 4 (Charter)",
       "status": "scheduled",
       "status_text": "Vorhafen verlassen",
@@ -727,8 +710,8 @@
       "type": "Charter",
       "type_source": "Ausgang",
       "terminal": "C",
-      "baggage": "20",
-      "gate": "Ausgang 6 (Charter)",
+      "baggage": "14",
+      "gate": "Ausgang 5 (Charter)",
       "status": "scheduled",
       "status_text": "Vorhafen verlassen",
       "delay": 14
@@ -776,9 +759,9 @@
       "city": "Göteborg-Landvetter",
       "country": "Schweden",
       "type": "Linie",
-      "type_source": "Airline",
+      "type_source": "Ausgang",
       "terminal": "A",
-      "baggage": "",
+      "baggage": "1",
       "gate": "Ausgang 1 (Linie)",
       "status": "scheduled",
       "status_text": "",
@@ -804,7 +787,7 @@
     {
       "dt": 1791574800.0,
       "time_scheduled": "21:40",
-      "time_estimated": "22:02",
+      "time_estimated": "22:21",
       "flight_no": "EW9511",
       "airline": "Eurowings",
       "city": "Madrid-Barajas",
@@ -816,7 +799,7 @@
       "gate": "Ausgang 1 (Linie)",
       "status": "scheduled",
       "status_text": "",
-      "delay": 22
+      "delay": 41
     },
     {
       "dt": 1791575100.0,
@@ -1178,7 +1161,7 @@
     {
       "dt": 1791576900.0,
       "time_scheduled": "22:15",
-      "time_estimated": "22:10",
+      "time_estimated": "22:36",
       "flight_no": "EW4204",
       "airline": "Eurowings",
       "city": "Prag",
@@ -1190,7 +1173,7 @@
       "gate": "Ausgang 1 (Linie)",
       "status": "scheduled",
       "status_text": "",
-      "delay": 0
+      "delay": 22
     },
     {
       "dt": 1791576900.0,
@@ -1484,7 +1467,7 @@
     {
       "dt": 1791579000.0,
       "time_scheduled": "22:50",
-      "time_estimated": "23:06",
+      "time_estimated": "23:08",
       "flight_no": "X32115",
       "airline": "Tuifly",
       "city": "Gran Canaria",
@@ -1496,7 +1479,7 @@
       "gate": "Ausgang 4 (Charter)",
       "status": "scheduled",
       "status_text": "Vorhafen verlassen",
-      "delay": 16
+      "delay": 19
     }
   ]
 }
