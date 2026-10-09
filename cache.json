@@ -1,5 +1,5 @@
 {
-  "updated_at": "09.10.2026 09:50",
+  "updated_at": "09.10.2026 09:55",
   "source": "Dus.com",
   "flights": [
     {
@@ -52,23 +52,6 @@
       "status": "landed",
       "status_text": "gelandet",
       "delay": 64
-    },
-    {
-      "dt": 1791528900.0,
-      "time_scheduled": "08:55",
-      "time_estimated": "08:51",
-      "flight_no": "BJ206",
-      "airline": "Nouvelair",
-      "city": "Tunis",
-      "country": "Tunesien",
-      "type": "Charter",
-      "type_source": "Ausgang",
-      "terminal": "C",
-      "baggage": "10",
-      "gate": "Ausgang 4 (Charter)",
-      "status": "landed",
-      "status_text": "gelandet",
-      "delay": 0
     },
     {
       "dt": 1791529200.0,
@@ -277,7 +260,7 @@
     {
       "dt": 1791532800.0,
       "time_scheduled": "10:00",
-      "time_estimated": "10:03",
+      "time_estimated": "10:04",
       "flight_no": "EW9083",
       "airline": "Eurowings",
       "city": "München",
@@ -289,12 +272,12 @@
       "gate": "Ausgang 4 (Charter)",
       "status": "active",
       "status_text": "im Anflug",
-      "delay": 3
+      "delay": 4
     },
     {
       "dt": 1791532800.0,
       "time_scheduled": "10:00",
-      "time_estimated": "09:59",
+      "time_estimated": "09:53",
       "flight_no": "LH072",
       "airline": "Lufthansa",
       "city": "Frankfurt",
@@ -304,14 +287,14 @@
       "terminal": "A",
       "baggage": "3",
       "gate": "Ausgang 1 (Linie)",
-      "status": "active",
-      "status_text": "im Anflug",
+      "status": "landed",
+      "status_text": "gelandet",
       "delay": 0
     },
     {
       "dt": 1791532800.0,
       "time_scheduled": "10:00",
-      "time_estimated": "09:55",
+      "time_estimated": "09:51",
       "flight_no": "EW7060",
       "airline": "Eurowings",
       "city": "Hamburg",
@@ -321,8 +304,8 @@
       "terminal": "A",
       "baggage": "5",
       "gate": "Ausgang 1 (Linie)",
-      "status": "active",
-      "status_text": "im Anflug",
+      "status": "landed",
+      "status_text": "gelandet",
       "delay": 0
     },
     {
@@ -396,7 +379,7 @@
     {
       "dt": 1791534300.0,
       "time_scheduled": "10:25",
-      "time_estimated": "10:35",
+      "time_estimated": "10:30",
       "flight_no": "EW9341",
       "airline": "Eurowings",
       "city": "Manchester",
@@ -404,11 +387,11 @@
       "type": "Linie",
       "type_source": "Ausgang",
       "terminal": "A",
-      "baggage": "5",
+      "baggage": "6",
       "gate": "Ausgang 1 (Linie)",
       "status": "scheduled",
       "status_text": "Vorhafen verlassen",
-      "delay": 11
+      "delay": 5
     },
     {
       "dt": 1791534300.0,
@@ -421,7 +404,7 @@
       "type": "Linie",
       "type_source": "Ausgang",
       "terminal": "A",
-      "baggage": "2",
+      "baggage": "4",
       "gate": "Ausgang 1 (Linie)",
       "status": "scheduled",
       "status_text": "Vorhafen verlassen",
@@ -438,7 +421,7 @@
       "type": "Linie",
       "type_source": "Ausgang",
       "terminal": "A",
-      "baggage": "4",
+      "baggage": "3",
       "gate": "Ausgang 1 (Linie)",
       "status": "scheduled",
       "status_text": "Vorhafen verlassen",
@@ -455,7 +438,7 @@
       "type": "Linie",
       "type_source": "Ausgang",
       "terminal": "A",
-      "baggage": "3",
+      "baggage": "5",
       "gate": "Ausgang 1 (Linie)",
       "status": "scheduled",
       "status_text": "Vorhafen verlassen",
@@ -492,7 +475,7 @@
       "baggage": "7",
       "gate": "Ausgang 4 (Charter)",
       "status": "active",
-      "status_text": "Im Anflug",
+      "status_text": "im Anflug",
       "delay": 0
     },
     {
@@ -719,7 +702,7 @@
     {
       "dt": 1791538800.0,
       "time_scheduled": "11:40",
-      "time_estimated": "11:51",
+      "time_estimated": "11:47",
       "flight_no": "EW9421",
       "airline": "Eurowings",
       "city": "Nizza",
@@ -731,7 +714,7 @@
       "gate": "Ausgang 1 (Linie)",
       "status": "scheduled",
       "status_text": "",
-      "delay": 12
+      "delay": 8
     },
     {
       "dt": 1791538800.0,
@@ -753,7 +736,7 @@
     {
       "dt": 1791539100.0,
       "time_scheduled": "11:45",
-      "time_estimated": "11:43",
+      "time_estimated": "11:52",
       "flight_no": "EW9043",
       "airline": "Eurowings",
       "city": "Berlin-Brandenburg",
@@ -765,7 +748,7 @@
       "gate": "Ausgang 1 (Linie)",
       "status": "scheduled",
       "status_text": "",
-      "delay": 0
+      "delay": 7
     },
     {
       "dt": 1791539400.0,
@@ -906,7 +889,7 @@
     {
       "dt": 1791540600.0,
       "time_scheduled": "12:10",
-      "time_estimated": "12:41",
+      "time_estimated": "12:48",
       "flight_no": "EW9531",
       "airline": "Eurowings",
       "city": "Alicante",
@@ -918,7 +901,7 @@
       "gate": "Ausgang 1 (Linie)",
       "status": "scheduled",
       "status_text": "",
-      "delay": 32
+      "delay": 39
     },
     {
       "dt": 1791540900.0,
@@ -940,7 +923,7 @@
     {
       "dt": 1791541500.0,
       "time_scheduled": "12:25",
-      "time_estimated": "12:36",
+      "time_estimated": "12:39",
       "flight_no": "TP540",
       "airline": "TAP Portugal",
       "city": "Lissabon",
@@ -951,8 +934,8 @@
       "baggage": "",
       "gate": "Ausgang 1 (Linie)",
       "status": "scheduled",
-      "status_text": "",
-      "delay": 11
+      "status_text": "Vorhafen verlassen",
+      "delay": 14
     },
     {
       "dt": 1791541500.0,
@@ -974,7 +957,7 @@
     {
       "dt": 1791541800.0,
       "time_scheduled": "12:30",
-      "time_estimated": "12:33",
+      "time_estimated": "12:53",
       "flight_no": "EW9641",
       "airline": "Eurowings",
       "city": "Porto",
@@ -986,7 +969,7 @@
       "gate": "Ausgang 1 (Linie)",
       "status": "scheduled",
       "status_text": "",
-      "delay": 3
+      "delay": 23
     },
     {
       "dt": 1791541800.0,
@@ -1127,7 +1110,7 @@
     {
       "dt": 1791543000.0,
       "time_scheduled": "12:50",
-      "time_estimated": "12:50",
+      "time_estimated": "13:21",
       "flight_no": "EW9535",
       "airline": "Eurowings",
       "city": "Malaga",
@@ -1139,7 +1122,7 @@
       "gate": "Ausgang 1 (Linie)",
       "status": "scheduled",
       "status_text": "",
-      "delay": 0
+      "delay": 31
     },
     {
       "dt": 1791543900.0,
@@ -1712,6 +1695,23 @@
       "country": "Türkei",
       "type": "Charter",
       "type_source": "Airline",
+      "terminal": "C",
+      "baggage": "",
+      "gate": "Ausgang 4 (Charter)",
+      "status": "scheduled",
+      "status_text": "",
+      "delay": 0
+    },
+    {
+      "dt": 1791550500.0,
+      "time_scheduled": "14:55",
+      "time_estimated": "14:55",
+      "flight_no": "BJ2340",
+      "airline": "Nouvelair",
+      "city": "Djerba",
+      "country": "Tunesien",
+      "type": "Charter",
+      "type_source": "Flugtyp",
       "terminal": "C",
       "baggage": "",
       "gate": "Ausgang 4 (Charter)",
