@@ -1,5 +1,5 @@
 {
-  "updated_at": "09.10.2026 06:20",
+  "updated_at": "09.10.2026 06:25",
   "source": "Dus.com",
   "flights": [
     {
@@ -396,7 +396,7 @@
     {
       "dt": 1791529500.0,
       "time_scheduled": "09:05",
-      "time_estimated": "09:04",
+      "time_estimated": "09:02",
       "flight_no": "VY1896",
       "airline": "Vueling",
       "city": "Barcelona",
@@ -950,6 +950,23 @@
       "terminal": "A",
       "baggage": "",
       "gate": "Ausgang 1 (Linie)",
+      "status": "scheduled",
+      "status_text": "",
+      "delay": 0
+    },
+    {
+      "dt": 1791537900.0,
+      "time_scheduled": "11:25",
+      "time_estimated": "11:25",
+      "flight_no": "DE1515",
+      "airline": "Condor",
+      "city": "Palma de Mallorca",
+      "country": "Spanien",
+      "type": "Charter",
+      "type_source": "Airline",
+      "terminal": "B",
+      "baggage": "",
+      "gate": "Ausgang 4 (Charter)",
       "status": "scheduled",
       "status_text": "",
       "delay": 0
