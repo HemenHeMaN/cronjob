@@ -1,5 +1,5 @@
 {
-  "updated_at": "09.10.2026 06:25",
+  "updated_at": "09.10.2026 06:30",
   "source": "Dus.com",
   "flights": [
     {
@@ -345,7 +345,7 @@
     {
       "dt": 1791528900.0,
       "time_scheduled": "08:55",
-      "time_estimated": "08:47",
+      "time_estimated": "08:48",
       "flight_no": "BJ206",
       "airline": "Nouvelair",
       "city": "Tunis",
@@ -356,7 +356,7 @@
       "baggage": "10",
       "gate": "Ausgang 4 (Charter)",
       "status": "scheduled",
-      "status_text": "",
+      "status_text": "Vorhafen verlassen",
       "delay": 0
     },
     {
@@ -532,7 +532,7 @@
     {
       "dt": 1791531900.0,
       "time_scheduled": "09:45",
-      "time_estimated": "09:45",
+      "time_estimated": "09:31",
       "flight_no": "EI692",
       "airline": "Aer Lingus",
       "city": "Dublin",
@@ -959,6 +959,23 @@
       "time_scheduled": "11:25",
       "time_estimated": "11:25",
       "flight_no": "DE1515",
+      "airline": "Condor",
+      "city": "Palma de Mallorca",
+      "country": "Spanien",
+      "type": "Charter",
+      "type_source": "Airline",
+      "terminal": "B",
+      "baggage": "",
+      "gate": "Ausgang 4 (Charter)",
+      "status": "scheduled",
+      "status_text": "",
+      "delay": 0
+    },
+    {
+      "dt": 1791538200.0,
+      "time_scheduled": "11:30",
+      "time_estimated": "11:30",
+      "flight_no": "DE1775",
       "airline": "Condor",
       "city": "Palma de Mallorca",
       "country": "Spanien",
