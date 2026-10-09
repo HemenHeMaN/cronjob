@@ -1,5 +1,5 @@
 {
-  "updated_at": "09.10.2026 08:05",
+  "updated_at": "09.10.2026 08:10",
   "source": "Dus.com",
   "flights": [
     {
@@ -192,7 +192,7 @@
     {
       "dt": 1791528300.0,
       "time_scheduled": "08:45",
-      "time_estimated": "08:41",
+      "time_estimated": "08:42",
       "flight_no": "JU360",
       "airline": "Air Serbia",
       "city": "Belgrad",
@@ -209,7 +209,7 @@
     {
       "dt": 1791528600.0,
       "time_scheduled": "08:50",
-      "time_estimated": "08:46",
+      "time_estimated": "08:47",
       "flight_no": "OS161",
       "airline": "Austrian Airlines",
       "city": "Wien",
@@ -226,7 +226,7 @@
     {
       "dt": 1791528900.0,
       "time_scheduled": "08:55",
-      "time_estimated": "08:44",
+      "time_estimated": "08:45",
       "flight_no": "EW4672",
       "airline": "Eurowings",
       "city": "Stockholm-Arlanda",
@@ -328,7 +328,7 @@
     {
       "dt": 1791529500.0,
       "time_scheduled": "09:05",
-      "time_estimated": "09:16",
+      "time_estimated": "09:13",
       "flight_no": "LX1016",
       "airline": "Swiss",
       "city": "Zürich",
@@ -339,13 +339,13 @@
       "baggage": "",
       "gate": "Ausgang 1 (Linie)",
       "status": "scheduled",
-      "status_text": "",
-      "delay": 12
+      "status_text": "Vorhafen verlassen",
+      "delay": 9
     },
     {
       "dt": 1791529500.0,
       "time_scheduled": "09:05",
-      "time_estimated": "09:09",
+      "time_estimated": "09:03",
       "flight_no": "VY1896",
       "airline": "Vueling",
       "city": "Barcelona",
@@ -357,7 +357,7 @@
       "gate": "Ausgang 1 (Linie)",
       "status": "scheduled",
       "status_text": "Vorhafen verlassen",
-      "delay": 5
+      "delay": 0
     },
     {
       "dt": 1791529500.0,
@@ -855,7 +855,7 @@
     {
       "dt": 1791536700.0,
       "time_scheduled": "11:05",
-      "time_estimated": "11:08",
+      "time_estimated": "11:06",
       "flight_no": "AT696",
       "airline": "Royal Air Maroc",
       "city": "Nador",
@@ -866,8 +866,8 @@
       "baggage": "",
       "gate": "Ausgang 1 (Linie)",
       "status": "scheduled",
-      "status_text": "",
-      "delay": 4
+      "status_text": "Vorhafen verlassen",
+      "delay": 1
     },
     {
       "dt": 1791537000.0,
@@ -889,7 +889,7 @@
     {
       "dt": 1791537300.0,
       "time_scheduled": "11:15",
-      "time_estimated": "11:15",
+      "time_estimated": "11:09",
       "flight_no": "EW9783",
       "airline": "Eurowings",
       "city": "Budapest",
