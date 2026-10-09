@@ -1,5 +1,5 @@
 {
-  "updated_at": "09.10.2026 13:40",
+  "updated_at": "09.10.2026 13:45",
   "source": "Dus.com",
   "flights": [
     {
@@ -18,57 +18,6 @@
       "status": "landed",
       "status_text": "gelandet",
       "delay": 38
-    },
-    {
-      "dt": 1791541800.0,
-      "time_scheduled": "12:30",
-      "time_estimated": "12:44",
-      "flight_no": "EW9641",
-      "airline": "Eurowings",
-      "city": "Porto",
-      "country": "Portugal",
-      "type": "Charter",
-      "type_source": "Ausgang",
-      "terminal": "B",
-      "baggage": "8",
-      "gate": "Ausgang 4 (Charter)",
-      "status": "landed",
-      "status_text": "gelandet",
-      "delay": 15
-    },
-    {
-      "dt": 1791542100.0,
-      "time_scheduled": "12:35",
-      "time_estimated": "12:42",
-      "flight_no": "EW9861",
-      "airline": "Eurowings",
-      "city": "Neapel",
-      "country": "Italien",
-      "type": "Linie",
-      "type_source": "Ausgang",
-      "terminal": "B",
-      "baggage": "4",
-      "gate": "Ausgang 1 (Linie)",
-      "status": "landed",
-      "status_text": "gelandet",
-      "delay": 8
-    },
-    {
-      "dt": 1791542400.0,
-      "time_scheduled": "12:40",
-      "time_estimated": "12:40",
-      "flight_no": "LH2014",
-      "airline": "Lufthansa",
-      "city": "München",
-      "country": "Deutschland",
-      "type": "Linie",
-      "type_source": "Ausgang",
-      "terminal": "A",
-      "baggage": "6",
-      "gate": "Ausgang 1 (Linie)",
-      "status": "landed",
-      "status_text": "gelandet",
-      "delay": 1
     },
     {
       "dt": 1791543000.0,
@@ -192,7 +141,7 @@
     {
       "dt": 1791545100.0,
       "time_scheduled": "13:25",
-      "time_estimated": "14:05",
+      "time_estimated": "14:03",
       "flight_no": "EK055",
       "airline": "Emirates",
       "city": "Dubai",
@@ -203,13 +152,13 @@
       "baggage": "13",
       "gate": "Ausgang 5 (Charter)",
       "status": "active",
-      "status_text": "Im Anflug",
-      "delay": 41
+      "status_text": "im Anflug",
+      "delay": 39
     },
     {
       "dt": 1791545400.0,
       "time_scheduled": "13:30",
-      "time_estimated": "14:17",
+      "time_estimated": "14:18",
       "flight_no": "EW9681",
       "airline": "Eurowings",
       "city": "Athen",
@@ -221,7 +170,7 @@
       "gate": "Ausgang 5 (Charter)",
       "status": "scheduled",
       "status_text": "Vorhafen verlassen",
-      "delay": 47
+      "delay": 48
     },
     {
       "dt": 1791545400.0,
@@ -302,8 +251,8 @@
       "type": "Charter",
       "type_source": "Ausgang",
       "terminal": "B",
-      "baggage": "11",
-      "gate": "Ausgang 4 (Charter)",
+      "baggage": "14",
+      "gate": "Ausgang 5 (Charter)",
       "status": "active",
       "status_text": "im Anflug",
       "delay": 4
@@ -362,7 +311,7 @@
     {
       "dt": 1791546600.0,
       "time_scheduled": "13:50",
-      "time_estimated": "13:53",
+      "time_estimated": "13:43",
       "flight_no": "AF1506",
       "airline": "Air France",
       "city": "Paris-Charles de Gaulle",
@@ -372,9 +321,9 @@
       "terminal": "B",
       "baggage": "10",
       "gate": "Ausgang 4 (Charter)",
-      "status": "active",
-      "status_text": "im Anflug",
-      "delay": 3
+      "status": "landed",
+      "status_text": "gelandet",
+      "delay": 0
     },
     {
       "dt": 1791546900.0,
@@ -407,7 +356,7 @@
       "baggage": "19",
       "gate": "Ausgang 6 (Charter)",
       "status": "active",
-      "status_text": "Im Anflug",
+      "status_text": "im Anflug",
       "delay": 1
     },
     {
@@ -441,7 +390,7 @@
       "baggage": "9",
       "gate": "Ausgang 4 (Charter)",
       "status": "active",
-      "status_text": "Im Anflug",
+      "status_text": "im Anflug",
       "delay": 8
     },
     {
@@ -508,8 +457,8 @@
       "terminal": "C",
       "baggage": "18",
       "gate": "Ausgang 6 (Charter)",
-      "status": "scheduled",
-      "status_text": "Vorhafen verlassen",
+      "status": "active",
+      "status_text": "Im Anflug",
       "delay": 0
     },
     {
@@ -600,7 +549,7 @@
     {
       "dt": 1791549600.0,
       "time_scheduled": "14:40",
-      "time_estimated": "14:29",
+      "time_estimated": "14:28",
       "flight_no": "EW7066",
       "airline": "Eurowings",
       "city": "Hamburg",
@@ -611,7 +560,7 @@
       "baggage": "",
       "gate": "Ausgang 1 (Linie)",
       "status": "scheduled",
-      "status_text": "",
+      "status_text": "Vorhafen verlassen",
       "delay": 0
     },
     {
@@ -651,7 +600,7 @@
     {
       "dt": 1791549600.0,
       "time_scheduled": "14:40",
-      "time_estimated": "14:38",
+      "time_estimated": "14:48",
       "flight_no": "SK1621",
       "airline": "Scandinavian Airlines",
       "city": "Kopenhagen",
@@ -662,8 +611,8 @@
       "baggage": "",
       "gate": "Ausgang 1 (Linie)",
       "status": "scheduled",
-      "status_text": "",
-      "delay": 0
+      "status_text": "Vorhafen verlassen",
+      "delay": 8
     },
     {
       "dt": 1791549900.0,
@@ -736,7 +685,7 @@
     {
       "dt": 1791551700.0,
       "time_scheduled": "15:15",
-      "time_estimated": "15:12",
+      "time_estimated": "15:16",
       "flight_no": "EW9811",
       "airline": "Eurowings",
       "city": "Venedig-Tessera",
@@ -748,7 +697,7 @@
       "gate": "Ausgang 1 (Linie)",
       "status": "scheduled",
       "status_text": "",
-      "delay": 0
+      "delay": 1
     },
     {
       "dt": 1791552300.0,
@@ -1110,7 +1059,7 @@
     {
       "dt": 1791557400.0,
       "time_scheduled": "16:50",
-      "time_estimated": "16:50",
+      "time_estimated": "16:48",
       "flight_no": "BA922",
       "airline": "British Airways",
       "city": "London-Heathrow",
