@@ -1,5 +1,5 @@
 {
-  "updated_at": "09.10.2026 20:45",
+  "updated_at": "09.10.2026 20:50",
   "source": "Dus.com",
   "flights": [
     {
@@ -37,23 +37,6 @@
       "delay": 62
     },
     {
-      "dt": 1791566100.0,
-      "time_scheduled": "19:15",
-      "time_estimated": "19:45",
-      "flight_no": "BM560",
-      "airline": "Medsky Airways",
-      "city": "Tripolis-Mitiga",
-      "country": "Libyen",
-      "type": "Charter",
-      "type_source": "Ausgang",
-      "terminal": "C",
-      "baggage": "20",
-      "gate": "Ausgang 6 (Charter)",
-      "status": "landed",
-      "status_text": "gelandet",
-      "delay": 31
-    },
-    {
       "dt": 1791566700.0,
       "time_scheduled": "19:25",
       "time_estimated": "20:11",
@@ -71,23 +54,6 @@
       "delay": 46
     },
     {
-      "dt": 1791567900.0,
-      "time_scheduled": "19:45",
-      "time_estimated": "19:48",
-      "flight_no": "EW4676",
-      "airline": "Eurowings",
-      "city": "Stockholm-Arlanda",
-      "country": "Schweden",
-      "type": "Linie",
-      "type_source": "Ausgang",
-      "terminal": "A",
-      "baggage": "3",
-      "gate": "Ausgang 1 (Linie)",
-      "status": "landed",
-      "status_text": "gelandet",
-      "delay": 4
-    },
-    {
       "dt": 1791568200.0,
       "time_scheduled": "19:50",
       "time_estimated": "20:22",
@@ -103,23 +69,6 @@
       "status": "landed",
       "status_text": "gelandet",
       "delay": 33
-    },
-    {
-      "dt": 1791568200.0,
-      "time_scheduled": "19:50",
-      "time_estimated": "19:50",
-      "flight_no": "EW9637",
-      "airline": "Eurowings",
-      "city": "Kos",
-      "country": "Griechenland",
-      "type": "Linie",
-      "type_source": "Ausgang",
-      "terminal": "B",
-      "baggage": "2",
-      "gate": "Ausgang 1 (Linie)",
-      "status": "landed",
-      "status_text": "gelandet",
-      "delay": 0
     },
     {
       "dt": 1791568500.0,
@@ -328,7 +277,7 @@
     {
       "dt": 1791572400.0,
       "time_scheduled": "21:00",
-      "time_estimated": "20:49",
+      "time_estimated": "20:45",
       "flight_no": "BA924",
       "airline": "British Airways",
       "city": "London-Heathrow",
@@ -338,8 +287,8 @@
       "terminal": "C",
       "baggage": "13",
       "gate": "Ausgang 5 (Charter)",
-      "status": "active",
-      "status_text": "im Anflug",
+      "status": "landed",
+      "status_text": "gelandet",
       "delay": 0
     },
     {
@@ -566,7 +515,7 @@
     {
       "dt": 1791575400.0,
       "time_scheduled": "21:50",
-      "time_estimated": "21:57",
+      "time_estimated": "22:02",
       "flight_no": "EW9345",
       "airline": "Eurowings",
       "city": "Manchester",
@@ -578,7 +527,7 @@
       "gate": "Ausgang 1 (Linie)",
       "status": "scheduled",
       "status_text": "",
-      "delay": 8
+      "delay": 13
     },
     {
       "dt": 1791575400.0,
@@ -657,9 +606,9 @@
       "city": "Nizza",
       "country": "Frankreich",
       "type": "Linie",
-      "type_source": "Airline",
+      "type_source": "Ausgang",
       "terminal": "B",
-      "baggage": "",
+      "baggage": "5",
       "gate": "Ausgang 1 (Linie)",
       "status": "scheduled",
       "status_text": "Vorhafen verlassen",
@@ -940,7 +889,7 @@
     {
       "dt": 1791577200.0,
       "time_scheduled": "22:20",
-      "time_estimated": "22:55",
+      "time_estimated": "22:58",
       "flight_no": "EW9887",
       "airline": "Eurowings",
       "city": "Rom-Fiumicino",
@@ -952,7 +901,7 @@
       "gate": "Ausgang 1 (Linie)",
       "status": "scheduled",
       "status_text": "",
-      "delay": 36
+      "delay": 39
     },
     {
       "dt": 1791577500.0,
@@ -1110,7 +1059,7 @@
     {
       "dt": 1791578400.0,
       "time_scheduled": "22:40",
-      "time_estimated": "22:47",
+      "time_estimated": "22:52",
       "flight_no": "DE1617",
       "airline": "Condor",
       "city": "Heraklion (Kreta)",
@@ -1122,7 +1071,7 @@
       "gate": "Ausgang 4 (Charter)",
       "status": "scheduled",
       "status_text": "Vorhafen verlassen",
-      "delay": 7
+      "delay": 12
     },
     {
       "dt": 1791578700.0,
