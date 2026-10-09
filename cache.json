@@ -1,5 +1,5 @@
 {
-  "updated_at": "09.10.2026 16:25",
+  "updated_at": "09.10.2026 16:30",
   "source": "Dus.com",
   "flights": [
     {
@@ -107,7 +107,7 @@
     {
       "dt": 1791553800.0,
       "time_scheduled": "15:50",
-      "time_estimated": "16:35",
+      "time_estimated": "16:29",
       "flight_no": "DE1421",
       "airline": "Condor",
       "city": "Lanzarote-Arrecife",
@@ -117,9 +117,9 @@
       "terminal": "B",
       "baggage": "11",
       "gate": "Ausgang 4 (Charter)",
-      "status": "active",
-      "status_text": "im Anflug",
-      "delay": 46
+      "status": "landed",
+      "status_text": "gelandet",
+      "delay": 40
     },
     {
       "dt": 1791554400.0,
@@ -203,7 +203,7 @@
       "baggage": "14",
       "gate": "Ausgang 5 (Charter)",
       "status": "active",
-      "status_text": "Im Anflug",
+      "status_text": "im Anflug",
       "delay": 39
     },
     {
@@ -236,8 +236,8 @@
       "terminal": "A",
       "baggage": "",
       "gate": "Ausgang 1 (Linie)",
-      "status": "scheduled",
-      "status_text": "Vorhafen verlassen",
+      "status": "active",
+      "status_text": "Im Anflug",
       "delay": 44
     },
     {
@@ -277,7 +277,7 @@
     {
       "dt": 1791556200.0,
       "time_scheduled": "16:30",
-      "time_estimated": "16:37",
+      "time_estimated": "16:26",
       "flight_no": "VL2018",
       "airline": "Lufthansa City Airlines",
       "city": "München",
@@ -287,9 +287,9 @@
       "terminal": "A",
       "baggage": "2",
       "gate": "Ausgang 1 (Linie)",
-      "status": "active",
-      "status_text": "im Anflug",
-      "delay": 8
+      "status": "landed",
+      "status_text": "gelandet",
+      "delay": 0
     },
     {
       "dt": 1791556800.0,
@@ -300,12 +300,12 @@
       "city": "Heraklion (Kreta)",
       "country": "Griechenland",
       "type": "Charter",
-      "type_source": "Airline",
+      "type_source": "Ausgang",
       "terminal": "B",
-      "baggage": "",
+      "baggage": "10",
       "gate": "Ausgang 4 (Charter)",
       "status": "active",
-      "status_text": "Im Anflug",
+      "status_text": "im Anflug",
       "delay": 0
     },
     {
@@ -328,7 +328,7 @@
     {
       "dt": 1791557400.0,
       "time_scheduled": "16:50",
-      "time_estimated": "17:30",
+      "time_estimated": "17:29",
       "flight_no": "BA922",
       "airline": "British Airways",
       "city": "London-Heathrow",
@@ -339,8 +339,8 @@
       "baggage": "",
       "gate": "Ausgang 1 (Linie)",
       "status": "scheduled",
-      "status_text": "",
-      "delay": 41
+      "status_text": "Vorhafen verlassen",
+      "delay": 40
     },
     {
       "dt": 1791557700.0,
@@ -368,12 +368,12 @@
       "city": "Zürich",
       "country": "Schweiz",
       "type": "Linie",
-      "type_source": "Airline",
+      "type_source": "Ausgang",
       "terminal": "A",
-      "baggage": "",
+      "baggage": "3",
       "gate": "Ausgang 1 (Linie)",
-      "status": "scheduled",
-      "status_text": "Vorhafen verlassen",
+      "status": "active",
+      "status_text": "Im Anflug",
       "delay": 0
     },
     {
@@ -384,11 +384,11 @@
       "airline": "A Jet",
       "city": "Ankara-Esenboğa",
       "country": "Türkei",
-      "type": "Linie",
-      "type_source": "Airline",
+      "type": "Charter",
+      "type_source": "Ausgang",
       "terminal": "C",
-      "baggage": "",
-      "gate": "Ausgang 1 (Linie)",
+      "baggage": "19",
+      "gate": "Ausgang 6 (Charter)",
       "status": "scheduled",
       "status_text": "Vorhafen verlassen",
       "delay": 20
@@ -413,19 +413,19 @@
     {
       "dt": 1791558000.0,
       "time_scheduled": "17:00",
-      "time_estimated": "17:01",
+      "time_estimated": "17:02",
       "flight_no": "TU526",
       "airline": "Tunisair",
       "city": "Tunis",
       "country": "Tunesien",
-      "type": "Linie",
-      "type_source": "Airline",
+      "type": "Charter",
+      "type_source": "Ausgang",
       "terminal": "C",
-      "baggage": "",
-      "gate": "Ausgang 1 (Linie)",
+      "baggage": "20",
+      "gate": "Ausgang 6 (Charter)",
       "status": "scheduled",
       "status_text": "Vorhafen verlassen",
-      "delay": 2
+      "delay": 3
     },
     {
       "dt": 1791558600.0,
@@ -549,7 +549,7 @@
     {
       "dt": 1791560400.0,
       "time_scheduled": "17:40",
-      "time_estimated": "18:37",
+      "time_estimated": "18:39",
       "flight_no": "KL1803",
       "airline": "KLM",
       "city": "Amsterdam",
@@ -561,7 +561,7 @@
       "gate": "Ausgang 1 (Linie)",
       "status": "scheduled",
       "status_text": "",
-      "delay": 58
+      "delay": 60
     },
     {
       "dt": 1791560400.0,
@@ -1280,7 +1280,7 @@
     {
       "dt": 1791568200.0,
       "time_scheduled": "19:50",
-      "time_estimated": "19:36",
+      "time_estimated": "19:42",
       "flight_no": "EW9637",
       "airline": "Eurowings",
       "city": "Kos",
@@ -1562,6 +1562,23 @@
       "terminal": "C",
       "baggage": "",
       "gate": "Ausgang 4 (Charter)",
+      "status": "scheduled",
+      "status_text": "",
+      "delay": 0
+    },
+    {
+      "dt": 1791574200.0,
+      "time_scheduled": "21:30",
+      "time_estimated": "21:30",
+      "flight_no": "EW9757",
+      "airline": "Eurowings",
+      "city": "Wien",
+      "country": "Österreich",
+      "type": "Linie",
+      "type_source": "Airline",
+      "terminal": "B",
+      "baggage": "",
+      "gate": "Ausgang 1 (Linie)",
       "status": "scheduled",
       "status_text": "",
       "delay": 0
