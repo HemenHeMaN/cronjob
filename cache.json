@@ -1,24 +1,7 @@
 {
-  "updated_at": "09.10.2026 12:30",
+  "updated_at": "09.10.2026 12:35",
   "source": "Dus.com",
   "flights": [
-    {
-      "dt": 1791537900.0,
-      "time_scheduled": "11:25",
-      "time_estimated": "11:32",
-      "flight_no": "DE1515",
-      "airline": "Condor",
-      "city": "Palma de Mallorca",
-      "country": "Spanien",
-      "type": "Charter",
-      "type_source": "Ausgang",
-      "terminal": "B",
-      "baggage": "12",
-      "gate": "Ausgang 4 (Charter)",
-      "status": "landed",
-      "status_text": "gelandet",
-      "delay": 8
-    },
     {
       "dt": 1791538200.0,
       "time_scheduled": "11:30",
@@ -35,23 +18,6 @@
       "status": "landed",
       "status_text": "gelandet",
       "delay": 18
-    },
-    {
-      "dt": 1791538500.0,
-      "time_scheduled": "11:35",
-      "time_estimated": "11:34",
-      "flight_no": "EW9505",
-      "airline": "Eurowings",
-      "city": "Menorca",
-      "country": "Spanien",
-      "type": "Linie",
-      "type_source": "Ausgang",
-      "terminal": "A",
-      "baggage": "2",
-      "gate": "Ausgang 1 (Linie)",
-      "status": "landed",
-      "status_text": "gelandet",
-      "delay": 0
     },
     {
       "dt": 1791538800.0,
@@ -237,7 +203,7 @@
       "baggage": "2",
       "gate": "Ausgang 1 (Linie)",
       "status": "active",
-      "status_text": "Im Anflug",
+      "status_text": "im Anflug",
       "delay": 28
     },
     {
@@ -260,7 +226,7 @@
     {
       "dt": 1791541500.0,
       "time_scheduled": "12:25",
-      "time_estimated": "12:37",
+      "time_estimated": "12:32",
       "flight_no": "TP540",
       "airline": "TAP Portugal",
       "city": "Lissabon",
@@ -270,9 +236,9 @@
       "terminal": "B",
       "baggage": "3",
       "gate": "Ausgang 1 (Linie)",
-      "status": "active",
-      "status_text": "im Anflug",
-      "delay": 12
+      "status": "landed",
+      "status_text": "gelandet",
+      "delay": 7
     },
     {
       "dt": 1791541500.0,
@@ -305,7 +271,7 @@
       "baggage": "8",
       "gate": "Ausgang 4 (Charter)",
       "status": "active",
-      "status_text": "Im Anflug",
+      "status_text": "im Anflug",
       "delay": 13
     },
     {
@@ -345,7 +311,7 @@
     {
       "dt": 1791542100.0,
       "time_scheduled": "12:35",
-      "time_estimated": "12:41",
+      "time_estimated": "12:47",
       "flight_no": "EW9861",
       "airline": "Eurowings",
       "city": "Neapel",
@@ -357,7 +323,7 @@
       "gate": "Ausgang 1 (Linie)",
       "status": "active",
       "status_text": "im Anflug",
-      "delay": 7
+      "delay": 13
     },
     {
       "dt": 1791542100.0,
@@ -736,7 +702,7 @@
     {
       "dt": 1791546900.0,
       "time_scheduled": "13:55",
-      "time_estimated": "14:37",
+      "time_estimated": "14:44",
       "flight_no": "KL1801",
       "airline": "KLM",
       "city": "Amsterdam",
@@ -748,7 +714,7 @@
       "gate": "Ausgang 1 (Linie)",
       "status": "scheduled",
       "status_text": "",
-      "delay": 43
+      "delay": 50
     },
     {
       "dt": 1791546900.0,
@@ -923,7 +889,7 @@
     {
       "dt": 1791548700.0,
       "time_scheduled": "14:25",
-      "time_estimated": "14:23",
+      "time_estimated": "14:16",
       "flight_no": "EW4674",
       "airline": "Eurowings",
       "city": "Stockholm-Arlanda",
@@ -934,7 +900,7 @@
       "baggage": "",
       "gate": "Ausgang 1 (Linie)",
       "status": "scheduled",
-      "status_text": "",
+      "status_text": "Vorhafen verlassen",
       "delay": 0
     },
     {
@@ -1195,7 +1161,7 @@
     {
       "dt": 1791553500.0,
       "time_scheduled": "15:45",
-      "time_estimated": "15:31",
+      "time_estimated": "15:32",
       "flight_no": "VF027",
       "airline": "A Jet",
       "city": "Istanbul-Sabiha Gökçen",
@@ -1206,7 +1172,7 @@
       "baggage": "",
       "gate": "Ausgang 1 (Linie)",
       "status": "scheduled",
-      "status_text": "",
+      "status_text": "Vorhafen verlassen",
       "delay": 0
     },
     {
