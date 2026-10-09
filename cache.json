@@ -1,5 +1,5 @@
 {
-  "updated_at": "09.10.2026 11:00",
+  "updated_at": "09.10.2026 11:05",
   "source": "Dus.com",
   "flights": [
     {
@@ -122,23 +122,6 @@
       "delay": 5
     },
     {
-      "dt": 1791534600.0,
-      "time_scheduled": "10:30",
-      "time_estimated": "10:03",
-      "flight_no": "AY1393",
-      "airline": "Finnair",
-      "city": "Helsinki",
-      "country": "Finnland",
-      "type": "Charter",
-      "type_source": "Ausgang",
-      "terminal": "B",
-      "baggage": "7",
-      "gate": "Ausgang 4 (Charter)",
-      "status": "landed",
-      "status_text": "gelandet",
-      "delay": 0
-    },
-    {
       "dt": 1791535200.0,
       "time_scheduled": "10:40",
       "time_estimated": "10:53",
@@ -186,7 +169,7 @@
       "baggage": "10",
       "gate": "Ausgang 4 (Charter)",
       "status": "active",
-      "status_text": "Im Anflug",
+      "status_text": "im Anflug",
       "delay": 25
     },
     {
@@ -260,7 +243,7 @@
     {
       "dt": 1791536700.0,
       "time_scheduled": "11:05",
-      "time_estimated": "11:04",
+      "time_estimated": "11:02",
       "flight_no": "AT696",
       "airline": "Royal Air Maroc",
       "city": "Nador",
@@ -270,14 +253,14 @@
       "terminal": "C",
       "baggage": "14",
       "gate": "Ausgang 5 (Charter)",
-      "status": "active",
-      "status_text": "im Anflug",
+      "status": "landed",
+      "status_text": "gelandet",
       "delay": 0
     },
     {
       "dt": 1791537000.0,
       "time_scheduled": "11:10",
-      "time_estimated": "11:18",
+      "time_estimated": "11:09",
       "flight_no": "IB1319",
       "airline": "Iberia",
       "city": "Madrid-Barajas",
@@ -289,7 +272,7 @@
       "gate": "Ausgang 4 (Charter)",
       "status": "active",
       "status_text": "im Anflug",
-      "delay": 9
+      "delay": 0
     },
     {
       "dt": 1791537300.0,
@@ -351,9 +334,9 @@
       "city": "Menorca",
       "country": "Spanien",
       "type": "Linie",
-      "type_source": "Airline",
+      "type_source": "Ausgang",
       "terminal": "A",
-      "baggage": "",
+      "baggage": "2",
       "gate": "Ausgang 1 (Linie)",
       "status": "scheduled",
       "status_text": "Vorhafen verlassen",
@@ -396,7 +379,7 @@
     {
       "dt": 1791539100.0,
       "time_scheduled": "11:45",
-      "time_estimated": "11:53",
+      "time_estimated": "11:56",
       "flight_no": "EW9043",
       "airline": "Eurowings",
       "city": "Berlin-Brandenburg",
@@ -407,8 +390,8 @@
       "baggage": "",
       "gate": "Ausgang 1 (Linie)",
       "status": "scheduled",
-      "status_text": "",
-      "delay": 8
+      "status_text": "Vorhafen verlassen",
+      "delay": 12
     },
     {
       "dt": 1791539400.0,
@@ -430,7 +413,7 @@
     {
       "dt": 1791539400.0,
       "time_scheduled": "11:50",
-      "time_estimated": "12:08",
+      "time_estimated": "12:02",
       "flight_no": "KL1799",
       "airline": "KLM",
       "city": "Amsterdam",
@@ -442,7 +425,7 @@
       "gate": "Ausgang 1 (Linie)",
       "status": "scheduled",
       "status_text": "",
-      "delay": 18
+      "delay": 12
     },
     {
       "dt": 1791539400.0,
@@ -486,11 +469,11 @@
       "airline": "Tuifly",
       "city": "Palma de Mallorca",
       "country": "Spanien",
-      "type": "Charter",
-      "type_source": "Airline",
+      "type": "Linie",
+      "type_source": "Ausgang",
       "terminal": "B",
-      "baggage": "",
-      "gate": "Ausgang 4 (Charter)",
+      "baggage": "6",
+      "gate": "Ausgang 1 (Linie)",
       "status": "scheduled",
       "status_text": "Vorhafen verlassen",
       "delay": 0
@@ -520,11 +503,11 @@
       "airline": "A Jet",
       "city": "Istanbul-Sabiha Gökçen",
       "country": "Türkei",
-      "type": "Linie",
-      "type_source": "Airline",
+      "type": "Charter",
+      "type_source": "Ausgang",
       "terminal": "C",
-      "baggage": "",
-      "gate": "Ausgang 1 (Linie)",
+      "baggage": "17",
+      "gate": "Ausgang 6 (Charter)",
       "status": "scheduled",
       "status_text": "Vorhafen verlassen",
       "delay": 0
@@ -1144,7 +1127,7 @@
     {
       "dt": 1791547500.0,
       "time_scheduled": "14:05",
-      "time_estimated": "14:13",
+      "time_estimated": "14:08",
       "flight_no": "XR406",
       "airline": "Corendon Airlines Europe",
       "city": "Rhodos",
@@ -1156,7 +1139,7 @@
       "gate": "Ausgang 4 (Charter)",
       "status": "scheduled",
       "status_text": "Vorhafen verlassen",
-      "delay": 8
+      "delay": 3
     },
     {
       "dt": 1791547500.0,
@@ -1611,6 +1594,40 @@
       "type": "Charter",
       "type_source": "Airline",
       "terminal": "B",
+      "baggage": "",
+      "gate": "Ausgang 4 (Charter)",
+      "status": "scheduled",
+      "status_text": "",
+      "delay": 0
+    },
+    {
+      "dt": 1791554700.0,
+      "time_scheduled": "16:05",
+      "time_estimated": "16:05",
+      "flight_no": "EW9845",
+      "airline": "Eurowings",
+      "city": "Olbia (Sardinien)",
+      "country": "Italien",
+      "type": "Linie",
+      "type_source": "Airline",
+      "terminal": "B",
+      "baggage": "",
+      "gate": "Ausgang 1 (Linie)",
+      "status": "scheduled",
+      "status_text": "",
+      "delay": 0
+    },
+    {
+      "dt": 1791554700.0,
+      "time_scheduled": "16:05",
+      "time_estimated": "16:05",
+      "flight_no": "DE869",
+      "airline": "Condor",
+      "city": "Beirut",
+      "country": "Libanon",
+      "type": "Charter",
+      "type_source": "Flugtyp",
+      "terminal": "C",
       "baggage": "",
       "gate": "Ausgang 4 (Charter)",
       "status": "scheduled",
