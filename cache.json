@@ -1,5 +1,5 @@
 {
-  "updated_at": "09.10.2026 11:45",
+  "updated_at": "09.10.2026 11:47",
   "source": "Dus.com",
   "flights": [
     {
@@ -107,23 +107,6 @@
     {
       "dt": 1791536700.0,
       "time_scheduled": "11:05",
-      "time_estimated": "10:51",
-      "flight_no": "EW4200",
-      "airline": "Eurowings",
-      "city": "Prag",
-      "country": "Tschechien",
-      "type": "Linie",
-      "type_source": "Ausgang",
-      "terminal": "A",
-      "baggage": "3",
-      "gate": "Ausgang 1 (Linie)",
-      "status": "landed",
-      "status_text": "gelandet",
-      "delay": 0
-    },
-    {
-      "dt": 1791536700.0,
-      "time_scheduled": "11:05",
       "time_estimated": "11:02",
       "flight_no": "AT696",
       "airline": "Royal Air Maroc",
@@ -134,6 +117,23 @@
       "terminal": "C",
       "baggage": "14",
       "gate": "Ausgang 5 (Charter)",
+      "status": "landed",
+      "status_text": "gelandet",
+      "delay": 0
+    },
+    {
+      "dt": 1791536700.0,
+      "time_scheduled": "11:05",
+      "time_estimated": "10:51",
+      "flight_no": "EW4200",
+      "airline": "Eurowings",
+      "city": "Prag",
+      "country": "Tschechien",
+      "type": "Linie",
+      "type_source": "Ausgang",
+      "terminal": "A",
+      "baggage": "3",
+      "gate": "Ausgang 1 (Linie)",
       "status": "landed",
       "status_text": "gelandet",
       "delay": 0
@@ -277,7 +277,7 @@
     {
       "dt": 1791539400.0,
       "time_scheduled": "11:50",
-      "time_estimated": "12:00",
+      "time_estimated": "11:53",
       "flight_no": "EW9501",
       "airline": "Eurowings",
       "city": "Ibiza",
@@ -289,7 +289,7 @@
       "gate": "Ausgang 1 (Linie)",
       "status": "active",
       "status_text": "im Anflug",
-      "delay": 11
+      "delay": 3
     },
     {
       "dt": 1791539400.0,
@@ -305,13 +305,13 @@
       "baggage": "7",
       "gate": "Ausgang 4 (Charter)",
       "status": "active",
-      "status_text": "Im Anflug",
+      "status_text": "im Anflug",
       "delay": 9
     },
     {
       "dt": 1791539400.0,
       "time_scheduled": "11:50",
-      "time_estimated": "12:01",
+      "time_estimated": "11:54",
       "flight_no": "EW9441",
       "airline": "Eurowings",
       "city": "Barcelona",
@@ -323,7 +323,7 @@
       "gate": "Ausgang 1 (Linie)",
       "status": "active",
       "status_text": "im Anflug",
-      "delay": 11
+      "delay": 4
     },
     {
       "dt": 1791539400.0,
@@ -379,7 +379,7 @@
     {
       "dt": 1791539700.0,
       "time_scheduled": "11:55",
-      "time_estimated": "11:44",
+      "time_estimated": "11:45",
       "flight_no": "VF025",
       "airline": "A Jet",
       "city": "Istanbul-Sabiha Gökçen",
@@ -389,8 +389,8 @@
       "terminal": "C",
       "baggage": "17",
       "gate": "Ausgang 6 (Charter)",
-      "status": "active",
-      "status_text": "im Anflug",
+      "status": "landed",
+      "status_text": "gelandet",
       "delay": 0
     },
     {
@@ -1059,7 +1059,7 @@
     {
       "dt": 1791548100.0,
       "time_scheduled": "14:15",
-      "time_estimated": "14:55",
+      "time_estimated": "14:54",
       "flight_no": "MS733",
       "airline": "Egypt Air",
       "city": "Kairo",
