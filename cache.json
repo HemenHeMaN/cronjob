@@ -1,5 +1,5 @@
 {
-  "updated_at": "09.10.2026 06:55",
+  "updated_at": "09.10.2026 07:00",
   "source": "Dus.com",
   "flights": [
     {
@@ -56,7 +56,7 @@
     {
       "dt": 1791523200.0,
       "time_scheduled": "07:20",
-      "time_estimated": "07:38",
+      "time_estimated": "07:39",
       "flight_no": "PC1665",
       "airline": "Pegasus Airlines",
       "city": "Gaziantep",
@@ -68,12 +68,12 @@
       "gate": "Ausgang 5 (Charter)",
       "status": "scheduled",
       "status_text": "Vorhafen verlassen",
-      "delay": 18
+      "delay": 19
     },
     {
       "dt": 1791524400.0,
       "time_scheduled": "07:40",
-      "time_estimated": "07:49",
+      "time_estimated": "07:39",
       "flight_no": "KL1797",
       "airline": "KLM",
       "city": "Amsterdam",
@@ -85,7 +85,7 @@
       "gate": "Ausgang 1 (Linie)",
       "status": "scheduled",
       "status_text": "",
-      "delay": 10
+      "delay": 0
     },
     {
       "dt": 1791526200.0,
@@ -396,7 +396,7 @@
     {
       "dt": 1791529500.0,
       "time_scheduled": "09:05",
-      "time_estimated": "09:02",
+      "time_estimated": "09:07",
       "flight_no": "VY1896",
       "airline": "Vueling",
       "city": "Barcelona",
@@ -408,7 +408,7 @@
       "gate": "Ausgang 1 (Linie)",
       "status": "scheduled",
       "status_text": "",
-      "delay": 0
+      "delay": 3
     },
     {
       "dt": 1791529500.0,
@@ -600,7 +600,7 @@
     {
       "dt": 1791532800.0,
       "time_scheduled": "10:00",
-      "time_estimated": "10:00",
+      "time_estimated": "10:02",
       "flight_no": "EW7060",
       "airline": "Eurowings",
       "city": "Hamburg",
@@ -612,7 +612,7 @@
       "gate": "Ausgang 1 (Linie)",
       "status": "scheduled",
       "status_text": "",
-      "delay": 0
+      "delay": 2
     },
     {
       "dt": 1791533100.0,
