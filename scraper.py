@@ -33,7 +33,7 @@ TZ = ZoneInfo("Europe/Berlin")
 
 # Abruf-Zeitfenster (lokale Zeit). Endet am Folgetag um 00:05 Uhr.
 WINDOW_START = (5, 25)    # frühester Start (Soll: 05:30)
-WINDOW_END = (0, 55)      # spätester Start (bis 00:55 Uhr laut Cronjob)
+WINDOW_END = (0, 35)      # spätester Start (bis 00:35 Uhr laut Cronjob)
 
 # Anzeige-Fenster (nach tatsächlicher/erwarteter Ankunft)
 MINUTES_PAST = 60
