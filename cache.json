@@ -1,5 +1,5 @@
 {
-  "updated_at": "09.10.2026 08:19",
+  "updated_at": "09.10.2026 08:20",
   "source": "Dus.com",
   "flights": [
     {
@@ -872,7 +872,7 @@
     {
       "dt": 1791537000.0,
       "time_scheduled": "11:10",
-      "time_estimated": "11:10",
+      "time_estimated": "11:20",
       "flight_no": "IB1319",
       "airline": "Iberia",
       "city": "Madrid-Barajas",
@@ -884,7 +884,7 @@
       "gate": "Ausgang 1 (Linie)",
       "status": "scheduled",
       "status_text": "",
-      "delay": 0
+      "delay": 10
     },
     {
       "dt": 1791537300.0,
@@ -1407,6 +1407,40 @@
       "type": "Linie",
       "type_source": "Airline",
       "terminal": "A",
+      "baggage": "",
+      "gate": "Ausgang 1 (Linie)",
+      "status": "scheduled",
+      "status_text": "",
+      "delay": 0
+    },
+    {
+      "dt": 1791544800.0,
+      "time_scheduled": "13:20",
+      "time_estimated": "13:20",
+      "flight_no": "EW9571",
+      "airline": "Eurowings",
+      "city": "Jerez de la Frontera",
+      "country": "Spanien",
+      "type": "Linie",
+      "type_source": "Airline",
+      "terminal": "A",
+      "baggage": "",
+      "gate": "Ausgang 1 (Linie)",
+      "status": "scheduled",
+      "status_text": "",
+      "delay": 0
+    },
+    {
+      "dt": 1791544800.0,
+      "time_scheduled": "13:20",
+      "time_estimated": "13:20",
+      "flight_no": "EW9655",
+      "airline": "Eurowings",
+      "city": "Thessaloniki",
+      "country": "Griechenland",
+      "type": "Linie",
+      "type_source": "Airline",
+      "terminal": "B",
       "baggage": "",
       "gate": "Ausgang 1 (Linie)",
       "status": "scheduled",
