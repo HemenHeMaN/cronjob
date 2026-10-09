@@ -1,5 +1,5 @@
 {
-  "updated_at": "09.10.2026 21:45",
+  "updated_at": "09.10.2026 21:50",
   "source": "Dus.com",
   "flights": [
     {
@@ -260,7 +260,7 @@
     {
       "dt": 1791575100.0,
       "time_scheduled": "21:45",
-      "time_estimated": "23:07",
+      "time_estimated": "23:02",
       "flight_no": "EW9089",
       "airline": "Eurowings",
       "city": "München",
@@ -272,7 +272,7 @@
       "gate": "Ausgang 1 (Linie)",
       "status": "scheduled",
       "status_text": "",
-      "delay": 83
+      "delay": 77
     },
     {
       "dt": 1791575400.0,
@@ -294,7 +294,7 @@
     {
       "dt": 1791575400.0,
       "time_scheduled": "21:50",
-      "time_estimated": "22:06",
+      "time_estimated": "22:01",
       "flight_no": "EW9345",
       "airline": "Eurowings",
       "city": "Manchester",
@@ -305,8 +305,8 @@
       "baggage": "2",
       "gate": "Ausgang 1 (Linie)",
       "status": "active",
-      "status_text": "Im Anflug",
-      "delay": 17
+      "status_text": "im Anflug",
+      "delay": 11
     },
     {
       "dt": 1791575400.0,
@@ -345,7 +345,7 @@
     {
       "dt": 1791575700.0,
       "time_scheduled": "21:55",
-      "time_estimated": "22:10",
+      "time_estimated": "21:53",
       "flight_no": "EW9749",
       "airline": "Eurowings",
       "city": "Genf",
@@ -357,12 +357,12 @@
       "gate": "Ausgang 1 (Linie)",
       "status": "active",
       "status_text": "im Anflug",
-      "delay": 15
+      "delay": 0
     },
     {
       "dt": 1791575700.0,
       "time_scheduled": "21:55",
-      "time_estimated": "22:21",
+      "time_estimated": "22:13",
       "flight_no": "LH078",
       "airline": "Lufthansa",
       "city": "Frankfurt",
@@ -374,12 +374,12 @@
       "gate": "Ausgang 1 (Linie)",
       "status": "scheduled",
       "status_text": "Vorhafen verlassen",
-      "delay": 27
+      "delay": 19
     },
     {
       "dt": 1791575700.0,
       "time_scheduled": "21:55",
-      "time_estimated": "21:51",
+      "time_estimated": "21:45",
       "flight_no": "EW9423",
       "airline": "Eurowings",
       "city": "Nizza",
@@ -389,8 +389,8 @@
       "terminal": "B",
       "baggage": "5",
       "gate": "Ausgang 1 (Linie)",
-      "status": "active",
-      "status_text": "im Anflug",
+      "status": "landed",
+      "status_text": "gelandet",
       "delay": 0
     },
     {
@@ -406,14 +406,14 @@
       "terminal": "B",
       "baggage": "6",
       "gate": "Ausgang 1 (Linie)",
-      "status": "scheduled",
-      "status_text": "Vorhafen verlassen",
+      "status": "active",
+      "status_text": "Im Anflug",
       "delay": 11
     },
     {
       "dt": 1791576000.0,
       "time_scheduled": "22:00",
-      "time_estimated": "21:51",
+      "time_estimated": "21:48",
       "flight_no": "EW9519",
       "airline": "Eurowings",
       "city": "Bilbao",
@@ -423,8 +423,8 @@
       "terminal": "B",
       "baggage": "4",
       "gate": "Ausgang 1 (Linie)",
-      "status": "active",
-      "status_text": "im Anflug",
+      "status": "landed",
+      "status_text": "gelandet",
       "delay": 0
     },
     {
@@ -441,7 +441,7 @@
       "baggage": "9",
       "gate": "Ausgang 4 (Charter)",
       "status": "active",
-      "status_text": "Im Anflug",
+      "status_text": "im Anflug",
       "delay": 13
     },
     {
@@ -475,7 +475,7 @@
       "baggage": "7",
       "gate": "Ausgang 4 (Charter)",
       "status": "active",
-      "status_text": "Im Anflug",
+      "status_text": "im Anflug",
       "delay": 0
     },
     {
@@ -617,7 +617,7 @@
     {
       "dt": 1791576900.0,
       "time_scheduled": "22:15",
-      "time_estimated": "23:01",
+      "time_estimated": "22:56",
       "flight_no": "EW9023",
       "airline": "Eurowings",
       "city": "Dresden",
@@ -629,7 +629,7 @@
       "gate": "Ausgang 1 (Linie)",
       "status": "scheduled",
       "status_text": "",
-      "delay": 46
+      "delay": 41
     },
     {
       "dt": 1791577200.0,
@@ -668,7 +668,7 @@
     {
       "dt": 1791577200.0,
       "time_scheduled": "22:20",
-      "time_estimated": "22:54",
+      "time_estimated": "22:49",
       "flight_no": "EW9887",
       "airline": "Eurowings",
       "city": "Rom-Fiumicino",
@@ -680,7 +680,7 @@
       "gate": "Ausgang 1 (Linie)",
       "status": "scheduled",
       "status_text": "Vorhafen verlassen",
-      "delay": 35
+      "delay": 29
     },
     {
       "dt": 1791577500.0,
