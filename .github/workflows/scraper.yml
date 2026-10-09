@@ -29,7 +29,12 @@ jobs:
 
       - name: Scraper ausführen
         run: |
-          python scraper.py
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
+            echo "Manueller Start: Ignoriere Zeitfenster mit --force"
+            python scraper.py --force
+          else
+            python scraper.py
+          fi
 
       - name: Änderungen committen und pushen
         run: |
