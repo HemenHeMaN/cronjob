@@ -1,5 +1,5 @@
 {
-  "updated_at": "09.10.2026 07:00",
+  "updated_at": "09.10.2026 07:05",
   "source": "Dus.com",
   "flights": [
     {
@@ -18,23 +18,6 @@
       "status": "landed",
       "status_text": "gelandet",
       "delay": 13
-    },
-    {
-      "dt": 1791519300.0,
-      "time_scheduled": "06:15",
-      "time_estimated": "06:02",
-      "flight_no": "XQ988",
-      "airline": "Sun Express",
-      "city": "Izmir",
-      "country": "Türkei",
-      "type": "Charter",
-      "type_source": "Ausgang",
-      "terminal": "C",
-      "baggage": "14",
-      "gate": "Ausgang 5 (Charter)",
-      "status": "landed",
-      "status_text": "gelandet",
-      "delay": 0
     },
     {
       "dt": 1791521100.0,
@@ -124,7 +107,7 @@
     {
       "dt": 1791526500.0,
       "time_scheduled": "08:15",
-      "time_estimated": "08:27",
+      "time_estimated": "08:39",
       "flight_no": "EJU3941",
       "airline": "Easy Jet Europe",
       "city": "Mailand-Malpensa",
@@ -136,7 +119,7 @@
       "gate": "Ausgang 1 (Linie)",
       "status": "scheduled",
       "status_text": "",
-      "delay": 12
+      "delay": 24
     },
     {
       "dt": 1791527100.0,
@@ -277,7 +260,7 @@
     {
       "dt": 1791528900.0,
       "time_scheduled": "08:55",
-      "time_estimated": "08:51",
+      "time_estimated": "08:44",
       "flight_no": "EW4672",
       "airline": "Eurowings",
       "city": "Stockholm-Arlanda",
@@ -288,7 +271,7 @@
       "baggage": "6",
       "gate": "Ausgang 1 (Linie)",
       "status": "scheduled",
-      "status_text": "",
+      "status_text": "Vorhafen verlassen",
       "delay": 0
     },
     {
@@ -396,7 +379,7 @@
     {
       "dt": 1791529500.0,
       "time_scheduled": "09:05",
-      "time_estimated": "09:07",
+      "time_estimated": "09:03",
       "flight_no": "VY1896",
       "airline": "Vueling",
       "city": "Barcelona",
@@ -407,8 +390,8 @@
       "baggage": "",
       "gate": "Ausgang 1 (Linie)",
       "status": "scheduled",
-      "status_text": "",
-      "delay": 3
+      "status_text": "Vorhafen verlassen",
+      "delay": 0
     },
     {
       "dt": 1791529500.0,
@@ -549,7 +532,7 @@
     {
       "dt": 1791532500.0,
       "time_scheduled": "09:55",
-      "time_estimated": "09:55",
+      "time_estimated": "10:07",
       "flight_no": "EW9761",
       "airline": "Eurowings",
       "city": "Zürich",
@@ -561,7 +544,7 @@
       "gate": "Ausgang 1 (Linie)",
       "status": "scheduled",
       "status_text": "",
-      "delay": 0
+      "delay": 13
     },
     {
       "dt": 1791532800.0,
@@ -646,7 +629,7 @@
       "gate": "Ausgang 1 (Linie)",
       "status": "scheduled",
       "status_text": "",
-      "delay": 0
+      "delay": 1
     },
     {
       "dt": 1791533700.0,
