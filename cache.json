@@ -1,5 +1,5 @@
 {
-  "updated_at": "09.10.2026 23:20",
+  "updated_at": "09.10.2026 23:25",
   "source": "Dus.com",
   "flights": [
     {
@@ -122,23 +122,6 @@
       "delay": 30
     },
     {
-      "dt": 1791576600.0,
-      "time_scheduled": "22:10",
-      "time_estimated": "22:24",
-      "flight_no": "SK629",
-      "airline": "Scandinavian Airlines",
-      "city": "Kopenhagen",
-      "country": "Dänemark",
-      "type": "Charter",
-      "type_source": "Ausgang",
-      "terminal": "B",
-      "baggage": "17",
-      "gate": "Ausgang 6 (Charter)",
-      "status": "landed",
-      "status_text": "gelandet",
-      "delay": 14
-    },
-    {
       "dt": 1791576900.0,
       "time_scheduled": "22:15",
       "time_estimated": "22:35",
@@ -158,23 +141,6 @@
     {
       "dt": 1791576900.0,
       "time_scheduled": "22:15",
-      "time_estimated": "22:31",
-      "flight_no": "EW9245",
-      "airline": "Eurowings",
-      "city": "Kopenhagen",
-      "country": "Dänemark",
-      "type": "Linie",
-      "type_source": "Ausgang",
-      "terminal": "A",
-      "baggage": "5",
-      "gate": "Ausgang 1 (Linie)",
-      "status": "landed",
-      "status_text": "gelandet",
-      "delay": 17
-    },
-    {
-      "dt": 1791576900.0,
-      "time_scheduled": "22:15",
       "time_estimated": "23:07",
       "flight_no": "EW9023",
       "airline": "Eurowings",
@@ -188,6 +154,23 @@
       "status": "landed",
       "status_text": "gelandet",
       "delay": 52
+    },
+    {
+      "dt": 1791576900.0,
+      "time_scheduled": "22:15",
+      "time_estimated": "22:31",
+      "flight_no": "EW9245",
+      "airline": "Eurowings",
+      "city": "Kopenhagen",
+      "country": "Dänemark",
+      "type": "Linie",
+      "type_source": "Ausgang",
+      "terminal": "A",
+      "baggage": "5",
+      "gate": "Ausgang 1 (Linie)",
+      "status": "landed",
+      "status_text": "gelandet",
+      "delay": 17
     },
     {
       "dt": 1791577200.0,
@@ -239,23 +222,6 @@
       "status": "landed",
       "status_text": "gelandet",
       "delay": 4
-    },
-    {
-      "dt": 1791577500.0,
-      "time_scheduled": "22:25",
-      "time_estimated": "22:22",
-      "flight_no": "KL1805",
-      "airline": "KLM",
-      "city": "Amsterdam",
-      "country": "Niederlande",
-      "type": "Charter",
-      "type_source": "Ausgang",
-      "terminal": "B",
-      "baggage": "19",
-      "gate": "Ausgang 6 (Charter)",
-      "status": "landed",
-      "status_text": "gelandet",
-      "delay": 0
     },
     {
       "dt": 1791577800.0,
