@@ -1,5 +1,5 @@
 {
-  "updated_at": "09.10.2026 14:30",
+  "updated_at": "09.10.2026 14:35",
   "source": "Dus.com",
   "flights": [
     {
@@ -39,7 +39,7 @@
     {
       "dt": 1791545400.0,
       "time_scheduled": "13:30",
-      "time_estimated": "14:35",
+      "time_estimated": "14:31",
       "flight_no": "NE720",
       "airline": "Nesma Airlines",
       "city": "Hurghada",
@@ -49,9 +49,9 @@
       "terminal": "C",
       "baggage": "19",
       "gate": "Ausgang 6 (Charter)",
-      "status": "active",
-      "status_text": "im Anflug",
-      "delay": 65
+      "status": "landed",
+      "status_text": "gelandet",
+      "delay": 62
     },
     {
       "dt": 1791545700.0,
@@ -100,23 +100,6 @@
       "terminal": "B",
       "baggage": "14",
       "gate": "Ausgang 5 (Charter)",
-      "status": "landed",
-      "status_text": "gelandet",
-      "delay": 0
-    },
-    {
-      "dt": 1791546300.0,
-      "time_scheduled": "13:45",
-      "time_estimated": "13:34",
-      "flight_no": "QR085",
-      "airline": "Qatar Airways",
-      "city": "Doha",
-      "country": "Katar",
-      "type": "Charter",
-      "type_source": "Ausgang",
-      "terminal": "C",
-      "baggage": "12",
-      "gate": "Ausgang 4 (Charter)",
       "status": "landed",
       "status_text": "gelandet",
       "delay": 0
@@ -175,7 +158,7 @@
     {
       "dt": 1791546900.0,
       "time_scheduled": "13:55",
-      "time_estimated": "14:40",
+      "time_estimated": "14:34",
       "flight_no": "KL1801",
       "airline": "KLM",
       "city": "Amsterdam",
@@ -185,9 +168,9 @@
       "terminal": "B",
       "baggage": "10",
       "gate": "Ausgang 4 (Charter)",
-      "status": "active",
-      "status_text": "im Anflug",
-      "delay": 46
+      "status": "landed",
+      "status_text": "gelandet",
+      "delay": 39
     },
     {
       "dt": 1791546900.0,
@@ -321,8 +304,8 @@
       "terminal": "A",
       "baggage": "",
       "gate": "Ausgang 1 (Linie)",
-      "status": "scheduled",
-      "status_text": "Vorhafen verlassen",
+      "status": "active",
+      "status_text": "Im Anflug",
       "delay": 47
     },
     {
@@ -345,19 +328,19 @@
     {
       "dt": 1791548400.0,
       "time_scheduled": "14:20",
-      "time_estimated": "14:50",
+      "time_estimated": "14:43",
       "flight_no": "EW9829",
       "airline": "Eurowings",
       "city": "Mailand-Malpensa",
       "country": "Italien",
       "type": "Linie",
-      "type_source": "Airline",
+      "type_source": "Ausgang",
       "terminal": "B",
-      "baggage": "",
+      "baggage": "3",
       "gate": "Ausgang 1 (Linie)",
       "status": "active",
       "status_text": "im Anflug",
-      "delay": 31
+      "delay": 23
     },
     {
       "dt": 1791548700.0,
@@ -390,7 +373,7 @@
       "baggage": "",
       "gate": "Ausgang 1 (Linie)",
       "status": "active",
-      "status_text": "Im Anflug",
+      "status_text": "im Anflug",
       "delay": 22
     },
     {
@@ -458,7 +441,7 @@
       "baggage": "",
       "gate": "Ausgang 1 (Linie)",
       "status": "active",
-      "status_text": "Im Anflug",
+      "status_text": "im Anflug",
       "delay": 9
     },
     {
@@ -470,10 +453,10 @@
       "city": "Antalya",
       "country": "Türkei",
       "type": "Charter",
-      "type_source": "Airline",
+      "type_source": "Ausgang",
       "terminal": "C",
-      "baggage": "",
-      "gate": "Ausgang 4 (Charter)",
+      "baggage": "17",
+      "gate": "Ausgang 6 (Charter)",
       "status": "active",
       "status_text": "im Anflug",
       "delay": 0
@@ -481,7 +464,7 @@
     {
       "dt": 1791550500.0,
       "time_scheduled": "14:55",
-      "time_estimated": "14:51",
+      "time_estimated": "14:56",
       "flight_no": "BJ2340",
       "airline": "Nouvelair",
       "city": "Djerba",
@@ -493,7 +476,7 @@
       "gate": "Ausgang 4 (Charter)",
       "status": "active",
       "status_text": "Im Anflug",
-      "delay": 0
+      "delay": 2
     },
     {
       "dt": 1791551100.0,
@@ -509,7 +492,7 @@
       "baggage": "",
       "gate": "Ausgang 1 (Linie)",
       "status": "active",
-      "status_text": "Im Anflug",
+      "status_text": "im Anflug",
       "delay": 0
     },
     {
@@ -549,7 +532,7 @@
     {
       "dt": 1791552300.0,
       "time_scheduled": "15:25",
-      "time_estimated": "15:18",
+      "time_estimated": "15:23",
       "flight_no": "EW8044",
       "airline": "Eurowings",
       "city": "Berlin-Brandenburg",
@@ -560,7 +543,7 @@
       "baggage": "",
       "gate": "Ausgang 1 (Linie)",
       "status": "scheduled",
-      "status_text": "",
+      "status_text": "Vorhafen verlassen",
       "delay": 0
     },
     {
@@ -600,7 +583,7 @@
     {
       "dt": 1791552900.0,
       "time_scheduled": "15:35",
-      "time_estimated": "15:57",
+      "time_estimated": "15:52",
       "flight_no": "EZY8649",
       "airline": "Easy Jet",
       "city": "London-Gatwick",
@@ -612,7 +595,7 @@
       "gate": "Ausgang 1 (Linie)",
       "status": "scheduled",
       "status_text": "",
-      "delay": 22
+      "delay": 17
     },
     {
       "dt": 1791553200.0,
@@ -736,7 +719,7 @@
     {
       "dt": 1791554700.0,
       "time_scheduled": "16:05",
-      "time_estimated": "17:24",
+      "time_estimated": "17:13",
       "flight_no": "EW9845",
       "airline": "Eurowings",
       "city": "Olbia (Sardinien)",
@@ -748,7 +731,7 @@
       "gate": "Ausgang 1 (Linie)",
       "status": "scheduled",
       "status_text": "",
-      "delay": 79
+      "delay": 68
     },
     {
       "dt": 1791554700.0,
@@ -1008,7 +991,7 @@
     {
       "dt": 1791558600.0,
       "time_scheduled": "17:10",
-      "time_estimated": "17:05",
+      "time_estimated": "17:15",
       "flight_no": "EW9461",
       "airline": "Eurowings",
       "city": "London-Heathrow",
@@ -1020,7 +1003,7 @@
       "gate": "Ausgang 1 (Linie)",
       "status": "scheduled",
       "status_text": "",
-      "delay": 0
+      "delay": 6
     },
     {
       "dt": 1791558900.0,
@@ -1076,7 +1059,7 @@
     {
       "dt": 1791558900.0,
       "time_scheduled": "17:15",
-      "time_estimated": "18:46",
+      "time_estimated": "18:52",
       "flight_no": "KK491",
       "airline": "LEAV Aviation",
       "city": "Damaskus",
@@ -1088,12 +1071,12 @@
       "gate": "Ausgang 1 (Linie)",
       "status": "scheduled",
       "status_text": "Vorhafen verlassen",
-      "delay": 92
+      "delay": 97
     },
     {
       "dt": 1791559500.0,
       "time_scheduled": "17:25",
-      "time_estimated": "17:25",
+      "time_estimated": "17:36",
       "flight_no": "TK1527",
       "airline": "Turkish Airlines",
       "city": "Istanbul",
@@ -1105,7 +1088,7 @@
       "gate": "Ausgang 1 (Linie)",
       "status": "scheduled",
       "status_text": "",
-      "delay": 0
+      "delay": 11
     },
     {
       "dt": 1791559800.0,
