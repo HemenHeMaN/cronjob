@@ -506,6 +506,13 @@ h1 { color: var(--heading-color); font-size: 1.4rem; margin: 0; }
             <button type="button" class="seg-btn active" id="landedBtn">Letzte 15 Flüge</button>
         </div>
     </div>
+    <div>
+        <span class="menu-label">Gelandet in Alle / Linie / Charter</span>
+        <div class="seg">
+            <button type="button" class="seg-btn active" id="segLandedOn">Einblenden</button>
+            <button type="button" class="seg-btn" id="segLandedOff">Ausblenden</button>
+        </div>
+    </div>
 </div>
 
 <!-- Reiter -->
@@ -563,6 +570,8 @@ const FLAG_KEY = 'dus_flag_mode';
 const TF_FENSTER = 90;
 const LANDED_STEPS = [5, 10, 15];   // Reihenfolge beim Tippen im Menü
 const LANDED_KEY = 'dus_landed_count';
+const SHOWLANDED_KEY = 'dus_show_landed';
+let showLandedInLists = true;       // Gelandete in Alle/Linie/Charter anzeigen
 let landedCount = 15;               // Anzahl der Flüge im Filter "Gelandet"
 
 let allFlights = [];
@@ -763,6 +772,22 @@ try {
 } catch (e) {}
 updateLandedBtn();
 
+/* ---------- Menü: Gelandete in Alle/Linie/Charter ein-/ausblenden ---------- */
+const segLandedOn = document.getElementById('segLandedOn');
+const segLandedOff = document.getElementById('segLandedOff');
+
+function setShowLanded(on, save) {
+    showLandedInLists = on;
+    segLandedOn.classList.toggle('active', on);
+    segLandedOff.classList.toggle('active', !on);
+    if (save) { try { localStorage.setItem(SHOWLANDED_KEY, on ? 'on' : 'off'); } catch (e) {} }
+}
+
+segLandedOn.addEventListener('click', () => { setShowLanded(true, true); applyFilter(); });
+segLandedOff.addEventListener('click', () => { setShowLanded(false, true); applyFilter(); });
+
+try { setShowLanded(localStorage.getItem(SHOWLANDED_KEY) !== 'off', false); } catch (e) { setShowLanded(true, false); }
+
 try { setFlagMode(localStorage.getItem(FLAG_KEY) !== 'name', false); } catch (e) { setFlagMode(true, false); }
 
 /* ---------- Such-Event-Listener & Clear Button ---------- */
@@ -842,6 +867,11 @@ function getFilteredList() {
         list = list.filter(f => f.type === currentFilter);
     }
 
+    // Gelandete in Alle / Linie / Charter ausblenden (Menü)
+    if (!showLandedInLists && (currentFilter === 'all' || currentFilter === 'Linie' || currentFilter === 'Charter')) {
+        list = list.filter(f => String(f.status).toLowerCase() !== 'landed');
+    }
+
     if (currentSearch) {
         list = list.filter(f => {
             const city = (f.city || '').toLowerCase();
@@ -858,7 +888,7 @@ function getFilteredList() {
         });
     }
 
-    // Gelandet: die letzten 15 Landungen ab jetzt, jüngste zuerst
+    // Gelandet: die letzten N Landungen ab jetzt, später gelandete stehen unten
     if (currentFilter === 'landed') {
         const now = berlinMin();
         const ago = f => {
@@ -866,23 +896,16 @@ function getFilteredList() {
             if (d < 0) d += 1440;
             return d;
         };
-        return [...list].sort((a, b) => ago(a) - ago(b)).slice(0, landedCount);
+        return [...list]
+            .sort((a, b) => ago(a) - ago(b))     // jüngste zuerst, um die letzten N zu wählen
+            .slice(0, landedCount)
+            .sort((a, b) => ago(b) - ago(a));    // Anzeige: ältere oben, später gelandete unten
     }
 
-    const statusRank = f => {
-        const s = String(f.status).toLowerCase();
-        if (s === 'landed') return 0;
-        if (s === 'active' || s === 'en-route') return 1;
-        return 2;
-    };
+    // Einheitlich für Detail UND Tafel: nach erwarteter Zeit sortiert
     const expected = f => timeToMinutes(f.time_estimated || f.time_scheduled);
 
-    return [...list].sort((a, b) => {
-        const ra = statusRank(a), rb = statusRank(b);
-        if (ra !== rb) return ra - rb;
-        if (ra === 1) return (expected(a) - expected(b)) || (a.dt - b.dt);
-        return a.dt - b.dt;
-    });
+    return [...list].sort((a, b) => (expected(a) - expected(b)) || ((a.dt || 0) - (b.dt || 0)));
 }
 
 function applyFilter() {
@@ -915,12 +938,12 @@ function renderFlights(flights) {
         const st = String(f.status).toLowerCase();
         const isCancelled = st === 'cancelled' || st === 'diverted' || st === 'incident';
         const isCharter = f.type === "Charter";
-        
+
         let cardClass = isCharter ? "flight-card card-charter" : "flight-card card-linie";
         if (isCancelled) {
             cardClass = "flight-card card-cancelled";
         }
-        
+
         const badgeClass = isCharter ? "badge-charter" : "badge-linie";
 
         const isGuess = f.type_source === 'Airline' || f.type_source === 'Flugtyp';
@@ -1062,11 +1085,7 @@ function renderBoard(flights) {
         return;
     }
 
-    // Bei "Gelandet" bleibt die Reihenfolge (jüngste Landung zuerst)
-    if (currentFilter !== 'landed') {
-        flights = [...flights].sort((a, b) =>
-            timeToMinutes(a.time_estimated || a.time_scheduled) - timeToMinutes(b.time_estimated || b.time_scheduled));
-    }
+    // Reihenfolge kommt bereits sortiert aus getFilteredList() (identisch zur Detail-Ansicht)
 
     flights.forEach(f => {
         const st = tfStatus(f);
