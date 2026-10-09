@@ -1,5 +1,5 @@
 {
-  "updated_at": "09.10.2026 19:30",
+  "updated_at": "09.10.2026 19:35",
   "source": "Dus.com",
   "flights": [
     {
@@ -39,7 +39,7 @@
     {
       "dt": 1791561000.0,
       "time_scheduled": "17:50",
-      "time_estimated": "19:52",
+      "time_estimated": "20:00",
       "flight_no": "VL076",
       "airline": "Lufthansa City Airlines",
       "city": "Frankfurt",
@@ -51,7 +51,7 @@
       "gate": "Ausgang 1 (Linie)",
       "status": "active",
       "status_text": "Im Anflug",
-      "delay": 122
+      "delay": 130
     },
     {
       "dt": 1791561900.0,
@@ -86,23 +86,6 @@
       "status": "landed",
       "status_text": "gelandet",
       "delay": 32
-    },
-    {
-      "dt": 1791563100.0,
-      "time_scheduled": "18:25",
-      "time_estimated": "18:32",
-      "flight_no": "EW9587",
-      "airline": "Eurowings",
-      "city": "Palma de Mallorca",
-      "country": "Spanien",
-      "type": "Linie",
-      "type_source": "Ausgang",
-      "terminal": "A",
-      "baggage": "6",
-      "gate": "Ausgang 1 (Linie)",
-      "status": "landed",
-      "status_text": "gelandet",
-      "delay": 7
     },
     {
       "dt": 1791563100.0,
@@ -379,7 +362,7 @@
     {
       "dt": 1791566100.0,
       "time_scheduled": "19:15",
-      "time_estimated": "19:39",
+      "time_estimated": "19:52",
       "flight_no": "BM560",
       "airline": "Medsky Airways",
       "city": "Tripolis-Mitiga",
@@ -391,7 +374,7 @@
       "gate": "Ausgang 6 (Charter)",
       "status": "active",
       "status_text": "im Anflug",
-      "delay": 24
+      "delay": 38
     },
     {
       "dt": 1791566400.0,
@@ -447,7 +430,7 @@
     {
       "dt": 1791567000.0,
       "time_scheduled": "19:30",
-      "time_estimated": "19:47",
+      "time_estimated": "19:53",
       "flight_no": "XQ180",
       "airline": "Sun Express",
       "city": "Antalya",
@@ -459,7 +442,7 @@
       "gate": "Ausgang 6 (Charter)",
       "status": "active",
       "status_text": "im Anflug",
-      "delay": 17
+      "delay": 23
     },
     {
       "dt": 1791567600.0,
@@ -474,14 +457,14 @@
       "terminal": "A",
       "baggage": "1",
       "gate": "Ausgang 1 (Linie)",
-      "status": "active",
-      "status_text": "im Anflug",
+      "status": "landed",
+      "status_text": "gelandet",
       "delay": 0
     },
     {
       "dt": 1791567600.0,
       "time_scheduled": "19:40",
-      "time_estimated": "19:33",
+      "time_estimated": "19:32",
       "flight_no": "XQ3580",
       "airline": "Sun Express",
       "city": "Dalaman",
@@ -509,7 +492,7 @@
       "baggage": "3",
       "gate": "Ausgang 1 (Linie)",
       "status": "active",
-      "status_text": "Im Anflug",
+      "status_text": "im Anflug",
       "delay": 0
     },
     {
@@ -543,7 +526,7 @@
       "baggage": "2",
       "gate": "Ausgang 1 (Linie)",
       "status": "active",
-      "status_text": "Im Anflug",
+      "status_text": "im Anflug",
       "delay": 0
     },
     {
@@ -702,7 +685,7 @@
     {
       "dt": 1791571200.0,
       "time_scheduled": "20:40",
-      "time_estimated": "20:45",
+      "time_estimated": "20:44",
       "flight_no": "LH2030",
       "airline": "Lufthansa",
       "city": "München",
@@ -714,7 +697,7 @@
       "gate": "Ausgang 1 (Linie)",
       "status": "scheduled",
       "status_text": "",
-      "delay": 5
+      "delay": 4
     },
     {
       "dt": 1791572400.0,
@@ -736,7 +719,7 @@
     {
       "dt": 1791572400.0,
       "time_scheduled": "21:00",
-      "time_estimated": "21:18",
+      "time_estimated": "21:13",
       "flight_no": "EW9049",
       "airline": "Eurowings",
       "city": "Berlin-Brandenburg",
@@ -748,7 +731,7 @@
       "gate": "Ausgang 1 (Linie)",
       "status": "scheduled",
       "status_text": "",
-      "delay": 19
+      "delay": 14
     },
     {
       "dt": 1791572400.0,
@@ -838,7 +821,7 @@
     {
       "dt": 1791574200.0,
       "time_scheduled": "21:30",
-      "time_estimated": "21:34",
+      "time_estimated": "21:35",
       "flight_no": "EW9757",
       "airline": "Eurowings",
       "city": "Wien",
@@ -850,7 +833,7 @@
       "gate": "Ausgang 1 (Linie)",
       "status": "scheduled",
       "status_text": "",
-      "delay": 5
+      "delay": 6
     },
     {
       "dt": 1791574200.0,
@@ -1331,7 +1314,7 @@
     {
       "dt": 1791577200.0,
       "time_scheduled": "22:20",
-      "time_estimated": "22:15",
+      "time_estimated": "22:14",
       "flight_no": "IB1325",
       "airline": "Iberia",
       "city": "Madrid-Barajas",
@@ -1365,7 +1348,7 @@
     {
       "dt": 1791577200.0,
       "time_scheduled": "22:20",
-      "time_estimated": "22:22",
+      "time_estimated": "22:25",
       "flight_no": "EW9887",
       "airline": "Eurowings",
       "city": "Rom-Fiumicino",
@@ -1377,7 +1360,7 @@
       "gate": "Ausgang 1 (Linie)",
       "status": "scheduled",
       "status_text": "",
-      "delay": 2
+      "delay": 5
     },
     {
       "dt": 1791577500.0,
@@ -1518,7 +1501,7 @@
     {
       "dt": 1791578400.0,
       "time_scheduled": "22:40",
-      "time_estimated": "22:40",
+      "time_estimated": "22:37",
       "flight_no": "X32323",
       "airline": "Tuifly",
       "city": "Palma de Mallorca",
@@ -1569,7 +1552,7 @@
     {
       "dt": 1791578700.0,
       "time_scheduled": "22:45",
-      "time_estimated": "22:41",
+      "time_estimated": "22:38",
       "flight_no": "DE1623",
       "airline": "Condor",
       "city": "Rhodos",
