@@ -1,24 +1,7 @@
 {
-  "updated_at": "09.10.2026 10:45",
+  "updated_at": "09.10.2026 10:48",
   "source": "Dus.com",
   "flights": [
-    {
-      "dt": 1791532500.0,
-      "time_scheduled": "09:55",
-      "time_estimated": "09:47",
-      "flight_no": "EW9761",
-      "airline": "Eurowings",
-      "city": "Zürich",
-      "country": "Schweiz",
-      "type": "Linie",
-      "type_source": "Ausgang",
-      "terminal": "A",
-      "baggage": "4",
-      "gate": "Ausgang 1 (Linie)",
-      "status": "landed",
-      "status_text": "gelandet",
-      "delay": 0
-    },
     {
       "dt": 1791532800.0,
       "time_scheduled": "10:00",
@@ -226,7 +209,7 @@
     {
       "dt": 1791535200.0,
       "time_scheduled": "10:40",
-      "time_estimated": "11:00",
+      "time_estimated": "11:01",
       "flight_no": "EW9425",
       "airline": "Eurowings",
       "city": "Marseille",
@@ -238,7 +221,7 @@
       "gate": "Ausgang 4 (Charter)",
       "status": "active",
       "status_text": "im Anflug",
-      "delay": 21
+      "delay": 22
     },
     {
       "dt": 1791535500.0,
@@ -294,7 +277,7 @@
     {
       "dt": 1791536100.0,
       "time_scheduled": "10:55",
-      "time_estimated": "11:06",
+      "time_estimated": "11:07",
       "flight_no": "PC5677",
       "airline": "Pegasus Airlines",
       "city": "Antalya",
@@ -306,7 +289,7 @@
       "gate": "Ausgang 6 (Charter)",
       "status": "active",
       "status_text": "im Anflug",
-      "delay": 11
+      "delay": 12
     },
     {
       "dt": 1791536400.0,
@@ -549,7 +532,7 @@
     {
       "dt": 1791539400.0,
       "time_scheduled": "11:50",
-      "time_estimated": "11:51",
+      "time_estimated": "11:57",
       "flight_no": "VL2012",
       "airline": "Lufthansa City Airlines",
       "city": "München",
@@ -561,7 +544,7 @@
       "gate": "Ausgang 1 (Linie)",
       "status": "scheduled",
       "status_text": "",
-      "delay": 1
+      "delay": 7
     },
     {
       "dt": 1791539400.0,
@@ -872,7 +855,7 @@
     {
       "dt": 1791543900.0,
       "time_scheduled": "13:05",
-      "time_estimated": "13:05",
+      "time_estimated": "13:06",
       "flight_no": "SK816",
       "airline": "Scandinavian Airlines",
       "city": "Oslo - Gardermoen",
@@ -889,7 +872,7 @@
     {
       "dt": 1791544200.0,
       "time_scheduled": "13:10",
-      "time_estimated": "13:15",
+      "time_estimated": "13:26",
       "flight_no": "EW9793",
       "airline": "Eurowings",
       "city": "Bukarest-Otopeni",
@@ -901,7 +884,7 @@
       "gate": "Ausgang 1 (Linie)",
       "status": "scheduled",
       "status_text": "",
-      "delay": 6
+      "delay": 17
     },
     {
       "dt": 1791544500.0,
@@ -940,7 +923,7 @@
     {
       "dt": 1791544800.0,
       "time_scheduled": "13:20",
-      "time_estimated": "13:12",
+      "time_estimated": "13:13",
       "flight_no": "EW9655",
       "airline": "Eurowings",
       "city": "Thessaloniki",
@@ -951,7 +934,7 @@
       "baggage": "",
       "gate": "Ausgang 1 (Linie)",
       "status": "scheduled",
-      "status_text": "",
+      "status_text": "Vorhafen verlassen",
       "delay": 0
     },
     {
