@@ -1,24 +1,7 @@
 {
-  "updated_at": "09.10.2026 18:20",
+  "updated_at": "09.10.2026 18:25",
   "source": "Dus.com",
   "flights": [
-    {
-      "dt": 1791557400.0,
-      "time_scheduled": "16:50",
-      "time_estimated": "17:23",
-      "flight_no": "BA922",
-      "airline": "British Airways",
-      "city": "London-Heathrow",
-      "country": "Großbritannien",
-      "type": "Charter",
-      "type_source": "Ausgang",
-      "terminal": "C",
-      "baggage": "17",
-      "gate": "Ausgang 6 (Charter)",
-      "status": "landed",
-      "status_text": "gelandet",
-      "delay": 33
-    },
     {
       "dt": 1791557700.0,
       "time_scheduled": "16:55",
@@ -35,23 +18,6 @@
       "status": "landed",
       "status_text": "gelandet",
       "delay": 50
-    },
-    {
-      "dt": 1791557700.0,
-      "time_scheduled": "16:55",
-      "time_estimated": "17:21",
-      "flight_no": "TP542",
-      "airline": "TAP Portugal",
-      "city": "Lissabon",
-      "country": "Portugal",
-      "type": "Linie",
-      "type_source": "Ausgang",
-      "terminal": "B",
-      "baggage": "5",
-      "gate": "Ausgang 1 (Linie)",
-      "status": "landed",
-      "status_text": "gelandet",
-      "delay": 26
     },
     {
       "dt": 1791558600.0,
@@ -100,8 +66,8 @@
       "terminal": "C",
       "baggage": "12",
       "gate": "Ausgang 4 (Charter)",
-      "status": "scheduled",
-      "status_text": "Vorhafen verlassen",
+      "status": "active",
+      "status_text": "Im Anflug",
       "delay": 83
     },
     {
@@ -122,26 +88,9 @@
       "delay": 3
     },
     {
-      "dt": 1791559800.0,
-      "time_scheduled": "17:30",
-      "time_estimated": "17:25",
-      "flight_no": "EW9395",
-      "airline": "Eurowings",
-      "city": "Dublin",
-      "country": "Irland",
-      "type": "Linie",
-      "type_source": "Ausgang",
-      "terminal": "A",
-      "baggage": "4",
-      "gate": "Ausgang 1 (Linie)",
-      "status": "landed",
-      "status_text": "gelandet",
-      "delay": 0
-    },
-    {
       "dt": 1791560400.0,
       "time_scheduled": "17:40",
-      "time_estimated": "18:48",
+      "time_estimated": "18:47",
       "flight_no": "KL1803",
       "airline": "KLM",
       "city": "Amsterdam",
@@ -153,7 +102,7 @@
       "gate": "Ausgang 6 (Charter)",
       "status": "scheduled",
       "status_text": "Vorhafen verlassen",
-      "delay": 68
+      "delay": 67
     },
     {
       "dt": 1791560400.0,
@@ -379,7 +328,7 @@
     {
       "dt": 1791562800.0,
       "time_scheduled": "18:20",
-      "time_estimated": "18:59",
+      "time_estimated": "19:00",
       "flight_no": "LX1024",
       "airline": "Swiss",
       "city": "Zürich",
@@ -391,12 +340,12 @@
       "gate": "Ausgang 1 (Linie)",
       "status": "scheduled",
       "status_text": "Vorhafen verlassen",
-      "delay": 40
+      "delay": 41
     },
     {
       "dt": 1791563100.0,
       "time_scheduled": "18:25",
-      "time_estimated": "18:42",
+      "time_estimated": "18:32",
       "flight_no": "EW9587",
       "airline": "Eurowings",
       "city": "Palma de Mallorca",
@@ -408,7 +357,7 @@
       "gate": "Ausgang 1 (Linie)",
       "status": "active",
       "status_text": "im Anflug",
-      "delay": 17
+      "delay": 8
     },
     {
       "dt": 1791563100.0,
@@ -423,8 +372,8 @@
       "terminal": "C",
       "baggage": "19",
       "gate": "Ausgang 6 (Charter)",
-      "status": "scheduled",
-      "status_text": "Vorhafen verlassen",
+      "status": "active",
+      "status_text": "Im Anflug",
       "delay": 23
     },
     {
@@ -525,8 +474,8 @@
       "terminal": "A",
       "baggage": "5",
       "gate": "Ausgang 1 (Linie)",
-      "status": "scheduled",
-      "status_text": "Vorhafen verlassen",
+      "status": "active",
+      "status_text": "Im Anflug",
       "delay": 0
     },
     {
@@ -549,7 +498,7 @@
     {
       "dt": 1791564900.0,
       "time_scheduled": "18:55",
-      "time_estimated": "18:51",
+      "time_estimated": "18:52",
       "flight_no": "XQ794",
       "airline": "Sun Express",
       "city": "Ankara-Esenboğa",
@@ -583,7 +532,7 @@
     {
       "dt": 1791565200.0,
       "time_scheduled": "19:00",
-      "time_estimated": "18:54",
+      "time_estimated": "18:55",
       "flight_no": "XR6598",
       "airline": "Corendon Airlines Europe",
       "city": "Hurghada",
@@ -923,7 +872,7 @@
     {
       "dt": 1791568800.0,
       "time_scheduled": "20:00",
-      "time_estimated": "20:12",
+      "time_estimated": "20:06",
       "flight_no": "EW9467",
       "airline": "Eurowings",
       "city": "London-Heathrow",
@@ -935,7 +884,7 @@
       "gate": "Ausgang 1 (Linie)",
       "status": "scheduled",
       "status_text": "",
-      "delay": 13
+      "delay": 7
     },
     {
       "dt": 1791569400.0,
