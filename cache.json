@@ -1,5 +1,5 @@
 {
-  "updated_at": "09.10.2026 22:00",
+  "updated_at": "09.10.2026 22:05",
   "source": "Dus.com",
   "flights": [
     {
@@ -226,7 +226,7 @@
     {
       "dt": 1791575100.0,
       "time_scheduled": "21:45",
-      "time_estimated": "22:20",
+      "time_estimated": "22:25",
       "flight_no": "EW9335",
       "airline": "Eurowings",
       "city": "Birmingham",
@@ -237,8 +237,8 @@
       "baggage": "1",
       "gate": "Ausgang 1 (Linie)",
       "status": "active",
-      "status_text": "Im Anflug",
-      "delay": 35
+      "status_text": "im Anflug",
+      "delay": 40
     },
     {
       "dt": 1791575100.0,
@@ -254,7 +254,7 @@
       "baggage": "",
       "gate": "Ausgang 1 (Linie)",
       "status": "scheduled",
-      "status_text": "",
+      "status_text": "Vorhafen verlassen",
       "delay": 77
     },
     {
@@ -277,7 +277,7 @@
     {
       "dt": 1791575400.0,
       "time_scheduled": "21:50",
-      "time_estimated": "22:01",
+      "time_estimated": "22:00",
       "flight_no": "EW9345",
       "airline": "Eurowings",
       "city": "Manchester",
@@ -287,9 +287,9 @@
       "terminal": "A",
       "baggage": "2",
       "gate": "Ausgang 1 (Linie)",
-      "status": "active",
-      "status_text": "im Anflug",
-      "delay": 11
+      "status": "landed",
+      "status_text": "gelandet",
+      "delay": 10
     },
     {
       "dt": 1791575400.0,
@@ -311,7 +311,7 @@
     {
       "dt": 1791575400.0,
       "time_scheduled": "21:50",
-      "time_estimated": "22:06",
+      "time_estimated": "22:04",
       "flight_no": "AF1106",
       "airline": "Air France",
       "city": "Paris-Charles de Gaulle",
@@ -321,9 +321,9 @@
       "terminal": "B",
       "baggage": "10",
       "gate": "Ausgang 4 (Charter)",
-      "status": "active",
-      "status_text": "im Anflug",
-      "delay": 16
+      "status": "landed",
+      "status_text": "gelandet",
+      "delay": 15
     },
     {
       "dt": 1791575700.0,
@@ -379,7 +379,7 @@
     {
       "dt": 1791576000.0,
       "time_scheduled": "22:00",
-      "time_estimated": "22:03",
+      "time_estimated": "22:09",
       "flight_no": "EW9593",
       "airline": "Eurowings",
       "city": "Palma de Mallorca",
@@ -391,7 +391,7 @@
       "gate": "Ausgang 1 (Linie)",
       "status": "active",
       "status_text": "im Anflug",
-      "delay": 4
+      "delay": 9
     },
     {
       "dt": 1791576000.0,
@@ -498,7 +498,7 @@
     {
       "dt": 1791576600.0,
       "time_scheduled": "22:10",
-      "time_estimated": "23:33",
+      "time_estimated": "23:28",
       "flight_no": "EW9847",
       "airline": "Eurowings",
       "city": "Mailand-Linate",
@@ -510,7 +510,7 @@
       "gate": "Ausgang 1 (Linie)",
       "status": "scheduled",
       "status_text": "",
-      "delay": 83
+      "delay": 78
     },
     {
       "dt": 1791576600.0,
@@ -542,8 +542,8 @@
       "terminal": "B",
       "baggage": "",
       "gate": "Ausgang 1 (Linie)",
-      "status": "scheduled",
-      "status_text": "Vorhafen verlassen",
+      "status": "active",
+      "status_text": "Im Anflug",
       "delay": 11
     },
     {
@@ -560,7 +560,7 @@
       "baggage": "10",
       "gate": "Ausgang 4 (Charter)",
       "status": "active",
-      "status_text": "Im Anflug",
+      "status_text": "im Anflug",
       "delay": 5
     },
     {
@@ -736,7 +736,7 @@
     {
       "dt": 1791577800.0,
       "time_scheduled": "22:30",
-      "time_estimated": "22:03",
+      "time_estimated": "22:02",
       "flight_no": "X34969",
       "airline": "Tuifly",
       "city": "Heraklion (Kreta)",
@@ -746,8 +746,8 @@
       "terminal": "B",
       "baggage": "18",
       "gate": "Ausgang 6 (Charter)",
-      "status": "active",
-      "status_text": "im Anflug",
+      "status": "landed",
+      "status_text": "gelandet",
       "delay": 0
     },
     {
@@ -815,7 +815,7 @@
       "baggage": "",
       "gate": "Ausgang 4 (Charter)",
       "status": "active",
-      "status_text": "Im Anflug",
+      "status_text": "im Anflug",
       "delay": 0
     },
     {
