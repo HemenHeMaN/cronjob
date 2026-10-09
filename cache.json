@@ -1,5 +1,5 @@
 {
-  "updated_at": "09.10.2026 17:20",
+  "updated_at": "09.10.2026 17:25",
   "source": "Dus.com",
   "flights": [
     {
@@ -141,7 +141,7 @@
     {
       "dt": 1791557400.0,
       "time_scheduled": "16:50",
-      "time_estimated": "17:24",
+      "time_estimated": "17:23",
       "flight_no": "BA922",
       "airline": "British Airways",
       "city": "London-Heathrow",
@@ -151,9 +151,9 @@
       "terminal": "C",
       "baggage": "17",
       "gate": "Ausgang 6 (Charter)",
-      "status": "active",
-      "status_text": "im Anflug",
-      "delay": 34
+      "status": "landed",
+      "status_text": "gelandet",
+      "delay": 33
     },
     {
       "dt": 1791557700.0,
@@ -209,7 +209,7 @@
     {
       "dt": 1791557700.0,
       "time_scheduled": "16:55",
-      "time_estimated": "17:30",
+      "time_estimated": "17:21",
       "flight_no": "TP542",
       "airline": "TAP Portugal",
       "city": "Lissabon",
@@ -219,9 +219,9 @@
       "terminal": "B",
       "baggage": "5",
       "gate": "Ausgang 1 (Linie)",
-      "status": "active",
-      "status_text": "im Anflug",
-      "delay": 36
+      "status": "landed",
+      "status_text": "gelandet",
+      "delay": 26
     },
     {
       "dt": 1791558000.0,
@@ -345,7 +345,7 @@
     {
       "dt": 1791559800.0,
       "time_scheduled": "17:30",
-      "time_estimated": "17:30",
+      "time_estimated": "17:25",
       "flight_no": "EW9395",
       "airline": "Eurowings",
       "city": "Dublin",
@@ -355,8 +355,8 @@
       "terminal": "A",
       "baggage": "4",
       "gate": "Ausgang 1 (Linie)",
-      "status": "active",
-      "status_text": "im Anflug",
+      "status": "landed",
+      "status_text": "gelandet",
       "delay": 0
     },
     {
@@ -407,7 +407,7 @@
       "baggage": "",
       "gate": "Ausgang 1 (Linie)",
       "status": "active",
-      "status_text": "Im Anflug",
+      "status_text": "im Anflug",
       "delay": 0
     },
     {
@@ -430,7 +430,7 @@
     {
       "dt": 1791560700.0,
       "time_scheduled": "17:45",
-      "time_estimated": "18:00",
+      "time_estimated": "18:02",
       "flight_no": "EW9009",
       "airline": "Eurowings",
       "city": "Sylt (Westerland)",
@@ -442,7 +442,7 @@
       "gate": "Ausgang 1 (Linie)",
       "status": "scheduled",
       "status_text": "Vorhafen verlassen",
-      "delay": 15
+      "delay": 17
     },
     {
       "dt": 1791560700.0,
@@ -719,7 +719,7 @@
     {
       "dt": 1791564000.0,
       "time_scheduled": "18:40",
-      "time_estimated": "18:39",
+      "time_estimated": "18:33",
       "flight_no": "AF1006",
       "airline": "Air France",
       "city": "Paris-Charles de Gaulle",
@@ -753,7 +753,7 @@
     {
       "dt": 1791564900.0,
       "time_scheduled": "18:55",
-      "time_estimated": "18:54",
+      "time_estimated": "19:03",
       "flight_no": "LO407",
       "airline": "LOT Polish Airlines",
       "city": "Warschau",
@@ -764,8 +764,8 @@
       "baggage": "",
       "gate": "Ausgang 1 (Linie)",
       "status": "scheduled",
-      "status_text": "",
-      "delay": 0
+      "status_text": "Vorhafen verlassen",
+      "delay": 8
     },
     {
       "dt": 1791564900.0,
@@ -1739,7 +1739,7 @@
     {
       "dt": 1791576300.0,
       "time_scheduled": "22:05",
-      "time_estimated": "22:14",
+      "time_estimated": "22:13",
       "flight_no": "EW9537",
       "airline": "Eurowings",
       "city": "Malaga",
@@ -1751,7 +1751,7 @@
       "gate": "Ausgang 1 (Linie)",
       "status": "scheduled",
       "status_text": "",
-      "delay": 9
+      "delay": 8
     },
     {
       "dt": 1791576600.0,
@@ -1914,6 +1914,57 @@
       "airline": "Eurowings",
       "city": "Rom-Fiumicino",
       "country": "Italien",
+      "type": "Linie",
+      "type_source": "Airline",
+      "terminal": "B",
+      "baggage": "",
+      "gate": "Ausgang 1 (Linie)",
+      "status": "scheduled",
+      "status_text": "",
+      "delay": 0
+    },
+    {
+      "dt": 1791577500.0,
+      "time_scheduled": "22:25",
+      "time_estimated": "22:25",
+      "flight_no": "EW9835",
+      "airline": "Eurowings",
+      "city": "Bologna",
+      "country": "Italien",
+      "type": "Linie",
+      "type_source": "Airline",
+      "terminal": "B",
+      "baggage": "",
+      "gate": "Ausgang 1 (Linie)",
+      "status": "scheduled",
+      "status_text": "",
+      "delay": 0
+    },
+    {
+      "dt": 1791577500.0,
+      "time_scheduled": "22:25",
+      "time_estimated": "22:25",
+      "flight_no": "KL1805",
+      "airline": "KLM",
+      "city": "Amsterdam",
+      "country": "Niederlande",
+      "type": "Linie",
+      "type_source": "Airline",
+      "terminal": "B",
+      "baggage": "",
+      "gate": "Ausgang 1 (Linie)",
+      "status": "scheduled",
+      "status_text": "",
+      "delay": 0
+    },
+    {
+      "dt": 1791577500.0,
+      "time_scheduled": "22:25",
+      "time_estimated": "22:25",
+      "flight_no": "LH2034",
+      "airline": "Lufthansa",
+      "city": "München",
+      "country": "Deutschland",
       "type": "Linie",
       "type_source": "Airline",
       "terminal": "B",
