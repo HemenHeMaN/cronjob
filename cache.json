@@ -1,24 +1,7 @@
 {
-  "updated_at": "09.10.2026 08:25",
+  "updated_at": "09.10.2026 08:30",
   "source": "Dus.com",
   "flights": [
-    {
-      "dt": 1791523200.0,
-      "time_scheduled": "07:20",
-      "time_estimated": "07:30",
-      "flight_no": "PC1665",
-      "airline": "Pegasus Airlines",
-      "city": "Gaziantep",
-      "country": "Türkei",
-      "type": "Charter",
-      "type_source": "Ausgang",
-      "terminal": "C",
-      "baggage": "14",
-      "gate": "Ausgang 5 (Charter)",
-      "status": "landed",
-      "status_text": "gelandet",
-      "delay": 10
-    },
     {
       "dt": 1791524400.0,
       "time_scheduled": "07:40",
@@ -39,7 +22,7 @@
     {
       "dt": 1791526200.0,
       "time_scheduled": "08:10",
-      "time_estimated": "09:38",
+      "time_estimated": "09:35",
       "flight_no": "EW4334",
       "airline": "Eurowings",
       "city": "Salzburg",
@@ -50,8 +33,8 @@
       "baggage": "",
       "gate": "Ausgang 1 (Linie)",
       "status": "scheduled",
-      "status_text": "",
-      "delay": 88
+      "status_text": "Vorhafen verlassen",
+      "delay": 85
     },
     {
       "dt": 1791526200.0,
@@ -90,7 +73,7 @@
     {
       "dt": 1791527100.0,
       "time_scheduled": "08:25",
-      "time_estimated": "08:33",
+      "time_estimated": "08:32",
       "flight_no": "H7403",
       "airline": "Hi Sky",
       "city": "Chisinau",
@@ -102,12 +85,12 @@
       "gate": "Ausgang 6 (Charter)",
       "status": "active",
       "status_text": "im Anflug",
-      "delay": 8
+      "delay": 7
     },
     {
       "dt": 1791527400.0,
       "time_scheduled": "08:30",
-      "time_estimated": "08:30",
+      "time_estimated": "08:26",
       "flight_no": "XQ282",
       "airline": "Sun Express",
       "city": "Antalya",
@@ -117,14 +100,14 @@
       "terminal": "C",
       "baggage": "19",
       "gate": "Ausgang 6 (Charter)",
-      "status": "active",
-      "status_text": "im Anflug",
+      "status": "landed",
+      "status_text": "gelandet",
       "delay": 0
     },
     {
       "dt": 1791527700.0,
       "time_scheduled": "08:35",
-      "time_estimated": "08:33",
+      "time_estimated": "08:28",
       "flight_no": "XQ288",
       "airline": "Sun Express",
       "city": "Antalya",
@@ -134,14 +117,14 @@
       "terminal": "C",
       "baggage": "20",
       "gate": "Ausgang 6 (Charter)",
-      "status": "active",
-      "status_text": "im Anflug",
+      "status": "landed",
+      "status_text": "gelandet",
       "delay": 0
     },
     {
       "dt": 1791528000.0,
       "time_scheduled": "08:40",
-      "time_estimated": "08:47",
+      "time_estimated": "08:40",
       "flight_no": "EY133",
       "airline": "Etihad Airways",
       "city": "Abu Dhabi",
@@ -153,12 +136,12 @@
       "gate": "Ausgang 5 (Charter)",
       "status": "active",
       "status_text": "im Anflug",
-      "delay": 8
+      "delay": 0
     },
     {
       "dt": 1791528000.0,
       "time_scheduled": "08:40",
-      "time_estimated": "08:40",
+      "time_estimated": "08:45",
       "flight_no": "LH2004",
       "airline": "Lufthansa",
       "city": "München",
@@ -169,13 +152,13 @@
       "baggage": "1",
       "gate": "Ausgang 1 (Linie)",
       "status": "active",
-      "status_text": "Im Anflug",
-      "delay": 0
+      "status_text": "im Anflug",
+      "delay": 5
     },
     {
       "dt": 1791528000.0,
       "time_scheduled": "08:40",
-      "time_estimated": "09:41",
+      "time_estimated": "09:35",
       "flight_no": "AF1306",
       "airline": "Air France",
       "city": "Paris-Charles de Gaulle",
@@ -187,7 +170,7 @@
       "gate": "Ausgang 4 (Charter)",
       "status": "scheduled",
       "status_text": "",
-      "delay": 62
+      "delay": 56
     },
     {
       "dt": 1791528300.0,
@@ -219,8 +202,8 @@
       "terminal": "A",
       "baggage": "2",
       "gate": "Ausgang 1 (Linie)",
-      "status": "scheduled",
-      "status_text": "Vorhafen verlassen",
+      "status": "active",
+      "status_text": "Im Anflug",
       "delay": 0
     },
     {
@@ -236,8 +219,8 @@
       "terminal": "A",
       "baggage": "6",
       "gate": "Ausgang 1 (Linie)",
-      "status": "scheduled",
-      "status_text": "Vorhafen verlassen",
+      "status": "active",
+      "status_text": "Im Anflug",
       "delay": 0
     },
     {
@@ -271,13 +254,13 @@
       "baggage": "5",
       "gate": "Ausgang 1 (Linie)",
       "status": "active",
-      "status_text": "Im Anflug",
+      "status_text": "im Anflug",
       "delay": 0
     },
     {
       "dt": 1791528900.0,
       "time_scheduled": "08:55",
-      "time_estimated": "08:35",
+      "time_estimated": "08:34",
       "flight_no": "BJ214",
       "airline": "Nouvelair",
       "city": "Monastir",
@@ -407,7 +390,7 @@
       "baggage": "",
       "gate": "Ausgang 1 (Linie)",
       "status": "scheduled",
-      "status_text": "",
+      "status_text": "Vorhafen verlassen",
       "delay": 0
     },
     {
@@ -1458,6 +1441,23 @@
       "type": "Linie",
       "type_source": "Airline",
       "terminal": "B",
+      "baggage": "",
+      "gate": "Ausgang 1 (Linie)",
+      "status": "scheduled",
+      "status_text": "",
+      "delay": 0
+    },
+    {
+      "dt": 1791545400.0,
+      "time_scheduled": "13:30",
+      "time_estimated": "13:30",
+      "flight_no": "NE720",
+      "airline": "Nesma Airlines",
+      "city": "Hurghada",
+      "country": "Ägypten",
+      "type": "Linie",
+      "type_source": "Airline",
+      "terminal": "C",
       "baggage": "",
       "gate": "Ausgang 1 (Linie)",
       "status": "scheduled",
