@@ -1,5 +1,5 @@
 {
-  "updated_at": "09.10.2026 14:15",
+  "updated_at": "09.10.2026 14:20",
   "source": "Dus.com",
   "flights": [
     {
@@ -18,23 +18,6 @@
       "status": "landed",
       "status_text": "gelandet",
       "delay": 12
-    },
-    {
-      "dt": 1791544800.0,
-      "time_scheduled": "13:20",
-      "time_estimated": "13:20",
-      "flight_no": "EW9571",
-      "airline": "Eurowings",
-      "city": "Jerez de la Frontera",
-      "country": "Spanien",
-      "type": "Linie",
-      "type_source": "Ausgang",
-      "terminal": "A",
-      "baggage": "2",
-      "gate": "Ausgang 1 (Linie)",
-      "status": "landed",
-      "status_text": "gelandet",
-      "delay": 0
     },
     {
       "dt": 1791545100.0,
@@ -78,13 +61,13 @@
       "airline": "Nesma Airlines",
       "city": "Hurghada",
       "country": "Ägypten",
-      "type": "Linie",
-      "type_source": "Airline",
+      "type": "Charter",
+      "type_source": "Ausgang",
       "terminal": "C",
-      "baggage": "",
-      "gate": "Ausgang 1 (Linie)",
+      "baggage": "19",
+      "gate": "Ausgang 6 (Charter)",
       "status": "active",
-      "status_text": "Im Anflug",
+      "status_text": "im Anflug",
       "delay": 55
     },
     {
@@ -107,7 +90,7 @@
     {
       "dt": 1791546000.0,
       "time_scheduled": "13:40",
-      "time_estimated": "14:19",
+      "time_estimated": "14:17",
       "flight_no": "EW9815",
       "airline": "Eurowings",
       "city": "Catania (Sizilien)",
@@ -117,26 +100,9 @@
       "terminal": "A",
       "baggage": "6",
       "gate": "Ausgang 1 (Linie)",
-      "status": "active",
-      "status_text": "im Anflug",
-      "delay": 40
-    },
-    {
-      "dt": 1791546300.0,
-      "time_scheduled": "13:45",
-      "time_estimated": "13:17",
-      "flight_no": "EW9739",
-      "airline": "Eurowings",
-      "city": "Tallinn",
-      "country": "Estland",
-      "type": "Linie",
-      "type_source": "Ausgang",
-      "terminal": "A",
-      "baggage": "5",
-      "gate": "Ausgang 1 (Linie)",
       "status": "landed",
       "status_text": "gelandet",
-      "delay": 0
+      "delay": 38
     },
     {
       "dt": 1791546300.0,
@@ -236,8 +202,8 @@
       "terminal": "B",
       "baggage": "",
       "gate": "Ausgang 1 (Linie)",
-      "status": "scheduled",
-      "status_text": "Vorhafen verlassen",
+      "status": "active",
+      "status_text": "Im Anflug",
       "delay": 46
     },
     {
@@ -362,7 +328,7 @@
     {
       "dt": 1791548100.0,
       "time_scheduled": "14:15",
-      "time_estimated": "15:00",
+      "time_estimated": "15:01",
       "flight_no": "MS733",
       "airline": "Egypt Air",
       "city": "Kairo",
@@ -374,7 +340,7 @@
       "gate": "Ausgang 1 (Linie)",
       "status": "scheduled",
       "status_text": "Vorhafen verlassen",
-      "delay": 46
+      "delay": 47
     },
     {
       "dt": 1791548100.0,
@@ -413,7 +379,7 @@
     {
       "dt": 1791548700.0,
       "time_scheduled": "14:25",
-      "time_estimated": "14:24",
+      "time_estimated": "14:19",
       "flight_no": "EW4674",
       "airline": "Eurowings",
       "city": "Stockholm-Arlanda",
@@ -423,8 +389,8 @@
       "terminal": "A",
       "baggage": "4",
       "gate": "Ausgang 1 (Linie)",
-      "status": "active",
-      "status_text": "im Anflug",
+      "status": "landed",
+      "status_text": "gelandet",
       "delay": 0
     },
     {
@@ -453,18 +419,18 @@
       "city": "Hamburg",
       "country": "Deutschland",
       "type": "Linie",
-      "type_source": "Airline",
+      "type_source": "Ausgang",
       "terminal": "B",
-      "baggage": "",
+      "baggage": "5",
       "gate": "Ausgang 1 (Linie)",
       "status": "active",
-      "status_text": "Im Anflug",
+      "status_text": "im Anflug",
       "delay": 0
     },
     {
       "dt": 1791549600.0,
       "time_scheduled": "14:40",
-      "time_estimated": "14:21",
+      "time_estimated": "14:27",
       "flight_no": "SM2984",
       "airline": "Air Cairo",
       "city": "Hurghada",
@@ -481,7 +447,7 @@
     {
       "dt": 1791549600.0,
       "time_scheduled": "14:40",
-      "time_estimated": "15:02",
+      "time_estimated": "15:03",
       "flight_no": "LH2016",
       "airline": "Lufthansa",
       "city": "München",
@@ -493,7 +459,7 @@
       "gate": "Ausgang 1 (Linie)",
       "status": "scheduled",
       "status_text": "Vorhafen verlassen",
-      "delay": 23
+      "delay": 24
     },
     {
       "dt": 1791549600.0,
@@ -515,7 +481,7 @@
     {
       "dt": 1791549900.0,
       "time_scheduled": "14:45",
-      "time_estimated": "14:33",
+      "time_estimated": "14:38",
       "flight_no": "XC102",
       "airline": "Corendon Airlines",
       "city": "Antalya",
@@ -525,8 +491,8 @@
       "terminal": "C",
       "baggage": "",
       "gate": "Ausgang 4 (Charter)",
-      "status": "scheduled",
-      "status_text": "Vorhafen verlassen",
+      "status": "active",
+      "status_text": "Im Anflug",
       "delay": 0
     },
     {
@@ -821,7 +787,7 @@
     {
       "dt": 1791555000.0,
       "time_scheduled": "16:10",
-      "time_estimated": "16:36",
+      "time_estimated": "17:20",
       "flight_no": "EW9443",
       "airline": "Eurowings",
       "city": "Barcelona",
@@ -833,7 +799,7 @@
       "gate": "Ausgang 1 (Linie)",
       "status": "scheduled",
       "status_text": "",
-      "delay": 26
+      "delay": 71
     },
     {
       "dt": 1791555000.0,
@@ -855,7 +821,7 @@
     {
       "dt": 1791555300.0,
       "time_scheduled": "16:15",
-      "time_estimated": "16:38",
+      "time_estimated": "16:45",
       "flight_no": "EW9885",
       "airline": "Eurowings",
       "city": "Rom-Fiumicino",
@@ -867,7 +833,7 @@
       "gate": "Ausgang 1 (Linie)",
       "status": "scheduled",
       "status_text": "",
-      "delay": 24
+      "delay": 31
     },
     {
       "dt": 1791555900.0,
@@ -1161,7 +1127,7 @@
     {
       "dt": 1791559800.0,
       "time_scheduled": "17:30",
-      "time_estimated": "17:30",
+      "time_estimated": "17:23",
       "flight_no": "EW9395",
       "airline": "Eurowings",
       "city": "Dublin",
@@ -1747,6 +1713,23 @@
       "type": "Linie",
       "type_source": "Airline",
       "terminal": "C",
+      "baggage": "",
+      "gate": "Ausgang 1 (Linie)",
+      "status": "scheduled",
+      "status_text": "",
+      "delay": 0
+    },
+    {
+      "dt": 1791566400.0,
+      "time_scheduled": "19:20",
+      "time_estimated": "19:20",
+      "flight_no": "BT233",
+      "airline": "Air Baltic",
+      "city": "Riga",
+      "country": "Lettland",
+      "type": "Linie",
+      "type_source": "Airline",
+      "terminal": "B",
       "baggage": "",
       "gate": "Ausgang 1 (Linie)",
       "status": "scheduled",
