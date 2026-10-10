@@ -1,24 +1,7 @@
 {
-  "updated_at": "10.10.2026 20:35",
+  "updated_at": "10.10.2026 20:40",
   "source": "Dus.com",
   "flights": [
-    {
-      "dt": 1791643200.0,
-      "time_scheduled": "16:40",
-      "time_estimated": "19:36",
-      "flight_no": "TU526",
-      "airline": "Tunisair",
-      "city": "Tunis",
-      "country": "Tunesien",
-      "type": "Charter",
-      "type_source": "Ausgang",
-      "terminal": "C",
-      "baggage": "18",
-      "gate": "Ausgang 6 (Charter)",
-      "status": "landed",
-      "status_text": "gelandet",
-      "delay": 177
-    },
     {
       "dt": 1791651900.0,
       "time_scheduled": "19:05",
@@ -52,23 +35,6 @@
       "status": "landed",
       "status_text": "gelandet",
       "delay": 64
-    },
-    {
-      "dt": 1791653400.0,
-      "time_scheduled": "19:30",
-      "time_estimated": "19:39",
-      "flight_no": "XQ180",
-      "airline": "Sun Express",
-      "city": "Antalya",
-      "country": "Türkei",
-      "type": "Charter",
-      "type_source": "Ausgang",
-      "terminal": "C",
-      "baggage": "12",
-      "gate": "Ausgang 4 (Charter)",
-      "status": "landed",
-      "status_text": "gelandet",
-      "delay": 9
     },
     {
       "dt": 1791655500.0,
@@ -151,8 +117,8 @@
       "terminal": "A",
       "baggage": "3",
       "gate": "Ausgang 1 (Linie)",
-      "status": "scheduled",
-      "status_text": "Vorhafen verlassen",
+      "status": "active",
+      "status_text": "Im Anflug",
       "delay": 31
     },
     {
@@ -202,8 +168,8 @@
       "terminal": "A",
       "baggage": "2",
       "gate": "Ausgang 1 (Linie)",
-      "status": "scheduled",
-      "status_text": "Vorhafen verlassen",
+      "status": "active",
+      "status_text": "Im Anflug",
       "delay": 3
     },
     {
@@ -219,8 +185,8 @@
       "terminal": "B",
       "baggage": "4",
       "gate": "Ausgang 1 (Linie)",
-      "status": "scheduled",
-      "status_text": "Vorhafen verlassen",
+      "status": "active",
+      "status_text": "Im Anflug",
       "delay": 14
     },
     {
@@ -243,7 +209,7 @@
     {
       "dt": 1791658800.0,
       "time_scheduled": "21:00",
-      "time_estimated": "21:02",
+      "time_estimated": "20:51",
       "flight_no": "BA924",
       "airline": "British Airways",
       "city": "London-Heathrow",
@@ -254,8 +220,8 @@
       "baggage": "13",
       "gate": "Ausgang 5 (Charter)",
       "status": "active",
-      "status_text": "Im Anflug",
-      "delay": 2
+      "status_text": "im Anflug",
+      "delay": 0
     },
     {
       "dt": 1791658800.0,
@@ -447,7 +413,7 @@
     {
       "dt": 1791661800.0,
       "time_scheduled": "21:50",
-      "time_estimated": "22:14",
+      "time_estimated": "22:13",
       "flight_no": "X34573",
       "airline": "Tuifly",
       "city": "Kos",
@@ -459,7 +425,7 @@
       "gate": "Ausgang 4 (Charter)",
       "status": "scheduled",
       "status_text": "",
-      "delay": 24
+      "delay": 23
     },
     {
       "dt": 1791661800.0,
@@ -498,7 +464,7 @@
     {
       "dt": 1791662100.0,
       "time_scheduled": "21:55",
-      "time_estimated": "23:05",
+      "time_estimated": "23:04",
       "flight_no": "EW9975",
       "airline": "Eurowings",
       "city": "Tel Aviv-Ben Gurion",
@@ -510,7 +476,7 @@
       "gate": "Ausgang 1 (Linie)",
       "status": "scheduled",
       "status_text": "Vorhafen verlassen",
-      "delay": 71
+      "delay": 70
     },
     {
       "dt": 1791662100.0,
@@ -600,7 +566,7 @@
     {
       "dt": 1791662400.0,
       "time_scheduled": "22:00",
-      "time_estimated": "21:51",
+      "time_estimated": "21:57",
       "flight_no": "DE1557",
       "airline": "Condor",
       "city": "Jerez de la Frontera",
@@ -906,7 +872,7 @@
     {
       "dt": 1791664500.0,
       "time_scheduled": "22:35",
-      "time_estimated": "23:17",
+      "time_estimated": "23:16",
       "flight_no": "EW9983",
       "airline": "Eurowings",
       "city": "Hurghada",
@@ -918,7 +884,7 @@
       "gate": "Ausgang 1 (Linie)",
       "status": "scheduled",
       "status_text": "Vorhafen verlassen",
-      "delay": 43
+      "delay": 42
     },
     {
       "dt": 1791664500.0,
@@ -1025,7 +991,7 @@
     {
       "dt": 1791665100.0,
       "time_scheduled": "22:45",
-      "time_estimated": "22:57",
+      "time_estimated": "22:58",
       "flight_no": "X32119",
       "airline": "Tuifly",
       "city": "Teneriffa Süd",
@@ -1037,7 +1003,7 @@
       "gate": "Ausgang 4 (Charter)",
       "status": "scheduled",
       "status_text": "Vorhafen verlassen",
-      "delay": 12
+      "delay": 13
     },
     {
       "dt": 1791665100.0,
