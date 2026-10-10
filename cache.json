@@ -1,5 +1,5 @@
 {
-  "updated_at": "10.10.2026 05:55",
+  "updated_at": "10.10.2026 06:00",
   "source": "Dus.com",
   "flights": [
     {
@@ -39,7 +39,7 @@
     {
       "dt": 1791607500.0,
       "time_scheduled": "06:45",
-      "time_estimated": "06:33",
+      "time_estimated": "06:35",
       "flight_no": "XQ1350",
       "airline": "Sun Express",
       "city": "Samsun",
@@ -141,7 +141,7 @@
     {
       "dt": 1791613800.0,
       "time_scheduled": "08:30",
-      "time_estimated": "09:11",
+      "time_estimated": "09:07",
       "flight_no": "NP855",
       "airline": "Nile Air",
       "city": "Hurghada",
@@ -153,7 +153,7 @@
       "gate": "Ausgang 1 (Linie)",
       "status": "scheduled",
       "status_text": "Vorhafen verlassen",
-      "delay": 41
+      "delay": 38
     },
     {
       "dt": 1791613800.0,
@@ -294,7 +294,7 @@
     {
       "dt": 1791615300.0,
       "time_scheduled": "08:55",
-      "time_estimated": "08:39",
+      "time_estimated": "09:04",
       "flight_no": "XQ968",
       "airline": "Sun Express",
       "city": "Izmir",
@@ -306,7 +306,7 @@
       "gate": "Ausgang 4 (Charter)",
       "status": "scheduled",
       "status_text": "",
-      "delay": 0
+      "delay": 10
     },
     {
       "dt": 1791615600.0,
@@ -345,7 +345,7 @@
     {
       "dt": 1791615900.0,
       "time_scheduled": "09:05",
-      "time_estimated": "09:05",
+      "time_estimated": "09:03",
       "flight_no": "VY1896",
       "airline": "Vueling",
       "city": "Barcelona",
@@ -379,7 +379,7 @@
     {
       "dt": 1791617100.0,
       "time_scheduled": "09:25",
-      "time_estimated": "09:25",
+      "time_estimated": "09:07",
       "flight_no": "XR404",
       "airline": "Corendon Airlines Europe",
       "city": "Heraklion (Kreta)",
@@ -863,6 +863,40 @@
       "type": "Charter",
       "type_source": "Airline",
       "terminal": "C",
+      "baggage": "",
+      "gate": "Ausgang 4 (Charter)",
+      "status": "scheduled",
+      "status_text": "",
+      "delay": 0
+    },
+    {
+      "dt": 1791622800.0,
+      "time_scheduled": "11:00",
+      "time_estimated": "11:00",
+      "flight_no": "BJ2640",
+      "airline": "Nouvelair",
+      "city": "Djerba",
+      "country": "Tunesien",
+      "type": "Linie",
+      "type_source": "Airline",
+      "terminal": "C",
+      "baggage": "",
+      "gate": "Ausgang 1 (Linie)",
+      "status": "scheduled",
+      "status_text": "",
+      "delay": 0
+    },
+    {
+      "dt": 1791622800.0,
+      "time_scheduled": "11:00",
+      "time_estimated": "11:00",
+      "flight_no": "4M696",
+      "airline": "Mavi Gök Aviation",
+      "city": "Antalya",
+      "country": "Türkei",
+      "type": "Charter",
+      "type_source": "Airline",
+      "terminal": "A",
       "baggage": "",
       "gate": "Ausgang 4 (Charter)",
       "status": "scheduled",
