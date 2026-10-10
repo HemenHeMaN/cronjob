@@ -1,5 +1,5 @@
 {
-  "updated_at": "10.10.2026 20:00",
+  "updated_at": "10.10.2026 20:05",
   "source": "Dus.com",
   "flights": [
     {
@@ -190,23 +190,6 @@
       "delay": 0
     },
     {
-      "dt": 1791653100.0,
-      "time_scheduled": "19:25",
-      "time_estimated": "19:04",
-      "flight_no": "PC1005",
-      "airline": "Pegasus Airlines",
-      "city": "Istanbul-Sabiha Gökçen",
-      "country": "Türkei",
-      "type": "Charter",
-      "type_source": "Ausgang",
-      "terminal": "C",
-      "baggage": "11",
-      "gate": "Ausgang 4 (Charter)",
-      "status": "landed",
-      "status_text": "gelandet",
-      "delay": 0
-    },
-    {
       "dt": 1791653400.0,
       "time_scheduled": "19:30",
       "time_estimated": "19:39",
@@ -260,7 +243,7 @@
     {
       "dt": 1791655500.0,
       "time_scheduled": "20:05",
-      "time_estimated": "20:08",
+      "time_estimated": "20:04",
       "flight_no": "EW9633",
       "airline": "Eurowings",
       "city": "Rhodos",
@@ -270,9 +253,9 @@
       "terminal": "B",
       "baggage": "5",
       "gate": "Ausgang 1 (Linie)",
-      "status": "active",
-      "status_text": "im Anflug",
-      "delay": 3
+      "status": "landed",
+      "status_text": "gelandet",
+      "delay": 0
     },
     {
       "dt": 1791655500.0,
@@ -294,7 +277,7 @@
     {
       "dt": 1791655800.0,
       "time_scheduled": "20:10",
-      "time_estimated": "20:17",
+      "time_estimated": "20:11",
       "flight_no": "VY1898",
       "airline": "Vueling",
       "city": "Barcelona",
@@ -306,7 +289,7 @@
       "gate": "Ausgang 4 (Charter)",
       "status": "active",
       "status_text": "im Anflug",
-      "delay": 7
+      "delay": 1
     },
     {
       "dt": 1791656400.0,
@@ -321,8 +304,8 @@
       "terminal": "B",
       "baggage": "11",
       "gate": "Ausgang 4 (Charter)",
-      "status": "scheduled",
-      "status_text": "Vorhafen verlassen",
+      "status": "active",
+      "status_text": "Im Anflug",
       "delay": 3
     },
     {
@@ -532,7 +515,7 @@
     {
       "dt": 1791661200.0,
       "time_scheduled": "21:40",
-      "time_estimated": "21:46",
+      "time_estimated": "21:56",
       "flight_no": "EW9423",
       "airline": "Eurowings",
       "city": "Nizza",
@@ -544,7 +527,7 @@
       "gate": "Ausgang 1 (Linie)",
       "status": "scheduled",
       "status_text": "",
-      "delay": 6
+      "delay": 16
     },
     {
       "dt": 1791661200.0,
@@ -685,7 +668,7 @@
     {
       "dt": 1791662100.0,
       "time_scheduled": "21:55",
-      "time_estimated": "23:07",
+      "time_estimated": "23:04",
       "flight_no": "EW9975",
       "airline": "Eurowings",
       "city": "Tel Aviv-Ben Gurion",
@@ -697,7 +680,7 @@
       "gate": "Ausgang 1 (Linie)",
       "status": "scheduled",
       "status_text": "Vorhafen verlassen",
-      "delay": 72
+      "delay": 70
     },
     {
       "dt": 1791662100.0,
@@ -923,7 +906,7 @@
     {
       "dt": 1791663600.0,
       "time_scheduled": "22:20",
-      "time_estimated": "22:38",
+      "time_estimated": "23:04",
       "flight_no": "EW9533",
       "airline": "Eurowings",
       "city": "Alicante",
@@ -935,7 +918,7 @@
       "gate": "Ausgang 1 (Linie)",
       "status": "scheduled",
       "status_text": "",
-      "delay": 19
+      "delay": 45
     },
     {
       "dt": 1791663600.0,
@@ -991,7 +974,7 @@
     {
       "dt": 1791663900.0,
       "time_scheduled": "22:25",
-      "time_estimated": "22:45",
+      "time_estimated": "22:39",
       "flight_no": "EW9593",
       "airline": "Eurowings",
       "city": "Palma de Mallorca",
@@ -1003,7 +986,7 @@
       "gate": "Ausgang 1 (Linie)",
       "status": "scheduled",
       "status_text": "",
-      "delay": 20
+      "delay": 14
     },
     {
       "dt": 1791663900.0,
@@ -1076,7 +1059,7 @@
     {
       "dt": 1791663900.0,
       "time_scheduled": "22:25",
-      "time_estimated": "23:02",
+      "time_estimated": "23:07",
       "flight_no": "EW9641",
       "airline": "Eurowings",
       "city": "Porto",
@@ -1088,7 +1071,7 @@
       "gate": "Ausgang 1 (Linie)",
       "status": "scheduled",
       "status_text": "",
-      "delay": 37
+      "delay": 43
     },
     {
       "dt": 1791664500.0,
@@ -1229,7 +1212,7 @@
     {
       "dt": 1791665100.0,
       "time_scheduled": "22:45",
-      "time_estimated": "23:04",
+      "time_estimated": "23:07",
       "flight_no": "DE1435",
       "airline": "Condor",
       "city": "Gran Canaria",
@@ -1241,7 +1224,7 @@
       "gate": "Ausgang 4 (Charter)",
       "status": "scheduled",
       "status_text": "Vorhafen verlassen",
-      "delay": 20
+      "delay": 22
     }
   ]
 }
