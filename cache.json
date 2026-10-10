@@ -1,41 +1,7 @@
 {
-  "updated_at": "10.10.2026 12:45",
+  "updated_at": "10.10.2026 12:50",
   "source": "Dus.com",
   "flights": [
-    {
-      "dt": 1791625200.0,
-      "time_scheduled": "11:40",
-      "time_estimated": "11:48",
-      "flight_no": "A3540",
-      "airline": "Aegean Airlines",
-      "city": "Thessaloniki",
-      "country": "Griechenland",
-      "type": "Charter",
-      "type_source": "Ausgang",
-      "terminal": "B",
-      "baggage": "9",
-      "gate": "Ausgang 4 (Charter)",
-      "status": "landed",
-      "status_text": "gelandet",
-      "delay": 8
-    },
-    {
-      "dt": 1791625500.0,
-      "time_scheduled": "11:45",
-      "time_estimated": "11:46",
-      "flight_no": "EW9861",
-      "airline": "Eurowings",
-      "city": "Neapel",
-      "country": "Italien",
-      "type": "Linie",
-      "type_source": "Ausgang",
-      "terminal": "A",
-      "baggage": "1",
-      "gate": "Ausgang 1 (Linie)",
-      "status": "landed",
-      "status_text": "gelandet",
-      "delay": 1
-    },
     {
       "dt": 1791625800.0,
       "time_scheduled": "11:50",
@@ -96,12 +62,12 @@
       "city": "Alicante",
       "country": "Spanien",
       "type": "Linie",
-      "type_source": "Airline",
+      "type_source": "Ausgang",
       "terminal": "A",
-      "baggage": "",
+      "baggage": "2",
       "gate": "Ausgang 1 (Linie)",
       "status": "active",
-      "status_text": "Im Anflug",
+      "status_text": "im Anflug",
       "delay": 61
     },
     {
@@ -219,8 +185,8 @@
       "terminal": "C",
       "baggage": "",
       "gate": "Ausgang 1 (Linie)",
-      "status": "scheduled",
-      "status_text": "Vorhafen verlassen",
+      "status": "active",
+      "status_text": "Im Anflug",
       "delay": 41
     },
     {
@@ -266,12 +232,12 @@
       "city": "Palma de Mallorca",
       "country": "Spanien",
       "type": "Charter",
-      "type_source": "Airline",
+      "type_source": "Ausgang",
       "terminal": "B",
-      "baggage": "",
+      "baggage": "12",
       "gate": "Ausgang 4 (Charter)",
       "status": "active",
-      "status_text": "Im Anflug",
+      "status_text": "im Anflug",
       "delay": 25
     },
     {
@@ -294,7 +260,7 @@
     {
       "dt": 1791629400.0,
       "time_scheduled": "12:50",
-      "time_estimated": "12:54",
+      "time_estimated": "12:47",
       "flight_no": "EW9535",
       "airline": "Eurowings",
       "city": "Malaga",
@@ -304,9 +270,9 @@
       "terminal": "A",
       "baggage": "4",
       "gate": "Ausgang 1 (Linie)",
-      "status": "active",
-      "status_text": "im Anflug",
-      "delay": 5
+      "status": "landed",
+      "status_text": "gelandet",
+      "delay": 0
     },
     {
       "dt": 1791629400.0,
@@ -390,7 +356,7 @@
       "baggage": "20",
       "gate": "Ausgang 6 (Charter)",
       "status": "active",
-      "status_text": "Im Anflug",
+      "status_text": "im Anflug",
       "delay": 0
     },
     {
@@ -770,7 +736,7 @@
     {
       "dt": 1791636000.0,
       "time_scheduled": "14:40",
-      "time_estimated": "14:34",
+      "time_estimated": "14:30",
       "flight_no": "EW9959",
       "airline": "Eurowings",
       "city": "Split",
@@ -781,7 +747,7 @@
       "baggage": "",
       "gate": "Ausgang 1 (Linie)",
       "status": "scheduled",
-      "status_text": "",
+      "status_text": "Vorhafen verlassen",
       "delay": 0
     },
     {
@@ -1025,7 +991,7 @@
     {
       "dt": 1791640800.0,
       "time_scheduled": "16:00",
-      "time_estimated": "16:00",
+      "time_estimated": "15:53",
       "flight_no": "AF1406",
       "airline": "Air France",
       "city": "Paris-Charles de Gaulle",
@@ -1042,7 +1008,7 @@
     {
       "dt": 1791640800.0,
       "time_scheduled": "16:00",
-      "time_estimated": "16:00",
+      "time_estimated": "15:52",
       "flight_no": "BA914",
       "airline": "British Airways",
       "city": "London-Heathrow",
