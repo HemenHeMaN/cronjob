@@ -1,5 +1,5 @@
 {
-  "updated_at": "10.10.2026 20:45",
+  "updated_at": "10.10.2026 20:50",
   "source": "Dus.com",
   "flights": [
     {
@@ -118,7 +118,7 @@
       "baggage": "3",
       "gate": "Ausgang 1 (Linie)",
       "status": "active",
-      "status_text": "Im Anflug",
+      "status_text": "im Anflug",
       "delay": 31
     },
     {
@@ -175,7 +175,7 @@
     {
       "dt": 1791658500.0,
       "time_scheduled": "20:55",
-      "time_estimated": "21:08",
+      "time_estimated": "21:01",
       "flight_no": "EW9589",
       "airline": "Eurowings",
       "city": "Palma de Mallorca",
@@ -187,7 +187,7 @@
       "gate": "Ausgang 1 (Linie)",
       "status": "active",
       "status_text": "im Anflug",
-      "delay": 14
+      "delay": 6
     },
     {
       "dt": 1791658800.0,
@@ -226,7 +226,7 @@
     {
       "dt": 1791658800.0,
       "time_scheduled": "21:00",
-      "time_estimated": "21:09",
+      "time_estimated": "21:10",
       "flight_no": "DE1621",
       "airline": "Condor",
       "city": "Kos",
@@ -238,7 +238,7 @@
       "gate": "Ausgang 4 (Charter)",
       "status": "scheduled",
       "status_text": "Vorhafen verlassen",
-      "delay": 9
+      "delay": 10
     },
     {
       "dt": 1791659100.0,
@@ -441,7 +441,7 @@
       "baggage": "",
       "gate": "Ausgang 1 (Linie)",
       "status": "scheduled",
-      "status_text": "",
+      "status_text": "Vorhafen verlassen",
       "delay": 0
     },
     {
@@ -702,7 +702,7 @@
     {
       "dt": 1791663600.0,
       "time_scheduled": "22:20",
-      "time_estimated": "23:02",
+      "time_estimated": "22:54",
       "flight_no": "EW9533",
       "airline": "Eurowings",
       "city": "Alicante",
@@ -714,7 +714,7 @@
       "gate": "Ausgang 1 (Linie)",
       "status": "scheduled",
       "status_text": "Vorhafen verlassen",
-      "delay": 42
+      "delay": 34
     },
     {
       "dt": 1791663600.0,
@@ -838,7 +838,7 @@
     {
       "dt": 1791663900.0,
       "time_scheduled": "22:25",
-      "time_estimated": "22:35",
+      "time_estimated": "22:37",
       "flight_no": "LH2034",
       "airline": "Lufthansa",
       "city": "München",
@@ -850,7 +850,7 @@
       "gate": "Ausgang 1 (Linie)",
       "status": "scheduled",
       "status_text": "",
-      "delay": 11
+      "delay": 13
     },
     {
       "dt": 1791663900.0,
