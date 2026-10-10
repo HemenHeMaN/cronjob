@@ -1,5 +1,5 @@
 {
-  "updated_at": "10.10.2026 08:50",
+  "updated_at": "10.10.2026 08:55",
   "source": "Dus.com",
   "flights": [
     {
@@ -15,8 +15,8 @@
       "terminal": "C",
       "baggage": "17",
       "gate": "Ausgang 6 (Charter)",
-      "status": "scheduled",
-      "status_text": "Vorhafen verlassen",
+      "status": "active",
+      "status_text": "Im Anflug",
       "delay": 37
     },
     {
@@ -90,7 +90,7 @@
     {
       "dt": 1791614700.0,
       "time_scheduled": "08:45",
-      "time_estimated": "08:56",
+      "time_estimated": "09:08",
       "flight_no": "LX1016",
       "airline": "Swiss",
       "city": "Zürich",
@@ -102,12 +102,12 @@
       "gate": "Ausgang 5 (Charter)",
       "status": "active",
       "status_text": "im Anflug",
-      "delay": 12
+      "delay": 23
     },
     {
       "dt": 1791615000.0,
       "time_scheduled": "08:50",
-      "time_estimated": "08:57",
+      "time_estimated": "08:54",
       "flight_no": "XC198",
       "airline": "Corendon Airlines",
       "city": "Izmir",
@@ -117,9 +117,9 @@
       "terminal": "C",
       "baggage": "20",
       "gate": "Ausgang 6 (Charter)",
-      "status": "active",
-      "status_text": "im Anflug",
-      "delay": 8
+      "status": "landed",
+      "status_text": "gelandet",
+      "delay": 4
     },
     {
       "dt": 1791615000.0,
@@ -220,7 +220,7 @@
       "baggage": "9",
       "gate": "Ausgang 4 (Charter)",
       "status": "active",
-      "status_text": "Im Anflug",
+      "status_text": "im Anflug",
       "delay": 4
     },
     {
@@ -872,7 +872,7 @@
     {
       "dt": 1791625200.0,
       "time_scheduled": "11:40",
-      "time_estimated": "11:40",
+      "time_estimated": "11:56",
       "flight_no": "A3540",
       "airline": "Aegean Airlines",
       "city": "Thessaloniki",
@@ -884,7 +884,7 @@
       "gate": "Ausgang 1 (Linie)",
       "status": "scheduled",
       "status_text": "",
-      "delay": 0
+      "delay": 17
     },
     {
       "dt": 1791625500.0,
@@ -940,7 +940,7 @@
     {
       "dt": 1791625800.0,
       "time_scheduled": "11:50",
-      "time_estimated": "11:43",
+      "time_estimated": "11:48",
       "flight_no": "A3840",
       "airline": "Aegean Airlines",
       "city": "Athen",
@@ -951,13 +951,13 @@
       "baggage": "14",
       "gate": "Ausgang 5 (Charter)",
       "status": "scheduled",
-      "status_text": "",
+      "status_text": "Vorhafen verlassen",
       "delay": 0
     },
     {
       "dt": 1791626100.0,
       "time_scheduled": "11:55",
-      "time_estimated": "11:32",
+      "time_estimated": "11:43",
       "flight_no": "VF025",
       "airline": "A Jet",
       "city": "Istanbul-Sabiha Gökçen",
@@ -968,7 +968,7 @@
       "baggage": "",
       "gate": "Ausgang 1 (Linie)",
       "status": "scheduled",
-      "status_text": "",
+      "status_text": "Vorhafen verlassen",
       "delay": 0
     },
     {
@@ -991,7 +991,7 @@
     {
       "dt": 1791626700.0,
       "time_scheduled": "12:05",
-      "time_estimated": "12:05",
+      "time_estimated": "11:55",
       "flight_no": "EW9853",
       "airline": "Eurowings",
       "city": "Lamezia Terme (Kalabrien)",
@@ -1093,7 +1093,7 @@
     {
       "dt": 1791628200.0,
       "time_scheduled": "12:30",
-      "time_estimated": "12:30",
+      "time_estimated": "12:22",
       "flight_no": "XC104",
       "airline": "Corendon Airlines",
       "city": "Antalya",
@@ -1104,7 +1104,7 @@
       "baggage": "",
       "gate": "Ausgang 4 (Charter)",
       "status": "scheduled",
-      "status_text": "",
+      "status_text": "Vorhafen verlassen",
       "delay": 0
     },
     {
@@ -1409,6 +1409,57 @@
       "terminal": "C",
       "baggage": "",
       "gate": "Ausgang 1 (Linie)",
+      "status": "scheduled",
+      "status_text": "",
+      "delay": 0
+    },
+    {
+      "dt": 1791633300.0,
+      "time_scheduled": "13:55",
+      "time_estimated": "13:55",
+      "flight_no": "KL1801",
+      "airline": "KLM",
+      "city": "Amsterdam",
+      "country": "Niederlande",
+      "type": "Linie",
+      "type_source": "Airline",
+      "terminal": "B",
+      "baggage": "",
+      "gate": "Ausgang 1 (Linie)",
+      "status": "scheduled",
+      "status_text": "",
+      "delay": 0
+    },
+    {
+      "dt": 1791633300.0,
+      "time_scheduled": "13:55",
+      "time_estimated": "13:55",
+      "flight_no": "X32253",
+      "airline": "Tuifly",
+      "city": "Jerez de la Frontera",
+      "country": "Spanien",
+      "type": "Charter",
+      "type_source": "Airline",
+      "terminal": "B",
+      "baggage": "",
+      "gate": "Ausgang 4 (Charter)",
+      "status": "scheduled",
+      "status_text": "",
+      "delay": 0
+    },
+    {
+      "dt": 1791633300.0,
+      "time_scheduled": "13:55",
+      "time_estimated": "13:55",
+      "flight_no": "DE1615",
+      "airline": "Condor",
+      "city": "Chania (Kreta)",
+      "country": "Griechenland",
+      "type": "Charter",
+      "type_source": "Airline",
+      "terminal": "B",
+      "baggage": "",
+      "gate": "Ausgang 4 (Charter)",
       "status": "scheduled",
       "status_text": "",
       "delay": 0
