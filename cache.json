@@ -1,5 +1,5 @@
 {
-  "updated_at": "10.10.2026 06:30",
+  "updated_at": "10.10.2026 06:35",
   "source": "Dus.com",
   "flights": [
     {
@@ -56,7 +56,7 @@
     {
       "dt": 1791607800.0,
       "time_scheduled": "06:50",
-      "time_estimated": "06:40",
+      "time_estimated": "06:33",
       "flight_no": "XQ1334",
       "airline": "Sun Express",
       "city": "Elazig",
@@ -66,8 +66,8 @@
       "terminal": "C",
       "baggage": "13",
       "gate": "Ausgang 5 (Charter)",
-      "status": "active",
-      "status_text": "im Anflug",
+      "status": "landed",
+      "status_text": "gelandet",
       "delay": 0
     },
     {
@@ -209,7 +209,7 @@
     {
       "dt": 1791614700.0,
       "time_scheduled": "08:45",
-      "time_estimated": "08:51",
+      "time_estimated": "08:46",
       "flight_no": "JU360",
       "airline": "Air Serbia",
       "city": "Belgrad",
@@ -221,7 +221,7 @@
       "gate": "Ausgang 1 (Linie)",
       "status": "scheduled",
       "status_text": "",
-      "delay": 7
+      "delay": 2
     },
     {
       "dt": 1791614700.0,
@@ -294,7 +294,7 @@
     {
       "dt": 1791615300.0,
       "time_scheduled": "08:55",
-      "time_estimated": "09:04",
+      "time_estimated": "09:41",
       "flight_no": "XQ968",
       "airline": "Sun Express",
       "city": "Izmir",
@@ -306,7 +306,7 @@
       "gate": "Ausgang 4 (Charter)",
       "status": "scheduled",
       "status_text": "",
-      "delay": 10
+      "delay": 47
     },
     {
       "dt": 1791615600.0,
@@ -357,7 +357,7 @@
       "gate": "Ausgang 1 (Linie)",
       "status": "scheduled",
       "status_text": "",
-      "delay": 9
+      "delay": 8
     },
     {
       "dt": 1791615900.0,
@@ -430,7 +430,7 @@
     {
       "dt": 1791617400.0,
       "time_scheduled": "09:30",
-      "time_estimated": "09:30",
+      "time_estimated": "09:36",
       "flight_no": "LH072",
       "airline": "Lufthansa",
       "city": "Frankfurt",
@@ -442,12 +442,12 @@
       "gate": "Ausgang 1 (Linie)",
       "status": "scheduled",
       "status_text": "",
-      "delay": 0
+      "delay": 6
     },
     {
       "dt": 1791617700.0,
       "time_scheduled": "09:35",
-      "time_estimated": "09:35",
+      "time_estimated": "09:33",
       "flight_no": "LO403",
       "airline": "LOT Polish Airlines",
       "city": "Warschau",
@@ -481,7 +481,7 @@
     {
       "dt": 1791618000.0,
       "time_scheduled": "09:40",
-      "time_estimated": "09:40",
+      "time_estimated": "09:34",
       "flight_no": "LH2006",
       "airline": "Lufthansa",
       "city": "München",
@@ -950,6 +950,23 @@
       "terminal": "A",
       "baggage": "",
       "gate": "Ausgang 1 (Linie)",
+      "status": "scheduled",
+      "status_text": "",
+      "delay": 0
+    },
+    {
+      "dt": 1791624900.0,
+      "time_scheduled": "11:35",
+      "time_estimated": "11:35",
+      "flight_no": "DE1515",
+      "airline": "Condor",
+      "city": "Palma de Mallorca",
+      "country": "Spanien",
+      "type": "Charter",
+      "type_source": "Airline",
+      "terminal": "B",
+      "baggage": "",
+      "gate": "Ausgang 4 (Charter)",
       "status": "scheduled",
       "status_text": "",
       "delay": 0
