@@ -1,11 +1,11 @@
 {
-  "updated_at": "10.10.2026 17:50",
+  "updated_at": "10.10.2026 17:55",
   "source": "Dus.com",
   "flights": [
     {
       "dt": 1791643200.0,
       "time_scheduled": "16:40",
-      "time_estimated": "19:35",
+      "time_estimated": "19:34",
       "flight_no": "TU526",
       "airline": "Tunisair",
       "city": "Tunis",
@@ -17,7 +17,7 @@
       "gate": "Ausgang 6 (Charter)",
       "status": "scheduled",
       "status_text": "Vorhafen verlassen",
-      "delay": 176
+      "delay": 175
     },
     {
       "dt": 1791643500.0,
@@ -56,24 +56,7 @@
     {
       "dt": 1791644100.0,
       "time_scheduled": "16:55",
-      "time_estimated": "16:53",
-      "flight_no": "VF005",
-      "airline": "A Jet",
-      "city": "Ankara-Esenboğa",
-      "country": "Türkei",
-      "type": "Charter",
-      "type_source": "Ausgang",
-      "terminal": "C",
-      "baggage": "17",
-      "gate": "Ausgang 6 (Charter)",
-      "status": "landed",
-      "status_text": "gelandet",
-      "delay": 0
-    },
-    {
-      "dt": 1791644100.0,
-      "time_scheduled": "16:55",
-      "time_estimated": "18:37",
+      "time_estimated": "18:31",
       "flight_no": "TP542",
       "airline": "TAP Portugal",
       "city": "Lissabon",
@@ -85,7 +68,7 @@
       "gate": "Ausgang 1 (Linie)",
       "status": "scheduled",
       "status_text": "Vorhafen verlassen",
-      "delay": 102
+      "delay": 96
     },
     {
       "dt": 1791645300.0,
@@ -158,7 +141,7 @@
     {
       "dt": 1791646800.0,
       "time_scheduled": "17:40",
-      "time_estimated": "17:53",
+      "time_estimated": "17:54",
       "flight_no": "XR402",
       "airline": "Corendon Airlines Europe",
       "city": "Heraklion (Kreta)",
@@ -168,9 +151,9 @@
       "terminal": "B",
       "baggage": "12",
       "gate": "Ausgang 4 (Charter)",
-      "status": "active",
-      "status_text": "im Anflug",
-      "delay": 13
+      "status": "landed",
+      "status_text": "gelandet",
+      "delay": 14
     },
     {
       "dt": 1791647100.0,
@@ -253,8 +236,8 @@
       "terminal": "A",
       "baggage": "1",
       "gate": "Ausgang 1 (Linie)",
-      "status": "scheduled",
-      "status_text": "Vorhafen verlassen",
+      "status": "active",
+      "status_text": "Im Anflug",
       "delay": 19
     },
     {
@@ -447,7 +430,7 @@
     {
       "dt": 1791652200.0,
       "time_scheduled": "19:10",
-      "time_estimated": "19:22",
+      "time_estimated": "19:27",
       "flight_no": "EW9503",
       "airline": "Eurowings",
       "city": "Ibiza",
@@ -459,7 +442,7 @@
       "gate": "Ausgang 1 (Linie)",
       "status": "scheduled",
       "status_text": "Vorhafen verlassen",
-      "delay": 12
+      "delay": 18
     },
     {
       "dt": 1791652500.0,
@@ -668,7 +651,7 @@
     {
       "dt": 1791655500.0,
       "time_scheduled": "20:05",
-      "time_estimated": "20:07",
+      "time_estimated": "20:12",
       "flight_no": "EW9817",
       "airline": "Eurowings",
       "city": "Catania (Sizilien)",
@@ -679,8 +662,8 @@
       "baggage": "",
       "gate": "Ausgang 1 (Linie)",
       "status": "scheduled",
-      "status_text": "",
-      "delay": 2
+      "status_text": "Vorhafen verlassen",
+      "delay": 7
     },
     {
       "dt": 1791655800.0,
@@ -770,7 +753,7 @@
     {
       "dt": 1791658500.0,
       "time_scheduled": "20:55",
-      "time_estimated": "20:43",
+      "time_estimated": "20:53",
       "flight_no": "EW9669",
       "airline": "Eurowings",
       "city": "Kalamata",
@@ -1372,7 +1355,7 @@
       "country": "Spanien",
       "type": "Linie",
       "type_source": "Airline",
-      "terminal": "A",
+      "terminal": "B",
       "baggage": "",
       "gate": "Ausgang 1 (Linie)",
       "status": "scheduled",
@@ -1416,7 +1399,7 @@
     {
       "dt": 1791663900.0,
       "time_scheduled": "22:25",
-      "time_estimated": "22:35",
+      "time_estimated": "22:53",
       "flight_no": "EW5521",
       "airline": "Eurowings",
       "city": "Marsa Alam",
@@ -1427,8 +1410,8 @@
       "baggage": "",
       "gate": "Ausgang 4 (Charter)",
       "status": "scheduled",
-      "status_text": "",
-      "delay": 10
+      "status_text": "Vorhafen verlassen",
+      "delay": 29
     },
     {
       "dt": 1791663900.0,
@@ -1480,6 +1463,23 @@
       "status": "scheduled",
       "status_text": "",
       "delay": 0
+    },
+    {
+      "dt": 1791664500.0,
+      "time_scheduled": "22:35",
+      "time_estimated": "22:54",
+      "flight_no": "X32915",
+      "airline": "Tuifly",
+      "city": "Ibiza",
+      "country": "Spanien",
+      "type": "Charter",
+      "type_source": "Airline",
+      "terminal": "B",
+      "baggage": "",
+      "gate": "Ausgang 4 (Charter)",
+      "status": "scheduled",
+      "status_text": "",
+      "delay": 19
     },
     {
       "dt": 1791664500.0,
