@@ -1,5 +1,5 @@
 {
-  "updated_at": "10.10.2026 16:10",
+  "updated_at": "10.10.2026 16:15",
   "source": "Dus.com",
   "flights": [
     {
@@ -35,23 +35,6 @@
       "status": "landed",
       "status_text": "gelandet",
       "delay": 8
-    },
-    {
-      "dt": 1791638400.0,
-      "time_scheduled": "15:20",
-      "time_estimated": "15:12",
-      "flight_no": "XQ3580",
-      "airline": "Sun Express",
-      "city": "Dalaman",
-      "country": "Türkei",
-      "type": "Charter",
-      "type_source": "Ausgang",
-      "terminal": "C",
-      "baggage": "14",
-      "gate": "Ausgang 5 (Charter)",
-      "status": "landed",
-      "status_text": "gelandet",
-      "delay": 0
     },
     {
       "dt": 1791639300.0,
@@ -124,7 +107,7 @@
     {
       "dt": 1791640200.0,
       "time_scheduled": "15:50",
-      "time_estimated": "16:12",
+      "time_estimated": "16:11",
       "flight_no": "SM2980",
       "airline": "Air Cairo",
       "city": "Hurghada",
@@ -134,8 +117,8 @@
       "terminal": "C",
       "baggage": "14",
       "gate": "Ausgang 5 (Charter)",
-      "status": "active",
-      "status_text": "im Anflug",
+      "status": "landed",
+      "status_text": "gelandet",
       "delay": 22
     },
     {
@@ -260,7 +243,7 @@
     {
       "dt": 1791643200.0,
       "time_scheduled": "16:40",
-      "time_estimated": "18:27",
+      "time_estimated": "18:43",
       "flight_no": "TU526",
       "airline": "Tunisair",
       "city": "Tunis",
@@ -272,7 +255,7 @@
       "gate": "Ausgang 6 (Charter)",
       "status": "scheduled",
       "status_text": "",
-      "delay": 108
+      "delay": 124
     },
     {
       "dt": 1791643200.0,
@@ -413,7 +396,7 @@
     {
       "dt": 1791646800.0,
       "time_scheduled": "17:40",
-      "time_estimated": "17:35",
+      "time_estimated": "17:46",
       "flight_no": "KL1803",
       "airline": "KLM",
       "city": "Amsterdam",
@@ -425,7 +408,7 @@
       "gate": "Ausgang 4 (Charter)",
       "status": "scheduled",
       "status_text": "",
-      "delay": 0
+      "delay": 6
     },
     {
       "dt": 1791646800.0,
@@ -719,7 +702,7 @@
     {
       "dt": 1791652200.0,
       "time_scheduled": "19:10",
-      "time_estimated": "19:10",
+      "time_estimated": "19:16",
       "flight_no": "EW9503",
       "airline": "Eurowings",
       "city": "Ibiza",
@@ -731,7 +714,7 @@
       "gate": "Ausgang 1 (Linie)",
       "status": "scheduled",
       "status_text": "",
-      "delay": 0
+      "delay": 6
     },
     {
       "dt": 1791652500.0,
@@ -770,7 +753,7 @@
     {
       "dt": 1791652500.0,
       "time_scheduled": "19:15",
-      "time_estimated": "19:26",
+      "time_estimated": "19:25",
       "flight_no": "XQ1390",
       "airline": "Sun Express",
       "city": "Gaziantep",
@@ -782,7 +765,7 @@
       "gate": "Ausgang 4 (Charter)",
       "status": "scheduled",
       "status_text": "Vorhafen verlassen",
-      "delay": 12
+      "delay": 10
     },
     {
       "dt": 1791652500.0,
@@ -1112,6 +1095,23 @@
       "time_scheduled": "21:05",
       "time_estimated": "21:05",
       "flight_no": "EW9573",
+      "airline": "Eurowings",
+      "city": "Palma de Mallorca",
+      "country": "Spanien",
+      "type": "Linie",
+      "type_source": "Airline",
+      "terminal": "B",
+      "baggage": "",
+      "gate": "Ausgang 1 (Linie)",
+      "status": "scheduled",
+      "status_text": "",
+      "delay": 0
+    },
+    {
+      "dt": 1791659700.0,
+      "time_scheduled": "21:15",
+      "time_estimated": "21:15",
+      "flight_no": "EW9591",
       "airline": "Eurowings",
       "city": "Palma de Mallorca",
       "country": "Spanien",
