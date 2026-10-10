@@ -1,5 +1,5 @@
 {
-  "updated_at": "10.10.2026 05:35",
+  "updated_at": "10.10.2026 05:40",
   "source": "Dus.com",
   "flights": [
     {
@@ -328,7 +328,7 @@
     {
       "dt": 1791615600.0,
       "time_scheduled": "09:00",
-      "time_estimated": "09:00",
+      "time_estimated": "08:59",
       "flight_no": "XQ188",
       "airline": "Sun Express",
       "city": "Antalya",
@@ -339,7 +339,7 @@
       "baggage": "",
       "gate": "Ausgang 4 (Charter)",
       "status": "scheduled",
-      "status_text": "",
+      "status_text": "Vorhafen verlassen",
       "delay": 0
     },
     {
@@ -763,6 +763,23 @@
       "terminal": "C",
       "baggage": "",
       "gate": "Ausgang 1 (Linie)",
+      "status": "scheduled",
+      "status_text": "",
+      "delay": 0
+    },
+    {
+      "dt": 1791621600.0,
+      "time_scheduled": "10:40",
+      "time_estimated": "10:40",
+      "flight_no": "AP1633",
+      "airline": "Alba Star",
+      "city": "Palma de Mallorca",
+      "country": "Spanien",
+      "type": "Charter",
+      "type_source": "Flugtyp",
+      "terminal": "B",
+      "baggage": "",
+      "gate": "Ausgang 4 (Charter)",
       "status": "scheduled",
       "status_text": "",
       "delay": 0
