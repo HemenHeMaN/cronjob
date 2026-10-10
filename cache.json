@@ -1,41 +1,7 @@
 {
-  "updated_at": "10.10.2026 11:55",
+  "updated_at": "10.10.2026 12:00",
   "source": "Dus.com",
   "flights": [
-    {
-      "dt": 1791621300.0,
-      "time_scheduled": "10:35",
-      "time_estimated": "10:56",
-      "flight_no": "PC5001",
-      "airline": "Pegasus Airlines",
-      "city": "Antalya",
-      "country": "Türkei",
-      "type": "Charter",
-      "type_source": "Ausgang",
-      "terminal": "C",
-      "baggage": "17",
-      "gate": "Ausgang 6 (Charter)",
-      "status": "landed",
-      "status_text": "gelandet",
-      "delay": 21
-    },
-    {
-      "dt": 1791622200.0,
-      "time_scheduled": "10:50",
-      "time_estimated": "11:00",
-      "flight_no": "AF1606",
-      "airline": "Air France",
-      "city": "Paris-Charles de Gaulle",
-      "country": "Frankreich",
-      "type": "Charter",
-      "type_source": "Ausgang",
-      "terminal": "B",
-      "baggage": "9",
-      "gate": "Ausgang 4 (Charter)",
-      "status": "landed",
-      "status_text": "gelandet",
-      "delay": 10
-    },
     {
       "dt": 1791623100.0,
       "time_scheduled": "11:05",
@@ -243,7 +209,7 @@
     {
       "dt": 1791626400.0,
       "time_scheduled": "12:00",
-      "time_estimated": "12:23",
+      "time_estimated": "12:21",
       "flight_no": "DE1775",
       "airline": "Condor",
       "city": "Palma de Mallorca",
@@ -253,14 +219,14 @@
       "terminal": "B",
       "baggage": "11",
       "gate": "Ausgang 4 (Charter)",
-      "status": "scheduled",
-      "status_text": "Vorhafen verlassen",
-      "delay": 24
+      "status": "active",
+      "status_text": "Im Anflug",
+      "delay": 22
     },
     {
       "dt": 1791626700.0,
       "time_scheduled": "12:05",
-      "time_estimated": "12:01",
+      "time_estimated": "11:57",
       "flight_no": "EW9853",
       "airline": "Eurowings",
       "city": "Lamezia Terme (Kalabrien)",
@@ -270,8 +236,8 @@
       "terminal": "A",
       "baggage": "3",
       "gate": "Ausgang 1 (Linie)",
-      "status": "active",
-      "status_text": "im Anflug",
+      "status": "landed",
+      "status_text": "gelandet",
       "delay": 0
     },
     {
@@ -294,7 +260,7 @@
     {
       "dt": 1791627000.0,
       "time_scheduled": "12:10",
-      "time_estimated": "12:00",
+      "time_estimated": "12:12",
       "flight_no": "VY1894",
       "airline": "Vueling",
       "city": "Barcelona",
@@ -306,7 +272,7 @@
       "gate": "Ausgang 4 (Charter)",
       "status": "active",
       "status_text": "im Anflug",
-      "delay": 0
+      "delay": 3
     },
     {
       "dt": 1791627000.0,
@@ -372,8 +338,8 @@
       "terminal": "C",
       "baggage": "17",
       "gate": "Ausgang 6 (Charter)",
-      "status": "scheduled",
-      "status_text": "Vorhafen verlassen",
+      "status": "active",
+      "status_text": "im Anflug",
       "delay": 0
     },
     {
@@ -389,8 +355,8 @@
       "terminal": "B",
       "baggage": "13",
       "gate": "Ausgang 5 (Charter)",
-      "status": "scheduled",
-      "status_text": "Vorhafen verlassen",
+      "status": "active",
+      "status_text": "Im Anflug",
       "delay": 0
     },
     {
@@ -549,7 +515,7 @@
     {
       "dt": 1791630600.0,
       "time_scheduled": "13:10",
-      "time_estimated": "13:13",
+      "time_estimated": "13:14",
       "flight_no": "X34429",
       "airline": "Tuifly",
       "city": "Korfu",
@@ -561,7 +527,7 @@
       "gate": "Ausgang 4 (Charter)",
       "status": "scheduled",
       "status_text": "Vorhafen verlassen",
-      "delay": 4
+      "delay": 5
     },
     {
       "dt": 1791630900.0,
@@ -651,7 +617,7 @@
     {
       "dt": 1791633000.0,
       "time_scheduled": "13:50",
-      "time_estimated": "13:55",
+      "time_estimated": "13:54",
       "flight_no": "X34589",
       "airline": "Tuifly",
       "city": "Rhodos",
@@ -663,7 +629,7 @@
       "gate": "Ausgang 4 (Charter)",
       "status": "scheduled",
       "status_text": "Vorhafen verlassen",
-      "delay": 5
+      "delay": 4
     },
     {
       "dt": 1791633000.0,
@@ -923,7 +889,7 @@
     {
       "dt": 1791635400.0,
       "time_scheduled": "14:30",
-      "time_estimated": "14:22",
+      "time_estimated": "14:33",
       "flight_no": "EW9691",
       "airline": "Eurowings",
       "city": "Malta",
@@ -935,7 +901,7 @@
       "gate": "Ausgang 1 (Linie)",
       "status": "scheduled",
       "status_text": "",
-      "delay": 0
+      "delay": 3
     },
     {
       "dt": 1791635700.0,
@@ -1144,7 +1110,7 @@
     {
       "dt": 1791640200.0,
       "time_scheduled": "15:50",
-      "time_estimated": "16:03",
+      "time_estimated": "16:02",
       "flight_no": "X32117",
       "airline": "Tuifly",
       "city": "Fuerteventura",
@@ -1156,7 +1122,7 @@
       "gate": "Ausgang 4 (Charter)",
       "status": "scheduled",
       "status_text": "Vorhafen verlassen",
-      "delay": 13
+      "delay": 12
     },
     {
       "dt": 1791640200.0,
