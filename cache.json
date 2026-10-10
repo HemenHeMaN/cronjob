@@ -1,5 +1,5 @@
 {
-  "updated_at": "10.10.2026 13:40",
+  "updated_at": "10.10.2026 13:45",
   "source": "Dus.com",
   "flights": [
     {
@@ -83,23 +83,6 @@
       "terminal": "A",
       "baggage": "4",
       "gate": "Ausgang 1 (Linie)",
-      "status": "landed",
-      "status_text": "gelandet",
-      "delay": 0
-    },
-    {
-      "dt": 1791629400.0,
-      "time_scheduled": "12:50",
-      "time_estimated": "12:41",
-      "flight_no": "DE1613",
-      "airline": "Condor",
-      "city": "Korfu",
-      "country": "Griechenland",
-      "type": "Charter",
-      "type_source": "Ausgang",
-      "terminal": "B",
-      "baggage": "9",
-      "gate": "Ausgang 4 (Charter)",
       "status": "landed",
       "status_text": "gelandet",
       "delay": 0
@@ -254,7 +237,7 @@
       "baggage": "17",
       "gate": "Ausgang 6 (Charter)",
       "status": "active",
-      "status_text": "Im Anflug",
+      "status_text": "im Anflug",
       "delay": 2
     },
     {
@@ -277,7 +260,7 @@
     {
       "dt": 1791633300.0,
       "time_scheduled": "13:55",
-      "time_estimated": "13:51",
+      "time_estimated": "13:43",
       "flight_no": "X32253",
       "airline": "Tuifly",
       "city": "Jerez de la Frontera",
@@ -287,8 +270,8 @@
       "terminal": "B",
       "baggage": "11",
       "gate": "Ausgang 4 (Charter)",
-      "status": "active",
-      "status_text": "im Anflug",
+      "status": "landed",
+      "status_text": "gelandet",
       "delay": 0
     },
     {
@@ -338,14 +321,14 @@
       "terminal": "B",
       "baggage": "9",
       "gate": "Ausgang 4 (Charter)",
-      "status": "scheduled",
-      "status_text": "Vorhafen verlassen",
+      "status": "active",
+      "status_text": "im Anflug",
       "delay": 1
     },
     {
       "dt": 1791633900.0,
       "time_scheduled": "14:05",
-      "time_estimated": "14:22",
+      "time_estimated": "14:17",
       "flight_no": "LX1018",
       "airline": "Swiss",
       "city": "Zürich",
@@ -357,7 +340,7 @@
       "gate": "Ausgang 1 (Linie)",
       "status": "scheduled",
       "status_text": "Vorhafen verlassen",
-      "delay": 18
+      "delay": 13
     },
     {
       "dt": 1791633900.0,
@@ -872,7 +855,7 @@
     {
       "dt": 1791643200.0,
       "time_scheduled": "16:40",
-      "time_estimated": "16:40",
+      "time_estimated": "17:04",
       "flight_no": "TU526",
       "airline": "Tunisair",
       "city": "Tunis",
@@ -884,12 +867,12 @@
       "gate": "Ausgang 1 (Linie)",
       "status": "scheduled",
       "status_text": "",
-      "delay": 0
+      "delay": 24
     },
     {
       "dt": 1791643200.0,
       "time_scheduled": "16:40",
-      "time_estimated": "16:40",
+      "time_estimated": "17:13",
       "flight_no": "LH2018",
       "airline": "Lufthansa",
       "city": "München",
@@ -901,12 +884,12 @@
       "gate": "Ausgang 1 (Linie)",
       "status": "scheduled",
       "status_text": "",
-      "delay": 0
+      "delay": 34
     },
     {
       "dt": 1791643500.0,
       "time_scheduled": "16:45",
-      "time_estimated": "17:55",
+      "time_estimated": "17:41",
       "flight_no": "EW5703",
       "airline": "Eurowings",
       "city": "Pristina",
@@ -918,7 +901,7 @@
       "gate": "Ausgang 1 (Linie)",
       "status": "scheduled",
       "status_text": "",
-      "delay": 70
+      "delay": 56
     },
     {
       "dt": 1791644100.0,
@@ -940,7 +923,7 @@
     {
       "dt": 1791644100.0,
       "time_scheduled": "16:55",
-      "time_estimated": "16:29",
+      "time_estimated": "16:53",
       "flight_no": "VF005",
       "airline": "A Jet",
       "city": "Ankara-Esenboğa",
