@@ -1,5 +1,5 @@
 {
-  "updated_at": "10.10.2026 09:10",
+  "updated_at": "10.10.2026 09:15",
   "source": "Dus.com",
   "flights": [
     {
@@ -260,7 +260,7 @@
     {
       "dt": 1791617400.0,
       "time_scheduled": "09:30",
-      "time_estimated": "10:18",
+      "time_estimated": "10:24",
       "flight_no": "SK1629",
       "airline": "Scandinavian Airlines",
       "city": "Kopenhagen",
@@ -272,7 +272,7 @@
       "gate": "Ausgang 1 (Linie)",
       "status": "scheduled",
       "status_text": "",
-      "delay": 49
+      "delay": 55
     },
     {
       "dt": 1791617400.0,
@@ -288,7 +288,7 @@
       "baggage": "1",
       "gate": "Ausgang 1 (Linie)",
       "status": "active",
-      "status_text": "Im Anflug",
+      "status_text": "im Anflug",
       "delay": 1
     },
     {
@@ -379,7 +379,7 @@
     {
       "dt": 1791618900.0,
       "time_scheduled": "09:55",
-      "time_estimated": "10:27",
+      "time_estimated": "10:36",
       "flight_no": "EW9761",
       "airline": "Eurowings",
       "city": "Zürich",
@@ -391,12 +391,12 @@
       "gate": "Ausgang 1 (Linie)",
       "status": "scheduled",
       "status_text": "",
-      "delay": 33
+      "delay": 42
     },
     {
       "dt": 1791619200.0,
       "time_scheduled": "10:00",
-      "time_estimated": "09:57",
+      "time_estimated": "10:07",
       "flight_no": "EW9009",
       "airline": "Eurowings",
       "city": "Sylt (Westerland)",
@@ -408,7 +408,7 @@
       "gate": "Ausgang 1 (Linie)",
       "status": "scheduled",
       "status_text": "",
-      "delay": 0
+      "delay": 8
     },
     {
       "dt": 1791619500.0,
@@ -498,7 +498,7 @@
     {
       "dt": 1791620700.0,
       "time_scheduled": "10:25",
-      "time_estimated": "10:30",
+      "time_estimated": "10:24",
       "flight_no": "EW9331",
       "airline": "Eurowings",
       "city": "Birmingham",
@@ -509,8 +509,8 @@
       "baggage": "",
       "gate": "Ausgang 1 (Linie)",
       "status": "scheduled",
-      "status_text": "",
-      "delay": 5
+      "status_text": "Vorhafen verlassen",
+      "delay": 0
     },
     {
       "dt": 1791620700.0,
@@ -532,7 +532,7 @@
     {
       "dt": 1791621000.0,
       "time_scheduled": "10:30",
-      "time_estimated": "10:18",
+      "time_estimated": "10:15",
       "flight_no": "EW9463",
       "airline": "Eurowings",
       "city": "London-Heathrow",
@@ -543,7 +543,7 @@
       "baggage": "",
       "gate": "Ausgang 1 (Linie)",
       "status": "scheduled",
-      "status_text": "",
+      "status_text": "Vorhafen verlassen",
       "delay": 0
     },
     {
@@ -753,7 +753,7 @@
     {
       "dt": 1791623100.0,
       "time_scheduled": "11:05",
-      "time_estimated": "10:56",
+      "time_estimated": "11:06",
       "flight_no": "EW9921",
       "airline": "Eurowings",
       "city": "Mostar",
@@ -765,7 +765,7 @@
       "gate": "Ausgang 1 (Linie)",
       "status": "scheduled",
       "status_text": "",
-      "delay": 0
+      "delay": 2
     },
     {
       "dt": 1791623400.0,
@@ -1229,7 +1229,7 @@
     {
       "dt": 1791629400.0,
       "time_scheduled": "12:50",
-      "time_estimated": "12:50",
+      "time_estimated": "12:33",
       "flight_no": "XQ288",
       "airline": "Sun Express",
       "city": "Antalya",
@@ -1240,7 +1240,7 @@
       "baggage": "",
       "gate": "Ausgang 4 (Charter)",
       "status": "scheduled",
-      "status_text": "",
+      "status_text": "Vorhafen verlassen",
       "delay": 0
     },
     {
@@ -1545,6 +1545,57 @@
       "terminal": "C",
       "baggage": "",
       "gate": "Ausgang 4 (Charter)",
+      "status": "scheduled",
+      "status_text": "",
+      "delay": 0
+    },
+    {
+      "dt": 1791634500.0,
+      "time_scheduled": "14:15",
+      "time_estimated": "14:15",
+      "flight_no": "MS733",
+      "airline": "Egypt Air",
+      "city": "Kairo",
+      "country": "Ägypten",
+      "type": "Linie",
+      "type_source": "Airline",
+      "terminal": "C",
+      "baggage": "",
+      "gate": "Ausgang 1 (Linie)",
+      "status": "scheduled",
+      "status_text": "",
+      "delay": 0
+    },
+    {
+      "dt": 1791634500.0,
+      "time_scheduled": "14:15",
+      "time_estimated": "14:15",
+      "flight_no": "LH074",
+      "airline": "Lufthansa",
+      "city": "Frankfurt",
+      "country": "Deutschland",
+      "type": "Linie",
+      "type_source": "Airline",
+      "terminal": "A",
+      "baggage": "",
+      "gate": "Ausgang 1 (Linie)",
+      "status": "scheduled",
+      "status_text": "",
+      "delay": 0
+    },
+    {
+      "dt": 1791634500.0,
+      "time_scheduled": "14:15",
+      "time_estimated": "14:15",
+      "flight_no": "OS163",
+      "airline": "Austrian Airlines",
+      "city": "Wien",
+      "country": "Österreich",
+      "type": "Linie",
+      "type_source": "Airline",
+      "terminal": "A",
+      "baggage": "",
+      "gate": "Ausgang 1 (Linie)",
       "status": "scheduled",
       "status_text": "",
       "delay": 0
