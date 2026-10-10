@@ -1,5 +1,5 @@
 {
-  "updated_at": "10.10.2026 14:20",
+  "updated_at": "10.10.2026 14:25",
   "source": "Dus.com",
   "flights": [
     {
@@ -73,7 +73,7 @@
     {
       "dt": 1791633300.0,
       "time_scheduled": "13:55",
-      "time_estimated": "14:29",
+      "time_estimated": "14:22",
       "flight_no": "KL1801",
       "airline": "KLM",
       "city": "Amsterdam",
@@ -83,9 +83,9 @@
       "terminal": "B",
       "baggage": "14",
       "gate": "Ausgang 5 (Charter)",
-      "status": "active",
-      "status_text": "im Anflug",
-      "delay": 35
+      "status": "landed",
+      "status_text": "gelandet",
+      "delay": 27
     },
     {
       "dt": 1791633300.0,
@@ -277,7 +277,7 @@
     {
       "dt": 1791635400.0,
       "time_scheduled": "14:30",
-      "time_estimated": "14:31",
+      "time_estimated": "14:23",
       "flight_no": "EW9579",
       "airline": "Eurowings",
       "city": "Palma de Mallorca",
@@ -287,9 +287,9 @@
       "terminal": "A",
       "baggage": "4",
       "gate": "Ausgang 1 (Linie)",
-      "status": "active",
-      "status_text": "im Anflug",
-      "delay": 2
+      "status": "landed",
+      "status_text": "gelandet",
+      "delay": 0
     },
     {
       "dt": 1791635400.0,
@@ -321,8 +321,8 @@
       "terminal": "B",
       "baggage": "8",
       "gate": "Ausgang 4 (Charter)",
-      "status": "scheduled",
-      "status_text": "Vorhafen verlassen",
+      "status": "active",
+      "status_text": "Im Anflug",
       "delay": 13
     },
     {
@@ -389,8 +389,8 @@
       "terminal": "A",
       "baggage": "3",
       "gate": "Ausgang 1 (Linie)",
-      "status": "scheduled",
-      "status_text": "Vorhafen verlassen",
+      "status": "active",
+      "status_text": "Im Anflug",
       "delay": 0
     },
     {
@@ -407,7 +407,7 @@
       "baggage": "12",
       "gate": "Ausgang 4 (Charter)",
       "status": "active",
-      "status_text": "Im Anflug",
+      "status_text": "im Anflug",
       "delay": 0
     },
     {
@@ -787,7 +787,7 @@
     {
       "dt": 1791645300.0,
       "time_scheduled": "17:15",
-      "time_estimated": "17:15",
+      "time_estimated": "17:27",
       "flight_no": "EW9583",
       "airline": "Eurowings",
       "city": "Palma de Mallorca",
@@ -799,7 +799,7 @@
       "gate": "Ausgang 1 (Linie)",
       "status": "scheduled",
       "status_text": "",
-      "delay": 0
+      "delay": 13
     },
     {
       "dt": 1791645300.0,
@@ -1076,7 +1076,7 @@
     {
       "dt": 1791651600.0,
       "time_scheduled": "19:00",
-      "time_estimated": "19:00",
+      "time_estimated": "19:02",
       "flight_no": "XR6598",
       "airline": "Corendon Airlines Europe",
       "city": "Hurghada",
@@ -1087,8 +1087,8 @@
       "baggage": "",
       "gate": "Ausgang 4 (Charter)",
       "status": "scheduled",
-      "status_text": "",
-      "delay": 0
+      "status_text": "Vorhafen verlassen",
+      "delay": 2
     },
     {
       "dt": 1791651900.0,
@@ -1273,6 +1273,23 @@
       "terminal": "C",
       "baggage": "",
       "gate": "Ausgang 4 (Charter)",
+      "status": "scheduled",
+      "status_text": "",
+      "delay": 0
+    },
+    {
+      "dt": 1791653100.0,
+      "time_scheduled": "19:25",
+      "time_estimated": "19:25",
+      "flight_no": "PC1005",
+      "airline": "Pegasus Airlines",
+      "city": "Istanbul-Sabiha Gökçen",
+      "country": "Türkei",
+      "type": "Linie",
+      "type_source": "Airline",
+      "terminal": "C",
+      "baggage": "",
+      "gate": "Ausgang 1 (Linie)",
       "status": "scheduled",
       "status_text": "",
       "delay": 0
