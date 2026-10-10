@@ -1,5 +1,5 @@
 {
-  "updated_at": "10.10.2026 10:30",
+  "updated_at": "10.10.2026 10:35",
   "source": "Dus.com",
   "flights": [
     {
@@ -37,40 +37,6 @@
       "delay": 58
     },
     {
-      "dt": 1791617700.0,
-      "time_scheduled": "09:35",
-      "time_estimated": "09:31",
-      "flight_no": "LO403",
-      "airline": "LOT Polish Airlines",
-      "city": "Warschau",
-      "country": "Polen",
-      "type": "Charter",
-      "type_source": "Ausgang",
-      "terminal": "A",
-      "baggage": "14",
-      "gate": "Ausgang 5 (Charter)",
-      "status": "landed",
-      "status_text": "gelandet",
-      "delay": 0
-    },
-    {
-      "dt": 1791618000.0,
-      "time_scheduled": "09:40",
-      "time_estimated": "09:34",
-      "flight_no": "OU422",
-      "airline": "Croatia Airlines",
-      "city": "Split",
-      "country": "Kroatien",
-      "type": "Charter",
-      "type_source": "Ausgang",
-      "terminal": "B",
-      "baggage": "7",
-      "gate": "Ausgang 4 (Charter)",
-      "status": "landed",
-      "status_text": "gelandet",
-      "delay": 0
-    },
-    {
       "dt": 1791618000.0,
       "time_scheduled": "09:40",
       "time_estimated": "09:36",
@@ -100,23 +66,6 @@
       "terminal": "C",
       "baggage": "11",
       "gate": "Ausgang 4 (Charter)",
-      "status": "landed",
-      "status_text": "gelandet",
-      "delay": 0
-    },
-    {
-      "dt": 1791618600.0,
-      "time_scheduled": "09:50",
-      "time_estimated": "09:32",
-      "flight_no": "XQ794",
-      "airline": "Sun Express",
-      "city": "Ankara-Esenboğa",
-      "country": "Türkei",
-      "type": "Charter",
-      "type_source": "Ausgang",
-      "terminal": "C",
-      "baggage": "13",
-      "gate": "Ausgang 5 (Charter)",
       "status": "landed",
       "status_text": "gelandet",
       "delay": 0
@@ -328,7 +277,7 @@
     {
       "dt": 1791621300.0,
       "time_scheduled": "10:35",
-      "time_estimated": "10:36",
+      "time_estimated": "10:31",
       "flight_no": "GQ890",
       "airline": "Sky Express",
       "city": "Athen",
@@ -338,9 +287,9 @@
       "terminal": "B",
       "baggage": "10",
       "gate": "Ausgang 4 (Charter)",
-      "status": "active",
-      "status_text": "im Anflug",
-      "delay": 1
+      "status": "landed",
+      "status_text": "gelandet",
+      "delay": 0
     },
     {
       "dt": 1791621300.0,
@@ -362,7 +311,7 @@
     {
       "dt": 1791621600.0,
       "time_scheduled": "10:40",
-      "time_estimated": "10:42",
+      "time_estimated": "10:43",
       "flight_no": "AP1633",
       "airline": "Alba Star",
       "city": "Palma de Mallorca",
@@ -374,7 +323,7 @@
       "gate": "Ausgang 4 (Charter)",
       "status": "active",
       "status_text": "im Anflug",
-      "delay": 3
+      "delay": 4
     },
     {
       "dt": 1791621900.0,
@@ -389,8 +338,8 @@
       "terminal": "A",
       "baggage": "",
       "gate": "Ausgang 1 (Linie)",
-      "status": "scheduled",
-      "status_text": "Vorhafen verlassen",
+      "status": "active",
+      "status_text": "Im Anflug",
       "delay": 5
     },
     {
@@ -413,7 +362,7 @@
     {
       "dt": 1791622200.0,
       "time_scheduled": "10:50",
-      "time_estimated": "10:36",
+      "time_estimated": "10:37",
       "flight_no": "DE1827",
       "airline": "Condor",
       "city": "Olbia (Sardinien)",
@@ -458,13 +407,13 @@
       "baggage": "20",
       "gate": "Ausgang 6 (Charter)",
       "status": "active",
-      "status_text": "Im Anflug",
+      "status_text": "im Anflug",
       "delay": 0
     },
     {
       "dt": 1791622800.0,
       "time_scheduled": "11:00",
-      "time_estimated": "10:40",
+      "time_estimated": "10:41",
       "flight_no": "BJ2640",
       "airline": "Nouvelair",
       "city": "Djerba",
@@ -566,7 +515,7 @@
     {
       "dt": 1791625200.0,
       "time_scheduled": "11:40",
-      "time_estimated": "11:40",
+      "time_estimated": "11:38",
       "flight_no": "X32313",
       "airline": "Tuifly",
       "city": "Palma de Mallorca",
@@ -906,7 +855,7 @@
     {
       "dt": 1791629100.0,
       "time_scheduled": "12:45",
-      "time_estimated": "13:00",
+      "time_estimated": "13:04",
       "flight_no": "DE1849",
       "airline": "Condor",
       "city": "Palma de Mallorca",
@@ -918,12 +867,12 @@
       "gate": "Ausgang 4 (Charter)",
       "status": "scheduled",
       "status_text": "",
-      "delay": 15
+      "delay": 19
     },
     {
       "dt": 1791629400.0,
       "time_scheduled": "12:50",
-      "time_estimated": "12:33",
+      "time_estimated": "12:37",
       "flight_no": "IV8220",
       "airline": "GP Aviation",
       "city": "Pristina",
@@ -934,7 +883,7 @@
       "baggage": "",
       "gate": "Ausgang 4 (Charter)",
       "status": "scheduled",
-      "status_text": "",
+      "status_text": "Vorhafen verlassen",
       "delay": 0
     },
     {
@@ -1042,7 +991,7 @@
     {
       "dt": 1791631200.0,
       "time_scheduled": "13:20",
-      "time_estimated": "12:56",
+      "time_estimated": "12:55",
       "flight_no": "EW9655",
       "airline": "Eurowings",
       "city": "Thessaloniki",
@@ -1053,7 +1002,7 @@
       "baggage": "",
       "gate": "Ausgang 1 (Linie)",
       "status": "scheduled",
-      "status_text": "",
+      "status_text": "Vorhafen verlassen",
       "delay": 0
     },
     {
@@ -1093,7 +1042,7 @@
     {
       "dt": 1791632400.0,
       "time_scheduled": "13:40",
-      "time_estimated": "13:40",
+      "time_estimated": "13:38",
       "flight_no": "EW9855",
       "airline": "Eurowings",
       "city": "Brindisi",
@@ -1178,7 +1127,7 @@
     {
       "dt": 1791633300.0,
       "time_scheduled": "13:55",
-      "time_estimated": "13:55",
+      "time_estimated": "13:44",
       "flight_no": "DE1615",
       "airline": "Condor",
       "city": "Chania (Kreta)",
@@ -1189,7 +1138,7 @@
       "baggage": "",
       "gate": "Ausgang 4 (Charter)",
       "status": "scheduled",
-      "status_text": "",
+      "status_text": "Vorhafen verlassen",
       "delay": 0
     },
     {
@@ -1545,6 +1494,23 @@
       "terminal": "C",
       "baggage": "",
       "gate": "Ausgang 4 (Charter)",
+      "status": "scheduled",
+      "status_text": "",
+      "delay": 0
+    },
+    {
+      "dt": 1791639300.0,
+      "time_scheduled": "15:35",
+      "time_estimated": "15:35",
+      "flight_no": "RJ129",
+      "airline": "Royal Jordanian",
+      "city": "Amman-Queen Alia",
+      "country": "Jordanien",
+      "type": "Linie",
+      "type_source": "Airline",
+      "terminal": "C",
+      "baggage": "",
+      "gate": "Ausgang 1 (Linie)",
       "status": "scheduled",
       "status_text": "",
       "delay": 0
