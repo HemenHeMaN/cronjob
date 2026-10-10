@@ -1,5 +1,5 @@
 {
-  "updated_at": "10.10.2026 21:05",
+  "updated_at": "10.10.2026 21:10",
   "source": "Dus.com",
   "flights": [
     {
@@ -35,40 +35,6 @@
       "status": "landed",
       "status_text": "gelandet",
       "delay": 64
-    },
-    {
-      "dt": 1791655500.0,
-      "time_scheduled": "20:05",
-      "time_estimated": "20:09",
-      "flight_no": "EW9817",
-      "airline": "Eurowings",
-      "city": "Catania (Sizilien)",
-      "country": "Italien",
-      "type": "Charter",
-      "type_source": "Ausgang",
-      "terminal": "B",
-      "baggage": "14",
-      "gate": "Ausgang 5 (Charter)",
-      "status": "landed",
-      "status_text": "gelandet",
-      "delay": 5
-    },
-    {
-      "dt": 1791655800.0,
-      "time_scheduled": "20:10",
-      "time_estimated": "20:06",
-      "flight_no": "VY1898",
-      "airline": "Vueling",
-      "city": "Barcelona",
-      "country": "Spanien",
-      "type": "Charter",
-      "type_source": "Ausgang",
-      "terminal": "B",
-      "baggage": "8",
-      "gate": "Ausgang 4 (Charter)",
-      "status": "landed",
-      "status_text": "gelandet",
-      "delay": 0
     },
     {
       "dt": 1791656400.0,
@@ -209,7 +175,7 @@
     {
       "dt": 1791658800.0,
       "time_scheduled": "21:00",
-      "time_estimated": "21:09",
+      "time_estimated": "21:05",
       "flight_no": "DE1621",
       "airline": "Condor",
       "city": "Kos",
@@ -219,14 +185,14 @@
       "terminal": "B",
       "baggage": "7",
       "gate": "Ausgang 4 (Charter)",
-      "status": "active",
-      "status_text": "im Anflug",
-      "delay": 9
+      "status": "landed",
+      "status_text": "gelandet",
+      "delay": 6
     },
     {
       "dt": 1791659100.0,
       "time_scheduled": "21:05",
-      "time_estimated": "21:25",
+      "time_estimated": "21:26",
       "flight_no": "EW9573",
       "airline": "Eurowings",
       "city": "Palma de Mallorca",
@@ -238,7 +204,7 @@
       "gate": "Ausgang 1 (Linie)",
       "status": "active",
       "status_text": "im Anflug",
-      "delay": 20
+      "delay": 21
     },
     {
       "dt": 1791659700.0,
@@ -311,7 +277,7 @@
     {
       "dt": 1791661200.0,
       "time_scheduled": "21:40",
-      "time_estimated": "21:19",
+      "time_estimated": "21:20",
       "flight_no": "TK1529",
       "airline": "Turkish Airlines",
       "city": "Istanbul",
@@ -322,7 +288,7 @@
       "baggage": "14",
       "gate": "Ausgang 5 (Charter)",
       "status": "active",
-      "status_text": "Im Anflug",
+      "status_text": "im Anflug",
       "delay": 0
     },
     {
@@ -367,11 +333,11 @@
       "airline": "Eurowings",
       "city": "Thessaloniki",
       "country": "Griechenland",
-      "type": "Linie",
-      "type_source": "Airline",
+      "type": "Charter",
+      "type_source": "Ausgang",
       "terminal": "B",
-      "baggage": "",
-      "gate": "Ausgang 1 (Linie)",
+      "baggage": "7",
+      "gate": "Ausgang 4 (Charter)",
       "status": "scheduled",
       "status_text": "Vorhafen verlassen",
       "delay": 15
@@ -487,10 +453,10 @@
       "city": "Djerba",
       "country": "Tunesien",
       "type": "Charter",
-      "type_source": "Airline",
+      "type_source": "Ausgang",
       "terminal": "C",
-      "baggage": "",
-      "gate": "Ausgang 4 (Charter)",
+      "baggage": "19",
+      "gate": "Ausgang 6 (Charter)",
       "status": "scheduled",
       "status_text": "Vorhafen verlassen",
       "delay": 10
@@ -719,15 +685,15 @@
     {
       "dt": 1791663600.0,
       "time_scheduled": "22:20",
-      "time_estimated": "22:03",
+      "time_estimated": "22:08",
       "flight_no": "EW9869",
       "airline": "Eurowings",
       "city": "Cagliari (Sardinien)",
       "country": "Italien",
       "type": "Linie",
-      "type_source": "Airline",
+      "type_source": "Ausgang",
       "terminal": "B",
-      "baggage": "",
+      "baggage": "3",
       "gate": "Ausgang 1 (Linie)",
       "status": "scheduled",
       "status_text": "Vorhafen verlassen",
@@ -787,7 +753,7 @@
     {
       "dt": 1791663900.0,
       "time_scheduled": "22:25",
-      "time_estimated": "22:17",
+      "time_estimated": "22:52",
       "flight_no": "KL1805",
       "airline": "KLM",
       "city": "Amsterdam",
@@ -799,7 +765,7 @@
       "gate": "Ausgang 1 (Linie)",
       "status": "scheduled",
       "status_text": "",
-      "delay": 0
+      "delay": 28
     },
     {
       "dt": 1791663900.0,
@@ -923,7 +889,7 @@
     {
       "dt": 1791664800.0,
       "time_scheduled": "22:40",
-      "time_estimated": "22:51",
+      "time_estimated": "22:56",
       "flight_no": "DE1415",
       "airline": "Condor",
       "city": "Funchal (Madeira)",
@@ -935,7 +901,7 @@
       "gate": "Ausgang 4 (Charter)",
       "status": "scheduled",
       "status_text": "Vorhafen verlassen",
-      "delay": 11
+      "delay": 17
     },
     {
       "dt": 1791664800.0,
