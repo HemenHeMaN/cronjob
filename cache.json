@@ -1,5 +1,5 @@
 {
-  "updated_at": "10.10.2026 23:15",
+  "updated_at": "10.10.2026 23:20",
   "source": "Dus.com",
   "flights": [
     {
@@ -71,40 +71,6 @@
       "delay": 23
     },
     {
-      "dt": 1791662400.0,
-      "time_scheduled": "22:00",
-      "time_estimated": "22:16",
-      "flight_no": "DE1617",
-      "airline": "Condor",
-      "city": "Heraklion (Kreta)",
-      "country": "Griechenland",
-      "type": "Linie",
-      "type_source": "Ausgang",
-      "terminal": "B",
-      "baggage": "4",
-      "gate": "Ausgang 1 (Linie)",
-      "status": "landed",
-      "status_text": "gelandet",
-      "delay": 17
-    },
-    {
-      "dt": 1791663000.0,
-      "time_scheduled": "22:10",
-      "time_estimated": "22:19",
-      "flight_no": "DE1795",
-      "airline": "Condor",
-      "city": "Heraklion (Kreta)",
-      "country": "Griechenland",
-      "type": "Charter",
-      "type_source": "Ausgang",
-      "terminal": "B",
-      "baggage": "9",
-      "gate": "Ausgang 4 (Charter)",
-      "status": "landed",
-      "status_text": "gelandet",
-      "delay": 10
-    },
-    {
       "dt": 1791663300.0,
       "time_scheduled": "22:15",
       "time_estimated": "22:38",
@@ -154,23 +120,6 @@
       "status": "landed",
       "status_text": "gelandet",
       "delay": 53
-    },
-    {
-      "dt": 1791663600.0,
-      "time_scheduled": "22:20",
-      "time_estimated": "22:18",
-      "flight_no": "IB1325",
-      "airline": "Iberia",
-      "city": "Madrid-Barajas",
-      "country": "Spanien",
-      "type": "Charter",
-      "type_source": "Ausgang",
-      "terminal": "B",
-      "baggage": "13",
-      "gate": "Ausgang 5 (Charter)",
-      "status": "landed",
-      "status_text": "gelandet",
-      "delay": 0
     },
     {
       "dt": 1791663900.0,
@@ -277,7 +226,7 @@
     {
       "dt": 1791664500.0,
       "time_scheduled": "22:35",
-      "time_estimated": "23:16",
+      "time_estimated": "23:15",
       "flight_no": "EW9983",
       "airline": "Eurowings",
       "city": "Hurghada",
@@ -287,9 +236,9 @@
       "terminal": "C",
       "baggage": "14",
       "gate": "Ausgang 5 (Charter)",
-      "status": "active",
-      "status_text": "im Anflug",
-      "delay": 42
+      "status": "landed",
+      "status_text": "gelandet",
+      "delay": 40
     },
     {
       "dt": 1791664500.0,
