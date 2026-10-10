@@ -1,24 +1,7 @@
 {
-  "updated_at": "10.10.2026 07:25",
+  "updated_at": "10.10.2026 07:30",
   "source": "Dus.com",
   "flights": [
-    {
-      "dt": 1791607500.0,
-      "time_scheduled": "06:45",
-      "time_estimated": "06:29",
-      "flight_no": "XQ1350",
-      "airline": "Sun Express",
-      "city": "Samsun",
-      "country": "Türkei",
-      "type": "Charter",
-      "type_source": "Ausgang",
-      "terminal": "C",
-      "baggage": "18",
-      "gate": "Ausgang 6 (Charter)",
-      "status": "landed",
-      "status_text": "gelandet",
-      "delay": 0
-    },
     {
       "dt": 1791607800.0,
       "time_scheduled": "06:50",
@@ -56,7 +39,7 @@
     {
       "dt": 1791610800.0,
       "time_scheduled": "07:40",
-      "time_estimated": "07:53",
+      "time_estimated": "07:56",
       "flight_no": "KL1797",
       "airline": "KLM",
       "city": "Amsterdam",
@@ -67,8 +50,8 @@
       "baggage": "7",
       "gate": "Ausgang 4 (Charter)",
       "status": "scheduled",
-      "status_text": "",
-      "delay": 14
+      "status_text": "Vorhafen verlassen",
+      "delay": 17
     },
     {
       "dt": 1791611100.0,
@@ -84,7 +67,7 @@
       "baggage": "18",
       "gate": "Ausgang 6 (Charter)",
       "status": "active",
-      "status_text": "Im Anflug",
+      "status_text": "im Anflug",
       "delay": 0
     },
     {
@@ -100,8 +83,8 @@
       "terminal": "C",
       "baggage": "12",
       "gate": "Ausgang 4 (Charter)",
-      "status": "scheduled",
-      "status_text": "Vorhafen verlassen",
+      "status": "active",
+      "status_text": "Im Anflug",
       "delay": 1
     },
     {
@@ -141,7 +124,7 @@
     {
       "dt": 1791614400.0,
       "time_scheduled": "08:40",
-      "time_estimated": "08:11",
+      "time_estimated": "08:12",
       "flight_no": "EY133",
       "airline": "Etihad Airways",
       "city": "Abu Dhabi",
@@ -226,7 +209,7 @@
     {
       "dt": 1791615000.0,
       "time_scheduled": "08:50",
-      "time_estimated": "08:45",
+      "time_estimated": "08:43",
       "flight_no": "OS161",
       "airline": "Austrian Airlines",
       "city": "Wien",
@@ -237,7 +220,7 @@
       "baggage": "",
       "gate": "Ausgang 1 (Linie)",
       "status": "scheduled",
-      "status_text": "",
+      "status_text": "Vorhafen verlassen",
       "delay": 0
     },
     {
@@ -600,7 +583,7 @@
     {
       "dt": 1791620700.0,
       "time_scheduled": "10:25",
-      "time_estimated": "10:20",
+      "time_estimated": "10:35",
       "flight_no": "EW9771",
       "airline": "Eurowings",
       "city": "Prag",
@@ -612,12 +595,12 @@
       "gate": "Ausgang 1 (Linie)",
       "status": "scheduled",
       "status_text": "",
-      "delay": 0
+      "delay": 11
     },
     {
       "dt": 1791620700.0,
       "time_scheduled": "10:25",
-      "time_estimated": "10:25",
+      "time_estimated": "10:30",
       "flight_no": "EW9331",
       "airline": "Eurowings",
       "city": "Birmingham",
@@ -629,7 +612,7 @@
       "gate": "Ausgang 1 (Linie)",
       "status": "scheduled",
       "status_text": "",
-      "delay": 0
+      "delay": 5
     },
     {
       "dt": 1791620700.0,
@@ -651,7 +634,7 @@
     {
       "dt": 1791621000.0,
       "time_scheduled": "10:30",
-      "time_estimated": "10:26",
+      "time_estimated": "10:21",
       "flight_no": "EW9463",
       "airline": "Eurowings",
       "city": "London-Heathrow",
@@ -685,7 +668,7 @@
     {
       "dt": 1791621000.0,
       "time_scheduled": "10:30",
-      "time_estimated": "10:24",
+      "time_estimated": "10:25",
       "flight_no": "AY1393",
       "airline": "Finnair",
       "city": "Helsinki",
@@ -821,7 +804,7 @@
     {
       "dt": 1791622500.0,
       "time_scheduled": "10:55",
-      "time_estimated": "10:55",
+      "time_estimated": "10:51",
       "flight_no": "FH1193",
       "airline": "Freebird Airlines",
       "city": "Antalya",
@@ -832,7 +815,7 @@
       "baggage": "",
       "gate": "Ausgang 4 (Charter)",
       "status": "scheduled",
-      "status_text": "",
+      "status_text": "Vorhafen verlassen",
       "delay": 0
     },
     {
@@ -1169,6 +1152,40 @@
       "type": "Charter",
       "type_source": "Flugtyp",
       "terminal": "C",
+      "baggage": "",
+      "gate": "Ausgang 4 (Charter)",
+      "status": "scheduled",
+      "status_text": "",
+      "delay": 0
+    },
+    {
+      "dt": 1791628200.0,
+      "time_scheduled": "12:30",
+      "time_estimated": "12:30",
+      "flight_no": "XC104",
+      "airline": "Corendon Airlines",
+      "city": "Antalya",
+      "country": "Türkei",
+      "type": "Charter",
+      "type_source": "Airline",
+      "terminal": "C",
+      "baggage": "",
+      "gate": "Ausgang 4 (Charter)",
+      "status": "scheduled",
+      "status_text": "",
+      "delay": 0
+    },
+    {
+      "dt": 1791628200.0,
+      "time_scheduled": "12:30",
+      "time_estimated": "12:30",
+      "flight_no": "DE1781",
+      "airline": "Condor",
+      "city": "Preveza-Aktion",
+      "country": "Griechenland",
+      "type": "Charter",
+      "type_source": "Airline",
+      "terminal": "B",
       "baggage": "",
       "gate": "Ausgang 4 (Charter)",
       "status": "scheduled",
