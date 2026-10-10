@@ -1,5 +1,5 @@
 {
-  "updated_at": "10.10.2026 15:40",
+  "updated_at": "10.10.2026 15:45",
   "source": "Dus.com",
   "flights": [
     {
@@ -135,7 +135,7 @@
       "baggage": "9",
       "gate": "Ausgang 4 (Charter)",
       "status": "active",
-      "status_text": "Im Anflug",
+      "status_text": "im Anflug",
       "delay": 3
     },
     {
@@ -175,7 +175,7 @@
     {
       "dt": 1791640800.0,
       "time_scheduled": "16:00",
-      "time_estimated": "16:06",
+      "time_estimated": "16:00",
       "flight_no": "PC1003",
       "airline": "Pegasus Airlines",
       "city": "Istanbul-Sabiha Gökçen",
@@ -186,8 +186,8 @@
       "baggage": "19",
       "gate": "Ausgang 6 (Charter)",
       "status": "active",
-      "status_text": "Im Anflug",
-      "delay": 7
+      "status_text": "im Anflug",
+      "delay": 1
     },
     {
       "dt": 1791640800.0,
@@ -243,7 +243,7 @@
     {
       "dt": 1791641400.0,
       "time_scheduled": "16:10",
-      "time_estimated": "15:55",
+      "time_estimated": "15:50",
       "flight_no": "DE3655",
       "airline": "Condor",
       "city": "Genua",
@@ -294,7 +294,7 @@
     {
       "dt": 1791643200.0,
       "time_scheduled": "16:40",
-      "time_estimated": "16:53",
+      "time_estimated": "16:55",
       "flight_no": "LH2018",
       "airline": "Lufthansa",
       "city": "München",
@@ -306,7 +306,7 @@
       "gate": "Ausgang 1 (Linie)",
       "status": "scheduled",
       "status_text": "",
-      "delay": 13
+      "delay": 15
     },
     {
       "dt": 1791643500.0,
@@ -617,7 +617,7 @@
     {
       "dt": 1791651300.0,
       "time_scheduled": "18:55",
-      "time_estimated": "18:30",
+      "time_estimated": "18:48",
       "flight_no": "XQ1526",
       "airline": "Sun Express",
       "city": "Kütahya / Zafer",
@@ -1030,6 +1030,23 @@
       "airline": "Lufthansa",
       "city": "München",
       "country": "Deutschland",
+      "type": "Linie",
+      "type_source": "Airline",
+      "terminal": "B",
+      "baggage": "",
+      "gate": "Ausgang 1 (Linie)",
+      "status": "scheduled",
+      "status_text": "",
+      "delay": 0
+    },
+    {
+      "dt": 1791657900.0,
+      "time_scheduled": "20:45",
+      "time_estimated": "20:45",
+      "flight_no": "EW9587",
+      "airline": "Eurowings",
+      "city": "Palma de Mallorca",
+      "country": "Spanien",
       "type": "Linie",
       "type_source": "Airline",
       "terminal": "B",
