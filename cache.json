@@ -1,5 +1,5 @@
 {
-  "updated_at": "10.10.2026 07:50",
+  "updated_at": "10.10.2026 07:55",
   "source": "Dus.com",
   "flights": [
     {
@@ -158,7 +158,7 @@
     {
       "dt": 1791614700.0,
       "time_scheduled": "08:45",
-      "time_estimated": "09:04",
+      "time_estimated": "09:11",
       "flight_no": "LX1016",
       "airline": "Swiss",
       "city": "Zürich",
@@ -170,7 +170,7 @@
       "gate": "Ausgang 5 (Charter)",
       "status": "scheduled",
       "status_text": "",
-      "delay": 19
+      "delay": 26
     },
     {
       "dt": 1791615000.0,
@@ -345,7 +345,7 @@
     {
       "dt": 1791617400.0,
       "time_scheduled": "09:30",
-      "time_estimated": "09:23",
+      "time_estimated": "09:30",
       "flight_no": "SK1629",
       "airline": "Scandinavian Airlines",
       "city": "Kopenhagen",
@@ -357,7 +357,7 @@
       "gate": "Ausgang 1 (Linie)",
       "status": "scheduled",
       "status_text": "",
-      "delay": 0
+      "delay": 1
     },
     {
       "dt": 1791617400.0,
@@ -396,7 +396,7 @@
     {
       "dt": 1791618000.0,
       "time_scheduled": "09:40",
-      "time_estimated": "09:42",
+      "time_estimated": "09:36",
       "flight_no": "OU422",
       "airline": "Croatia Airlines",
       "city": "Split",
@@ -408,7 +408,7 @@
       "gate": "Ausgang 1 (Linie)",
       "status": "scheduled",
       "status_text": "Vorhafen verlassen",
-      "delay": 3
+      "delay": 0
     },
     {
       "dt": 1791618000.0,
@@ -498,7 +498,7 @@
     {
       "dt": 1791619500.0,
       "time_scheduled": "10:05",
-      "time_estimated": "10:01",
+      "time_estimated": "10:05",
       "flight_no": "EJU3941",
       "airline": "Easy Jet Europe",
       "city": "Mailand-Malpensa",
@@ -753,7 +753,7 @@
     {
       "dt": 1791622200.0,
       "time_scheduled": "10:50",
-      "time_estimated": "10:50",
+      "time_estimated": "10:56",
       "flight_no": "DE1827",
       "airline": "Condor",
       "city": "Olbia (Sardinien)",
@@ -765,7 +765,7 @@
       "gate": "Ausgang 4 (Charter)",
       "status": "scheduled",
       "status_text": "",
-      "delay": 0
+      "delay": 7
     },
     {
       "dt": 1791622200.0,
@@ -804,7 +804,7 @@
     {
       "dt": 1791622800.0,
       "time_scheduled": "11:00",
-      "time_estimated": "11:00",
+      "time_estimated": "10:55",
       "flight_no": "BJ2640",
       "airline": "Nouvelair",
       "city": "Djerba",
