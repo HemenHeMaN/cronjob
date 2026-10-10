@@ -1,5 +1,5 @@
 {
-  "updated_at": "10.10.2026 11:05",
+  "updated_at": "10.10.2026 11:10",
   "source": "Dus.com",
   "flights": [
     {
@@ -90,23 +90,6 @@
     {
       "dt": 1791620700.0,
       "time_scheduled": "10:25",
-      "time_estimated": "10:08",
-      "flight_no": "EW9331",
-      "airline": "Eurowings",
-      "city": "Birmingham",
-      "country": "Großbritannien",
-      "type": "Linie",
-      "type_source": "Ausgang",
-      "terminal": "A",
-      "baggage": "5",
-      "gate": "Ausgang 1 (Linie)",
-      "status": "landed",
-      "status_text": "gelandet",
-      "delay": 0
-    },
-    {
-      "dt": 1791620700.0,
-      "time_scheduled": "10:25",
       "time_estimated": "10:26",
       "flight_no": "DE1011",
       "airline": "Condor",
@@ -120,23 +103,6 @@
       "status": "landed",
       "status_text": "gelandet",
       "delay": 1
-    },
-    {
-      "dt": 1791621000.0,
-      "time_scheduled": "10:30",
-      "time_estimated": "10:06",
-      "flight_no": "EW9463",
-      "airline": "Eurowings",
-      "city": "London-Heathrow",
-      "country": "Großbritannien",
-      "type": "Linie",
-      "type_source": "Ausgang",
-      "terminal": "A",
-      "baggage": "2",
-      "gate": "Ausgang 1 (Linie)",
-      "status": "landed",
-      "status_text": "gelandet",
-      "delay": 0
     },
     {
       "dt": 1791621000.0,
@@ -362,7 +328,7 @@
     {
       "dt": 1791623400.0,
       "time_scheduled": "11:10",
-      "time_estimated": "11:11",
+      "time_estimated": "11:06",
       "flight_no": "IB1319",
       "airline": "Iberia",
       "city": "Madrid-Barajas",
@@ -372,9 +338,9 @@
       "terminal": "B",
       "baggage": "14",
       "gate": "Ausgang 5 (Charter)",
-      "status": "active",
-      "status_text": "im Anflug",
-      "delay": 2
+      "status": "landed",
+      "status_text": "gelandet",
+      "delay": 0
     },
     {
       "dt": 1791624600.0,
@@ -430,7 +396,7 @@
     {
       "dt": 1791625200.0,
       "time_scheduled": "11:40",
-      "time_estimated": "11:28",
+      "time_estimated": "11:29",
       "flight_no": "X32323",
       "airline": "Tuifly",
       "city": "Palma de Mallorca",
@@ -441,7 +407,7 @@
       "baggage": "12",
       "gate": "Ausgang 4 (Charter)",
       "status": "active",
-      "status_text": "Im Anflug",
+      "status_text": "im Anflug",
       "delay": 0
     },
     {
@@ -561,7 +527,7 @@
       "gate": "Ausgang 4 (Charter)",
       "status": "scheduled",
       "status_text": "Vorhafen verlassen",
-      "delay": 24
+      "delay": 23
     },
     {
       "dt": 1791626700.0,
@@ -583,7 +549,7 @@
     {
       "dt": 1791627000.0,
       "time_scheduled": "12:10",
-      "time_estimated": "13:16",
+      "time_estimated": "13:11",
       "flight_no": "EW9531",
       "airline": "Eurowings",
       "city": "Alicante",
@@ -595,7 +561,7 @@
       "gate": "Ausgang 1 (Linie)",
       "status": "scheduled",
       "status_text": "Vorhafen verlassen",
-      "delay": 66
+      "delay": 61
     },
     {
       "dt": 1791627000.0,
@@ -685,7 +651,7 @@
     {
       "dt": 1791628200.0,
       "time_scheduled": "12:30",
-      "time_estimated": "12:16",
+      "time_estimated": "12:15",
       "flight_no": "DE1781",
       "airline": "Condor",
       "city": "Preveza-Aktion",
@@ -1025,7 +991,7 @@
     {
       "dt": 1791633300.0,
       "time_scheduled": "13:55",
-      "time_estimated": "13:36",
+      "time_estimated": "13:35",
       "flight_no": "DE1615",
       "airline": "Condor",
       "city": "Chania (Kreta)",
@@ -1059,7 +1025,7 @@
     {
       "dt": 1791633900.0,
       "time_scheduled": "14:05",
-      "time_estimated": "14:05",
+      "time_estimated": "14:08",
       "flight_no": "EW9681",
       "airline": "Eurowings",
       "city": "Athen",
@@ -1071,12 +1037,12 @@
       "gate": "Ausgang 1 (Linie)",
       "status": "scheduled",
       "status_text": "",
-      "delay": 0
+      "delay": 3
     },
     {
       "dt": 1791633900.0,
       "time_scheduled": "14:05",
-      "time_estimated": "14:05",
+      "time_estimated": "14:13",
       "flight_no": "LX1018",
       "airline": "Swiss",
       "city": "Zürich",
@@ -1088,7 +1054,7 @@
       "gate": "Ausgang 1 (Linie)",
       "status": "scheduled",
       "status_text": "",
-      "delay": 0
+      "delay": 9
     },
     {
       "dt": 1791633900.0,
@@ -1144,7 +1110,7 @@
     {
       "dt": 1791634500.0,
       "time_scheduled": "14:15",
-      "time_estimated": "14:40",
+      "time_estimated": "14:39",
       "flight_no": "MS733",
       "airline": "Egypt Air",
       "city": "Kairo",
@@ -1545,6 +1511,40 @@
       "terminal": "C",
       "baggage": "",
       "gate": "Ausgang 1 (Linie)",
+      "status": "scheduled",
+      "status_text": "",
+      "delay": 0
+    },
+    {
+      "dt": 1791641400.0,
+      "time_scheduled": "16:10",
+      "time_estimated": "16:10",
+      "flight_no": "EW9815",
+      "airline": "Eurowings",
+      "city": "Catania (Sizilien)",
+      "country": "Italien",
+      "type": "Linie",
+      "type_source": "Airline",
+      "terminal": "B",
+      "baggage": "",
+      "gate": "Ausgang 1 (Linie)",
+      "status": "scheduled",
+      "status_text": "",
+      "delay": 0
+    },
+    {
+      "dt": 1791641400.0,
+      "time_scheduled": "16:10",
+      "time_estimated": "16:10",
+      "flight_no": "DE3655",
+      "airline": "Condor",
+      "city": "Genua",
+      "country": "Italien",
+      "type": "Charter",
+      "type_source": "Airline",
+      "terminal": "B",
+      "baggage": "",
+      "gate": "Ausgang 4 (Charter)",
       "status": "scheduled",
       "status_text": "",
       "delay": 0
