@@ -1,5 +1,5 @@
 {
-  "updated_at": "10.10.2026 23:30",
+  "updated_at": "10.10.2026 23:35",
   "source": "Dus.com",
   "flights": [
     {
@@ -73,23 +73,6 @@
     {
       "dt": 1791663900.0,
       "time_scheduled": "22:25",
-      "time_estimated": "22:34",
-      "flight_no": "EW9593",
-      "airline": "Eurowings",
-      "city": "Palma de Mallorca",
-      "country": "Spanien",
-      "type": "Charter",
-      "type_source": "Ausgang",
-      "terminal": "B",
-      "baggage": "8",
-      "gate": "Ausgang 4 (Charter)",
-      "status": "landed",
-      "status_text": "gelandet",
-      "delay": 9
-    },
-    {
-      "dt": 1791663900.0,
-      "time_scheduled": "22:25",
       "time_estimated": "22:59",
       "flight_no": "KL1805",
       "airline": "KLM",
@@ -139,23 +122,6 @@
       "delay": 42
     },
     {
-      "dt": 1791663900.0,
-      "time_scheduled": "22:25",
-      "time_estimated": "22:32",
-      "flight_no": "LH2034",
-      "airline": "Lufthansa",
-      "city": "München",
-      "country": "Deutschland",
-      "type": "Linie",
-      "type_source": "Ausgang",
-      "terminal": "B",
-      "baggage": "2",
-      "gate": "Ausgang 1 (Linie)",
-      "status": "landed",
-      "status_text": "gelandet",
-      "delay": 8
-    },
-    {
       "dt": 1791664500.0,
       "time_scheduled": "22:35",
       "time_estimated": "23:15",
@@ -171,23 +137,6 @@
       "status": "landed",
       "status_text": "gelandet",
       "delay": 40
-    },
-    {
-      "dt": 1791664500.0,
-      "time_scheduled": "22:35",
-      "time_estimated": "22:30",
-      "flight_no": "X34105",
-      "airline": "Tuifly",
-      "city": "Heraklion (Kreta)",
-      "country": "Griechenland",
-      "type": "Charter",
-      "type_source": "Ausgang",
-      "terminal": "B",
-      "baggage": "12",
-      "gate": "Ausgang 4 (Charter)",
-      "status": "landed",
-      "status_text": "gelandet",
-      "delay": 0
     },
     {
       "dt": 1791664500.0,
