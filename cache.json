@@ -1,5 +1,5 @@
 {
-  "updated_at": "10.10.2026 08:10",
+  "updated_at": "10.10.2026 08:15",
   "source": "Dus.com",
   "flights": [
     {
@@ -84,7 +84,7 @@
       "baggage": "17",
       "gate": "Ausgang 6 (Charter)",
       "status": "active",
-      "status_text": "Im Anflug",
+      "status_text": "im Anflug",
       "delay": 0
     },
     {
@@ -124,7 +124,7 @@
     {
       "dt": 1791614700.0,
       "time_scheduled": "08:45",
-      "time_estimated": "08:41",
+      "time_estimated": "08:47",
       "flight_no": "JU360",
       "airline": "Air Serbia",
       "city": "Belgrad",
@@ -136,7 +136,7 @@
       "gate": "Ausgang 4 (Charter)",
       "status": "scheduled",
       "status_text": "Vorhafen verlassen",
-      "delay": 0
+      "delay": 2
     },
     {
       "dt": 1791614700.0,
@@ -328,7 +328,7 @@
     {
       "dt": 1791617400.0,
       "time_scheduled": "09:30",
-      "time_estimated": "09:30",
+      "time_estimated": "09:27",
       "flight_no": "SK1629",
       "airline": "Scandinavian Airlines",
       "city": "Kopenhagen",
@@ -340,7 +340,7 @@
       "gate": "Ausgang 1 (Linie)",
       "status": "scheduled",
       "status_text": "",
-      "delay": 1
+      "delay": 0
     },
     {
       "dt": 1791617400.0,
@@ -583,7 +583,7 @@
     {
       "dt": 1791620700.0,
       "time_scheduled": "10:25",
-      "time_estimated": "10:29",
+      "time_estimated": "10:34",
       "flight_no": "DE1011",
       "airline": "Condor",
       "city": "Palma de Mallorca",
@@ -595,7 +595,7 @@
       "gate": "Ausgang 4 (Charter)",
       "status": "scheduled",
       "status_text": "",
-      "delay": 4
+      "delay": 9
     },
     {
       "dt": 1791621000.0,
@@ -838,7 +838,7 @@
     {
       "dt": 1791623400.0,
       "time_scheduled": "11:10",
-      "time_estimated": "11:04",
+      "time_estimated": "11:12",
       "flight_no": "IB1319",
       "airline": "Iberia",
       "city": "Madrid-Barajas",
@@ -850,7 +850,7 @@
       "gate": "Ausgang 5 (Charter)",
       "status": "scheduled",
       "status_text": "",
-      "delay": 0
+      "delay": 3
     },
     {
       "dt": 1791624600.0,
@@ -1339,6 +1339,23 @@
       "type": "Charter",
       "type_source": "Airline",
       "terminal": "B",
+      "baggage": "",
+      "gate": "Ausgang 4 (Charter)",
+      "status": "scheduled",
+      "status_text": "",
+      "delay": 0
+    },
+    {
+      "dt": 1791630900.0,
+      "time_scheduled": "13:15",
+      "time_estimated": "13:15",
+      "flight_no": "XQ286",
+      "airline": "Sun Express",
+      "city": "Antalya",
+      "country": "Türkei",
+      "type": "Charter",
+      "type_source": "Airline",
+      "terminal": "C",
       "baggage": "",
       "gate": "Ausgang 4 (Charter)",
       "status": "scheduled",
