@@ -1,5 +1,5 @@
 {
-  "updated_at": "11.10.2026 00:10",
+  "updated_at": "11.10.2026 00:15",
   "source": "Dus.com",
   "flights": [
     {
@@ -105,40 +105,6 @@
       "delay": 17
     },
     {
-      "dt": 1791662700.0,
-      "time_scheduled": "22:05",
-      "time_estimated": "22:14",
-      "flight_no": "EW9631",
-      "airline": "Eurowings",
-      "city": "Rhodos",
-      "country": "Griechenland",
-      "type": "Charter",
-      "type_source": "Ausgang",
-      "terminal": "B",
-      "baggage": "7",
-      "gate": "Ausgang 4 (Charter)",
-      "status": "landed",
-      "status_text": "gelandet",
-      "delay": 10
-    },
-    {
-      "dt": 1791663000.0,
-      "time_scheduled": "22:10",
-      "time_estimated": "22:12",
-      "flight_no": "EW9601",
-      "airline": "Eurowings",
-      "city": "Funchal (Madeira)",
-      "country": "Portugal",
-      "type": "Linie",
-      "type_source": "Ausgang",
-      "terminal": "A",
-      "baggage": "1",
-      "gate": "Ausgang 1 (Linie)",
-      "status": "landed",
-      "status_text": "gelandet",
-      "delay": 3
-    },
-    {
       "dt": 1791663000.0,
       "time_scheduled": "22:10",
       "time_estimated": "22:19",
@@ -171,23 +137,6 @@
       "status": "landed",
       "status_text": "gelandet",
       "delay": 23
-    },
-    {
-      "dt": 1791663300.0,
-      "time_scheduled": "22:15",
-      "time_estimated": "22:11",
-      "flight_no": "EW9903",
-      "airline": "Eurowings",
-      "city": "Larnaca (Zypern)",
-      "country": "Zypern",
-      "type": "Charter",
-      "type_source": "Ausgang",
-      "terminal": "C",
-      "baggage": "18",
-      "gate": "Ausgang 6 (Charter)",
-      "status": "landed",
-      "status_text": "gelandet",
-      "delay": 0
     },
     {
       "dt": 1791663600.0,
