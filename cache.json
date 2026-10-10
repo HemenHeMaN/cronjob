@@ -1,5 +1,5 @@
 {
-  "updated_at": "10.10.2026 21:30",
+  "updated_at": "10.10.2026 21:35",
   "source": "Dus.com",
   "flights": [
     {
@@ -39,7 +39,7 @@
     {
       "dt": 1791657900.0,
       "time_scheduled": "20:45",
-      "time_estimated": "22:10",
+      "time_estimated": "22:11",
       "flight_no": "EW9587",
       "airline": "Eurowings",
       "city": "Palma de Mallorca",
@@ -51,7 +51,7 @@
       "gate": "Ausgang 1 (Linie)",
       "status": "scheduled",
       "status_text": "Vorhafen verlassen",
-      "delay": 86
+      "delay": 87
     },
     {
       "dt": 1791658500.0,
@@ -90,7 +90,7 @@
     {
       "dt": 1791658800.0,
       "time_scheduled": "21:00",
-      "time_estimated": "21:40",
+      "time_estimated": "21:31",
       "flight_no": "EW9547",
       "airline": "Eurowings",
       "city": "Fuerteventura",
@@ -100,9 +100,9 @@
       "terminal": "B",
       "baggage": "6",
       "gate": "Ausgang 1 (Linie)",
-      "status": "active",
-      "status_text": "im Anflug",
-      "delay": 41
+      "status": "landed",
+      "status_text": "gelandet",
+      "delay": 32
     },
     {
       "dt": 1791658800.0,
@@ -158,7 +158,7 @@
     {
       "dt": 1791659700.0,
       "time_scheduled": "21:15",
-      "time_estimated": "21:35",
+      "time_estimated": "21:42",
       "flight_no": "EW9591",
       "airline": "Eurowings",
       "city": "Palma de Mallorca",
@@ -170,12 +170,12 @@
       "gate": "Ausgang 1 (Linie)",
       "status": "active",
       "status_text": "im Anflug",
-      "delay": 21
+      "delay": 27
     },
     {
       "dt": 1791660900.0,
       "time_scheduled": "21:35",
-      "time_estimated": "21:42",
+      "time_estimated": "21:41",
       "flight_no": "DE1517",
       "airline": "Condor",
       "city": "Palma de Mallorca",
@@ -186,13 +186,13 @@
       "baggage": "12",
       "gate": "Ausgang 4 (Charter)",
       "status": "active",
-      "status_text": "Im Anflug",
-      "delay": 7
+      "status_text": "im Anflug",
+      "delay": 6
     },
     {
       "dt": 1791660900.0,
       "time_scheduled": "21:35",
-      "time_estimated": "21:39",
+      "time_estimated": "21:34",
       "flight_no": "ENT6063",
       "airline": "Enter Air",
       "city": "Pristina",
@@ -202,9 +202,9 @@
       "terminal": "C",
       "baggage": "18",
       "gate": "Ausgang 6 (Charter)",
-      "status": "active",
-      "status_text": "im Anflug",
-      "delay": 4
+      "status": "landed",
+      "status_text": "gelandet",
+      "delay": 0
     },
     {
       "dt": 1791661200.0,
@@ -220,7 +220,7 @@
       "baggage": "2",
       "gate": "Ausgang 1 (Linie)",
       "status": "active",
-      "status_text": "Im Anflug",
+      "status_text": "im Anflug",
       "delay": 4
     },
     {
@@ -294,7 +294,7 @@
     {
       "dt": 1791661800.0,
       "time_scheduled": "21:50",
-      "time_estimated": "22:13",
+      "time_estimated": "22:14",
       "flight_no": "EW9603",
       "airline": "Eurowings",
       "city": "Lissabon",
@@ -306,7 +306,7 @@
       "gate": "Ausgang 1 (Linie)",
       "status": "scheduled",
       "status_text": "Vorhafen verlassen",
-      "delay": 23
+      "delay": 24
     },
     {
       "dt": 1791661800.0,
@@ -328,7 +328,7 @@
     {
       "dt": 1791661800.0,
       "time_scheduled": "21:50",
-      "time_estimated": "21:40",
+      "time_estimated": "21:46",
       "flight_no": "AF1106",
       "airline": "Air France",
       "city": "Paris-Charles de Gaulle",
@@ -379,7 +379,7 @@
     {
       "dt": 1791662100.0,
       "time_scheduled": "21:55",
-      "time_estimated": "22:40",
+      "time_estimated": "22:32",
       "flight_no": "EW9673",
       "airline": "Eurowings",
       "city": "Heraklion (Kreta)",
@@ -391,7 +391,7 @@
       "gate": "Ausgang 1 (Linie)",
       "status": "scheduled",
       "status_text": "Vorhafen verlassen",
-      "delay": 46
+      "delay": 38
     },
     {
       "dt": 1791662100.0,
@@ -475,7 +475,7 @@
       "baggage": "11",
       "gate": "Ausgang 4 (Charter)",
       "status": "active",
-      "status_text": "Im Anflug",
+      "status_text": "im Anflug",
       "delay": 0
     },
     {
@@ -498,7 +498,7 @@
     {
       "dt": 1791662700.0,
       "time_scheduled": "22:05",
-      "time_estimated": "22:08",
+      "time_estimated": "22:10",
       "flight_no": "EW9963",
       "airline": "Eurowings",
       "city": "Rijeka",
@@ -510,12 +510,12 @@
       "gate": "Ausgang 1 (Linie)",
       "status": "scheduled",
       "status_text": "Vorhafen verlassen",
-      "delay": 4
+      "delay": 6
     },
     {
       "dt": 1791662700.0,
       "time_scheduled": "22:05",
-      "time_estimated": "22:09",
+      "time_estimated": "22:10",
       "flight_no": "EW9873",
       "airline": "Eurowings",
       "city": "Bari",
@@ -527,7 +527,7 @@
       "gate": "Ausgang 1 (Linie)",
       "status": "scheduled",
       "status_text": "Vorhafen verlassen",
-      "delay": 5
+      "delay": 6
     },
     {
       "dt": 1791663000.0,
@@ -634,7 +634,7 @@
     {
       "dt": 1791663600.0,
       "time_scheduled": "22:20",
-      "time_estimated": "22:08",
+      "time_estimated": "22:10",
       "flight_no": "EW9869",
       "airline": "Eurowings",
       "city": "Cagliari (Sardinien)",
@@ -736,7 +736,7 @@
     {
       "dt": 1791663900.0,
       "time_scheduled": "22:25",
-      "time_estimated": "22:37",
+      "time_estimated": "22:41",
       "flight_no": "LH2034",
       "airline": "Lufthansa",
       "city": "München",
@@ -748,7 +748,7 @@
       "gate": "Ausgang 1 (Linie)",
       "status": "scheduled",
       "status_text": "",
-      "delay": 13
+      "delay": 17
     },
     {
       "dt": 1791663900.0,
