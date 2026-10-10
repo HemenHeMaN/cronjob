@@ -1,5 +1,5 @@
 {
-  "updated_at": "10.10.2026 15:15",
+  "updated_at": "10.10.2026 15:20",
   "source": "Dus.com",
   "flights": [
     {
@@ -35,23 +35,6 @@
       "status": "landed",
       "status_text": "gelandet",
       "delay": 13
-    },
-    {
-      "dt": 1791634500.0,
-      "time_scheduled": "14:15",
-      "time_estimated": "14:19",
-      "flight_no": "LH074",
-      "airline": "Lufthansa",
-      "city": "Frankfurt",
-      "country": "Deutschland",
-      "type": "Linie",
-      "type_source": "Ausgang",
-      "terminal": "A",
-      "baggage": "2",
-      "gate": "Ausgang 1 (Linie)",
-      "status": "landed",
-      "status_text": "gelandet",
-      "delay": 4
     },
     {
       "dt": 1791635400.0,
@@ -107,23 +90,6 @@
     {
       "dt": 1791636000.0,
       "time_scheduled": "14:40",
-      "time_estimated": "14:29",
-      "flight_no": "EW9959",
-      "airline": "Eurowings",
-      "city": "Split",
-      "country": "Kroatien",
-      "type": "Linie",
-      "type_source": "Ausgang",
-      "terminal": "B",
-      "baggage": "1",
-      "gate": "Ausgang 1 (Linie)",
-      "status": "landed",
-      "status_text": "gelandet",
-      "delay": 0
-    },
-    {
-      "dt": 1791636000.0,
-      "time_scheduled": "14:40",
       "time_estimated": "14:39",
       "flight_no": "SK1621",
       "airline": "Scandinavian Airlines",
@@ -134,6 +100,23 @@
       "terminal": "B",
       "baggage": "7",
       "gate": "Ausgang 4 (Charter)",
+      "status": "landed",
+      "status_text": "gelandet",
+      "delay": 0
+    },
+    {
+      "dt": 1791636000.0,
+      "time_scheduled": "14:40",
+      "time_estimated": "14:29",
+      "flight_no": "EW9959",
+      "airline": "Eurowings",
+      "city": "Split",
+      "country": "Kroatien",
+      "type": "Linie",
+      "type_source": "Ausgang",
+      "terminal": "B",
+      "baggage": "1",
+      "gate": "Ausgang 1 (Linie)",
       "status": "landed",
       "status_text": "gelandet",
       "delay": 0
@@ -192,7 +175,7 @@
     {
       "dt": 1791637800.0,
       "time_scheduled": "15:10",
-      "time_estimated": "15:20",
+      "time_estimated": "15:16",
       "flight_no": "DE1685",
       "airline": "Condor",
       "city": "Larnaca (Zypern)",
@@ -202,9 +185,9 @@
       "terminal": "C",
       "baggage": "20",
       "gate": "Ausgang 6 (Charter)",
-      "status": "active",
-      "status_text": "im Anflug",
-      "delay": 10
+      "status": "landed",
+      "status_text": "gelandet",
+      "delay": 6
     },
     {
       "dt": 1791638100.0,
@@ -260,7 +243,7 @@
     {
       "dt": 1791639900.0,
       "time_scheduled": "15:45",
-      "time_estimated": "15:24",
+      "time_estimated": "15:27",
       "flight_no": "VF027",
       "airline": "A Jet",
       "city": "Istanbul-Sabiha Gökçen",
@@ -287,8 +270,8 @@
       "terminal": "B",
       "baggage": "11",
       "gate": "Ausgang 4 (Charter)",
-      "status": "scheduled",
-      "status_text": "Vorhafen verlassen",
+      "status": "active",
+      "status_text": "Im Anflug",
       "delay": 0
     },
     {
@@ -345,7 +328,7 @@
     {
       "dt": 1791640800.0,
       "time_scheduled": "16:00",
-      "time_estimated": "16:05",
+      "time_estimated": "16:06",
       "flight_no": "PC1003",
       "airline": "Pegasus Airlines",
       "city": "Istanbul-Sabiha Gökçen",
@@ -357,7 +340,7 @@
       "gate": "Ausgang 6 (Charter)",
       "status": "scheduled",
       "status_text": "Vorhafen verlassen",
-      "delay": 6
+      "delay": 7
     },
     {
       "dt": 1791640800.0,
@@ -787,7 +770,7 @@
     {
       "dt": 1791651300.0,
       "time_scheduled": "18:55",
-      "time_estimated": "18:55",
+      "time_estimated": "18:30",
       "flight_no": "XQ1526",
       "airline": "Sun Express",
       "city": "Kütahya / Zafer",
@@ -1149,6 +1132,23 @@
       "airline": "Vueling",
       "city": "Barcelona",
       "country": "Spanien",
+      "type": "Linie",
+      "type_source": "Airline",
+      "terminal": "B",
+      "baggage": "",
+      "gate": "Ausgang 1 (Linie)",
+      "status": "scheduled",
+      "status_text": "",
+      "delay": 0
+    },
+    {
+      "dt": 1791656400.0,
+      "time_scheduled": "20:20",
+      "time_estimated": "20:20",
+      "flight_no": "EW9961",
+      "airline": "Eurowings",
+      "city": "Split",
+      "country": "Kroatien",
       "type": "Linie",
       "type_source": "Airline",
       "terminal": "B",
