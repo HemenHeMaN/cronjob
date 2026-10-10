@@ -1,5 +1,5 @@
 {
-  "updated_at": "10.10.2026 08:15",
+  "updated_at": "10.10.2026 08:20",
   "source": "Dus.com",
   "flights": [
     {
@@ -124,7 +124,7 @@
     {
       "dt": 1791614700.0,
       "time_scheduled": "08:45",
-      "time_estimated": "08:47",
+      "time_estimated": "08:38",
       "flight_no": "JU360",
       "airline": "Air Serbia",
       "city": "Belgrad",
@@ -134,9 +134,9 @@
       "terminal": "C",
       "baggage": "11",
       "gate": "Ausgang 4 (Charter)",
-      "status": "scheduled",
-      "status_text": "Vorhafen verlassen",
-      "delay": 2
+      "status": "active",
+      "status_text": "im Anflug",
+      "delay": 0
     },
     {
       "dt": 1791614700.0,
@@ -236,8 +236,8 @@
       "terminal": "C",
       "baggage": "19",
       "gate": "Ausgang 6 (Charter)",
-      "status": "scheduled",
-      "status_text": "Vorhafen verlassen",
+      "status": "active",
+      "status_text": "Im Anflug",
       "delay": 0
     },
     {
@@ -413,7 +413,7 @@
     {
       "dt": 1791618300.0,
       "time_scheduled": "09:45",
-      "time_estimated": "09:32",
+      "time_estimated": "09:41",
       "flight_no": "EI692",
       "airline": "Aer Lingus",
       "city": "Dublin",
@@ -424,7 +424,7 @@
       "baggage": "",
       "gate": "Ausgang 1 (Linie)",
       "status": "scheduled",
-      "status_text": "",
+      "status_text": "Vorhafen verlassen",
       "delay": 0
     },
     {
@@ -447,7 +447,7 @@
     {
       "dt": 1791618900.0,
       "time_scheduled": "09:55",
-      "time_estimated": "10:24",
+      "time_estimated": "10:15",
       "flight_no": "EW9761",
       "airline": "Eurowings",
       "city": "Zürich",
@@ -459,7 +459,7 @@
       "gate": "Ausgang 1 (Linie)",
       "status": "scheduled",
       "status_text": "",
-      "delay": 30
+      "delay": 20
     },
     {
       "dt": 1791619200.0,
@@ -1360,6 +1360,57 @@
       "gate": "Ausgang 4 (Charter)",
       "status": "scheduled",
       "status_text": "",
+      "delay": 0
+    },
+    {
+      "dt": 1791631200.0,
+      "time_scheduled": "13:20",
+      "time_estimated": "13:20",
+      "flight_no": "EW9655",
+      "airline": "Eurowings",
+      "city": "Thessaloniki",
+      "country": "Griechenland",
+      "type": "Linie",
+      "type_source": "Airline",
+      "terminal": "B",
+      "baggage": "",
+      "gate": "Ausgang 1 (Linie)",
+      "status": "scheduled",
+      "status_text": "",
+      "delay": 0
+    },
+    {
+      "dt": 1791631200.0,
+      "time_scheduled": "13:20",
+      "time_estimated": "13:20",
+      "flight_no": "EW9643",
+      "airline": "Eurowings",
+      "city": "Faro",
+      "country": "Portugal",
+      "type": "Linie",
+      "type_source": "Airline",
+      "terminal": "B",
+      "baggage": "",
+      "gate": "Ausgang 1 (Linie)",
+      "status": "scheduled",
+      "status_text": "",
+      "delay": 0
+    },
+    {
+      "dt": 1791631500.0,
+      "time_scheduled": "13:25",
+      "time_estimated": "13:18",
+      "flight_no": "EK055",
+      "airline": "Emirates",
+      "city": "Dubai",
+      "country": "VAE",
+      "type": "Linie",
+      "type_source": "Airline",
+      "terminal": "C",
+      "baggage": "",
+      "gate": "Ausgang 1 (Linie)",
+      "status": "scheduled",
+      "status_text": "Vorhafen verlassen",
       "delay": 0
     }
   ]
