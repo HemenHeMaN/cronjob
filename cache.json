@@ -1,5 +1,5 @@
 {
-  "updated_at": "10.10.2026 22:05",
+  "updated_at": "10.10.2026 22:10",
   "source": "Dus.com",
   "flights": [
     {
@@ -52,23 +52,6 @@
       "status": "landed",
       "status_text": "gelandet",
       "delay": 32
-    },
-    {
-      "dt": 1791658800.0,
-      "time_scheduled": "21:00",
-      "time_estimated": "21:05",
-      "flight_no": "DE1621",
-      "airline": "Condor",
-      "city": "Kos",
-      "country": "Griechenland",
-      "type": "Charter",
-      "type_source": "Ausgang",
-      "terminal": "B",
-      "baggage": "7",
-      "gate": "Ausgang 4 (Charter)",
-      "status": "landed",
-      "status_text": "gelandet",
-      "delay": 6
     },
     {
       "dt": 1791659100.0,
@@ -226,7 +209,7 @@
     {
       "dt": 1791661800.0,
       "time_scheduled": "21:50",
-      "time_estimated": "22:13",
+      "time_estimated": "22:07",
       "flight_no": "EW9603",
       "airline": "Eurowings",
       "city": "Lissabon",
@@ -236,9 +219,9 @@
       "terminal": "A",
       "baggage": "5",
       "gate": "Ausgang 1 (Linie)",
-      "status": "active",
-      "status_text": "im Anflug",
-      "delay": 23
+      "status": "landed",
+      "status_text": "gelandet",
+      "delay": 18
     },
     {
       "dt": 1791661800.0,
@@ -372,14 +355,14 @@
       "terminal": "C",
       "baggage": "20",
       "gate": "Ausgang 6 (Charter)",
-      "status": "scheduled",
-      "status_text": "Vorhafen verlassen",
+      "status": "active",
+      "status_text": "Im Anflug",
       "delay": 26
     },
     {
       "dt": 1791662400.0,
       "time_scheduled": "22:00",
-      "time_estimated": "22:20",
+      "time_estimated": "22:18",
       "flight_no": "DE1617",
       "airline": "Condor",
       "city": "Heraklion (Kreta)",
@@ -390,8 +373,8 @@
       "baggage": "4",
       "gate": "Ausgang 1 (Linie)",
       "status": "active",
-      "status_text": "Im Anflug",
-      "delay": 20
+      "status_text": "im Anflug",
+      "delay": 18
     },
     {
       "dt": 1791662400.0,
@@ -413,7 +396,7 @@
     {
       "dt": 1791662700.0,
       "time_scheduled": "22:05",
-      "time_estimated": "22:18",
+      "time_estimated": "22:17",
       "flight_no": "EW9631",
       "airline": "Eurowings",
       "city": "Rhodos",
@@ -425,12 +408,12 @@
       "gate": "Ausgang 4 (Charter)",
       "status": "active",
       "status_text": "im Anflug",
-      "delay": 14
+      "delay": 13
     },
     {
       "dt": 1791662700.0,
       "time_scheduled": "22:05",
-      "time_estimated": "22:08",
+      "time_estimated": "22:09",
       "flight_no": "EW9963",
       "airline": "Eurowings",
       "city": "Rijeka",
@@ -440,14 +423,14 @@
       "terminal": "B",
       "baggage": "14",
       "gate": "Ausgang 5 (Charter)",
-      "status": "active",
-      "status_text": "im Anflug",
+      "status": "landed",
+      "status_text": "gelandet",
       "delay": 4
     },
     {
       "dt": 1791662700.0,
       "time_scheduled": "22:05",
-      "time_estimated": "22:09",
+      "time_estimated": "22:05",
       "flight_no": "EW9873",
       "airline": "Eurowings",
       "city": "Bari",
@@ -457,14 +440,14 @@
       "terminal": "A",
       "baggage": "6",
       "gate": "Ausgang 1 (Linie)",
-      "status": "active",
-      "status_text": "im Anflug",
-      "delay": 5
+      "status": "landed",
+      "status_text": "gelandet",
+      "delay": 1
     },
     {
       "dt": 1791663000.0,
       "time_scheduled": "22:10",
-      "time_estimated": "22:18",
+      "time_estimated": "22:17",
       "flight_no": "EW9601",
       "airline": "Eurowings",
       "city": "Funchal (Madeira)",
@@ -476,7 +459,7 @@
       "gate": "Ausgang 1 (Linie)",
       "status": "active",
       "status_text": "im Anflug",
-      "delay": 9
+      "delay": 8
     },
     {
       "dt": 1791663000.0,
@@ -492,7 +475,7 @@
       "baggage": "9",
       "gate": "Ausgang 4 (Charter)",
       "status": "active",
-      "status_text": "Im Anflug",
+      "status_text": "im Anflug",
       "delay": 11
     },
     {
@@ -560,7 +543,7 @@
       "baggage": "13",
       "gate": "Ausgang 5 (Charter)",
       "status": "active",
-      "status_text": "Im Anflug",
+      "status_text": "im Anflug",
       "delay": 2
     },
     {
@@ -627,8 +610,8 @@
       "terminal": "B",
       "baggage": "5",
       "gate": "Ausgang 1 (Linie)",
-      "status": "scheduled",
-      "status_text": "Vorhafen verlassen",
+      "status": "active",
+      "status_text": "Im Anflug",
       "delay": 2
     },
     {
