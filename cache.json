@@ -1,5 +1,5 @@
 {
-  "updated_at": "10.10.2026 12:10",
+  "updated_at": "10.10.2026 12:15",
   "source": "Dus.com",
   "flights": [
     {
@@ -175,7 +175,7 @@
     {
       "dt": 1791626400.0,
       "time_scheduled": "12:00",
-      "time_estimated": "12:21",
+      "time_estimated": "12:12",
       "flight_no": "DE1775",
       "airline": "Condor",
       "city": "Palma de Mallorca",
@@ -185,9 +185,9 @@
       "terminal": "B",
       "baggage": "11",
       "gate": "Ausgang 4 (Charter)",
-      "status": "active",
-      "status_text": "im Anflug",
-      "delay": 22
+      "status": "landed",
+      "status_text": "gelandet",
+      "delay": 12
     },
     {
       "dt": 1791626700.0,
@@ -321,8 +321,8 @@
       "terminal": "B",
       "baggage": "13",
       "gate": "Ausgang 5 (Charter)",
-      "status": "active",
-      "status_text": "im Anflug",
+      "status": "landed",
+      "status_text": "gelandet",
       "delay": 0
     },
     {
@@ -702,7 +702,7 @@
     {
       "dt": 1791633900.0,
       "time_scheduled": "14:05",
-      "time_estimated": "14:13",
+      "time_estimated": "14:21",
       "flight_no": "LX1018",
       "airline": "Swiss",
       "city": "Zürich",
@@ -714,7 +714,7 @@
       "gate": "Ausgang 1 (Linie)",
       "status": "scheduled",
       "status_text": "",
-      "delay": 9
+      "delay": 17
     },
     {
       "dt": 1791633900.0,
@@ -855,7 +855,7 @@
     {
       "dt": 1791635400.0,
       "time_scheduled": "14:30",
-      "time_estimated": "14:44",
+      "time_estimated": "14:48",
       "flight_no": "EW9691",
       "airline": "Eurowings",
       "city": "Malta",
@@ -866,8 +866,8 @@
       "baggage": "",
       "gate": "Ausgang 1 (Linie)",
       "status": "scheduled",
-      "status_text": "",
-      "delay": 14
+      "status_text": "Vorhafen verlassen",
+      "delay": 18
     },
     {
       "dt": 1791635700.0,
@@ -1261,40 +1261,6 @@
       "delay": 0
     },
     {
-      "dt": 1791643500.0,
-      "time_scheduled": "16:45",
-      "time_estimated": "16:45",
-      "flight_no": "EW5703",
-      "airline": "Eurowings",
-      "city": "Pristina",
-      "country": "Kosovo",
-      "type": "Linie",
-      "type_source": "Airline",
-      "terminal": "C",
-      "baggage": "",
-      "gate": "Ausgang 1 (Linie)",
-      "status": "scheduled",
-      "status_text": "",
-      "delay": 0
-    },
-    {
-      "dt": 1791644100.0,
-      "time_scheduled": "16:55",
-      "time_estimated": "16:55",
-      "flight_no": "EW5449",
-      "airline": "Eurowings",
-      "city": "Korfu",
-      "country": "Griechenland",
-      "type": "Charter",
-      "type_source": "Flugtyp",
-      "terminal": "A",
-      "baggage": "",
-      "gate": "Ausgang 4 (Charter)",
-      "status": "scheduled",
-      "status_text": "",
-      "delay": 0
-    },
-    {
       "dt": 1791644100.0,
       "time_scheduled": "16:55",
       "time_estimated": "16:55",
@@ -1324,6 +1290,40 @@
       "terminal": "A",
       "baggage": "",
       "gate": "Ausgang 1 (Linie)",
+      "status": "scheduled",
+      "status_text": "",
+      "delay": 0
+    },
+    {
+      "dt": 1791645300.0,
+      "time_scheduled": "17:15",
+      "time_estimated": "17:15",
+      "flight_no": "EW9583",
+      "airline": "Eurowings",
+      "city": "Palma de Mallorca",
+      "country": "Spanien",
+      "type": "Linie",
+      "type_source": "Airline",
+      "terminal": "A",
+      "baggage": "",
+      "gate": "Ausgang 1 (Linie)",
+      "status": "scheduled",
+      "status_text": "",
+      "delay": 0
+    },
+    {
+      "dt": 1791645300.0,
+      "time_scheduled": "17:15",
+      "time_estimated": "17:15",
+      "flight_no": "XQ284",
+      "airline": "Sun Express",
+      "city": "Antalya",
+      "country": "Türkei",
+      "type": "Charter",
+      "type_source": "Airline",
+      "terminal": "C",
+      "baggage": "",
+      "gate": "Ausgang 4 (Charter)",
       "status": "scheduled",
       "status_text": "",
       "delay": 0
