@@ -1,5 +1,5 @@
 {
-  "updated_at": "10.10.2026 19:45",
+  "updated_at": "10.10.2026 19:50",
   "source": "Dus.com",
   "flights": [
     {
@@ -124,23 +124,6 @@
     {
       "dt": 1791652200.0,
       "time_scheduled": "19:10",
-      "time_estimated": "18:52",
-      "flight_no": "IB755",
-      "airline": "Iberia",
-      "city": "Madrid-Barajas",
-      "country": "Spanien",
-      "type": "Charter",
-      "type_source": "Ausgang",
-      "terminal": "B",
-      "baggage": "14",
-      "gate": "Ausgang 5 (Charter)",
-      "status": "landed",
-      "status_text": "gelandet",
-      "delay": 0
-    },
-    {
-      "dt": 1791652200.0,
-      "time_scheduled": "19:10",
       "time_estimated": "18:58",
       "flight_no": "OS167",
       "airline": "Austrian Airlines",
@@ -173,18 +156,18 @@
       "delay": 9
     },
     {
-      "dt": 1791652500.0,
-      "time_scheduled": "19:15",
-      "time_estimated": "18:46",
-      "flight_no": "VF029",
-      "airline": "A Jet",
-      "city": "Istanbul-Sabiha Gökçen",
-      "country": "Türkei",
+      "dt": 1791652200.0,
+      "time_scheduled": "19:10",
+      "time_estimated": "18:52",
+      "flight_no": "IB755",
+      "airline": "Iberia",
+      "city": "Madrid-Barajas",
+      "country": "Spanien",
       "type": "Charter",
       "type_source": "Ausgang",
-      "terminal": "A",
-      "baggage": "12",
-      "gate": "Ausgang 4 (Charter)",
+      "terminal": "B",
+      "baggage": "14",
+      "gate": "Ausgang 5 (Charter)",
       "status": "landed",
       "status_text": "gelandet",
       "delay": 0
@@ -372,8 +355,8 @@
       "terminal": "B",
       "baggage": "5",
       "gate": "Ausgang 1 (Linie)",
-      "status": "scheduled",
-      "status_text": "Vorhafen verlassen",
+      "status": "active",
+      "status_text": "Im Anflug",
       "delay": 0
     },
     {
@@ -515,7 +498,7 @@
     {
       "dt": 1791658800.0,
       "time_scheduled": "21:00",
-      "time_estimated": "21:32",
+      "time_estimated": "21:38",
       "flight_no": "EW9547",
       "airline": "Eurowings",
       "city": "Fuerteventura",
@@ -527,7 +510,7 @@
       "gate": "Ausgang 1 (Linie)",
       "status": "scheduled",
       "status_text": "Vorhafen verlassen",
-      "delay": 33
+      "delay": 39
     },
     {
       "dt": 1791658800.0,
@@ -702,7 +685,7 @@
     {
       "dt": 1791661800.0,
       "time_scheduled": "21:50",
-      "time_estimated": "22:09",
+      "time_estimated": "22:04",
       "flight_no": "EW9657",
       "airline": "Eurowings",
       "city": "Thessaloniki",
@@ -714,7 +697,7 @@
       "gate": "Ausgang 1 (Linie)",
       "status": "scheduled",
       "status_text": "Vorhafen verlassen",
-      "delay": 20
+      "delay": 15
     },
     {
       "dt": 1791661800.0,
@@ -849,7 +832,7 @@
       "baggage": "",
       "gate": "Ausgang 4 (Charter)",
       "status": "scheduled",
-      "status_text": "",
+      "status_text": "Vorhafen verlassen",
       "delay": 6
     },
     {
@@ -1025,7 +1008,7 @@
     {
       "dt": 1791663600.0,
       "time_scheduled": "22:20",
-      "time_estimated": "22:33",
+      "time_estimated": "22:38",
       "flight_no": "EW9533",
       "airline": "Eurowings",
       "city": "Alicante",
@@ -1037,7 +1020,7 @@
       "gate": "Ausgang 1 (Linie)",
       "status": "scheduled",
       "status_text": "",
-      "delay": 14
+      "delay": 19
     },
     {
       "dt": 1791663600.0,
@@ -1110,7 +1093,7 @@
     {
       "dt": 1791663900.0,
       "time_scheduled": "22:25",
-      "time_estimated": "21:56",
+      "time_estimated": "22:19",
       "flight_no": "EW9665",
       "airline": "Eurowings",
       "city": "Preveza-Aktion",
@@ -1127,7 +1110,7 @@
     {
       "dt": 1791663900.0,
       "time_scheduled": "22:25",
-      "time_estimated": "22:23",
+      "time_estimated": "22:17",
       "flight_no": "KL1805",
       "airline": "KLM",
       "city": "Amsterdam",
@@ -1297,7 +1280,7 @@
     {
       "dt": 1791665100.0,
       "time_scheduled": "22:45",
-      "time_estimated": "22:53",
+      "time_estimated": "22:50",
       "flight_no": "X32115",
       "airline": "Tuifly",
       "city": "Gran Canaria",
@@ -1309,7 +1292,7 @@
       "gate": "Ausgang 4 (Charter)",
       "status": "scheduled",
       "status_text": "Vorhafen verlassen",
-      "delay": 9
+      "delay": 6
     },
     {
       "dt": 1791665100.0,
