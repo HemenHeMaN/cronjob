@@ -1,5 +1,5 @@
 {
-  "updated_at": "10.10.2026 16:50",
+  "updated_at": "10.10.2026 16:55",
   "source": "Dus.com",
   "flights": [
     {
@@ -52,23 +52,6 @@
       "status": "landed",
       "status_text": "gelandet",
       "delay": 19
-    },
-    {
-      "dt": 1791640800.0,
-      "time_scheduled": "16:00",
-      "time_estimated": "15:51",
-      "flight_no": "PC1003",
-      "airline": "Pegasus Airlines",
-      "city": "Istanbul-Sabiha Gökçen",
-      "country": "Türkei",
-      "type": "Charter",
-      "type_source": "Ausgang",
-      "terminal": "C",
-      "baggage": "19",
-      "gate": "Ausgang 6 (Charter)",
-      "status": "landed",
-      "status_text": "gelandet",
-      "delay": 0
     },
     {
       "dt": 1791641400.0,
@@ -185,8 +168,8 @@
       "terminal": "C",
       "baggage": "17",
       "gate": "Ausgang 6 (Charter)",
-      "status": "active",
-      "status_text": "im Anflug",
+      "status": "landed",
+      "status_text": "gelandet",
       "delay": 0
     },
     {
@@ -379,7 +362,7 @@
     {
       "dt": 1791649200.0,
       "time_scheduled": "18:20",
-      "time_estimated": "18:19",
+      "time_estimated": "18:14",
       "flight_no": "LX1024",
       "airline": "Swiss",
       "city": "Zürich",
@@ -413,7 +396,7 @@
     {
       "dt": 1791651000.0,
       "time_scheduled": "18:50",
-      "time_estimated": "18:50",
+      "time_estimated": "19:39",
       "flight_no": "VL2022",
       "airline": "Lufthansa City Airlines",
       "city": "München",
@@ -425,7 +408,7 @@
       "gate": "Ausgang 1 (Linie)",
       "status": "scheduled",
       "status_text": "",
-      "delay": 1
+      "delay": 49
     },
     {
       "dt": 1791651300.0,
@@ -532,7 +515,7 @@
     {
       "dt": 1791652200.0,
       "time_scheduled": "19:10",
-      "time_estimated": "19:08",
+      "time_estimated": "19:05",
       "flight_no": "IB755",
       "airline": "Iberia",
       "city": "Madrid-Barajas",
@@ -543,7 +526,7 @@
       "baggage": "8",
       "gate": "Ausgang 4 (Charter)",
       "status": "scheduled",
-      "status_text": "",
+      "status_text": "Vorhafen verlassen",
       "delay": 0
     },
     {
@@ -753,7 +736,7 @@
     {
       "dt": 1791655200.0,
       "time_scheduled": "20:00",
-      "time_estimated": "20:00",
+      "time_estimated": "19:56",
       "flight_no": "EW9467",
       "airline": "Eurowings",
       "city": "London-Heathrow",
@@ -781,13 +764,13 @@
       "baggage": "",
       "gate": "Ausgang 1 (Linie)",
       "status": "scheduled",
-      "status_text": "",
+      "status_text": "Vorhafen verlassen",
       "delay": 0
     },
     {
       "dt": 1791655500.0,
       "time_scheduled": "20:05",
-      "time_estimated": "20:05",
+      "time_estimated": "19:57",
       "flight_no": "EW9817",
       "airline": "Eurowings",
       "city": "Catania (Sizilien)",
@@ -1154,6 +1137,40 @@
       "terminal": "B",
       "baggage": "",
       "gate": "Ausgang 1 (Linie)",
+      "status": "scheduled",
+      "status_text": "",
+      "delay": 0
+    },
+    {
+      "dt": 1791662100.0,
+      "time_scheduled": "21:55",
+      "time_estimated": "21:55",
+      "flight_no": "X36569",
+      "airline": "Tuifly",
+      "city": "Djerba",
+      "country": "Tunesien",
+      "type": "Charter",
+      "type_source": "Airline",
+      "terminal": "C",
+      "baggage": "",
+      "gate": "Ausgang 4 (Charter)",
+      "status": "scheduled",
+      "status_text": "",
+      "delay": 0
+    },
+    {
+      "dt": 1791662100.0,
+      "time_scheduled": "21:55",
+      "time_estimated": "21:55",
+      "flight_no": "XR440",
+      "airline": "Corendon Airlines Europe",
+      "city": "Korfu",
+      "country": "Griechenland",
+      "type": "Charter",
+      "type_source": "Airline",
+      "terminal": "B",
+      "baggage": "",
+      "gate": "Ausgang 4 (Charter)",
       "status": "scheduled",
       "status_text": "",
       "delay": 0
