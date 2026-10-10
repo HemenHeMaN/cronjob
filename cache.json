@@ -1,5 +1,5 @@
 {
-  "updated_at": "10.10.2026 09:25",
+  "updated_at": "10.10.2026 09:30",
   "source": "Dus.com",
   "flights": [
     {
@@ -243,7 +243,7 @@
     {
       "dt": 1791617400.0,
       "time_scheduled": "09:30",
-      "time_estimated": "10:24",
+      "time_estimated": "10:26",
       "flight_no": "SK1629",
       "airline": "Scandinavian Airlines",
       "city": "Kopenhagen",
@@ -254,8 +254,8 @@
       "baggage": "3",
       "gate": "Ausgang 1 (Linie)",
       "status": "scheduled",
-      "status_text": "",
-      "delay": 55
+      "status_text": "Vorhafen verlassen",
+      "delay": 57
     },
     {
       "dt": 1791617400.0,
@@ -322,7 +322,7 @@
       "baggage": "2",
       "gate": "Ausgang 1 (Linie)",
       "status": "active",
-      "status_text": "Im Anflug",
+      "status_text": "im Anflug",
       "delay": 2
     },
     {
@@ -362,7 +362,7 @@
     {
       "dt": 1791618900.0,
       "time_scheduled": "09:55",
-      "time_estimated": "10:37",
+      "time_estimated": "10:36",
       "flight_no": "EW9761",
       "airline": "Eurowings",
       "city": "Zürich",
@@ -373,8 +373,8 @@
       "baggage": "",
       "gate": "Ausgang 1 (Linie)",
       "status": "scheduled",
-      "status_text": "",
-      "delay": 43
+      "status_text": "Vorhafen verlassen",
+      "delay": 42
     },
     {
       "dt": 1791619200.0,
@@ -407,7 +407,7 @@
       "baggage": "10",
       "gate": "Ausgang 4 (Charter)",
       "status": "active",
-      "status_text": "Im Anflug",
+      "status_text": "im Anflug",
       "delay": 0
     },
     {
@@ -475,7 +475,7 @@
       "baggage": "",
       "gate": "Ausgang 1 (Linie)",
       "status": "scheduled",
-      "status_text": "",
+      "status_text": "Vorhafen verlassen",
       "delay": 2
     },
     {
@@ -815,7 +815,7 @@
       "baggage": "",
       "gate": "Ausgang 4 (Charter)",
       "status": "scheduled",
-      "status_text": "",
+      "status_text": "Vorhafen verlassen",
       "delay": 0
     },
     {
@@ -838,7 +838,7 @@
     {
       "dt": 1791625200.0,
       "time_scheduled": "11:40",
-      "time_estimated": "11:59",
+      "time_estimated": "12:00",
       "flight_no": "A3540",
       "airline": "Aegean Airlines",
       "city": "Thessaloniki",
@@ -849,8 +849,8 @@
       "baggage": "",
       "gate": "Ausgang 1 (Linie)",
       "status": "scheduled",
-      "status_text": "",
-      "delay": 20
+      "status_text": "Vorhafen verlassen",
+      "delay": 21
     },
     {
       "dt": 1791625500.0,
@@ -1059,7 +1059,7 @@
     {
       "dt": 1791628200.0,
       "time_scheduled": "12:30",
-      "time_estimated": "12:22",
+      "time_estimated": "12:13",
       "flight_no": "XC104",
       "airline": "Corendon Airlines",
       "city": "Antalya",
@@ -1161,7 +1161,7 @@
     {
       "dt": 1791629400.0,
       "time_scheduled": "12:50",
-      "time_estimated": "12:50",
+      "time_estimated": "12:33",
       "flight_no": "IV8220",
       "airline": "GP Aviation",
       "city": "Pristina",
@@ -1212,7 +1212,7 @@
     {
       "dt": 1791629400.0,
       "time_scheduled": "12:50",
-      "time_estimated": "12:33",
+      "time_estimated": "12:32",
       "flight_no": "XQ288",
       "airline": "Sun Express",
       "city": "Antalya",
@@ -1577,6 +1577,57 @@
       "type": "Linie",
       "type_source": "Airline",
       "terminal": "A",
+      "baggage": "",
+      "gate": "Ausgang 1 (Linie)",
+      "status": "scheduled",
+      "status_text": "",
+      "delay": 0
+    },
+    {
+      "dt": 1791635400.0,
+      "time_scheduled": "14:30",
+      "time_estimated": "14:30",
+      "flight_no": "EW9579",
+      "airline": "Eurowings",
+      "city": "Palma de Mallorca",
+      "country": "Spanien",
+      "type": "Linie",
+      "type_source": "Airline",
+      "terminal": "A",
+      "baggage": "",
+      "gate": "Ausgang 1 (Linie)",
+      "status": "scheduled",
+      "status_text": "",
+      "delay": 0
+    },
+    {
+      "dt": 1791635400.0,
+      "time_scheduled": "14:30",
+      "time_estimated": "14:30",
+      "flight_no": "BJ214",
+      "airline": "Nouvelair",
+      "city": "Monastir",
+      "country": "Tunesien",
+      "type": "Linie",
+      "type_source": "Airline",
+      "terminal": "C",
+      "baggage": "",
+      "gate": "Ausgang 1 (Linie)",
+      "status": "scheduled",
+      "status_text": "",
+      "delay": 0
+    },
+    {
+      "dt": 1791635400.0,
+      "time_scheduled": "14:30",
+      "time_estimated": "14:30",
+      "flight_no": "EW9691",
+      "airline": "Eurowings",
+      "city": "Malta",
+      "country": "Malta",
+      "type": "Linie",
+      "type_source": "Airline",
+      "terminal": "B",
       "baggage": "",
       "gate": "Ausgang 1 (Linie)",
       "status": "scheduled",
