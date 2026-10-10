@@ -1,5 +1,5 @@
 {
-  "updated_at": "10.10.2026 15:00",
+  "updated_at": "10.10.2026 15:05",
   "source": "Dus.com",
   "flights": [
     {
@@ -35,40 +35,6 @@
       "status": "landed",
       "status_text": "gelandet",
       "delay": 4
-    },
-    {
-      "dt": 1791633900.0,
-      "time_scheduled": "14:05",
-      "time_estimated": "14:02",
-      "flight_no": "XQ958",
-      "airline": "Sun Express",
-      "city": "Izmir",
-      "country": "Türkei",
-      "type": "Charter",
-      "type_source": "Ausgang",
-      "terminal": "C",
-      "baggage": "18",
-      "gate": "Ausgang 6 (Charter)",
-      "status": "landed",
-      "status_text": "gelandet",
-      "delay": 0
-    },
-    {
-      "dt": 1791633900.0,
-      "time_scheduled": "14:05",
-      "time_estimated": "14:00",
-      "flight_no": "XR406",
-      "airline": "Corendon Airlines Europe",
-      "city": "Rhodos",
-      "country": "Griechenland",
-      "type": "Charter",
-      "type_source": "Ausgang",
-      "terminal": "B",
-      "baggage": "7",
-      "gate": "Ausgang 4 (Charter)",
-      "status": "landed",
-      "status_text": "gelandet",
-      "delay": 0
     },
     {
       "dt": 1791634500.0,
@@ -134,23 +100,6 @@
       "terminal": "A",
       "baggage": "4",
       "gate": "Ausgang 1 (Linie)",
-      "status": "landed",
-      "status_text": "gelandet",
-      "delay": 0
-    },
-    {
-      "dt": 1791635400.0,
-      "time_scheduled": "14:30",
-      "time_estimated": "14:04",
-      "flight_no": "BJ214",
-      "airline": "Nouvelair",
-      "city": "Monastir",
-      "country": "Tunesien",
-      "type": "Charter",
-      "type_source": "Ausgang",
-      "terminal": "C",
-      "baggage": "20",
-      "gate": "Ausgang 6 (Charter)",
       "status": "landed",
       "status_text": "gelandet",
       "delay": 0
@@ -287,8 +236,8 @@
       "terminal": "C",
       "baggage": "19",
       "gate": "Ausgang 6 (Charter)",
-      "status": "scheduled",
-      "status_text": "Vorhafen verlassen",
+      "status": "active",
+      "status_text": "im Anflug",
       "delay": 9
     },
     {
@@ -311,7 +260,7 @@
     {
       "dt": 1791638400.0,
       "time_scheduled": "15:20",
-      "time_estimated": "15:14",
+      "time_estimated": "15:16",
       "flight_no": "XQ3580",
       "airline": "Sun Express",
       "city": "Dalaman",
@@ -338,8 +287,8 @@
       "terminal": "C",
       "baggage": "17",
       "gate": "Ausgang 6 (Charter)",
-      "status": "scheduled",
-      "status_text": "Vorhafen verlassen",
+      "status": "active",
+      "status_text": "Im Anflug",
       "delay": 0
     },
     {
@@ -413,7 +362,7 @@
     {
       "dt": 1791640800.0,
       "time_scheduled": "16:00",
-      "time_estimated": "16:38",
+      "time_estimated": "16:32",
       "flight_no": "EW9443",
       "airline": "Eurowings",
       "city": "Barcelona",
@@ -425,7 +374,7 @@
       "gate": "Ausgang 4 (Charter)",
       "status": "scheduled",
       "status_text": "Vorhafen verlassen",
-      "delay": 39
+      "delay": 32
     },
     {
       "dt": 1791640800.0,
@@ -719,7 +668,7 @@
     {
       "dt": 1791647100.0,
       "time_scheduled": "17:45",
-      "time_estimated": "17:43",
+      "time_estimated": "17:46",
       "flight_no": "GQ590",
       "airline": "Sky Express",
       "city": "Thessaloniki",
@@ -731,7 +680,7 @@
       "gate": "Ausgang 4 (Charter)",
       "status": "scheduled",
       "status_text": "",
-      "delay": 0
+      "delay": 1
     },
     {
       "dt": 1791647700.0,
@@ -1186,6 +1135,40 @@
       "type": "Linie",
       "type_source": "Airline",
       "terminal": "A",
+      "baggage": "",
+      "gate": "Ausgang 1 (Linie)",
+      "status": "scheduled",
+      "status_text": "",
+      "delay": 0
+    },
+    {
+      "dt": 1791655500.0,
+      "time_scheduled": "20:05",
+      "time_estimated": "20:05",
+      "flight_no": "EW9633",
+      "airline": "Eurowings",
+      "city": "Rhodos",
+      "country": "Griechenland",
+      "type": "Linie",
+      "type_source": "Airline",
+      "terminal": "B",
+      "baggage": "",
+      "gate": "Ausgang 1 (Linie)",
+      "status": "scheduled",
+      "status_text": "",
+      "delay": 0
+    },
+    {
+      "dt": 1791655500.0,
+      "time_scheduled": "20:05",
+      "time_estimated": "20:05",
+      "flight_no": "EW9817",
+      "airline": "Eurowings",
+      "city": "Catania (Sizilien)",
+      "country": "Italien",
+      "type": "Linie",
+      "type_source": "Airline",
+      "terminal": "B",
       "baggage": "",
       "gate": "Ausgang 1 (Linie)",
       "status": "scheduled",
