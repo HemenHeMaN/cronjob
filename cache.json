@@ -1,24 +1,7 @@
 {
-  "updated_at": "10.10.2026 12:30",
+  "updated_at": "10.10.2026 12:35",
   "source": "Dus.com",
   "flights": [
-    {
-      "dt": 1791624900.0,
-      "time_scheduled": "11:35",
-      "time_estimated": "11:34",
-      "flight_no": "DE1515",
-      "airline": "Condor",
-      "city": "Palma de Mallorca",
-      "country": "Spanien",
-      "type": "Charter",
-      "type_source": "Ausgang",
-      "terminal": "B",
-      "baggage": "11",
-      "gate": "Ausgang 4 (Charter)",
-      "status": "landed",
-      "status_text": "gelandet",
-      "delay": 0
-    },
     {
       "dt": 1791625200.0,
       "time_scheduled": "11:40",
@@ -209,7 +192,7 @@
     {
       "dt": 1791627300.0,
       "time_scheduled": "12:15",
-      "time_estimated": "12:37",
+      "time_estimated": "12:30",
       "flight_no": "EW9883",
       "airline": "Eurowings",
       "city": "Rom-Fiumicino",
@@ -219,9 +202,9 @@
       "terminal": "A",
       "baggage": "3",
       "gate": "Ausgang 1 (Linie)",
-      "status": "active",
-      "status_text": "im Anflug",
-      "delay": 22
+      "status": "landed",
+      "status_text": "gelandet",
+      "delay": 16
     },
     {
       "dt": 1791627600.0,
@@ -311,7 +294,7 @@
     {
       "dt": 1791628800.0,
       "time_scheduled": "12:40",
-      "time_estimated": "12:47",
+      "time_estimated": "12:41",
       "flight_no": "EW9577",
       "airline": "Eurowings",
       "city": "Palma de Mallorca",
@@ -323,7 +306,7 @@
       "gate": "Ausgang 1 (Linie)",
       "status": "active",
       "status_text": "im Anflug",
-      "delay": 7
+      "delay": 2
     },
     {
       "dt": 1791629100.0,
@@ -345,7 +328,7 @@
     {
       "dt": 1791629400.0,
       "time_scheduled": "12:50",
-      "time_estimated": "12:37",
+      "time_estimated": "12:34",
       "flight_no": "IV8220",
       "airline": "GP Aviation",
       "city": "Pristina",
@@ -355,8 +338,8 @@
       "terminal": "C",
       "baggage": "19",
       "gate": "Ausgang 6 (Charter)",
-      "status": "active",
-      "status_text": "im Anflug",
+      "status": "landed",
+      "status_text": "gelandet",
       "delay": 0
     },
     {
@@ -372,14 +355,14 @@
       "terminal": "A",
       "baggage": "4",
       "gate": "Ausgang 1 (Linie)",
-      "status": "scheduled",
-      "status_text": "Vorhafen verlassen",
+      "status": "active",
+      "status_text": "Im Anflug",
       "delay": 5
     },
     {
       "dt": 1791629400.0,
       "time_scheduled": "12:50",
-      "time_estimated": "12:38",
+      "time_estimated": "12:44",
       "flight_no": "DE1613",
       "airline": "Condor",
       "city": "Korfu",
@@ -396,7 +379,7 @@
     {
       "dt": 1791629400.0,
       "time_scheduled": "12:50",
-      "time_estimated": "12:37",
+      "time_estimated": "12:32",
       "flight_no": "XQ288",
       "airline": "Sun Express",
       "city": "Antalya",
@@ -406,8 +389,8 @@
       "terminal": "C",
       "baggage": "18",
       "gate": "Ausgang 6 (Charter)",
-      "status": "active",
-      "status_text": "im Anflug",
+      "status": "landed",
+      "status_text": "gelandet",
       "delay": 0
     },
     {
@@ -481,7 +464,7 @@
     {
       "dt": 1791631200.0,
       "time_scheduled": "13:20",
-      "time_estimated": "13:33",
+      "time_estimated": "13:39",
       "flight_no": "EW9643",
       "airline": "Eurowings",
       "city": "Faro",
@@ -493,7 +476,7 @@
       "gate": "Ausgang 1 (Linie)",
       "status": "scheduled",
       "status_text": "Vorhafen verlassen",
-      "delay": 14
+      "delay": 19
     },
     {
       "dt": 1791631500.0,
@@ -566,7 +549,7 @@
     {
       "dt": 1791633300.0,
       "time_scheduled": "13:55",
-      "time_estimated": "14:07",
+      "time_estimated": "14:13",
       "flight_no": "KL1801",
       "airline": "KLM",
       "city": "Amsterdam",
@@ -578,7 +561,7 @@
       "gate": "Ausgang 1 (Linie)",
       "status": "scheduled",
       "status_text": "",
-      "delay": 12
+      "delay": 18
     },
     {
       "dt": 1791633300.0,
@@ -1008,7 +991,7 @@
     {
       "dt": 1791639900.0,
       "time_scheduled": "15:45",
-      "time_estimated": "15:30",
+      "time_estimated": "15:33",
       "flight_no": "EW9637",
       "airline": "Eurowings",
       "city": "Kos",
@@ -1019,7 +1002,7 @@
       "baggage": "",
       "gate": "Ausgang 1 (Linie)",
       "status": "scheduled",
-      "status_text": "",
+      "status_text": "Vorhafen verlassen",
       "delay": 0
     },
     {
