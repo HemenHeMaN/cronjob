@@ -1,24 +1,7 @@
 {
-  "updated_at": "10.10.2026 12:05",
+  "updated_at": "10.10.2026 12:10",
   "source": "Dus.com",
   "flights": [
-    {
-      "dt": 1791623400.0,
-      "time_scheduled": "11:10",
-      "time_estimated": "11:06",
-      "flight_no": "IB1319",
-      "airline": "Iberia",
-      "city": "Madrid-Barajas",
-      "country": "Spanien",
-      "type": "Charter",
-      "type_source": "Ausgang",
-      "terminal": "B",
-      "baggage": "14",
-      "gate": "Ausgang 5 (Charter)",
-      "status": "landed",
-      "status_text": "gelandet",
-      "delay": 0
-    },
     {
       "dt": 1791624600.0,
       "time_scheduled": "11:30",
@@ -243,7 +226,7 @@
     {
       "dt": 1791627000.0,
       "time_scheduled": "12:10",
-      "time_estimated": "12:12",
+      "time_estimated": "12:06",
       "flight_no": "VY1894",
       "airline": "Vueling",
       "city": "Barcelona",
@@ -253,9 +236,9 @@
       "terminal": "B",
       "baggage": "8",
       "gate": "Ausgang 4 (Charter)",
-      "status": "active",
-      "status_text": "im Anflug",
-      "delay": 3
+      "status": "landed",
+      "status_text": "gelandet",
+      "delay": 0
     },
     {
       "dt": 1791627000.0,
@@ -311,7 +294,7 @@
     {
       "dt": 1791628200.0,
       "time_scheduled": "12:30",
-      "time_estimated": "12:13",
+      "time_estimated": "12:08",
       "flight_no": "XC104",
       "airline": "Corendon Airlines",
       "city": "Antalya",
@@ -321,8 +304,8 @@
       "terminal": "C",
       "baggage": "17",
       "gate": "Ausgang 6 (Charter)",
-      "status": "active",
-      "status_text": "im Anflug",
+      "status": "landed",
+      "status_text": "gelandet",
       "delay": 0
     },
     {
@@ -1003,12 +986,12 @@
       "gate": "Ausgang 4 (Charter)",
       "status": "scheduled",
       "status_text": "Vorhafen verlassen",
-      "delay": 16
+      "delay": 17
     },
     {
       "dt": 1791638100.0,
       "time_scheduled": "15:15",
-      "time_estimated": "15:15",
+      "time_estimated": "15:11",
       "flight_no": "EW9811",
       "airline": "Eurowings",
       "city": "Venedig-Tessera",
@@ -1025,7 +1008,7 @@
     {
       "dt": 1791638400.0,
       "time_scheduled": "15:20",
-      "time_estimated": "15:19",
+      "time_estimated": "15:14",
       "flight_no": "XQ3580",
       "airline": "Sun Express",
       "city": "Dalaman",
@@ -1036,7 +1019,7 @@
       "baggage": "",
       "gate": "Ausgang 4 (Charter)",
       "status": "scheduled",
-      "status_text": "",
+      "status_text": "Vorhafen verlassen",
       "delay": 0
     },
     {
