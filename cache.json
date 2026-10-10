@@ -1,58 +1,7 @@
 {
-  "updated_at": "10.10.2026 15:35",
+  "updated_at": "10.10.2026 15:40",
   "source": "Dus.com",
   "flights": [
-    {
-      "dt": 1791635400.0,
-      "time_scheduled": "14:30",
-      "time_estimated": "14:37",
-      "flight_no": "EW9691",
-      "airline": "Eurowings",
-      "city": "Malta",
-      "country": "Malta",
-      "type": "Charter",
-      "type_source": "Ausgang",
-      "terminal": "B",
-      "baggage": "8",
-      "gate": "Ausgang 4 (Charter)",
-      "status": "landed",
-      "status_text": "gelandet",
-      "delay": 8
-    },
-    {
-      "dt": 1791636000.0,
-      "time_scheduled": "14:40",
-      "time_estimated": "14:39",
-      "flight_no": "SK1621",
-      "airline": "Scandinavian Airlines",
-      "city": "Kopenhagen",
-      "country": "Dänemark",
-      "type": "Charter",
-      "type_source": "Ausgang",
-      "terminal": "B",
-      "baggage": "7",
-      "gate": "Ausgang 4 (Charter)",
-      "status": "landed",
-      "status_text": "gelandet",
-      "delay": 0
-    },
-    {
-      "dt": 1791636300.0,
-      "time_scheduled": "14:45",
-      "time_estimated": "14:36",
-      "flight_no": "VL2016",
-      "airline": "Lufthansa City Airlines",
-      "city": "München",
-      "country": "Deutschland",
-      "type": "Linie",
-      "type_source": "Ausgang",
-      "terminal": "B",
-      "baggage": "3",
-      "gate": "Ausgang 1 (Linie)",
-      "status": "landed",
-      "status_text": "gelandet",
-      "delay": 0
-    },
     {
       "dt": 1791636600.0,
       "time_scheduled": "14:50",
@@ -175,7 +124,7 @@
     {
       "dt": 1791640200.0,
       "time_scheduled": "15:50",
-      "time_estimated": "16:01",
+      "time_estimated": "15:52",
       "flight_no": "X32117",
       "airline": "Tuifly",
       "city": "Fuerteventura",
@@ -185,14 +134,14 @@
       "terminal": "B",
       "baggage": "9",
       "gate": "Ausgang 4 (Charter)",
-      "status": "scheduled",
-      "status_text": "Vorhafen verlassen",
-      "delay": 12
+      "status": "active",
+      "status_text": "Im Anflug",
+      "delay": 3
     },
     {
       "dt": 1791640200.0,
       "time_scheduled": "15:50",
-      "time_estimated": "16:12",
+      "time_estimated": "16:13",
       "flight_no": "SM2980",
       "airline": "Air Cairo",
       "city": "Hurghada",
@@ -204,7 +153,7 @@
       "gate": "Ausgang 5 (Charter)",
       "status": "scheduled",
       "status_text": "Vorhafen verlassen",
-      "delay": 22
+      "delay": 23
     },
     {
       "dt": 1791640800.0,
@@ -236,14 +185,14 @@
       "terminal": "C",
       "baggage": "19",
       "gate": "Ausgang 6 (Charter)",
-      "status": "scheduled",
-      "status_text": "Vorhafen verlassen",
+      "status": "active",
+      "status_text": "Im Anflug",
       "delay": 7
     },
     {
       "dt": 1791640800.0,
       "time_scheduled": "16:00",
-      "time_estimated": "15:50",
+      "time_estimated": "15:57",
       "flight_no": "AF1406",
       "airline": "Air France",
       "city": "Paris-Charles de Gaulle",
@@ -254,7 +203,7 @@
       "baggage": "10",
       "gate": "Ausgang 4 (Charter)",
       "status": "active",
-      "status_text": "Im Anflug",
+      "status_text": "im Anflug",
       "delay": 0
     },
     {
@@ -271,7 +220,7 @@
       "baggage": "13",
       "gate": "Ausgang 5 (Charter)",
       "status": "active",
-      "status_text": "Im Anflug",
+      "status_text": "im Anflug",
       "delay": 0
     },
     {
@@ -345,7 +294,7 @@
     {
       "dt": 1791643200.0,
       "time_scheduled": "16:40",
-      "time_estimated": "16:59",
+      "time_estimated": "16:53",
       "flight_no": "LH2018",
       "airline": "Lufthansa",
       "city": "München",
@@ -357,7 +306,7 @@
       "gate": "Ausgang 1 (Linie)",
       "status": "scheduled",
       "status_text": "",
-      "delay": 19
+      "delay": 13
     },
     {
       "dt": 1791643500.0,
@@ -566,7 +515,7 @@
     {
       "dt": 1791648000.0,
       "time_scheduled": "18:00",
-      "time_estimated": "18:02",
+      "time_estimated": "17:59",
       "flight_no": "AY1395",
       "airline": "Finnair",
       "city": "Helsinki",
@@ -578,7 +527,7 @@
       "gate": "Ausgang 4 (Charter)",
       "status": "scheduled",
       "status_text": "",
-      "delay": 2
+      "delay": 0
     },
     {
       "dt": 1791648000.0,
@@ -685,7 +634,7 @@
     {
       "dt": 1791651300.0,
       "time_scheduled": "18:55",
-      "time_estimated": "18:55",
+      "time_estimated": "19:02",
       "flight_no": "XQ280",
       "airline": "Sun Express",
       "city": "Antalya",
@@ -696,8 +645,8 @@
       "baggage": "",
       "gate": "Ausgang 4 (Charter)",
       "status": "scheduled",
-      "status_text": "",
-      "delay": 0
+      "status_text": "Vorhafen verlassen",
+      "delay": 7
     },
     {
       "dt": 1791651300.0,
@@ -719,7 +668,7 @@
     {
       "dt": 1791651600.0,
       "time_scheduled": "19:00",
-      "time_estimated": "19:02",
+      "time_estimated": "18:59",
       "flight_no": "XR6598",
       "airline": "Corendon Airlines Europe",
       "city": "Hurghada",
@@ -731,7 +680,7 @@
       "gate": "Ausgang 4 (Charter)",
       "status": "scheduled",
       "status_text": "Vorhafen verlassen",
-      "delay": 2
+      "delay": 0
     },
     {
       "dt": 1791651900.0,
@@ -838,7 +787,7 @@
     {
       "dt": 1791652500.0,
       "time_scheduled": "19:15",
-      "time_estimated": "19:15",
+      "time_estimated": "19:26",
       "flight_no": "XQ1390",
       "airline": "Sun Express",
       "city": "Gaziantep",
@@ -849,8 +798,8 @@
       "baggage": "",
       "gate": "Ausgang 4 (Charter)",
       "status": "scheduled",
-      "status_text": "",
-      "delay": 0
+      "status_text": "Vorhafen verlassen",
+      "delay": 12
     },
     {
       "dt": 1791652500.0,
@@ -1064,6 +1013,23 @@
       "airline": "Eurowings",
       "city": "Faro",
       "country": "Portugal",
+      "type": "Linie",
+      "type_source": "Airline",
+      "terminal": "B",
+      "baggage": "",
+      "gate": "Ausgang 1 (Linie)",
+      "status": "scheduled",
+      "status_text": "",
+      "delay": 0
+    },
+    {
+      "dt": 1791657600.0,
+      "time_scheduled": "20:40",
+      "time_estimated": "20:40",
+      "flight_no": "LH2030",
+      "airline": "Lufthansa",
+      "city": "München",
+      "country": "Deutschland",
       "type": "Linie",
       "type_source": "Airline",
       "terminal": "B",
