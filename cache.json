@@ -1,5 +1,5 @@
 {
-  "updated_at": "10.10.2026 13:45",
+  "updated_at": "10.10.2026 13:50",
   "source": "Dus.com",
   "flights": [
     {
@@ -69,23 +69,6 @@
       "status": "landed",
       "status_text": "gelandet",
       "delay": 16
-    },
-    {
-      "dt": 1791629400.0,
-      "time_scheduled": "12:50",
-      "time_estimated": "12:47",
-      "flight_no": "EW9535",
-      "airline": "Eurowings",
-      "city": "Malaga",
-      "country": "Spanien",
-      "type": "Linie",
-      "type_source": "Ausgang",
-      "terminal": "A",
-      "baggage": "4",
-      "gate": "Ausgang 1 (Linie)",
-      "status": "landed",
-      "status_text": "gelandet",
-      "delay": 0
     },
     {
       "dt": 1791630300.0,
@@ -209,7 +192,7 @@
     {
       "dt": 1791633000.0,
       "time_scheduled": "13:50",
-      "time_estimated": "13:54",
+      "time_estimated": "13:46",
       "flight_no": "X34589",
       "airline": "Tuifly",
       "city": "Rhodos",
@@ -219,9 +202,9 @@
       "terminal": "B",
       "baggage": "8",
       "gate": "Ausgang 4 (Charter)",
-      "status": "active",
-      "status_text": "im Anflug",
-      "delay": 4
+      "status": "landed",
+      "status_text": "gelandet",
+      "delay": 0
     },
     {
       "dt": 1791633000.0,
@@ -311,7 +294,7 @@
     {
       "dt": 1791633900.0,
       "time_scheduled": "14:05",
-      "time_estimated": "14:06",
+      "time_estimated": "14:00",
       "flight_no": "EW9681",
       "airline": "Eurowings",
       "city": "Athen",
@@ -323,7 +306,7 @@
       "gate": "Ausgang 4 (Charter)",
       "status": "active",
       "status_text": "im Anflug",
-      "delay": 1
+      "delay": 0
     },
     {
       "dt": 1791633900.0,
@@ -355,8 +338,8 @@
       "terminal": "C",
       "baggage": "18",
       "gate": "Ausgang 6 (Charter)",
-      "status": "scheduled",
-      "status_text": "Vorhafen verlassen",
+      "status": "active",
+      "status_text": "Im Anflug",
       "delay": 1
     },
     {
@@ -372,14 +355,14 @@
       "terminal": "B",
       "baggage": "7",
       "gate": "Ausgang 4 (Charter)",
-      "status": "scheduled",
-      "status_text": "Vorhafen verlassen",
+      "status": "active",
+      "status_text": "Im Anflug",
       "delay": 1
     },
     {
       "dt": 1791634200.0,
       "time_scheduled": "14:10",
-      "time_estimated": "13:53",
+      "time_estimated": "13:48",
       "flight_no": "XQ186",
       "airline": "Sun Express",
       "city": "Antalya",
@@ -389,8 +372,8 @@
       "terminal": "C",
       "baggage": "19",
       "gate": "Ausgang 6 (Charter)",
-      "status": "active",
-      "status_text": "im Anflug",
+      "status": "landed",
+      "status_text": "gelandet",
       "delay": 0
     },
     {
@@ -440,8 +423,8 @@
       "terminal": "A",
       "baggage": "5",
       "gate": "Ausgang 1 (Linie)",
-      "status": "scheduled",
-      "status_text": "Vorhafen verlassen",
+      "status": "active",
+      "status_text": "Im Anflug",
       "delay": 0
     },
     {
@@ -474,8 +457,8 @@
       "terminal": "C",
       "baggage": "20",
       "gate": "Ausgang 6 (Charter)",
-      "status": "scheduled",
-      "status_text": "Vorhafen verlassen",
+      "status": "active",
+      "status_text": "Im Anflug",
       "delay": 0
     },
     {
@@ -549,7 +532,7 @@
     {
       "dt": 1791636300.0,
       "time_scheduled": "14:45",
-      "time_estimated": "14:44",
+      "time_estimated": "14:43",
       "flight_no": "VL2016",
       "airline": "Lufthansa City Airlines",
       "city": "München",
@@ -560,7 +543,7 @@
       "baggage": "",
       "gate": "Ausgang 1 (Linie)",
       "status": "scheduled",
-      "status_text": "",
+      "status_text": "Vorhafen verlassen",
       "delay": 0
     },
     {
@@ -804,7 +787,7 @@
     {
       "dt": 1791641400.0,
       "time_scheduled": "16:10",
-      "time_estimated": "15:56",
+      "time_estimated": "16:04",
       "flight_no": "EW9815",
       "airline": "Eurowings",
       "city": "Catania (Sizilien)",
@@ -815,7 +798,7 @@
       "baggage": "",
       "gate": "Ausgang 1 (Linie)",
       "status": "scheduled",
-      "status_text": "",
+      "status_text": "Vorhafen verlassen",
       "delay": 0
     },
     {
@@ -850,7 +833,7 @@
       "gate": "Ausgang 1 (Linie)",
       "status": "scheduled",
       "status_text": "Vorhafen verlassen",
-      "delay": 33
+      "delay": 32
     },
     {
       "dt": 1791643200.0,
@@ -1152,6 +1135,23 @@
       "type": "Linie",
       "type_source": "Airline",
       "terminal": "B",
+      "baggage": "",
+      "gate": "Ausgang 1 (Linie)",
+      "status": "scheduled",
+      "status_text": "",
+      "delay": 0
+    },
+    {
+      "dt": 1791651000.0,
+      "time_scheduled": "18:50",
+      "time_estimated": "18:50",
+      "flight_no": "VL2022",
+      "airline": "Lufthansa City Airlines",
+      "city": "München",
+      "country": "Deutschland",
+      "type": "Linie",
+      "type_source": "Airline",
+      "terminal": "A",
       "baggage": "",
       "gate": "Ausgang 1 (Linie)",
       "status": "scheduled",
