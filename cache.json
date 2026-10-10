@@ -1,24 +1,7 @@
 {
-  "updated_at": "10.10.2026 10:50",
+  "updated_at": "10.10.2026 10:55",
   "source": "Dus.com",
   "flights": [
-    {
-      "dt": 1791615300.0,
-      "time_scheduled": "08:55",
-      "time_estimated": "09:54",
-      "flight_no": "XQ968",
-      "airline": "Sun Express",
-      "city": "Izmir",
-      "country": "Türkei",
-      "type": "Charter",
-      "type_source": "Ausgang",
-      "terminal": "C",
-      "baggage": "20",
-      "gate": "Ausgang 6 (Charter)",
-      "status": "landed",
-      "status_text": "gelandet",
-      "delay": 59
-    },
     {
       "dt": 1791617400.0,
       "time_scheduled": "09:30",
@@ -243,7 +226,7 @@
     {
       "dt": 1791621300.0,
       "time_scheduled": "10:35",
-      "time_estimated": "10:59",
+      "time_estimated": "11:00",
       "flight_no": "PC5001",
       "airline": "Pegasus Airlines",
       "city": "Antalya",
@@ -255,7 +238,7 @@
       "gate": "Ausgang 6 (Charter)",
       "status": "active",
       "status_text": "im Anflug",
-      "delay": 25
+      "delay": 26
     },
     {
       "dt": 1791621600.0,
@@ -379,7 +362,7 @@
     {
       "dt": 1791622800.0,
       "time_scheduled": "11:00",
-      "time_estimated": "10:52",
+      "time_estimated": "10:50",
       "flight_no": "4M696",
       "airline": "Mavi Gök Aviation",
       "city": "Antalya",
@@ -389,8 +372,8 @@
       "terminal": "C",
       "baggage": "11",
       "gate": "Ausgang 4 (Charter)",
-      "status": "active",
-      "status_text": "im Anflug",
+      "status": "landed",
+      "status_text": "gelandet",
       "delay": 0
     },
     {
@@ -407,7 +390,7 @@
       "baggage": "18",
       "gate": "Ausgang 6 (Charter)",
       "status": "active",
-      "status_text": "Im Anflug",
+      "status_text": "im Anflug",
       "delay": 0
     },
     {
@@ -549,7 +532,7 @@
     {
       "dt": 1791625800.0,
       "time_scheduled": "11:50",
-      "time_estimated": "11:50",
+      "time_estimated": "11:41",
       "flight_no": "KL1799",
       "airline": "KLM",
       "city": "Amsterdam",
@@ -561,7 +544,7 @@
       "gate": "Ausgang 1 (Linie)",
       "status": "scheduled",
       "status_text": "",
-      "delay": 1
+      "delay": 0
     },
     {
       "dt": 1791625800.0,
@@ -906,7 +889,7 @@
     {
       "dt": 1791630600.0,
       "time_scheduled": "13:10",
-      "time_estimated": "13:07",
+      "time_estimated": "13:18",
       "flight_no": "X34429",
       "airline": "Tuifly",
       "city": "Korfu",
@@ -917,8 +900,8 @@
       "baggage": "",
       "gate": "Ausgang 4 (Charter)",
       "status": "scheduled",
-      "status_text": "",
-      "delay": 0
+      "status_text": "Vorhafen verlassen",
+      "delay": 9
     },
     {
       "dt": 1791630900.0,
@@ -1042,7 +1025,7 @@
     {
       "dt": 1791633300.0,
       "time_scheduled": "13:55",
-      "time_estimated": "13:54",
+      "time_estimated": "13:48",
       "flight_no": "KL1801",
       "airline": "KLM",
       "city": "Amsterdam",
@@ -1172,7 +1155,7 @@
       "baggage": "",
       "gate": "Ausgang 4 (Charter)",
       "status": "scheduled",
-      "status_text": "",
+      "status_text": "Vorhafen verlassen",
       "delay": 0
     },
     {
@@ -1450,7 +1433,7 @@
     {
       "dt": 1791639300.0,
       "time_scheduled": "15:35",
-      "time_estimated": "15:35",
+      "time_estimated": "15:39",
       "flight_no": "RJ129",
       "airline": "Royal Jordanian",
       "city": "Amman-Queen Alia",
@@ -1462,7 +1445,7 @@
       "gate": "Ausgang 1 (Linie)",
       "status": "scheduled",
       "status_text": "",
-      "delay": 0
+      "delay": 4
     },
     {
       "dt": 1791639900.0,
