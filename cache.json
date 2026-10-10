@@ -1,5 +1,5 @@
 {
-  "updated_at": "10.10.2026 17:00",
+  "updated_at": "10.10.2026 17:05",
   "source": "Dus.com",
   "flights": [
     {
@@ -532,7 +532,7 @@
     {
       "dt": 1791652200.0,
       "time_scheduled": "19:10",
-      "time_estimated": "19:17",
+      "time_estimated": "19:22",
       "flight_no": "EW9503",
       "airline": "Eurowings",
       "city": "Ibiza",
@@ -543,8 +543,8 @@
       "baggage": "",
       "gate": "Ausgang 1 (Linie)",
       "status": "scheduled",
-      "status_text": "",
-      "delay": 7
+      "status_text": "Vorhafen verlassen",
+      "delay": 12
     },
     {
       "dt": 1791652500.0,
@@ -634,7 +634,7 @@
     {
       "dt": 1791652800.0,
       "time_scheduled": "19:20",
-      "time_estimated": "20:26",
+      "time_estimated": "20:23",
       "flight_no": "XR6814",
       "airline": "Corendon Airlines Europe",
       "city": "Sharm El Sheikh",
@@ -646,7 +646,7 @@
       "gate": "Ausgang 4 (Charter)",
       "status": "scheduled",
       "status_text": "Vorhafen verlassen",
-      "delay": 67
+      "delay": 64
     },
     {
       "dt": 1791652800.0,
@@ -787,7 +787,7 @@
     {
       "dt": 1791656400.0,
       "time_scheduled": "20:20",
-      "time_estimated": "20:20",
+      "time_estimated": "20:08",
       "flight_no": "EW9961",
       "airline": "Eurowings",
       "city": "Split",
@@ -889,7 +889,7 @@
     {
       "dt": 1791658800.0,
       "time_scheduled": "21:00",
-      "time_estimated": "21:46",
+      "time_estimated": "21:40",
       "flight_no": "EW9547",
       "airline": "Eurowings",
       "city": "Fuerteventura",
@@ -900,8 +900,8 @@
       "baggage": "",
       "gate": "Ausgang 1 (Linie)",
       "status": "scheduled",
-      "status_text": "",
-      "delay": 46
+      "status_text": "Vorhafen verlassen",
+      "delay": 41
     },
     {
       "dt": 1791658800.0,
@@ -1205,6 +1205,57 @@
       "terminal": "B",
       "baggage": "",
       "gate": "Ausgang 4 (Charter)",
+      "status": "scheduled",
+      "status_text": "",
+      "delay": 0
+    },
+    {
+      "dt": 1791662700.0,
+      "time_scheduled": "22:05",
+      "time_estimated": "22:05",
+      "flight_no": "EW9631",
+      "airline": "Eurowings",
+      "city": "Rhodos",
+      "country": "Griechenland",
+      "type": "Linie",
+      "type_source": "Airline",
+      "terminal": "B",
+      "baggage": "",
+      "gate": "Ausgang 1 (Linie)",
+      "status": "scheduled",
+      "status_text": "",
+      "delay": 0
+    },
+    {
+      "dt": 1791662700.0,
+      "time_scheduled": "22:05",
+      "time_estimated": "22:05",
+      "flight_no": "EW9963",
+      "airline": "Eurowings",
+      "city": "Rijeka",
+      "country": "Kroatien",
+      "type": "Linie",
+      "type_source": "Airline",
+      "terminal": "B",
+      "baggage": "",
+      "gate": "Ausgang 1 (Linie)",
+      "status": "scheduled",
+      "status_text": "",
+      "delay": 0
+    },
+    {
+      "dt": 1791662700.0,
+      "time_scheduled": "22:05",
+      "time_estimated": "22:05",
+      "flight_no": "EW9873",
+      "airline": "Eurowings",
+      "city": "Bari",
+      "country": "Italien",
+      "type": "Linie",
+      "type_source": "Airline",
+      "terminal": "A",
+      "baggage": "",
+      "gate": "Ausgang 1 (Linie)",
       "status": "scheduled",
       "status_text": "",
       "delay": 0
