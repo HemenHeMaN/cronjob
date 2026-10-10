@@ -1,24 +1,7 @@
 {
-  "updated_at": "10.10.2026 22:10",
+  "updated_at": "10.10.2026 22:15",
   "source": "Dus.com",
   "flights": [
-    {
-      "dt": 1791657600.0,
-      "time_scheduled": "20:40",
-      "time_estimated": "21:11",
-      "flight_no": "LH2030",
-      "airline": "Lufthansa",
-      "city": "München",
-      "country": "Deutschland",
-      "type": "Linie",
-      "type_source": "Ausgang",
-      "terminal": "B",
-      "baggage": "1",
-      "gate": "Ausgang 1 (Linie)",
-      "status": "landed",
-      "status_text": "gelandet",
-      "delay": 31
-    },
     {
       "dt": 1791657900.0,
       "time_scheduled": "20:45",
@@ -52,23 +35,6 @@
       "status": "landed",
       "status_text": "gelandet",
       "delay": 32
-    },
-    {
-      "dt": 1791659100.0,
-      "time_scheduled": "21:05",
-      "time_estimated": "21:13",
-      "flight_no": "EW9573",
-      "airline": "Eurowings",
-      "city": "Palma de Mallorca",
-      "country": "Spanien",
-      "type": "Linie",
-      "type_source": "Ausgang",
-      "terminal": "B",
-      "baggage": "5",
-      "gate": "Ausgang 1 (Linie)",
-      "status": "landed",
-      "status_text": "gelandet",
-      "delay": 8
     },
     {
       "dt": 1791659700.0,
@@ -260,7 +226,7 @@
     {
       "dt": 1791662100.0,
       "time_scheduled": "21:55",
-      "time_estimated": "22:29",
+      "time_estimated": "22:21",
       "flight_no": "EW9537",
       "airline": "Eurowings",
       "city": "Malaga",
@@ -271,8 +237,8 @@
       "baggage": "3",
       "gate": "Ausgang 1 (Linie)",
       "status": "active",
-      "status_text": "Im Anflug",
-      "delay": 34
+      "status_text": "im Anflug",
+      "delay": 27
     },
     {
       "dt": 1791662100.0,
@@ -294,7 +260,7 @@
     {
       "dt": 1791662100.0,
       "time_scheduled": "21:55",
-      "time_estimated": "22:40",
+      "time_estimated": "22:34",
       "flight_no": "EW9673",
       "airline": "Eurowings",
       "city": "Heraklion (Kreta)",
@@ -304,9 +270,9 @@
       "terminal": "B",
       "baggage": "6",
       "gate": "Ausgang 1 (Linie)",
-      "status": "scheduled",
-      "status_text": "Vorhafen verlassen",
-      "delay": 46
+      "status": "active",
+      "status_text": "Im Anflug",
+      "delay": 39
     },
     {
       "dt": 1791662100.0,
@@ -356,7 +322,7 @@
       "baggage": "20",
       "gate": "Ausgang 6 (Charter)",
       "status": "active",
-      "status_text": "Im Anflug",
+      "status_text": "im Anflug",
       "delay": 26
     },
     {
@@ -396,7 +362,7 @@
     {
       "dt": 1791662700.0,
       "time_scheduled": "22:05",
-      "time_estimated": "22:17",
+      "time_estimated": "22:14",
       "flight_no": "EW9631",
       "airline": "Eurowings",
       "city": "Rhodos",
@@ -406,9 +372,9 @@
       "terminal": "B",
       "baggage": "7",
       "gate": "Ausgang 4 (Charter)",
-      "status": "active",
-      "status_text": "im Anflug",
-      "delay": 13
+      "status": "landed",
+      "status_text": "gelandet",
+      "delay": 10
     },
     {
       "dt": 1791662700.0,
@@ -447,7 +413,7 @@
     {
       "dt": 1791663000.0,
       "time_scheduled": "22:10",
-      "time_estimated": "22:17",
+      "time_estimated": "22:12",
       "flight_no": "EW9601",
       "airline": "Eurowings",
       "city": "Funchal (Madeira)",
@@ -457,9 +423,9 @@
       "terminal": "A",
       "baggage": "1",
       "gate": "Ausgang 1 (Linie)",
-      "status": "active",
-      "status_text": "im Anflug",
-      "delay": 8
+      "status": "landed",
+      "status_text": "gelandet",
+      "delay": 3
     },
     {
       "dt": 1791663000.0,
@@ -498,7 +464,7 @@
     {
       "dt": 1791663300.0,
       "time_scheduled": "22:15",
-      "time_estimated": "22:12",
+      "time_estimated": "22:11",
       "flight_no": "EW9903",
       "airline": "Eurowings",
       "city": "Larnaca (Zypern)",
@@ -508,14 +474,14 @@
       "terminal": "C",
       "baggage": "18",
       "gate": "Ausgang 6 (Charter)",
-      "status": "active",
-      "status_text": "im Anflug",
+      "status": "landed",
+      "status_text": "gelandet",
       "delay": 0
     },
     {
       "dt": 1791663600.0,
       "time_scheduled": "22:20",
-      "time_estimated": "22:54",
+      "time_estimated": "23:01",
       "flight_no": "EW9533",
       "airline": "Eurowings",
       "city": "Alicante",
@@ -527,7 +493,7 @@
       "gate": "Ausgang 1 (Linie)",
       "status": "scheduled",
       "status_text": "Vorhafen verlassen",
-      "delay": 34
+      "delay": 41
     },
     {
       "dt": 1791663600.0,
@@ -583,7 +549,7 @@
     {
       "dt": 1791663900.0,
       "time_scheduled": "22:25",
-      "time_estimated": "22:42",
+      "time_estimated": "22:30",
       "flight_no": "EW9593",
       "airline": "Eurowings",
       "city": "Palma de Mallorca",
@@ -593,9 +559,9 @@
       "terminal": "B",
       "baggage": "8",
       "gate": "Ausgang 4 (Charter)",
-      "status": "scheduled",
-      "status_text": "Vorhafen verlassen",
-      "delay": 17
+      "status": "active",
+      "status_text": "Im Anflug",
+      "delay": 5
     },
     {
       "dt": 1791663900.0,
@@ -611,13 +577,13 @@
       "baggage": "5",
       "gate": "Ausgang 1 (Linie)",
       "status": "active",
-      "status_text": "Im Anflug",
+      "status_text": "im Anflug",
       "delay": 2
     },
     {
       "dt": 1791663900.0,
       "time_scheduled": "22:25",
-      "time_estimated": "23:02",
+      "time_estimated": "23:08",
       "flight_no": "KL1805",
       "airline": "KLM",
       "city": "Amsterdam",
@@ -629,7 +595,7 @@
       "gate": "Ausgang 1 (Linie)",
       "status": "scheduled",
       "status_text": "",
-      "delay": 38
+      "delay": 44
     },
     {
       "dt": 1791663900.0,
