@@ -1,24 +1,7 @@
 {
-  "updated_at": "10.10.2026 12:15",
+  "updated_at": "10.10.2026 12:20",
   "source": "Dus.com",
   "flights": [
-    {
-      "dt": 1791624600.0,
-      "time_scheduled": "11:30",
-      "time_estimated": "11:16",
-      "flight_no": "EW9953",
-      "airline": "Eurowings",
-      "city": "Dubrovnik",
-      "country": "Kroatien",
-      "type": "Linie",
-      "type_source": "Ausgang",
-      "terminal": "A",
-      "baggage": "2",
-      "gate": "Ausgang 1 (Linie)",
-      "status": "landed",
-      "status_text": "gelandet",
-      "delay": 0
-    },
     {
       "dt": 1791624900.0,
       "time_scheduled": "11:35",
@@ -48,23 +31,6 @@
       "type_source": "Ausgang",
       "terminal": "B",
       "baggage": "8",
-      "gate": "Ausgang 4 (Charter)",
-      "status": "landed",
-      "status_text": "gelandet",
-      "delay": 0
-    },
-    {
-      "dt": 1791625200.0,
-      "time_scheduled": "11:40",
-      "time_estimated": "11:20",
-      "flight_no": "X32323",
-      "airline": "Tuifly",
-      "city": "Palma de Mallorca",
-      "country": "Spanien",
-      "type": "Charter",
-      "type_source": "Ausgang",
-      "terminal": "B",
-      "baggage": "12",
       "gate": "Ausgang 4 (Charter)",
       "status": "landed",
       "status_text": "gelandet",
@@ -270,8 +236,8 @@
       "terminal": "A",
       "baggage": "3",
       "gate": "Ausgang 1 (Linie)",
-      "status": "scheduled",
-      "status_text": "Vorhafen verlassen",
+      "status": "active",
+      "status_text": "im Anflug",
       "delay": 22
     },
     {
@@ -355,8 +321,8 @@
       "terminal": "A",
       "baggage": "2",
       "gate": "Ausgang 1 (Linie)",
-      "status": "scheduled",
-      "status_text": "Vorhafen verlassen",
+      "status": "active",
+      "status_text": "Im Anflug",
       "delay": 5
     },
     {
@@ -372,8 +338,8 @@
       "terminal": "A",
       "baggage": "1",
       "gate": "Ausgang 1 (Linie)",
-      "status": "scheduled",
-      "status_text": "Vorhafen verlassen",
+      "status": "active",
+      "status_text": "Im Anflug",
       "delay": 7
     },
     {
@@ -406,8 +372,8 @@
       "terminal": "C",
       "baggage": "19",
       "gate": "Ausgang 6 (Charter)",
-      "status": "scheduled",
-      "status_text": "Vorhafen verlassen",
+      "status": "active",
+      "status_text": "Im Anflug",
       "delay": 0
     },
     {
@@ -447,7 +413,7 @@
     {
       "dt": 1791629400.0,
       "time_scheduled": "12:50",
-      "time_estimated": "12:32",
+      "time_estimated": "12:37",
       "flight_no": "XQ288",
       "airline": "Sun Express",
       "city": "Antalya",
@@ -457,8 +423,8 @@
       "terminal": "C",
       "baggage": "18",
       "gate": "Ausgang 6 (Charter)",
-      "status": "scheduled",
-      "status_text": "Vorhafen verlassen",
+      "status": "active",
+      "status_text": "Im Anflug",
       "delay": 0
     },
     {
@@ -787,7 +753,7 @@
     {
       "dt": 1791634500.0,
       "time_scheduled": "14:15",
-      "time_estimated": "14:25",
+      "time_estimated": "14:36",
       "flight_no": "LH074",
       "airline": "Lufthansa",
       "city": "Frankfurt",
@@ -799,7 +765,7 @@
       "gate": "Ausgang 1 (Linie)",
       "status": "scheduled",
       "status_text": "",
-      "delay": 11
+      "delay": 22
     },
     {
       "dt": 1791634500.0,
@@ -1025,7 +991,7 @@
     {
       "dt": 1791639300.0,
       "time_scheduled": "15:35",
-      "time_estimated": "15:25",
+      "time_estimated": "15:21",
       "flight_no": "RJ129",
       "airline": "Royal Jordanian",
       "city": "Amman-Queen Alia",
@@ -1042,7 +1008,7 @@
     {
       "dt": 1791639900.0,
       "time_scheduled": "15:45",
-      "time_estimated": "15:45",
+      "time_estimated": "15:23",
       "flight_no": "VF027",
       "airline": "A Jet",
       "city": "Istanbul-Sabiha Gökçen",
@@ -1212,7 +1178,7 @@
     {
       "dt": 1791642300.0,
       "time_scheduled": "16:25",
-      "time_estimated": "16:25",
+      "time_estimated": "16:57",
       "flight_no": "EW9543",
       "airline": "Eurowings",
       "city": "Gran Canaria",
@@ -1223,8 +1189,8 @@
       "baggage": "",
       "gate": "Ausgang 1 (Linie)",
       "status": "scheduled",
-      "status_text": "",
-      "delay": 0
+      "status_text": "Vorhafen verlassen",
+      "delay": 33
     },
     {
       "dt": 1791643200.0,
