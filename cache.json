@@ -1,24 +1,7 @@
 {
-  "updated_at": "10.10.2026 17:45",
+  "updated_at": "10.10.2026 17:50",
   "source": "Dus.com",
   "flights": [
-    {
-      "dt": 1791642300.0,
-      "time_scheduled": "16:25",
-      "time_estimated": "16:46",
-      "flight_no": "EW9543",
-      "airline": "Eurowings",
-      "city": "Gran Canaria",
-      "country": "Spanien",
-      "type": "Linie",
-      "type_source": "Ausgang",
-      "terminal": "A",
-      "baggage": "2",
-      "gate": "Ausgang 1 (Linie)",
-      "status": "landed",
-      "status_text": "gelandet",
-      "delay": 21
-    },
     {
       "dt": 1791643200.0,
       "time_scheduled": "16:40",
@@ -35,23 +18,6 @@
       "status": "scheduled",
       "status_text": "Vorhafen verlassen",
       "delay": 176
-    },
-    {
-      "dt": 1791643200.0,
-      "time_scheduled": "16:40",
-      "time_estimated": "16:49",
-      "flight_no": "LH2018",
-      "airline": "Lufthansa",
-      "city": "München",
-      "country": "Deutschland",
-      "type": "Linie",
-      "type_source": "Ausgang",
-      "terminal": "A",
-      "baggage": "1",
-      "gate": "Ausgang 1 (Linie)",
-      "status": "landed",
-      "status_text": "gelandet",
-      "delay": 9
     },
     {
       "dt": 1791643500.0,
@@ -226,7 +192,7 @@
     {
       "dt": 1791647700.0,
       "time_scheduled": "17:55",
-      "time_estimated": "17:46",
+      "time_estimated": "17:47",
       "flight_no": "XQ988",
       "airline": "Sun Express",
       "city": "Izmir",
@@ -236,14 +202,14 @@
       "terminal": "C",
       "baggage": "19",
       "gate": "Ausgang 6 (Charter)",
-      "status": "active",
-      "status_text": "im Anflug",
+      "status": "landed",
+      "status_text": "gelandet",
       "delay": 0
     },
     {
       "dt": 1791648000.0,
       "time_scheduled": "18:00",
-      "time_estimated": "17:51",
+      "time_estimated": "17:48",
       "flight_no": "XQ182",
       "airline": "Sun Express",
       "city": "Antalya",
@@ -253,8 +219,8 @@
       "terminal": "C",
       "baggage": "17",
       "gate": "Ausgang 6 (Charter)",
-      "status": "active",
-      "status_text": "im Anflug",
+      "status": "landed",
+      "status_text": "gelandet",
       "delay": 0
     },
     {
@@ -270,14 +236,14 @@
       "terminal": "B",
       "baggage": "8",
       "gate": "Ausgang 4 (Charter)",
-      "status": "scheduled",
-      "status_text": "Vorhafen verlassen",
+      "status": "active",
+      "status_text": "im Anflug",
       "delay": 1
     },
     {
       "dt": 1791648000.0,
       "time_scheduled": "18:00",
-      "time_estimated": "18:30",
+      "time_estimated": "18:18",
       "flight_no": "VL076",
       "airline": "Lufthansa City Airlines",
       "city": "Frankfurt",
@@ -289,7 +255,7 @@
       "gate": "Ausgang 1 (Linie)",
       "status": "scheduled",
       "status_text": "Vorhafen verlassen",
-      "delay": 30
+      "delay": 19
     },
     {
       "dt": 1791649200.0,
@@ -475,7 +441,7 @@
       "baggage": "2",
       "gate": "Ausgang 1 (Linie)",
       "status": "scheduled",
-      "status_text": "",
+      "status_text": "Vorhafen verlassen",
       "delay": 0
     },
     {
@@ -600,7 +566,7 @@
     {
       "dt": 1791652800.0,
       "time_scheduled": "19:20",
-      "time_estimated": "19:27",
+      "time_estimated": "19:22",
       "flight_no": "XC106",
       "airline": "Corendon Airlines",
       "city": "Antalya",
@@ -612,7 +578,7 @@
       "gate": "Ausgang 4 (Charter)",
       "status": "scheduled",
       "status_text": "Vorhafen verlassen",
-      "delay": 8
+      "delay": 3
     },
     {
       "dt": 1791653100.0,
