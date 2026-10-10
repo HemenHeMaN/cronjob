@@ -1,5 +1,5 @@
 {
-  "updated_at": "10.10.2026 20:10",
+  "updated_at": "10.10.2026 20:15",
   "source": "Dus.com",
   "flights": [
     {
@@ -39,7 +39,7 @@
     {
       "dt": 1791651900.0,
       "time_scheduled": "19:05",
-      "time_estimated": "20:18",
+      "time_estimated": "20:11",
       "flight_no": "IV8222",
       "airline": "GP Aviation",
       "city": "Pristina",
@@ -49,9 +49,9 @@
       "terminal": "C",
       "baggage": "20",
       "gate": "Ausgang 6 (Charter)",
-      "status": "active",
-      "status_text": "im Anflug",
-      "delay": 74
+      "status": "landed",
+      "status_text": "gelandet",
+      "delay": 67
     },
     {
       "dt": 1791652200.0,
@@ -73,23 +73,6 @@
     {
       "dt": 1791652500.0,
       "time_scheduled": "19:15",
-      "time_estimated": "19:14",
-      "flight_no": "TK1521",
-      "airline": "Turkish Airlines",
-      "city": "Istanbul",
-      "country": "Türkei",
-      "type": "Charter",
-      "type_source": "Ausgang",
-      "terminal": "C",
-      "baggage": "20",
-      "gate": "Ausgang 6 (Charter)",
-      "status": "landed",
-      "status_text": "gelandet",
-      "delay": 0
-    },
-    {
-      "dt": 1791652500.0,
-      "time_scheduled": "19:15",
       "time_estimated": "19:26",
       "flight_no": "XQ1390",
       "airline": "Sun Express",
@@ -103,23 +86,6 @@
       "status": "landed",
       "status_text": "gelandet",
       "delay": 12
-    },
-    {
-      "dt": 1791652500.0,
-      "time_scheduled": "19:15",
-      "time_estimated": "19:11",
-      "flight_no": "EK057",
-      "airline": "Emirates",
-      "city": "Dubai",
-      "country": "VAE",
-      "type": "Charter",
-      "type_source": "Ausgang",
-      "terminal": "C",
-      "baggage": "13",
-      "gate": "Ausgang 5 (Charter)",
-      "status": "landed",
-      "status_text": "gelandet",
-      "delay": 0
     },
     {
       "dt": 1791652800.0,
@@ -152,7 +118,7 @@
       "baggage": "17",
       "gate": "Ausgang 6 (Charter)",
       "status": "active",
-      "status_text": "Im Anflug",
+      "status_text": "im Anflug",
       "delay": 63
     },
     {
@@ -311,7 +277,7 @@
     {
       "dt": 1791657600.0,
       "time_scheduled": "20:40",
-      "time_estimated": "21:17",
+      "time_estimated": "21:18",
       "flight_no": "LH2030",
       "airline": "Lufthansa",
       "city": "München",
@@ -323,7 +289,7 @@
       "gate": "Ausgang 1 (Linie)",
       "status": "scheduled",
       "status_text": "",
-      "delay": 38
+      "delay": 39
     },
     {
       "dt": 1791657900.0,
@@ -736,7 +702,7 @@
     {
       "dt": 1791662400.0,
       "time_scheduled": "22:00",
-      "time_estimated": "22:16",
+      "time_estimated": "22:11",
       "flight_no": "DE1617",
       "airline": "Condor",
       "city": "Heraklion (Kreta)",
@@ -748,7 +714,7 @@
       "gate": "Ausgang 4 (Charter)",
       "status": "scheduled",
       "status_text": "Vorhafen verlassen",
-      "delay": 17
+      "delay": 11
     },
     {
       "dt": 1791662400.0,
@@ -804,7 +770,7 @@
     {
       "dt": 1791662700.0,
       "time_scheduled": "22:05",
-      "time_estimated": "22:05",
+      "time_estimated": "22:09",
       "flight_no": "EW9873",
       "airline": "Eurowings",
       "city": "Bari",
@@ -815,8 +781,8 @@
       "baggage": "",
       "gate": "Ausgang 1 (Linie)",
       "status": "scheduled",
-      "status_text": "",
-      "delay": 1
+      "status_text": "Vorhafen verlassen",
+      "delay": 5
     },
     {
       "dt": 1791663000.0,
@@ -889,7 +855,7 @@
     {
       "dt": 1791663600.0,
       "time_scheduled": "22:20",
-      "time_estimated": "23:04",
+      "time_estimated": "23:03",
       "flight_no": "EW9533",
       "airline": "Eurowings",
       "city": "Alicante",
@@ -901,7 +867,7 @@
       "gate": "Ausgang 1 (Linie)",
       "status": "scheduled",
       "status_text": "",
-      "delay": 45
+      "delay": 43
     },
     {
       "dt": 1791663600.0,
