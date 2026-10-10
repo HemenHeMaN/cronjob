@@ -1,24 +1,7 @@
 {
-  "updated_at": "10.10.2026 21:20",
+  "updated_at": "10.10.2026 21:25",
   "source": "Dus.com",
   "flights": [
-    {
-      "dt": 1791652800.0,
-      "time_scheduled": "19:20",
-      "time_estimated": "20:23",
-      "flight_no": "XR6814",
-      "airline": "Corendon Airlines Europe",
-      "city": "Sharm El Sheikh",
-      "country": "Ägypten",
-      "type": "Charter",
-      "type_source": "Ausgang",
-      "terminal": "C",
-      "baggage": "17",
-      "gate": "Ausgang 6 (Charter)",
-      "status": "landed",
-      "status_text": "gelandet",
-      "delay": 64
-    },
     {
       "dt": 1791657300.0,
       "time_scheduled": "20:35",
@@ -186,7 +169,7 @@
       "baggage": "4",
       "gate": "Ausgang 1 (Linie)",
       "status": "active",
-      "status_text": "Im Anflug",
+      "status_text": "im Anflug",
       "delay": 21
     },
     {
@@ -202,8 +185,8 @@
       "terminal": "B",
       "baggage": "12",
       "gate": "Ausgang 4 (Charter)",
-      "status": "scheduled",
-      "status_text": "Vorhafen verlassen",
+      "status": "active",
+      "status_text": "Im Anflug",
       "delay": 18
     },
     {
@@ -220,7 +203,7 @@
       "baggage": "18",
       "gate": "Ausgang 6 (Charter)",
       "status": "active",
-      "status_text": "Im Anflug",
+      "status_text": "im Anflug",
       "delay": 3
     },
     {
@@ -413,7 +396,7 @@
     {
       "dt": 1791662100.0,
       "time_scheduled": "21:55",
-      "time_estimated": "22:05",
+      "time_estimated": "22:06",
       "flight_no": "X36569",
       "airline": "Tuifly",
       "city": "Djerba",
@@ -425,12 +408,12 @@
       "gate": "Ausgang 6 (Charter)",
       "status": "scheduled",
       "status_text": "Vorhafen verlassen",
-      "delay": 10
+      "delay": 11
     },
     {
       "dt": 1791662100.0,
       "time_scheduled": "21:55",
-      "time_estimated": "22:00",
+      "time_estimated": "22:01",
       "flight_no": "XR440",
       "airline": "Corendon Airlines Europe",
       "city": "Korfu",
@@ -442,7 +425,7 @@
       "gate": "Ausgang 6 (Charter)",
       "status": "scheduled",
       "status_text": "Vorhafen verlassen",
-      "delay": 6
+      "delay": 7
     },
     {
       "dt": 1791662400.0,
@@ -867,7 +850,7 @@
       "gate": "Ausgang 4 (Charter)",
       "status": "scheduled",
       "status_text": "Vorhafen verlassen",
-      "delay": 17
+      "delay": 16
     },
     {
       "dt": 1791664800.0,
