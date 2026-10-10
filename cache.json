@@ -1,5 +1,5 @@
 {
-  "updated_at": "10.10.2026 16:25",
+  "updated_at": "10.10.2026 16:30",
   "source": "Dus.com",
   "flights": [
     {
@@ -90,23 +90,6 @@
     {
       "dt": 1791640800.0,
       "time_scheduled": "16:00",
-      "time_estimated": "15:49",
-      "flight_no": "AF1406",
-      "airline": "Air France",
-      "city": "Paris-Charles de Gaulle",
-      "country": "Frankreich",
-      "type": "Charter",
-      "type_source": "Ausgang",
-      "terminal": "B",
-      "baggage": "10",
-      "gate": "Ausgang 4 (Charter)",
-      "status": "landed",
-      "status_text": "gelandet",
-      "delay": 0
-    },
-    {
-      "dt": 1791640800.0,
-      "time_scheduled": "16:00",
       "time_estimated": "15:47",
       "flight_no": "BA914",
       "airline": "British Airways",
@@ -117,6 +100,23 @@
       "terminal": "C",
       "baggage": "13",
       "gate": "Ausgang 5 (Charter)",
+      "status": "landed",
+      "status_text": "gelandet",
+      "delay": 0
+    },
+    {
+      "dt": 1791640800.0,
+      "time_scheduled": "16:00",
+      "time_estimated": "15:49",
+      "flight_no": "AF1406",
+      "airline": "Air France",
+      "city": "Paris-Charles de Gaulle",
+      "country": "Frankreich",
+      "type": "Charter",
+      "type_source": "Ausgang",
+      "terminal": "B",
+      "baggage": "10",
+      "gate": "Ausgang 4 (Charter)",
       "status": "landed",
       "status_text": "gelandet",
       "delay": 0
@@ -168,8 +168,8 @@
       "terminal": "A",
       "baggage": "2",
       "gate": "Ausgang 1 (Linie)",
-      "status": "scheduled",
-      "status_text": "Vorhafen verlassen",
+      "status": "active",
+      "status_text": "Im Anflug",
       "delay": 32
     },
     {
@@ -447,7 +447,7 @@
     {
       "dt": 1791649200.0,
       "time_scheduled": "18:20",
-      "time_estimated": "18:17",
+      "time_estimated": "18:19",
       "flight_no": "LX1024",
       "airline": "Swiss",
       "city": "Zürich",
@@ -804,7 +804,7 @@
     {
       "dt": 1791654000.0,
       "time_scheduled": "19:40",
-      "time_estimated": "19:40",
+      "time_estimated": "19:34",
       "flight_no": "SK627",
       "airline": "Scandinavian Airlines",
       "city": "Kopenhagen",
