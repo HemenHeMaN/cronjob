@@ -1,5 +1,5 @@
 {
-  "updated_at": "10.10.2026 23:45",
+  "updated_at": "10.10.2026 23:47",
   "source": "Dus.com",
   "flights": [
     {
@@ -39,7 +39,7 @@
     {
       "dt": 1791661800.0,
       "time_scheduled": "21:50",
-      "time_estimated": "22:13",
+      "time_estimated": "23:47",
       "flight_no": "X34573",
       "airline": "Tuifly",
       "city": "Kos",
@@ -49,9 +49,9 @@
       "terminal": "B",
       "baggage": "7",
       "gate": "Ausgang 4 (Charter)",
-      "status": "active",
-      "status_text": "im Anflug",
-      "delay": 23
+      "status": "landed",
+      "status_text": "gelandet",
+      "delay": 117
     },
     {
       "dt": 1791661800.0,
@@ -224,21 +224,21 @@
       "delay": 17
     },
     {
-      "dt": 1791662400.0,
-      "time_scheduled": "22:00",
-      "time_estimated": "21:47",
-      "flight_no": "DE1557",
-      "airline": "Condor",
-      "city": "Jerez de la Frontera",
-      "country": "Spanien",
+      "dt": 1791662700.0,
+      "time_scheduled": "22:05",
+      "time_estimated": "22:14",
+      "flight_no": "EW9631",
+      "airline": "Eurowings",
+      "city": "Rhodos",
+      "country": "Griechenland",
       "type": "Charter",
       "type_source": "Ausgang",
       "terminal": "B",
-      "baggage": "11",
+      "baggage": "7",
       "gate": "Ausgang 4 (Charter)",
       "status": "landed",
       "status_text": "gelandet",
-      "delay": 0
+      "delay": 10
     },
     {
       "dt": 1791662700.0,
@@ -256,23 +256,6 @@
       "status": "landed",
       "status_text": "gelandet",
       "delay": 4
-    },
-    {
-      "dt": 1791662700.0,
-      "time_scheduled": "22:05",
-      "time_estimated": "22:14",
-      "flight_no": "EW9631",
-      "airline": "Eurowings",
-      "city": "Rhodos",
-      "country": "Griechenland",
-      "type": "Charter",
-      "type_source": "Ausgang",
-      "terminal": "B",
-      "baggage": "7",
-      "gate": "Ausgang 4 (Charter)",
-      "status": "landed",
-      "status_text": "gelandet",
-      "delay": 10
     },
     {
       "dt": 1791662700.0,
