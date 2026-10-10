@@ -1,5 +1,5 @@
 {
-  "updated_at": "10.10.2026 07:15",
+  "updated_at": "10.10.2026 07:20",
   "source": "Dus.com",
   "flights": [
     {
@@ -600,7 +600,7 @@
     {
       "dt": 1791620700.0,
       "time_scheduled": "10:25",
-      "time_estimated": "10:25",
+      "time_estimated": "10:20",
       "flight_no": "EW9771",
       "airline": "Eurowings",
       "city": "Prag",
@@ -1154,6 +1154,23 @@
       "terminal": "A",
       "baggage": "",
       "gate": "Ausgang 1 (Linie)",
+      "status": "scheduled",
+      "status_text": "",
+      "delay": 0
+    },
+    {
+      "dt": 1791627600.0,
+      "time_scheduled": "12:20",
+      "time_estimated": "12:20",
+      "flight_no": "RSX8565",
+      "airline": "Red Sea Airlines",
+      "city": "Hurghada",
+      "country": "Ägypten",
+      "type": "Charter",
+      "type_source": "Flugtyp",
+      "terminal": "C",
+      "baggage": "",
+      "gate": "Ausgang 4 (Charter)",
       "status": "scheduled",
       "status_text": "",
       "delay": 0
