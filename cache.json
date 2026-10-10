@@ -1,5 +1,5 @@
 {
-  "updated_at": "10.10.2026 13:00",
+  "updated_at": "10.10.2026 13:05",
   "source": "Dus.com",
   "flights": [
     {
@@ -22,7 +22,7 @@
     {
       "dt": 1791627000.0,
       "time_scheduled": "12:10",
-      "time_estimated": "13:04",
+      "time_estimated": "13:03",
       "flight_no": "EW9531",
       "airline": "Eurowings",
       "city": "Alicante",
@@ -32,9 +32,9 @@
       "terminal": "A",
       "baggage": "2",
       "gate": "Ausgang 1 (Linie)",
-      "status": "active",
-      "status_text": "im Anflug",
-      "delay": 55
+      "status": "landed",
+      "status_text": "gelandet",
+      "delay": 53
     },
     {
       "dt": 1791627000.0,
@@ -83,8 +83,8 @@
       "terminal": "C",
       "baggage": "18",
       "gate": "Ausgang 6 (Charter)",
-      "status": "scheduled",
-      "status_text": "Vorhafen verlassen",
+      "status": "active",
+      "status_text": "im Anflug",
       "delay": 60
     },
     {
@@ -175,7 +175,7 @@
     {
       "dt": 1791629100.0,
       "time_scheduled": "12:45",
-      "time_estimated": "13:03",
+      "time_estimated": "13:00",
       "flight_no": "DE1849",
       "airline": "Condor",
       "city": "Palma de Mallorca",
@@ -185,9 +185,9 @@
       "terminal": "B",
       "baggage": "12",
       "gate": "Ausgang 4 (Charter)",
-      "status": "active",
-      "status_text": "im Anflug",
-      "delay": 19
+      "status": "landed",
+      "status_text": "gelandet",
+      "delay": 16
     },
     {
       "dt": 1791629400.0,
@@ -270,8 +270,8 @@
       "terminal": "A",
       "baggage": "3",
       "gate": "Ausgang 1 (Linie)",
-      "status": "scheduled",
-      "status_text": "Vorhafen verlassen",
+      "status": "active",
+      "status_text": "Im Anflug",
       "delay": 11
     },
     {
@@ -356,7 +356,7 @@
       "baggage": "13",
       "gate": "Ausgang 5 (Charter)",
       "status": "active",
-      "status_text": "Im Anflug",
+      "status_text": "im Anflug",
       "delay": 0
     },
     {
@@ -413,7 +413,7 @@
     {
       "dt": 1791633300.0,
       "time_scheduled": "13:55",
-      "time_estimated": "14:23",
+      "time_estimated": "14:16",
       "flight_no": "KL1801",
       "airline": "KLM",
       "city": "Amsterdam",
@@ -425,7 +425,7 @@
       "gate": "Ausgang 1 (Linie)",
       "status": "scheduled",
       "status_text": "",
-      "delay": 28
+      "delay": 21
     },
     {
       "dt": 1791633300.0,
@@ -498,7 +498,7 @@
     {
       "dt": 1791633900.0,
       "time_scheduled": "14:05",
-      "time_estimated": "14:21",
+      "time_estimated": "14:20",
       "flight_no": "LX1018",
       "airline": "Swiss",
       "city": "Zürich",
@@ -510,7 +510,7 @@
       "gate": "Ausgang 1 (Linie)",
       "status": "scheduled",
       "status_text": "",
-      "delay": 17
+      "delay": 16
     },
     {
       "dt": 1791633900.0,
@@ -923,7 +923,7 @@
     {
       "dt": 1791640800.0,
       "time_scheduled": "16:00",
-      "time_estimated": "15:57",
+      "time_estimated": "16:05",
       "flight_no": "PC1003",
       "airline": "Pegasus Airlines",
       "city": "Istanbul-Sabiha Gökçen",
@@ -934,8 +934,8 @@
       "baggage": "",
       "gate": "Ausgang 1 (Linie)",
       "status": "scheduled",
-      "status_text": "",
-      "delay": 0
+      "status_text": "Vorhafen verlassen",
+      "delay": 6
     },
     {
       "dt": 1791640800.0,
@@ -991,7 +991,7 @@
     {
       "dt": 1791641400.0,
       "time_scheduled": "16:10",
-      "time_estimated": "16:10",
+      "time_estimated": "16:07",
       "flight_no": "DE3655",
       "airline": "Condor",
       "city": "Genua",
