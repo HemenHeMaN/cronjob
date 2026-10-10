@@ -1,5 +1,5 @@
 {
-  "updated_at": "10.10.2026 18:20",
+  "updated_at": "10.10.2026 18:25",
   "source": "Dus.com",
   "flights": [
     {
@@ -209,7 +209,7 @@
     {
       "dt": 1791649200.0,
       "time_scheduled": "18:20",
-      "time_estimated": "18:31",
+      "time_estimated": "18:23",
       "flight_no": "TP542",
       "airline": "TAP Portugal",
       "city": "Lissabon",
@@ -219,9 +219,9 @@
       "terminal": "A",
       "baggage": "3",
       "gate": "Ausgang 1 (Linie)",
-      "status": "active",
-      "status_text": "im Anflug",
-      "delay": 11
+      "status": "landed",
+      "status_text": "gelandet",
+      "delay": 4
     },
     {
       "dt": 1791650100.0,
@@ -311,7 +311,7 @@
     {
       "dt": 1791651300.0,
       "time_scheduled": "18:55",
-      "time_estimated": "18:40",
+      "time_estimated": "18:35",
       "flight_no": "BQ1952",
       "airline": "Sky Alps",
       "city": "Bozen",
@@ -362,7 +362,7 @@
     {
       "dt": 1791652200.0,
       "time_scheduled": "19:10",
-      "time_estimated": "19:05",
+      "time_estimated": "19:00",
       "flight_no": "IB755",
       "airline": "Iberia",
       "city": "Madrid-Barajas",
@@ -481,7 +481,7 @@
     {
       "dt": 1791652800.0,
       "time_scheduled": "19:20",
-      "time_estimated": "19:41",
+      "time_estimated": "19:40",
       "flight_no": "EW9527",
       "airline": "Eurowings",
       "city": "Malaga",
@@ -493,7 +493,7 @@
       "gate": "Ausgang 1 (Linie)",
       "status": "scheduled",
       "status_text": "Vorhafen verlassen",
-      "delay": 22
+      "delay": 21
     },
     {
       "dt": 1791652800.0,
@@ -1093,7 +1093,7 @@
     {
       "dt": 1791662400.0,
       "time_scheduled": "22:00",
-      "time_estimated": "22:00",
+      "time_estimated": "22:30",
       "flight_no": "EW9989",
       "airline": "Eurowings",
       "city": "Kairo",
@@ -1104,8 +1104,8 @@
       "baggage": "",
       "gate": "Ausgang 1 (Linie)",
       "status": "scheduled",
-      "status_text": "",
-      "delay": 0
+      "status_text": "Vorhafen verlassen",
+      "delay": 30
     },
     {
       "dt": 1791662400.0,
@@ -1195,7 +1195,7 @@
     {
       "dt": 1791663000.0,
       "time_scheduled": "22:10",
-      "time_estimated": "22:10",
+      "time_estimated": "22:21",
       "flight_no": "EW9601",
       "airline": "Eurowings",
       "city": "Funchal (Madeira)",
@@ -1206,8 +1206,8 @@
       "baggage": "",
       "gate": "Ausgang 1 (Linie)",
       "status": "scheduled",
-      "status_text": "",
-      "delay": 0
+      "status_text": "Vorhafen verlassen",
+      "delay": 12
     },
     {
       "dt": 1791663000.0,
@@ -1229,7 +1229,7 @@
     {
       "dt": 1791663300.0,
       "time_scheduled": "22:15",
-      "time_estimated": "22:15",
+      "time_estimated": "22:35",
       "flight_no": "EW9433",
       "airline": "Eurowings",
       "city": "Bastia (Korsika)",
@@ -1241,7 +1241,7 @@
       "gate": "Ausgang 1 (Linie)",
       "status": "scheduled",
       "status_text": "",
-      "delay": 0
+      "delay": 20
     },
     {
       "dt": 1791663300.0,
@@ -1314,7 +1314,7 @@
     {
       "dt": 1791663600.0,
       "time_scheduled": "22:20",
-      "time_estimated": "22:20",
+      "time_estimated": "23:10",
       "flight_no": "DE069",
       "airline": "Condor",
       "city": "Hurghada",
@@ -1325,8 +1325,8 @@
       "baggage": "",
       "gate": "Ausgang 4 (Charter)",
       "status": "scheduled",
-      "status_text": "",
-      "delay": 0
+      "status_text": "Vorhafen verlassen",
+      "delay": 51
     },
     {
       "dt": 1791663900.0,
@@ -1552,7 +1552,7 @@
     {
       "dt": 1791665100.0,
       "time_scheduled": "22:45",
-      "time_estimated": "22:45",
+      "time_estimated": "22:54",
       "flight_no": "X32119",
       "airline": "Tuifly",
       "city": "Teneriffa Süd",
@@ -1563,8 +1563,8 @@
       "baggage": "",
       "gate": "Ausgang 4 (Charter)",
       "status": "scheduled",
-      "status_text": "",
-      "delay": 0
+      "status_text": "Vorhafen verlassen",
+      "delay": 10
     },
     {
       "dt": 1791665100.0,
