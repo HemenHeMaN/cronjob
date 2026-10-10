@@ -1,24 +1,7 @@
 {
-  "updated_at": "10.10.2026 12:00",
+  "updated_at": "10.10.2026 12:05",
   "source": "Dus.com",
   "flights": [
-    {
-      "dt": 1791623100.0,
-      "time_scheduled": "11:05",
-      "time_estimated": "11:02",
-      "flight_no": "EW9921",
-      "airline": "Eurowings",
-      "city": "Mostar",
-      "country": "Bosnien und Herzegowina",
-      "type": "Charter",
-      "type_source": "Ausgang",
-      "terminal": "C",
-      "baggage": "18",
-      "gate": "Ausgang 6 (Charter)",
-      "status": "landed",
-      "status_text": "gelandet",
-      "delay": 0
-    },
     {
       "dt": 1791623400.0,
       "time_scheduled": "11:10",
@@ -220,7 +203,7 @@
       "baggage": "11",
       "gate": "Ausgang 4 (Charter)",
       "status": "active",
-      "status_text": "Im Anflug",
+      "status_text": "im Anflug",
       "delay": 22
     },
     {
@@ -311,7 +294,7 @@
     {
       "dt": 1791627600.0,
       "time_scheduled": "12:20",
-      "time_estimated": "13:14",
+      "time_estimated": "13:20",
       "flight_no": "RSX8565",
       "airline": "Red Sea Airlines",
       "city": "Hurghada",
@@ -323,7 +306,7 @@
       "gate": "Ausgang 4 (Charter)",
       "status": "scheduled",
       "status_text": "Vorhafen verlassen",
-      "delay": 55
+      "delay": 60
     },
     {
       "dt": 1791628200.0,
@@ -356,7 +339,7 @@
       "baggage": "13",
       "gate": "Ausgang 5 (Charter)",
       "status": "active",
-      "status_text": "Im Anflug",
+      "status_text": "im Anflug",
       "delay": 0
     },
     {
@@ -889,7 +872,7 @@
     {
       "dt": 1791635400.0,
       "time_scheduled": "14:30",
-      "time_estimated": "14:33",
+      "time_estimated": "14:44",
       "flight_no": "EW9691",
       "airline": "Eurowings",
       "city": "Malta",
@@ -901,7 +884,7 @@
       "gate": "Ausgang 1 (Linie)",
       "status": "scheduled",
       "status_text": "",
-      "delay": 3
+      "delay": 14
     },
     {
       "dt": 1791635700.0,
@@ -923,7 +906,7 @@
     {
       "dt": 1791636000.0,
       "time_scheduled": "14:40",
-      "time_estimated": "14:33",
+      "time_estimated": "14:46",
       "flight_no": "EW9959",
       "airline": "Eurowings",
       "city": "Split",
@@ -935,7 +918,7 @@
       "gate": "Ausgang 1 (Linie)",
       "status": "scheduled",
       "status_text": "",
-      "delay": 0
+      "delay": 7
     },
     {
       "dt": 1791636000.0,
@@ -1042,7 +1025,7 @@
     {
       "dt": 1791638400.0,
       "time_scheduled": "15:20",
-      "time_estimated": "15:20",
+      "time_estimated": "15:19",
       "flight_no": "XQ3580",
       "airline": "Sun Express",
       "city": "Dalaman",
