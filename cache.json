@@ -1,24 +1,7 @@
 {
-  "updated_at": "10.10.2026 14:30",
+  "updated_at": "10.10.2026 14:35",
   "source": "Dus.com",
   "flights": [
-    {
-      "dt": 1791631200.0,
-      "time_scheduled": "13:20",
-      "time_estimated": "13:31",
-      "flight_no": "EW9643",
-      "airline": "Eurowings",
-      "city": "Faro",
-      "country": "Portugal",
-      "type": "Linie",
-      "type_source": "Ausgang",
-      "terminal": "A",
-      "baggage": "1",
-      "gate": "Ausgang 1 (Linie)",
-      "status": "landed",
-      "status_text": "gelandet",
-      "delay": 12
-    },
     {
       "dt": 1791632400.0,
       "time_scheduled": "13:40",
@@ -367,11 +350,11 @@
       "airline": "Scandinavian Airlines",
       "city": "Kopenhagen",
       "country": "Dänemark",
-      "type": "Linie",
-      "type_source": "Airline",
+      "type": "Charter",
+      "type_source": "Ausgang",
       "terminal": "B",
-      "baggage": "",
-      "gate": "Ausgang 1 (Linie)",
+      "baggage": "7",
+      "gate": "Ausgang 4 (Charter)",
       "status": "active",
       "status_text": "im Anflug",
       "delay": 2
@@ -386,7 +369,7 @@
       "country": "Deutschland",
       "type": "Linie",
       "type_source": "Ausgang",
-      "terminal": "A",
+      "terminal": "B",
       "baggage": "3",
       "gate": "Ausgang 1 (Linie)",
       "status": "active",
@@ -396,7 +379,7 @@
     {
       "dt": 1791636600.0,
       "time_scheduled": "14:50",
-      "time_estimated": "14:32",
+      "time_estimated": "14:31",
       "flight_no": "EW9845",
       "airline": "Eurowings",
       "city": "Olbia (Sardinien)",
@@ -406,8 +389,8 @@
       "terminal": "B",
       "baggage": "12",
       "gate": "Ausgang 4 (Charter)",
-      "status": "active",
-      "status_text": "im Anflug",
+      "status": "landed",
+      "status_text": "gelandet",
       "delay": 0
     },
     {
@@ -423,8 +406,8 @@
       "terminal": "A",
       "baggage": "5",
       "gate": "Ausgang 1 (Linie)",
-      "status": "scheduled",
-      "status_text": "Vorhafen verlassen",
+      "status": "active",
+      "status_text": "im Anflug",
       "delay": 1
     },
     {
@@ -855,7 +838,7 @@
     {
       "dt": 1791646800.0,
       "time_scheduled": "17:40",
-      "time_estimated": "17:40",
+      "time_estimated": "17:49",
       "flight_no": "XR402",
       "airline": "Corendon Airlines Europe",
       "city": "Heraklion (Kreta)",
@@ -867,7 +850,7 @@
       "gate": "Ausgang 4 (Charter)",
       "status": "scheduled",
       "status_text": "",
-      "delay": 0
+      "delay": 10
     },
     {
       "dt": 1791647100.0,
@@ -889,7 +872,7 @@
     {
       "dt": 1791647700.0,
       "time_scheduled": "17:55",
-      "time_estimated": "17:55",
+      "time_estimated": "17:43",
       "flight_no": "XQ988",
       "airline": "Sun Express",
       "city": "Izmir",
