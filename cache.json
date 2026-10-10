@@ -1,24 +1,7 @@
 {
-  "updated_at": "10.10.2026 16:15",
+  "updated_at": "10.10.2026 16:20",
   "source": "Dus.com",
   "flights": [
-    {
-      "dt": 1791637800.0,
-      "time_scheduled": "15:10",
-      "time_estimated": "15:16",
-      "flight_no": "DE1685",
-      "airline": "Condor",
-      "city": "Larnaca (Zypern)",
-      "country": "Zypern",
-      "type": "Charter",
-      "type_source": "Ausgang",
-      "terminal": "C",
-      "baggage": "20",
-      "gate": "Ausgang 6 (Charter)",
-      "status": "landed",
-      "status_text": "gelandet",
-      "delay": 6
-    },
     {
       "dt": 1791638100.0,
       "time_scheduled": "15:15",
@@ -124,7 +107,7 @@
     {
       "dt": 1791640800.0,
       "time_scheduled": "16:00",
-      "time_estimated": "16:26",
+      "time_estimated": "16:18",
       "flight_no": "EW9443",
       "airline": "Eurowings",
       "city": "Barcelona",
@@ -134,9 +117,9 @@
       "terminal": "B",
       "baggage": "7",
       "gate": "Ausgang 4 (Charter)",
-      "status": "active",
-      "status_text": "im Anflug",
-      "delay": 27
+      "status": "landed",
+      "status_text": "gelandet",
+      "delay": 19
     },
     {
       "dt": 1791640800.0,
@@ -396,7 +379,7 @@
     {
       "dt": 1791646800.0,
       "time_scheduled": "17:40",
-      "time_estimated": "17:46",
+      "time_estimated": "17:47",
       "flight_no": "KL1803",
       "airline": "KLM",
       "city": "Amsterdam",
@@ -408,7 +391,7 @@
       "gate": "Ausgang 4 (Charter)",
       "status": "scheduled",
       "status_text": "",
-      "delay": 6
+      "delay": 7
     },
     {
       "dt": 1791646800.0,
@@ -709,7 +692,7 @@
       "country": "Spanien",
       "type": "Linie",
       "type_source": "Airline",
-      "terminal": "B",
+      "terminal": "A",
       "baggage": "",
       "gate": "Ausgang 1 (Linie)",
       "status": "scheduled",
@@ -838,7 +821,7 @@
     {
       "dt": 1791653100.0,
       "time_scheduled": "19:25",
-      "time_estimated": "19:25",
+      "time_estimated": "19:15",
       "flight_no": "PC1005",
       "airline": "Pegasus Airlines",
       "city": "Istanbul-Sabiha Gökçen",
@@ -849,13 +832,13 @@
       "baggage": "",
       "gate": "Ausgang 1 (Linie)",
       "status": "scheduled",
-      "status_text": "",
+      "status_text": "Vorhafen verlassen",
       "delay": 0
     },
     {
       "dt": 1791653400.0,
       "time_scheduled": "19:30",
-      "time_estimated": "19:30",
+      "time_estimated": "19:43",
       "flight_no": "XQ180",
       "airline": "Sun Express",
       "city": "Antalya",
@@ -866,8 +849,8 @@
       "baggage": "",
       "gate": "Ausgang 4 (Charter)",
       "status": "scheduled",
-      "status_text": "",
-      "delay": 0
+      "status_text": "Vorhafen verlassen",
+      "delay": 13
     },
     {
       "dt": 1791654000.0,
@@ -1032,7 +1015,7 @@
       "country": "Griechenland",
       "type": "Linie",
       "type_source": "Airline",
-      "terminal": "B",
+      "terminal": "A",
       "baggage": "",
       "gate": "Ausgang 1 (Linie)",
       "status": "scheduled",
