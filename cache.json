@@ -1,5 +1,5 @@
 {
-  "updated_at": "10.10.2026 07:20",
+  "updated_at": "10.10.2026 07:25",
   "source": "Dus.com",
   "flights": [
     {
@@ -83,8 +83,8 @@
       "terminal": "C",
       "baggage": "18",
       "gate": "Ausgang 6 (Charter)",
-      "status": "scheduled",
-      "status_text": "Vorhafen verlassen",
+      "status": "active",
+      "status_text": "Im Anflug",
       "delay": 0
     },
     {
@@ -583,7 +583,7 @@
     {
       "dt": 1791620400.0,
       "time_scheduled": "10:20",
-      "time_estimated": "10:20",
+      "time_estimated": "10:23",
       "flight_no": "EW9421",
       "airline": "Eurowings",
       "city": "Nizza",
@@ -595,7 +595,7 @@
       "gate": "Ausgang 1 (Linie)",
       "status": "scheduled",
       "status_text": "",
-      "delay": 0
+      "delay": 4
     },
     {
       "dt": 1791620700.0,
@@ -634,7 +634,7 @@
     {
       "dt": 1791620700.0,
       "time_scheduled": "10:25",
-      "time_estimated": "10:25",
+      "time_estimated": "10:28",
       "flight_no": "DE1011",
       "airline": "Condor",
       "city": "Palma de Mallorca",
@@ -646,12 +646,12 @@
       "gate": "Ausgang 4 (Charter)",
       "status": "scheduled",
       "status_text": "",
-      "delay": 0
+      "delay": 3
     },
     {
       "dt": 1791621000.0,
       "time_scheduled": "10:30",
-      "time_estimated": "10:30",
+      "time_estimated": "10:26",
       "flight_no": "EW9463",
       "airline": "Eurowings",
       "city": "London-Heathrow",
@@ -685,7 +685,7 @@
     {
       "dt": 1791621000.0,
       "time_scheduled": "10:30",
-      "time_estimated": "10:30",
+      "time_estimated": "10:24",
       "flight_no": "AY1393",
       "airline": "Finnair",
       "city": "Helsinki",
@@ -770,7 +770,7 @@
     {
       "dt": 1791622200.0,
       "time_scheduled": "10:50",
-      "time_estimated": "10:26",
+      "time_estimated": "10:25",
       "flight_no": "XQ1320",
       "airline": "Sun Express",
       "city": "Kayseri",
