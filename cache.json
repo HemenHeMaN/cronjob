@@ -1,5 +1,5 @@
 {
-  "updated_at": "10.10.2026 11:35",
+  "updated_at": "10.10.2026 11:40",
   "source": "Dus.com",
   "flights": [
     {
@@ -20,23 +20,6 @@
       "delay": 21
     },
     {
-      "dt": 1791621600.0,
-      "time_scheduled": "10:40",
-      "time_estimated": "10:35",
-      "flight_no": "AP1633",
-      "airline": "Alba Star",
-      "city": "Palma de Mallorca",
-      "country": "Spanien",
-      "type": "Charter",
-      "type_source": "Ausgang",
-      "terminal": "B",
-      "baggage": "7",
-      "gate": "Ausgang 4 (Charter)",
-      "status": "landed",
-      "status_text": "gelandet",
-      "delay": 0
-    },
-    {
       "dt": 1791621900.0,
       "time_scheduled": "10:45",
       "time_estimated": "10:47",
@@ -52,23 +35,6 @@
       "status": "landed",
       "status_text": "gelandet",
       "delay": 3
-    },
-    {
-      "dt": 1791622200.0,
-      "time_scheduled": "10:50",
-      "time_estimated": "10:39",
-      "flight_no": "DE1827",
-      "airline": "Condor",
-      "city": "Olbia (Sardinien)",
-      "country": "Italien",
-      "type": "Charter",
-      "type_source": "Ausgang",
-      "terminal": "B",
-      "baggage": "13",
-      "gate": "Ausgang 5 (Charter)",
-      "status": "landed",
-      "status_text": "gelandet",
-      "delay": 0
     },
     {
       "dt": 1791622200.0,
@@ -99,23 +65,6 @@
       "type_source": "Ausgang",
       "terminal": "C",
       "baggage": "20",
-      "gate": "Ausgang 6 (Charter)",
-      "status": "landed",
-      "status_text": "gelandet",
-      "delay": 0
-    },
-    {
-      "dt": 1791622800.0,
-      "time_scheduled": "11:00",
-      "time_estimated": "10:37",
-      "flight_no": "BJ2640",
-      "airline": "Nouvelair",
-      "city": "Djerba",
-      "country": "Tunesien",
-      "type": "Charter",
-      "type_source": "Ausgang",
-      "terminal": "C",
-      "baggage": "19",
       "gate": "Ausgang 6 (Charter)",
       "status": "landed",
       "status_text": "gelandet",
@@ -254,7 +203,7 @@
       "baggage": "9",
       "gate": "Ausgang 4 (Charter)",
       "status": "active",
-      "status_text": "Im Anflug",
+      "status_text": "im Anflug",
       "delay": 21
     },
     {
@@ -271,13 +220,13 @@
       "baggage": "1",
       "gate": "Ausgang 1 (Linie)",
       "status": "active",
-      "status_text": "Im Anflug",
+      "status_text": "im Anflug",
       "delay": 11
     },
     {
       "dt": 1791625800.0,
       "time_scheduled": "11:50",
-      "time_estimated": "11:47",
+      "time_estimated": "11:46",
       "flight_no": "EW9441",
       "airline": "Eurowings",
       "city": "Barcelona",
@@ -288,13 +237,13 @@
       "baggage": "12",
       "gate": "Ausgang 4 (Charter)",
       "status": "active",
-      "status_text": "Im Anflug",
+      "status_text": "im Anflug",
       "delay": 0
     },
     {
       "dt": 1791625800.0,
       "time_scheduled": "11:50",
-      "time_estimated": "11:42",
+      "time_estimated": "11:39",
       "flight_no": "KL1799",
       "airline": "KLM",
       "city": "Amsterdam",
@@ -304,14 +253,14 @@
       "terminal": "B",
       "baggage": "10",
       "gate": "Ausgang 4 (Charter)",
-      "status": "active",
-      "status_text": "im Anflug",
+      "status": "landed",
+      "status_text": "gelandet",
       "delay": 0
     },
     {
       "dt": 1791625800.0,
       "time_scheduled": "11:50",
-      "time_estimated": "11:39",
+      "time_estimated": "11:36",
       "flight_no": "A3840",
       "airline": "Aegean Airlines",
       "city": "Athen",
@@ -321,8 +270,8 @@
       "terminal": "B",
       "baggage": "14",
       "gate": "Ausgang 5 (Charter)",
-      "status": "active",
-      "status_text": "im Anflug",
+      "status": "landed",
+      "status_text": "gelandet",
       "delay": 0
     },
     {
@@ -423,8 +372,8 @@
       "terminal": "A",
       "baggage": "2",
       "gate": "Ausgang 1 (Linie)",
-      "status": "scheduled",
-      "status_text": "Vorhafen verlassen",
+      "status": "active",
+      "status_text": "Im Anflug",
       "delay": 0
     },
     {
@@ -736,7 +685,7 @@
     {
       "dt": 1791632400.0,
       "time_scheduled": "13:40",
-      "time_estimated": "13:37",
+      "time_estimated": "13:42",
       "flight_no": "EW9855",
       "airline": "Eurowings",
       "city": "Brindisi",
@@ -747,8 +696,8 @@
       "baggage": "",
       "gate": "Ausgang 1 (Linie)",
       "status": "scheduled",
-      "status_text": "",
-      "delay": 0
+      "status_text": "Vorhafen verlassen",
+      "delay": 2
     },
     {
       "dt": 1791633000.0,
@@ -838,7 +787,7 @@
     {
       "dt": 1791633600.0,
       "time_scheduled": "14:00",
-      "time_estimated": "13:40",
+      "time_estimated": "13:52",
       "flight_no": "EW9613",
       "airline": "Eurowings",
       "city": "Korfu",
@@ -849,7 +798,7 @@
       "baggage": "",
       "gate": "Ausgang 1 (Linie)",
       "status": "scheduled",
-      "status_text": "",
+      "status_text": "Vorhafen verlassen",
       "delay": 0
     },
     {
@@ -1144,7 +1093,7 @@
     {
       "dt": 1791637800.0,
       "time_scheduled": "15:10",
-      "time_estimated": "15:10",
+      "time_estimated": "15:26",
       "flight_no": "DE1685",
       "airline": "Condor",
       "city": "Larnaca (Zypern)",
@@ -1155,8 +1104,8 @@
       "baggage": "",
       "gate": "Ausgang 4 (Charter)",
       "status": "scheduled",
-      "status_text": "",
-      "delay": 0
+      "status_text": "Vorhafen verlassen",
+      "delay": 16
     },
     {
       "dt": 1791638100.0,
@@ -1246,7 +1195,7 @@
     {
       "dt": 1791640200.0,
       "time_scheduled": "15:50",
-      "time_estimated": "15:50",
+      "time_estimated": "16:03",
       "flight_no": "X32117",
       "airline": "Tuifly",
       "city": "Fuerteventura",
@@ -1257,8 +1206,8 @@
       "baggage": "",
       "gate": "Ausgang 4 (Charter)",
       "status": "scheduled",
-      "status_text": "",
-      "delay": 0
+      "status_text": "Vorhafen verlassen",
+      "delay": 13
     },
     {
       "dt": 1791640200.0,
@@ -1387,6 +1336,40 @@
       "airline": "Eurowings",
       "city": "Gran Canaria",
       "country": "Spanien",
+      "type": "Linie",
+      "type_source": "Airline",
+      "terminal": "A",
+      "baggage": "",
+      "gate": "Ausgang 1 (Linie)",
+      "status": "scheduled",
+      "status_text": "",
+      "delay": 0
+    },
+    {
+      "dt": 1791643200.0,
+      "time_scheduled": "16:40",
+      "time_estimated": "16:40",
+      "flight_no": "TU526",
+      "airline": "Tunisair",
+      "city": "Tunis",
+      "country": "Tunesien",
+      "type": "Linie",
+      "type_source": "Airline",
+      "terminal": "C",
+      "baggage": "",
+      "gate": "Ausgang 1 (Linie)",
+      "status": "scheduled",
+      "status_text": "",
+      "delay": 0
+    },
+    {
+      "dt": 1791643200.0,
+      "time_scheduled": "16:40",
+      "time_estimated": "16:40",
+      "flight_no": "LH2018",
+      "airline": "Lufthansa",
+      "city": "München",
+      "country": "Deutschland",
       "type": "Linie",
       "type_source": "Airline",
       "terminal": "A",
