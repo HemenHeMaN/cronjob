@@ -1,5 +1,5 @@
 {
-  "updated_at": "10.10.2026 17:05",
+  "updated_at": "10.10.2026 17:10",
   "source": "Dus.com",
   "flights": [
     {
@@ -35,23 +35,6 @@
       "status": "landed",
       "status_text": "gelandet",
       "delay": 19
-    },
-    {
-      "dt": 1791641400.0,
-      "time_scheduled": "16:10",
-      "time_estimated": "16:05",
-      "flight_no": "EW9815",
-      "airline": "Eurowings",
-      "city": "Catania (Sizilien)",
-      "country": "Italien",
-      "type": "Charter",
-      "type_source": "Ausgang",
-      "terminal": "B",
-      "baggage": "8",
-      "gate": "Ausgang 4 (Charter)",
-      "status": "landed",
-      "status_text": "gelandet",
-      "delay": 0
     },
     {
       "dt": 1791642300.0,
@@ -237,7 +220,7 @@
       "baggage": "20",
       "gate": "Ausgang 6 (Charter)",
       "status": "scheduled",
-      "status_text": "",
+      "status_text": "Vorhafen verlassen",
       "delay": 0
     },
     {
@@ -345,7 +328,7 @@
     {
       "dt": 1791649200.0,
       "time_scheduled": "18:20",
-      "time_estimated": "18:18",
+      "time_estimated": "18:22",
       "flight_no": "LX1024",
       "airline": "Swiss",
       "city": "Zürich",
@@ -357,7 +340,7 @@
       "gate": "Ausgang 1 (Linie)",
       "status": "scheduled",
       "status_text": "",
-      "delay": 0
+      "delay": 3
     },
     {
       "dt": 1791650100.0,
@@ -396,7 +379,7 @@
     {
       "dt": 1791651300.0,
       "time_scheduled": "18:55",
-      "time_estimated": "18:54",
+      "time_estimated": "19:04",
       "flight_no": "LO407",
       "airline": "LOT Polish Airlines",
       "city": "Warschau",
@@ -408,7 +391,7 @@
       "gate": "Ausgang 1 (Linie)",
       "status": "scheduled",
       "status_text": "",
-      "delay": 0
+      "delay": 9
     },
     {
       "dt": 1791651300.0,
@@ -447,7 +430,7 @@
     {
       "dt": 1791651300.0,
       "time_scheduled": "18:55",
-      "time_estimated": "18:55",
+      "time_estimated": "18:46",
       "flight_no": "BQ1952",
       "airline": "Sky Alps",
       "city": "Bozen",
@@ -458,8 +441,8 @@
       "baggage": "10",
       "gate": "Ausgang 4 (Charter)",
       "status": "scheduled",
-      "status_text": "",
-      "delay": 1
+      "status_text": "Vorhafen verlassen",
+      "delay": 0
     },
     {
       "dt": 1791651600.0,
@@ -515,7 +498,7 @@
     {
       "dt": 1791652200.0,
       "time_scheduled": "19:10",
-      "time_estimated": "19:05",
+      "time_estimated": "19:04",
       "flight_no": "OS167",
       "airline": "Austrian Airlines",
       "city": "Wien",
@@ -770,7 +753,7 @@
     {
       "dt": 1791655800.0,
       "time_scheduled": "20:10",
-      "time_estimated": "20:10",
+      "time_estimated": "20:12",
       "flight_no": "VY1898",
       "airline": "Vueling",
       "city": "Barcelona",
@@ -782,7 +765,7 @@
       "gate": "Ausgang 1 (Linie)",
       "status": "scheduled",
       "status_text": "",
-      "delay": 0
+      "delay": 2
     },
     {
       "dt": 1791656400.0,
@@ -1256,6 +1239,40 @@
       "terminal": "A",
       "baggage": "",
       "gate": "Ausgang 1 (Linie)",
+      "status": "scheduled",
+      "status_text": "",
+      "delay": 0
+    },
+    {
+      "dt": 1791663000.0,
+      "time_scheduled": "22:10",
+      "time_estimated": "22:10",
+      "flight_no": "EW9601",
+      "airline": "Eurowings",
+      "city": "Funchal (Madeira)",
+      "country": "Portugal",
+      "type": "Linie",
+      "type_source": "Airline",
+      "terminal": "A",
+      "baggage": "",
+      "gate": "Ausgang 1 (Linie)",
+      "status": "scheduled",
+      "status_text": "",
+      "delay": 0
+    },
+    {
+      "dt": 1791663000.0,
+      "time_scheduled": "22:10",
+      "time_estimated": "22:10",
+      "flight_no": "DE1795",
+      "airline": "Condor",
+      "city": "Heraklion (Kreta)",
+      "country": "Griechenland",
+      "type": "Charter",
+      "type_source": "Airline",
+      "terminal": "B",
+      "baggage": "",
+      "gate": "Ausgang 4 (Charter)",
       "status": "scheduled",
       "status_text": "",
       "delay": 0
