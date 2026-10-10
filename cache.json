@@ -1,5 +1,5 @@
 {
-  "updated_at": "10.10.2026 06:10",
+  "updated_at": "10.10.2026 06:15",
   "source": "Dus.com",
   "flights": [
     {
@@ -49,14 +49,14 @@
       "terminal": "C",
       "baggage": "18",
       "gate": "Ausgang 6 (Charter)",
-      "status": "scheduled",
-      "status_text": "Vorhafen verlassen",
+      "status": "active",
+      "status_text": "Im Anflug",
       "delay": 0
     },
     {
       "dt": 1791607800.0,
       "time_scheduled": "06:50",
-      "time_estimated": "06:37",
+      "time_estimated": "06:40",
       "flight_no": "XQ1334",
       "airline": "Sun Express",
       "city": "Elazig",
