@@ -1,5 +1,5 @@
 {
-  "updated_at": "10.10.2026 15:10",
+  "updated_at": "10.10.2026 15:15",
   "source": "Dus.com",
   "flights": [
     {
@@ -220,13 +220,13 @@
       "baggage": "6",
       "gate": "Ausgang 1 (Linie)",
       "status": "active",
-      "status_text": "Im Anflug",
+      "status_text": "im Anflug",
       "delay": 12
     },
     {
       "dt": 1791638400.0,
       "time_scheduled": "15:20",
-      "time_estimated": "15:16",
+      "time_estimated": "15:12",
       "flight_no": "XQ3580",
       "airline": "Sun Express",
       "city": "Dalaman",
@@ -236,14 +236,14 @@
       "terminal": "C",
       "baggage": "14",
       "gate": "Ausgang 5 (Charter)",
-      "status": "active",
-      "status_text": "im Anflug",
+      "status": "landed",
+      "status_text": "gelandet",
       "delay": 0
     },
     {
       "dt": 1791639300.0,
       "time_scheduled": "15:35",
-      "time_estimated": "15:21",
+      "time_estimated": "15:22",
       "flight_no": "RJ129",
       "airline": "Royal Jordanian",
       "city": "Amman-Queen Alia",
@@ -271,7 +271,7 @@
       "baggage": "18",
       "gate": "Ausgang 6 (Charter)",
       "status": "active",
-      "status_text": "Im Anflug",
+      "status_text": "im Anflug",
       "delay": 0
     },
     {
@@ -413,7 +413,7 @@
     {
       "dt": 1791641400.0,
       "time_scheduled": "16:10",
-      "time_estimated": "15:54",
+      "time_estimated": "15:55",
       "flight_no": "DE3655",
       "airline": "Condor",
       "city": "Genua",
@@ -447,7 +447,7 @@
     {
       "dt": 1791643200.0,
       "time_scheduled": "16:40",
-      "time_estimated": "17:04",
+      "time_estimated": "18:27",
       "flight_no": "TU526",
       "airline": "Tunisair",
       "city": "Tunis",
@@ -459,7 +459,7 @@
       "gate": "Ausgang 6 (Charter)",
       "status": "scheduled",
       "status_text": "",
-      "delay": 24
+      "delay": 108
     },
     {
       "dt": 1791643200.0,
@@ -532,7 +532,7 @@
     {
       "dt": 1791644100.0,
       "time_scheduled": "16:55",
-      "time_estimated": "18:39",
+      "time_estimated": "18:41",
       "flight_no": "TP542",
       "airline": "TAP Portugal",
       "city": "Lissabon",
@@ -544,7 +544,7 @@
       "gate": "Ausgang 1 (Linie)",
       "status": "scheduled",
       "status_text": "",
-      "delay": 105
+      "delay": 107
     },
     {
       "dt": 1791645300.0,
@@ -634,7 +634,7 @@
     {
       "dt": 1791647100.0,
       "time_scheduled": "17:45",
-      "time_estimated": "17:46",
+      "time_estimated": "17:47",
       "flight_no": "GQ590",
       "airline": "Sky Express",
       "city": "Thessaloniki",
@@ -645,8 +645,8 @@
       "baggage": "11",
       "gate": "Ausgang 4 (Charter)",
       "status": "scheduled",
-      "status_text": "",
-      "delay": 1
+      "status_text": "Vorhafen verlassen",
+      "delay": 2
     },
     {
       "dt": 1791647700.0,
@@ -659,7 +659,7 @@
       "type": "Charter",
       "type_source": "Ausgang",
       "terminal": "C",
-      "baggage": "20",
+      "baggage": "19",
       "gate": "Ausgang 6 (Charter)",
       "status": "scheduled",
       "status_text": "Vorhafen verlassen",
@@ -702,7 +702,7 @@
     {
       "dt": 1791648000.0,
       "time_scheduled": "18:00",
-      "time_estimated": "18:00",
+      "time_estimated": "18:17",
       "flight_no": "VL076",
       "airline": "Lufthansa City Airlines",
       "city": "Frankfurt",
@@ -714,12 +714,12 @@
       "gate": "Ausgang 1 (Linie)",
       "status": "scheduled",
       "status_text": "",
-      "delay": 0
+      "delay": 17
     },
     {
       "dt": 1791649200.0,
       "time_scheduled": "18:20",
-      "time_estimated": "18:20",
+      "time_estimated": "18:17",
       "flight_no": "LX1024",
       "airline": "Swiss",
       "city": "Zürich",
