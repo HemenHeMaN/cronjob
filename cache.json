@@ -1,5 +1,5 @@
 {
-  "updated_at": "10.10.2026 06:40",
+  "updated_at": "10.10.2026 06:45",
   "source": "Dus.com",
   "flights": [
     {
@@ -73,7 +73,7 @@
     {
       "dt": 1791609600.0,
       "time_scheduled": "07:20",
-      "time_estimated": "07:11",
+      "time_estimated": "07:06",
       "flight_no": "PC1653",
       "airline": "Pegasus Airlines",
       "city": "Trabzon",
@@ -83,8 +83,8 @@
       "terminal": "C",
       "baggage": "14",
       "gate": "Ausgang 5 (Charter)",
-      "status": "scheduled",
-      "status_text": "Vorhafen verlassen",
+      "status": "active",
+      "status_text": "Im Anflug",
       "delay": 0
     },
     {
@@ -209,7 +209,7 @@
     {
       "dt": 1791614700.0,
       "time_scheduled": "08:45",
-      "time_estimated": "08:46",
+      "time_estimated": "08:40",
       "flight_no": "JU360",
       "airline": "Air Serbia",
       "city": "Belgrad",
@@ -220,8 +220,8 @@
       "baggage": "",
       "gate": "Ausgang 1 (Linie)",
       "status": "scheduled",
-      "status_text": "",
-      "delay": 2
+      "status_text": "Vorhafen verlassen",
+      "delay": 0
     },
     {
       "dt": 1791614700.0,
@@ -1013,6 +1013,23 @@
       "airline": "Aegean Airlines",
       "city": "Thessaloniki",
       "country": "Griechenland",
+      "type": "Linie",
+      "type_source": "Airline",
+      "terminal": "B",
+      "baggage": "",
+      "gate": "Ausgang 1 (Linie)",
+      "status": "scheduled",
+      "status_text": "",
+      "delay": 0
+    },
+    {
+      "dt": 1791625500.0,
+      "time_scheduled": "11:45",
+      "time_estimated": "11:45",
+      "flight_no": "EW9861",
+      "airline": "Eurowings",
+      "city": "Neapel",
+      "country": "Italien",
       "type": "Linie",
       "type_source": "Airline",
       "terminal": "B",
