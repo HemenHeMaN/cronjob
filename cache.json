@@ -1,5 +1,5 @@
 {
-  "updated_at": "10.10.2026 09:40",
+  "updated_at": "10.10.2026 09:45",
   "source": "Dus.com",
   "flights": [
     {
@@ -67,25 +67,8 @@
       "baggage": "20",
       "gate": "Ausgang 6 (Charter)",
       "status": "active",
-      "status_text": "Im Anflug",
+      "status_text": "im Anflug",
       "delay": 60
-    },
-    {
-      "dt": 1791615300.0,
-      "time_scheduled": "08:55",
-      "time_estimated": "08:43",
-      "flight_no": "EW4672",
-      "airline": "Eurowings",
-      "city": "Stockholm-Arlanda",
-      "country": "Schweden",
-      "type": "Linie",
-      "type_source": "Ausgang",
-      "terminal": "A",
-      "baggage": "3",
-      "gate": "Ausgang 1 (Linie)",
-      "status": "landed",
-      "status_text": "gelandet",
-      "delay": 0
     },
     {
       "dt": 1791615600.0,
@@ -372,8 +355,8 @@
       "terminal": "C",
       "baggage": "",
       "gate": "Ausgang 1 (Linie)",
-      "status": "scheduled",
-      "status_text": "",
+      "status": "cancelled",
+      "status_text": "annulliert",
       "delay": 0
     },
     {
@@ -413,7 +396,7 @@
     {
       "dt": 1791620700.0,
       "time_scheduled": "10:25",
-      "time_estimated": "10:13",
+      "time_estimated": "10:21",
       "flight_no": "EW9331",
       "airline": "Eurowings",
       "city": "Birmingham",
@@ -617,7 +600,7 @@
     {
       "dt": 1791622500.0,
       "time_scheduled": "10:55",
-      "time_estimated": "10:45",
+      "time_estimated": "10:43",
       "flight_no": "FH1193",
       "airline": "Freebird Airlines",
       "city": "Antalya",
@@ -685,7 +668,7 @@
     {
       "dt": 1791623400.0,
       "time_scheduled": "11:10",
-      "time_estimated": "11:12",
+      "time_estimated": "11:11",
       "flight_no": "IB1319",
       "airline": "Iberia",
       "city": "Madrid-Barajas",
@@ -697,7 +680,7 @@
       "gate": "Ausgang 5 (Charter)",
       "status": "scheduled",
       "status_text": "Vorhafen verlassen",
-      "delay": 3
+      "delay": 2
     },
     {
       "dt": 1791624600.0,
@@ -787,7 +770,7 @@
     {
       "dt": 1791625500.0,
       "time_scheduled": "11:45",
-      "time_estimated": "11:41",
+      "time_estimated": "12:01",
       "flight_no": "EW9861",
       "airline": "Eurowings",
       "city": "Neapel",
@@ -799,12 +782,12 @@
       "gate": "Ausgang 1 (Linie)",
       "status": "scheduled",
       "status_text": "",
-      "delay": 0
+      "delay": 16
     },
     {
       "dt": 1791625800.0,
       "time_scheduled": "11:50",
-      "time_estimated": "12:04",
+      "time_estimated": "12:01",
       "flight_no": "EW9441",
       "airline": "Eurowings",
       "city": "Barcelona",
@@ -816,7 +799,7 @@
       "gate": "Ausgang 1 (Linie)",
       "status": "scheduled",
       "status_text": "",
-      "delay": 15
+      "delay": 12
     },
     {
       "dt": 1791625800.0,
@@ -923,7 +906,7 @@
     {
       "dt": 1791627000.0,
       "time_scheduled": "12:10",
-      "time_estimated": "12:08",
+      "time_estimated": "12:13",
       "flight_no": "VY1894",
       "airline": "Vueling",
       "city": "Barcelona",
@@ -935,7 +918,7 @@
       "gate": "Ausgang 1 (Linie)",
       "status": "scheduled",
       "status_text": "",
-      "delay": 0
+      "delay": 3
     },
     {
       "dt": 1791627000.0,
@@ -1059,7 +1042,7 @@
     {
       "dt": 1791628800.0,
       "time_scheduled": "12:40",
-      "time_estimated": "12:40",
+      "time_estimated": "13:01",
       "flight_no": "EW9577",
       "airline": "Eurowings",
       "city": "Palma de Mallorca",
@@ -1071,7 +1054,7 @@
       "gate": "Ausgang 1 (Linie)",
       "status": "scheduled",
       "status_text": "",
-      "delay": 0
+      "delay": 21
     },
     {
       "dt": 1791629100.0,
@@ -1611,6 +1594,23 @@
       "type": "Linie",
       "type_source": "Airline",
       "terminal": "B",
+      "baggage": "",
+      "gate": "Ausgang 1 (Linie)",
+      "status": "scheduled",
+      "status_text": "",
+      "delay": 0
+    },
+    {
+      "dt": 1791636300.0,
+      "time_scheduled": "14:45",
+      "time_estimated": "14:45",
+      "flight_no": "VL2016",
+      "airline": "Lufthansa City Airlines",
+      "city": "München",
+      "country": "Deutschland",
+      "type": "Linie",
+      "type_source": "Airline",
+      "terminal": "A",
       "baggage": "",
       "gate": "Ausgang 1 (Linie)",
       "status": "scheduled",
