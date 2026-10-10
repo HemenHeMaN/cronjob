@@ -1,5 +1,5 @@
 {
-  "updated_at": "10.10.2026 13:05",
+  "updated_at": "10.10.2026 13:10",
   "source": "Dus.com",
   "flights": [
     {
@@ -35,23 +35,6 @@
       "status": "landed",
       "status_text": "gelandet",
       "delay": 53
-    },
-    {
-      "dt": 1791627000.0,
-      "time_scheduled": "12:10",
-      "time_estimated": "12:06",
-      "flight_no": "VY1894",
-      "airline": "Vueling",
-      "city": "Barcelona",
-      "country": "Spanien",
-      "type": "Charter",
-      "type_source": "Ausgang",
-      "terminal": "B",
-      "baggage": "8",
-      "gate": "Ausgang 4 (Charter)",
-      "status": "landed",
-      "status_text": "gelandet",
-      "delay": 0
     },
     {
       "dt": 1791627300.0,
@@ -90,23 +73,6 @@
     {
       "dt": 1791628200.0,
       "time_scheduled": "12:30",
-      "time_estimated": "12:08",
-      "flight_no": "XC104",
-      "airline": "Corendon Airlines",
-      "city": "Antalya",
-      "country": "Türkei",
-      "type": "Charter",
-      "type_source": "Ausgang",
-      "terminal": "C",
-      "baggage": "17",
-      "gate": "Ausgang 6 (Charter)",
-      "status": "landed",
-      "status_text": "gelandet",
-      "delay": 0
-    },
-    {
-      "dt": 1791628200.0,
-      "time_scheduled": "12:30",
       "time_estimated": "12:15",
       "flight_no": "DE1781",
       "airline": "Condor",
@@ -124,7 +90,7 @@
     {
       "dt": 1791628500.0,
       "time_scheduled": "12:35",
-      "time_estimated": "13:10",
+      "time_estimated": "13:05",
       "flight_no": "PC1001",
       "airline": "Pegasus Airlines",
       "city": "Istanbul-Sabiha Gökçen",
@@ -134,9 +100,9 @@
       "terminal": "C",
       "baggage": "17",
       "gate": "Ausgang 6 (Charter)",
-      "status": "active",
-      "status_text": "im Anflug",
-      "delay": 35
+      "status": "landed",
+      "status_text": "gelandet",
+      "delay": 30
     },
     {
       "dt": 1791628800.0,
@@ -271,13 +237,13 @@
       "baggage": "3",
       "gate": "Ausgang 1 (Linie)",
       "status": "active",
-      "status_text": "Im Anflug",
+      "status_text": "im Anflug",
       "delay": 11
     },
     {
       "dt": 1791630600.0,
       "time_scheduled": "13:10",
-      "time_estimated": "13:14",
+      "time_estimated": "13:07",
       "flight_no": "X34429",
       "airline": "Tuifly",
       "city": "Korfu",
@@ -287,9 +253,9 @@
       "terminal": "B",
       "baggage": "11",
       "gate": "Ausgang 4 (Charter)",
-      "status": "active",
-      "status_text": "im Anflug",
-      "delay": 5
+      "status": "landed",
+      "status_text": "gelandet",
+      "delay": 0
     },
     {
       "dt": 1791630900.0,
@@ -906,7 +872,7 @@
     {
       "dt": 1791640800.0,
       "time_scheduled": "16:00",
-      "time_estimated": "16:00",
+      "time_estimated": "16:10",
       "flight_no": "EW9443",
       "airline": "Eurowings",
       "city": "Barcelona",
@@ -918,7 +884,7 @@
       "gate": "Ausgang 1 (Linie)",
       "status": "scheduled",
       "status_text": "",
-      "delay": 0
+      "delay": 10
     },
     {
       "dt": 1791640800.0,
