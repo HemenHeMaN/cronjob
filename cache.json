@@ -1,5 +1,5 @@
 {
-  "updated_at": "10.10.2026 10:25",
+  "updated_at": "10.10.2026 10:30",
   "source": "Dus.com",
   "flights": [
     {
@@ -22,7 +22,7 @@
     {
       "dt": 1791617400.0,
       "time_scheduled": "09:30",
-      "time_estimated": "10:32",
+      "time_estimated": "10:28",
       "flight_no": "SK1629",
       "airline": "Scandinavian Airlines",
       "city": "Kopenhagen",
@@ -32,9 +32,9 @@
       "terminal": "A",
       "baggage": "3",
       "gate": "Ausgang 1 (Linie)",
-      "status": "active",
-      "status_text": "im Anflug",
-      "delay": 63
+      "status": "landed",
+      "status_text": "gelandet",
+      "delay": 58
     },
     {
       "dt": 1791617700.0,
@@ -260,7 +260,7 @@
     {
       "dt": 1791620700.0,
       "time_scheduled": "10:25",
-      "time_estimated": "10:33",
+      "time_estimated": "10:26",
       "flight_no": "DE1011",
       "airline": "Condor",
       "city": "Palma de Mallorca",
@@ -270,9 +270,9 @@
       "terminal": "B",
       "baggage": "12",
       "gate": "Ausgang 4 (Charter)",
-      "status": "active",
-      "status_text": "im Anflug",
-      "delay": 8
+      "status": "landed",
+      "status_text": "gelandet",
+      "delay": 1
     },
     {
       "dt": 1791621000.0,
@@ -328,7 +328,7 @@
     {
       "dt": 1791621300.0,
       "time_scheduled": "10:35",
-      "time_estimated": "10:41",
+      "time_estimated": "10:36",
       "flight_no": "GQ890",
       "airline": "Sky Express",
       "city": "Athen",
@@ -340,7 +340,7 @@
       "gate": "Ausgang 4 (Charter)",
       "status": "active",
       "status_text": "im Anflug",
-      "delay": 7
+      "delay": 1
     },
     {
       "dt": 1791621300.0,
@@ -421,10 +421,10 @@
       "type": "Charter",
       "type_source": "Ausgang",
       "terminal": "B",
-      "baggage": "9",
-      "gate": "Ausgang 4 (Charter)",
+      "baggage": "13",
+      "gate": "Ausgang 5 (Charter)",
       "status": "active",
-      "status_text": "Im Anflug",
+      "status_text": "im Anflug",
       "delay": 0
     },
     {
@@ -457,14 +457,14 @@
       "terminal": "C",
       "baggage": "20",
       "gate": "Ausgang 6 (Charter)",
-      "status": "scheduled",
-      "status_text": "Vorhafen verlassen",
+      "status": "active",
+      "status_text": "Im Anflug",
       "delay": 0
     },
     {
       "dt": 1791622800.0,
       "time_scheduled": "11:00",
-      "time_estimated": "10:46",
+      "time_estimated": "10:40",
       "flight_no": "BJ2640",
       "airline": "Nouvelair",
       "city": "Djerba",
@@ -475,7 +475,7 @@
       "baggage": "19",
       "gate": "Ausgang 6 (Charter)",
       "status": "active",
-      "status_text": "Im Anflug",
+      "status_text": "im Anflug",
       "delay": 0
     },
     {
@@ -1280,7 +1280,7 @@
     {
       "dt": 1791634200.0,
       "time_scheduled": "14:10",
-      "time_estimated": "14:10",
+      "time_estimated": "13:57",
       "flight_no": "XQ186",
       "airline": "Sun Express",
       "city": "Antalya",
@@ -1291,7 +1291,7 @@
       "baggage": "",
       "gate": "Ausgang 4 (Charter)",
       "status": "scheduled",
-      "status_text": "",
+      "status_text": "Vorhafen verlassen",
       "delay": 0
     },
     {
