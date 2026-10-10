@@ -1,5 +1,5 @@
 {
-  "updated_at": "10.10.2026 20:20",
+  "updated_at": "10.10.2026 20:30",
   "source": "Dus.com",
   "flights": [
     {
@@ -20,23 +20,6 @@
       "delay": 177
     },
     {
-      "dt": 1791651000.0,
-      "time_scheduled": "18:50",
-      "time_estimated": "19:28",
-      "flight_no": "VL2022",
-      "airline": "Lufthansa City Airlines",
-      "city": "München",
-      "country": "Deutschland",
-      "type": "Linie",
-      "type_source": "Ausgang",
-      "terminal": "A",
-      "baggage": "1",
-      "gate": "Ausgang 1 (Linie)",
-      "status": "landed",
-      "status_text": "gelandet",
-      "delay": 39
-    },
-    {
       "dt": 1791651900.0,
       "time_scheduled": "19:05",
       "time_estimated": "20:11",
@@ -52,23 +35,6 @@
       "status": "landed",
       "status_text": "gelandet",
       "delay": 67
-    },
-    {
-      "dt": 1791652500.0,
-      "time_scheduled": "19:15",
-      "time_estimated": "19:26",
-      "flight_no": "XQ1390",
-      "airline": "Sun Express",
-      "city": "Gaziantep",
-      "country": "Türkei",
-      "type": "Charter",
-      "type_source": "Ausgang",
-      "terminal": "C",
-      "baggage": "9",
-      "gate": "Ausgang 4 (Charter)",
-      "status": "landed",
-      "status_text": "gelandet",
-      "delay": 12
     },
     {
       "dt": 1791652800.0,
@@ -90,7 +56,7 @@
     {
       "dt": 1791652800.0,
       "time_scheduled": "19:20",
-      "time_estimated": "20:22",
+      "time_estimated": "20:23",
       "flight_no": "XR6814",
       "airline": "Corendon Airlines Europe",
       "city": "Sharm El Sheikh",
@@ -100,9 +66,9 @@
       "terminal": "C",
       "baggage": "17",
       "gate": "Ausgang 6 (Charter)",
-      "status": "active",
-      "status_text": "im Anflug",
-      "delay": 63
+      "status": "landed",
+      "status_text": "gelandet",
+      "delay": 64
     },
     {
       "dt": 1791653400.0,
@@ -243,7 +209,7 @@
     {
       "dt": 1791657600.0,
       "time_scheduled": "20:40",
-      "time_estimated": "21:18",
+      "time_estimated": "21:17",
       "flight_no": "LH2030",
       "airline": "Lufthansa",
       "city": "München",
@@ -254,8 +220,8 @@
       "baggage": "1",
       "gate": "Ausgang 1 (Linie)",
       "status": "scheduled",
-      "status_text": "",
-      "delay": 39
+      "status_text": "Vorhafen verlassen",
+      "delay": 38
     },
     {
       "dt": 1791657900.0,
@@ -413,7 +379,7 @@
     {
       "dt": 1791660900.0,
       "time_scheduled": "21:35",
-      "time_estimated": "21:38",
+      "time_estimated": "21:32",
       "flight_no": "ENT6063",
       "airline": "Enter Air",
       "city": "Pristina",
@@ -425,7 +391,7 @@
       "gate": "Ausgang 6 (Charter)",
       "status": "scheduled",
       "status_text": "Vorhafen verlassen",
-      "delay": 3
+      "delay": 0
     },
     {
       "dt": 1791661200.0,
@@ -668,7 +634,7 @@
     {
       "dt": 1791662400.0,
       "time_scheduled": "22:00",
-      "time_estimated": "22:12",
+      "time_estimated": "22:18",
       "flight_no": "DE1617",
       "airline": "Condor",
       "city": "Heraklion (Kreta)",
@@ -680,7 +646,7 @@
       "gate": "Ausgang 4 (Charter)",
       "status": "scheduled",
       "status_text": "Vorhafen verlassen",
-      "delay": 12
+      "delay": 18
     },
     {
       "dt": 1791662400.0,
@@ -821,7 +787,7 @@
     {
       "dt": 1791663600.0,
       "time_scheduled": "22:20",
-      "time_estimated": "23:03",
+      "time_estimated": "23:02",
       "flight_no": "EW9533",
       "airline": "Eurowings",
       "city": "Alicante",
@@ -832,8 +798,8 @@
       "baggage": "",
       "gate": "Ausgang 1 (Linie)",
       "status": "scheduled",
-      "status_text": "",
-      "delay": 43
+      "status_text": "Vorhafen verlassen",
+      "delay": 42
     },
     {
       "dt": 1791663600.0,
@@ -889,7 +855,7 @@
     {
       "dt": 1791663900.0,
       "time_scheduled": "22:25",
-      "time_estimated": "22:44",
+      "time_estimated": "22:42",
       "flight_no": "EW9593",
       "airline": "Eurowings",
       "city": "Palma de Mallorca",
@@ -900,8 +866,8 @@
       "baggage": "",
       "gate": "Ausgang 1 (Linie)",
       "status": "scheduled",
-      "status_text": "",
-      "delay": 19
+      "status_text": "Vorhafen verlassen",
+      "delay": 17
     },
     {
       "dt": 1791663900.0,
@@ -1036,7 +1002,7 @@
       "baggage": "",
       "gate": "Ausgang 4 (Charter)",
       "status": "scheduled",
-      "status_text": "",
+      "status_text": "Vorhafen verlassen",
       "delay": 19
     },
     {
@@ -1076,7 +1042,7 @@
     {
       "dt": 1791664800.0,
       "time_scheduled": "22:40",
-      "time_estimated": "22:50",
+      "time_estimated": "22:47",
       "flight_no": "DE1779",
       "airline": "Condor",
       "city": "Palma de Mallorca",
@@ -1087,8 +1053,8 @@
       "baggage": "",
       "gate": "Ausgang 4 (Charter)",
       "status": "scheduled",
-      "status_text": "",
-      "delay": 10
+      "status_text": "Vorhafen verlassen",
+      "delay": 7
     },
     {
       "dt": 1791665100.0,
